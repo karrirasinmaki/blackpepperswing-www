@@ -37,7 +37,8 @@ improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://phlow.github.io/feeling-responsive/images/'
+urlimg: 'assets/img/'
+# urlimg: 'https://phlow.github.io/feeling-responsive/images/'
 
 
 # Logo size is 600x80 pixels
@@ -93,6 +94,11 @@ compress_html:
 #
 # Default Settings
 
+collections:
+  teachers:
+    output: true
+
+
 defaults:
   -
     scope:
@@ -108,6 +114,16 @@ defaults:
       path: ""
       type: "posts"
     values:
+      show_meta: true   # Show metadata for all posts
+      # sidebar:        # Possible values › left, right › by default there will be no sidebar
+      comments: false
+      author: phlow     # Default author for posts
+  -
+    scope:
+      path: ""
+      type: "teachers"
+    values:
+      layout: page
       show_meta: true   # Show metadata for all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false

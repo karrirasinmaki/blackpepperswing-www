@@ -1,0 +1,28 @@
+{% comment %}
+*   
+*   This include lets you loop through a collection to list
+*   all entries in that collection.
+*   
+*   If you set »published: false« in front matter of a collection page 
+*   the page gots filtered out via unless
+*
+*   Example: {% include grid collection='teachers' %}
+*   
+{% endcomment %}
+
+{% assign colcount = include.cols | default: 3 %}
+{% assign colclass = 12 | divided_by: colcount %}
+
+<div class="row">
+	{% for entry in site.[include.collection] limit:include.entries %}
+		{% unless entry.published == false %}
+			<div class="large-{{ colclass }} columns">
+				<a href="{{ site.url }}{{ entry.url }}">
+					<h3>{{ entry.[include.title] || entry.title }}</h3>
+					<img src="{{ site.urlimg }}{{ entry.[include.image] || entry.header }}">
+				</a>
+				<p>{{ entry.[include.content] || entry.excerpt | truncate: 160 }}</p>
+			</div>
+		{% endunless %}
+	{% endfor %}
+</div>

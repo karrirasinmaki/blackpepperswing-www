@@ -4,43 +4,44 @@
 # inserted automagically in the webpage. To make
 # this work, you have to use › layout: frontpage
 #
-layout: frontpage
+layout: page-fullwidth
 header:
-  image_fullwidth: you-can-delete-me-header.png
-widget1:
-  title: "Widget 1"
-  url: 'http://domain.de/must-be-absolut-url-like-this-one/'
-  image: 'http://dummyimage.com/302x183/334d5c/efc94c.png&text=Placeholder'
-  text: ''
-widget2:
-  title: "Widget 2"
-  url: 'http://domain.de/must-be-absolut-url-like-this-one/'
-  image: 'http://dummyimage.com/302x183/334d5c/efc94c.png&text=Placeholder'
-  text: ''
-widget3:
-  title: "Widget 3"
-  url: 'http://domain.de/must-be-absolut-url-like-this-one/'
-  image: 'http://dummyimage.com/302x183/334d5c/efc94c.png&text=Placeholder'
-  text: ''
-#
-# Use the call for action to show a button on the frontpage
-#
-# To make internal links, just use a permalink like this
-# url: /getting-started/
-#
-# To style the button in different colors, use no value
-# to use the main color or success, alert or secondary.
-# To change colors see sass/_01_settings_colors.scss
-#
-callforaction:
-  url: https://tinyletter.com/feeling-responsive
-  text: Inform me about new updates and features ›
-  style: alert
+  image_fullwidth: men-stones.jpg
+  title: Black Pepper Swing
 permalink: /index.html
 ---
-<div id="videoModal" class="reveal-modal large" data-reveal="">
-  <div class="flex-video widescreen vimeo" style="display: block;">
-    <iframe width="1280" height="720" src="https://www.youtube.com/embed/3b5zCFSmVvU" frameborder="0" allowfullscreen></iframe>
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum congue libero a gravida. Morbi venenatis metus ut est dictum, sed sagittis dolor tempus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse facilisis elit ornare est auctor maximus.
+Vivamus pharetra laoreet dui, commodo aliquet ante finibus pretium. Vivamus lobortis quis purus eget porta. Duis suscipit libero risus, et dignissim arcu interdum non. Suspendisse feugiat posuere ex sit amet egestas. Pellentesque mattis arcu eu sapien porttitor laoreet. Phasellus ac ex et lorem placerat posuere ut iaculis tellus. Praesent ac luctus mi. Donec ut gravida ex. Pellentesque id metus vitae erat viverra lobortis mollis quis ex. 
+
+## Our teachers
+
+{% include grid cols=4 collection='teachers' title='name' content='bio' image='profile_pic' %}
+
+---
+
+## What we dance
+<div class="row">
+  <div class="large-4 columns">
+    <h3>Lindy Hop</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum congue libero a gravida. Morbi venenatis metus ut est dictum, sed sagittis dolor tempus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse facilisis elit ornare est auctor maximus.</p>
   </div>
-  <a class="close-reveal-modal">&#215;</a>
+  <div class="large-4 columns">
+    <h3>Shag</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum congue libero a gravida. Morbi venenatis metus ut est dictum, sed sagittis dolor tempus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse facilisis elit ornare est auctor maximus.</p>
+  </div>
+  <div class="large-4 columns">
+    <h3>Balboa</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum congue libero a gravida. Morbi venenatis metus ut est dictum, sed sagittis dolor tempus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse facilisis elit ornare est auctor maximus.</p>
+  </div>
+</div>
+
+---
+
+## Latest articles
+
+{% include grid cols=2 entries=2 collection='posts' title='title' content='' image='' %}
+<div class="text-center">
+  <a href="blog"><big>Show all articles</big></a>
 </div>
