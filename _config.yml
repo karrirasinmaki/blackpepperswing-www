@@ -37,7 +37,7 @@ improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'assets/img/'
+urlimg: 'http://localhost:4000/images/'
 # urlimg: 'https://phlow.github.io/feeling-responsive/images/'
 
 
@@ -52,10 +52,9 @@ paginate: 5
 # Pagination path › Important for blog page in /blog/ to work
 paginate_path: "blog/page:num"
 
-
 # Theme works best with Kramdown (using the table of contents function)
 markdown: kramdown
-permalink: /:categories/:title/
+permalink: /:title/:year-:month-:day/
 highlight: rouge
 gems: [jekyll-paginate]
 excerpt_separator: "<!--more-->"
