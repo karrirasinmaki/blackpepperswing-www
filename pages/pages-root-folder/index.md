@@ -17,7 +17,7 @@ Vivamus pharetra laoreet dui, commodo aliquet ante finibus pretium. Vivamus lobo
 
 ## Our teachers
 
-{% include grid cols=4 collection='teachers' title='name' content='bio' image='profile_pic' %}
+{% include grid.html cols=4 collection='teachers' title='name' content='bio' image='profile_pic' %}
 
 ---
 
@@ -41,7 +41,7 @@ Vivamus pharetra laoreet dui, commodo aliquet ante finibus pretium. Vivamus lobo
 
 ## Latest articles
 
-{% include grid cols=2 entries=2 collection='posts' title='title' content='' image='' %}
+{% include grid.html cols=2 entries=2 collection='posts' title='title' content='' image='' %}
 <div class="text-center">
   <a href="blog"><big>Show all articles</big></a>
 </div>

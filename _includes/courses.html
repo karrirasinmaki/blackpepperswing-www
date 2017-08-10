@@ -1,0 +1,21 @@
+{% assign city = include.city %}
+{% assign type = include.type %}
+{% assign i = 0 %}
+
+<div class="row">
+	{% assign courses = site.data.courses | where: 'city', city | where: 'type', type %}
+	{% for course in courses %}
+		{% if i > 1 and i | modulo: 2 == 0 %}
+			</div><div class="row">
+		{% endif %}
+		<div class="large-6 columns">
+			<h3>{{ course.name }}</h3>
+			<b>Teachers: </b>{{ course.teachers}}<br>
+			<b>Dates: </b>{{ course.dates}}<br>
+			<b>Time: </b>{{ course.time}}<br>
+			<b>Price: </b>{{ course.price}}<br>
+		</div>
+		{% assign i = i | plus: 1 %}
+	{% endfor %}
+</div>
+
