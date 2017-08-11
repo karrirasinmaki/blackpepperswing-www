@@ -1,0 +1,13 @@
+<div class="row">
+	<div class="medium-4 columns t10">
+		<a href="{{ site.url }}{{ entry.url }}">
+			<img src="{{ site.urlimg }}{{ entry.image.thumb }}">
+		</a>
+	</div>
+	<div class="medium-8 columns">
+		<a href="{{ site.url }}{{ entry.url }}">
+			<h3 class="t10">{{ entry.title }}</h3>
+		</a>
+		<p>{{ entry.teaser | truncate: 160 }}</p>
+	</div>
+</div>

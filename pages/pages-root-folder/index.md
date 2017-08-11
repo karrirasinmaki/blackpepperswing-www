@@ -8,6 +8,7 @@ layout: page-fullwidth
 header:
   image_fullwidth: men-stones.jpg
   title: Black Pepper Swing
+  subtitle: hopping around Helsinki and Tampere since 2017
 permalink: /index.html
 ---
 
@@ -17,7 +18,7 @@ Vivamus pharetra laoreet dui, commodo aliquet ante finibus pretium. Vivamus lobo
 
 ## Our teachers
 
-{% include grid.html cols=4 collection='teachers' title='name' content='bio' image='profile_pic' %}
+{% include grid.html cols=4 collection=site.teachers template='teacher-snippet.html' %}
 
 ---
 
@@ -41,7 +42,7 @@ Vivamus pharetra laoreet dui, commodo aliquet ante finibus pretium. Vivamus lobo
 
 ## Latest articles
 
-{% include grid.html cols=2 entries=2 collection='posts' title='title' content='' image='' %}
+{% include grid.html cols=2 entries=2 collection=site.posts template='post-snippet.html' %}
 <div class="text-center">
   <a href="blog"><big>Show all articles</big></a>
 </div>
