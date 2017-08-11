@@ -14,8 +14,12 @@
 {% assign colclass = 12 | divided_by: colcount %}
 
 <div class="row">
+	{% assign i = 0 %}
 	{% for entry in site.[include.collection] limit:include.entries %}
 		{% unless entry.published == false %}
+			{% if i > 1 and i | modulo: colcount == 0 %}
+				</div><div class="row">
+			{% endif %}
 			<div class="large-{{ colclass }} columns">
 				<a href="{{ site.url }}{{ entry.url }}">
 					<h3>{{ entry.[include.title] || entry.title }}</h3>
