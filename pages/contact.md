@@ -1,8 +1,10 @@
 ---
 layout: page
-header:
-  title: Contact Us
-  image_fullwidth: telephone-center.jpg
+
+title: Contact Us
+image:
+  src: telephone-center.jpg
+
 permalink: "/contact/"
 ---
 

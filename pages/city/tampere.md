@@ -1,8 +1,10 @@
 ---
 layout: page
-header:
-  image_fullwidth: vintage-helsinki.jpg
-  title: Tampere
+
+title: Tampere
+image:
+  src: vintage-tampere.jpg
+
 permalink: "/tampere/"
 ---
 

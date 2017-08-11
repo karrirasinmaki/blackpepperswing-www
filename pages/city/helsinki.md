@@ -1,8 +1,10 @@
 ---
 layout: page
-header:
-  image_fullwidth: vintage-helsinki.jpg
-  title: Helsinki
+
+title: Helsinki
+image:
+  src: vintage-helsinki.jpg
+
 permalink: "/helsinki/"
 ---
 

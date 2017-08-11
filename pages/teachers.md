@@ -1,8 +1,10 @@
 ---
 layout: page-fullwidth
-header:
-  image_fullwidth: classroom.jpg
-  title: Teachers
+
+title: Teachers
+image:
+  src: classroom.jpg
+
 permalink: /teachers/
 ---
 

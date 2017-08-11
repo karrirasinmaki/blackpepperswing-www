@@ -1,14 +1,11 @@
 ---
-#
-# Use the widgets beneath and the content will be
-# inserted automagically in the webpage. To make
-# this work, you have to use › layout: frontpage
-#
 layout: page-fullwidth
-header:
-  image_fullwidth: men-stones.jpg
-  title: Black Pepper Swing
-  subtitle: hopping around Helsinki and Tampere since 2017
+
+title: Black Pepper Swing
+subheadline: hopping around Helsinki and Tampere since 2017
+image:
+  src: men-stones.jpg
+
 permalink: /index.html
 ---
 
