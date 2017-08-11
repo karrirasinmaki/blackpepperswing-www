@@ -1,9 +1,5 @@
 ---
 layout: page
-title: "Tampere"
-meta_title: "Tampere"
-subheadline: ""
-teaser: ""
 header:
   image_fullwidth: vintage-helsinki.jpg
   title: Tampere
