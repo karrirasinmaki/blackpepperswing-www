@@ -96,6 +96,8 @@ compress_html:
 collections:
   teachers:
     output: true
+  courses:
+    output: true
 
 
 defaults:
@@ -121,6 +123,16 @@ defaults:
     scope:
       path: ""
       type: "teachers"
+    values:
+      layout: page
+      show_meta: true   # Show metadata for all posts
+      # sidebar:        # Possible values › left, right › by default there will be no sidebar
+      comments: false
+      author: phlow     # Default author for posts
+  -
+    scope:
+      path: ""
+      type: "courses"
     values:
       layout: page
       show_meta: true   # Show metadata for all posts

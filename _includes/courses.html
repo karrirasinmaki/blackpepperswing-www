@@ -3,7 +3,7 @@
 
 <div class="row">
 	{% assign i = 0 %}
-	{% assign courses = site.data.courses | where: 'city', city | where: 'type', type %}
+	{% assign courses = site.courses | where: 'city', city | where: 'type', type %}
 	{% for course in courses %}
 		{% if i > 1 and i | modulo: 2 == 0 %}
 			</div><div class="row">
