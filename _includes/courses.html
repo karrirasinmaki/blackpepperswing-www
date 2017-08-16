@@ -14,6 +14,7 @@
 			<b>Dates: </b>{{ course.dates}}<br>
 			<b>Time: </b>{{ course.time}}<br>
 			<b>Price: </b>{{ course.price}}<br>
+			<a href="{{{ site.url }}{{ course.url }}">Read more and sign up</a>
 		</div>
 		{% assign i = i | plus: 1 %}
 	{% endfor %}
