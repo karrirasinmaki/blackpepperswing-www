@@ -1,8 +1,10 @@
 ---
 layout: page-fullwidth
-header:
-  image_fullwidth: classroom.jpg
-  title: Teachers
+
+title: Teachers
+image:
+  src: classroom.jpg
+
 permalink: /teachers/
 ---
 
@@ -12,4 +14,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum congue li
 Vivamus pharetra laoreet dui, commodo aliquet ante finibus pretium. Vivamus lobortis quis purus eget porta. Duis suscipit libero risus, et dignissim arcu interdum non. Suspendisse feugiat posuere ex sit amet egestas. Pellentesque mattis arcu eu sapien porttitor laoreet. Phasellus ac ex et lorem placerat posuere ut iaculis tellus. Praesent ac luctus mi. Donec ut gravida ex. Pellentesque id metus vitae erat viverra lobortis mollis quis ex. 
 </div></div>
 
-{% include grid.html cols=4 collection='teachers' title='name' content='bio' image='profile_pic' %}
+{% include grid.html cols=4 collection=site.teachers template='teacher-snippet.html' %}

@@ -70,17 +70,43 @@ body.video cite { color: #fff; }
     background-color: $primary-color;
 }
 #masthead-with-text {
+    position: relative;
     text-align: center;
-    font-size: rem-calc(54);
-    font-family: $header-font-family;
-    color: #fff;
-    text-shadow: 0 2px 3px rgba(0,0,0,.4);
+
+    &.with-image {
+      background-size: cover;
+      background-position: center center;
+
+      .shadow {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: #212121;
+        opacity: 0.3;
+      }
+    }
 
     .row {
       position: absolute;
       left: 0;
       bottom: 30%;
       right: 0;
+    }
+
+    .masthead-title, .masthead-subtitle {
+      font-family: $header-font-family;
+      color: #fff;
+      text-shadow: 0 2px 3px rgba(0,0,0,.4);
+    }
+
+    h1 {
+      font-size: rem-calc(54);
+    }
+
+    .masthead-subtitle {
+      font-size: $rem-base;
     }
 }
 #masthead-no-image-header {
@@ -98,7 +124,7 @@ body.video cite { color: #fff; }
         display: none;
     }
     #masthead {
-        height: 200px;
+        height: 260px;
     }
     #masthead-with-pattern {
         padding: 15px 0;
@@ -107,7 +133,7 @@ body.video cite { color: #fff; }
         padding: 15px 0;
     }
     #masthead-with-text {
-        height: 220px;
+        height: 280px;
         padding: 30px 0;
         font-size: rem-calc(36);
     }
@@ -125,7 +151,7 @@ body.video cite { color: #fff; }
         margin-top: 60px;
     }
     #masthead {
-        height: 280px;
+        height: 380px;
     }
     #masthead-with-pattern {
         padding: 20px 0;
@@ -135,7 +161,7 @@ body.video cite { color: #fff; }
     }
     #masthead-with-text {
         padding: 60px 0;
-        height: 300px;
+        height: 400px;
     }
 }
 
@@ -148,7 +174,7 @@ body.video cite { color: #fff; }
         margin-top: 80px;
     }
     #masthead {
-        height: 310px;
+        height: 410px;
     }
     #masthead-with-pattern {
         padding: 30px 0;
@@ -157,7 +183,7 @@ body.video cite { color: #fff; }
         padding: 30px 0;
     }
     #masthead-with-text {
-        height: 330px;
+        height: 430px;
         padding: 60px 0;
     }
 }
@@ -171,7 +197,7 @@ body.video cite { color: #fff; }
         margin-top: 110px;
     }
     #masthead {
-        height: 380px;
+        height: 480px;
     }
     #masthead-with-pattern {
         padding: 45px 0;
@@ -181,7 +207,7 @@ body.video cite { color: #fff; }
     }
     #masthead-with-text {
         padding: 95px 0;
-        height: 400px;
+        height: 500px;
     }
 }
 
@@ -306,7 +332,6 @@ body.video cite { color: #fff; }
     #subfooter .credits a {
         color: $subfooter-link-color;
         border: 0;
-        text-transform: uppercase;
         &:hover {
             color: #fff;
         }

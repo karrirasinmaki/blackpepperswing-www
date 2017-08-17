@@ -1,12 +1,10 @@
 ---
 layout: page
-title: "Helsinki"
-meta_title: "Helsinki"
-subheadline: ""
-teaser: ""
-header:
-  image_fullwidth: vintage-helsinki.jpg
-  title: Helsinki
+
+title: Helsinki
+image:
+  src: vintage-helsinki.jpg
+
 permalink: "/helsinki/"
 ---
 

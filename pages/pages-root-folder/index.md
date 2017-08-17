@@ -1,13 +1,11 @@
 ---
-#
-# Use the widgets beneath and the content will be
-# inserted automagically in the webpage. To make
-# this work, you have to use › layout: frontpage
-#
 layout: page-fullwidth
-header:
-  image_fullwidth: men-stones.jpg
-  title: Black Pepper Swing
+
+title: Black Pepper Swing
+subheadline: hopping around Helsinki and Tampere since 2017
+image:
+  src: men-stones.jpg
+
 permalink: /index.html
 ---
 
@@ -17,7 +15,7 @@ Vivamus pharetra laoreet dui, commodo aliquet ante finibus pretium. Vivamus lobo
 
 ## Our teachers
 
-{% include grid.html cols=4 collection='teachers' title='name' content='bio' image='profile_pic' %}
+{% include grid.html cols=4 collection=site.teachers template='teacher-snippet.html' %}
 
 ---
 
@@ -41,7 +39,7 @@ Vivamus pharetra laoreet dui, commodo aliquet ante finibus pretium. Vivamus lobo
 
 ## Latest articles
 
-{% include grid.html cols=2 entries=2 collection='posts' title='title' content='' image='' %}
+{% include grid.html cols=2 entries=2 collection=site.posts template='post-snippet.html' %}
 <div class="text-center">
   <a href="blog"><big>Show all articles</big></a>
 </div>

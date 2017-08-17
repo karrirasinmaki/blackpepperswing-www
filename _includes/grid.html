@@ -6,7 +6,7 @@
 *   If you set »published: false« in front matter of a collection page 
 *   the page gots filtered out via unless
 *
-*   Example: {% include grid collection='teachers' %}
+*   Example: {% include grid cols=3 collection=site.teachers template='teacher-snippet.html' %}
 *   
 {% endcomment %}
 
@@ -15,19 +15,15 @@
 
 <div class="row">
 	{% assign i = 0 %}
-	{% for entry in site.[include.collection] limit:include.entries %}
+	{% for entry in include.collection limit:include.entries %}
 		{% unless entry.published == false %}
 			{% if i > 1 and i | modulo: colcount == 0 %}
 				</div><div class="row">
 			{% endif %}
 			<div class="large-{{ colclass }} columns">
-				<a href="{{ site.url }}{{ entry.url }}">
-					<h3>{{ entry.[include.title] || entry.title }}</h3>
-					<img src="{{ site.urlimg }}{{ entry.[include.image] || entry.header }}">
-				</a>
-				<p>{{ entry.[include.content] || entry.excerpt | truncate: 160 }}</p>
+				{% include {{include.template}} %}
 			</div>
+			{% assign i = i | plus: 1 %}
 		{% endunless %}
 	{% endfor %}
 </div>
-
