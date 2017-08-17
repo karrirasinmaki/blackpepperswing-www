@@ -59,14 +59,24 @@
 
       <div id="subfooter">
         <nav class="row">
-          <section id="subfooter-left" class="b30 small-12 medium-6 columns credits">
-            <p>
-                Made with &hearts; by <a href="https://intraktio.com" alt="Made by Intraktio" target="_blank">Intraktio</a>
-            </p>
-			<a id="logo" href="{{ site.url }}" title="{{ site.title }} – {{ site.slogan }}">
-				<img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.logo }}" alt="{{ site.title }} – {{ site.slogan }}">
-			</a>
-          </section>
+            <section id="subfooter-left" class="b30 small-12 medium-6 columns credits">
+                <p>
+                    Made with &hearts; by <a href="https://intraktio.com" alt="Made by Intraktio" target="_blank">Intraktio</a>
+                </p>
+                <p>
+                    <ul class="no-bullet shadow-black">
+                    {% for network_item in site.data.oss %}
+                      {% if network_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = site.baseurl %}{% endif %}
+                        <li {% if network_item.class %}class="{{ network_item.class }}" {% endif %}>
+                          <a href="{{ domain }}{{ network_item.url }}" {% if network_item.url contains 'http' %}target="_blank" {% endif %} title="{{ network_item.title }}">{{ network_item.name }}</a>
+                        </li>
+                    {% endfor %}
+                    </ul>
+                </p>
+                <a id="logo" href="{{ site.url }}" title="{{ site.title }} – {{ site.slogan }}">
+                    <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.logo }}" alt="{{ site.title }} – {{ site.slogan }}">
+                </a>
+            </section>
 
           <section id="subfooter-right" class="small-12 medium-6 columns social-icons">
             <ul class="inline-list">

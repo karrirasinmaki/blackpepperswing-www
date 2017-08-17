@@ -28,10 +28,12 @@
   url: "/contact/"
   side: right
 
-- title: "Info"
-  url: "/info/"
-  side: right
-
-- title: Blog
-  url: "/blog/"
-  side: right
+# 
+# - title: "Info"
+#   url: "/info/"
+#   side: right
+# 
+# - title: Blog
+#   url: "/blog/"
+#   side: right
+#

@@ -98,48 +98,56 @@ collections:
     output: true
   courses:
     output: true
+  cities:
+    output: true
 
 
 defaults:
   -
     scope:
-      path: "" 				# an empty string here means all files in the project
+      path: ""
       type: "pages"
     values:
-      show_meta: false 	# Hide metadata for all pages
-      # sidebar:    		# Possible values › left, right › by default there will be no sidebar
-      comments: false
-      author: phlow     # Default author for pages
       header: true
+      show_meta: false
+      comments: false
+      author: phlow
   -
     scope:
       path: ""
       type: "posts"
     values:
-      show_meta: true   # Show metadata for all posts
-      # sidebar:        # Possible values › left, right › by default there will be no sidebar
-      comments: false
-      author: phlow     # Default author for posts
+      show_meta: true
+      comments: true
+      author: phlow
   -
     scope:
       path: ""
       type: "teachers"
     values:
       layout: page
-      show_meta: true   # Show metadata for all posts
-      # sidebar:        # Possible values › left, right › by default there will be no sidebar
+      show_meta: false
       comments: false
-      author: phlow     # Default author for posts
+      author: phlow
   -
     scope:
       path: ""
       type: "courses"
     values:
       layout: page
-      show_meta: true   # Show metadata for all posts
-      # sidebar:        # Possible values › left, right › by default there will be no sidebar
+      show_meta: false
       comments: false
-      author: phlow     # Default author for posts
+      author: phlow
+  -
+    scope:
+      path: ""
+      type: "cities"
+    values:
+      layout: page
+      header: true
+      show_meta: false
+      comments: false
+      author: phlow
 
 
 

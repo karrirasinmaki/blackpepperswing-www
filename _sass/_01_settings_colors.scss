@@ -93,7 +93,7 @@ $topbar-dropdown-link-bg-hover: $ci-6;
 
 $topbar-link-bg-active: $ci-6; // Active Navigation Link
 $topbar-link-bg-hover: $ci-6;
-$topbar-link-bg-active-hover: $ci-2;
+$topbar-link-bg-active-hover: lighten($ci-6, 10%);
 
 
 $topbar-dropdown-bg: $ci-6; // Background Mobile Navigation

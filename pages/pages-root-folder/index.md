@@ -1,5 +1,5 @@
 ---
-layout: page-fullwidth
+layout: frontpage
 
 title: Black Pepper Swing
 subheadline: hopping around Helsinki and Tampere since 2017

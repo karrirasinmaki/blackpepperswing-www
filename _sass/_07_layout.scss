@@ -72,6 +72,8 @@ body.video cite { color: #fff; }
 #masthead-with-text {
     position: relative;
     text-align: center;
+    padding-top: 37.5%;
+    padding-bottom: 2em;
 
     &.with-image {
       background-size: cover;
@@ -102,11 +104,12 @@ body.video cite { color: #fff; }
     }
 
     h1 {
-      font-size: rem-calc(54);
+      font-size: rem-calc(78);
     }
 
     .masthead-subtitle {
-      font-size: $rem-base;
+      //font-size: $rem-base;
+      font-size: rem-calc(20);
     }
 }
 #masthead-no-image-header {
@@ -133,9 +136,13 @@ body.video cite { color: #fff; }
         padding: 15px 0;
     }
     #masthead-with-text {
-        height: 280px;
-        padding: 30px 0;
-        font-size: rem-calc(36);
+        padding: 4em 0 3em 0;
+        .row {
+          position: relative;
+        }
+        h1 {
+          font-size: rem-calc(50);
+        }
     }
     #masthead-no-image-header {
         display: none;
@@ -160,8 +167,13 @@ body.video cite { color: #fff; }
         padding: 20px 0;
     }
     #masthead-with-text {
-        padding: 60px 0;
-        height: 400px;
+        padding: 6em 0 4em 0;
+        .row {
+          position: relative;
+        }
+        h1 {
+          font-size: rem-calc(65);
+        }
     }
 }
 
@@ -183,8 +195,6 @@ body.video cite { color: #fff; }
         padding: 30px 0;
     }
     #masthead-with-text {
-        height: 430px;
-        padding: 60px 0;
     }
 }
 
@@ -206,8 +216,6 @@ body.video cite { color: #fff; }
         padding: 45px 0;
     }
     #masthead-with-text {
-        padding: 95px 0;
-        height: 500px;
     }
 }
 
@@ -325,6 +333,11 @@ body.video cite { color: #fff; }
     color: $subfooter-color;
     padding-top: 30px;
     padding-bottom: 10px;
+
+    h4, h5 {
+      letter-spacing: 1px;
+      color: $subfooter-color;
+    }
 }
     #subfooter-left ul.inline-list {
         float: left;
@@ -378,3 +391,42 @@ body.video cite { color: #fff; }
 .pr5  { padding-right: 5px !important; }
 .pr10 { padding-right: 10px !important; }
 .pr20 { padding-right: 20px !important; }
+
+
+
+/* City selection
+------------------------------------------------------------------- */
+
+.city-selection {
+  .row {
+    max-width: none;
+  }
+  .columns {
+    padding-top: 37.5%;
+  }
+  .backdrop {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+  }
+  h2 {
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin-top: -0.5em;
+    text-align: center;
+    color: #fff;
+  }
+  a {
+    z-index: 5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+}

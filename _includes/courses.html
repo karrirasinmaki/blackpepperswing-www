@@ -1,2 +1,2 @@
-{% assign courses = site.data.courses | where: 'city', include.city | where: 'type', include.type %}
+{% assign courses = site.courses | where: 'city', include.city | where: 'type', include.type %}
 {% include grid.html cols=2 collection=courses template='course-snippet.html' %}
