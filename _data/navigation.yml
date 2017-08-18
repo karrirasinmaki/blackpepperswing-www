@@ -17,6 +17,10 @@
   url: "/tampere/"
   side: right
 
+- title: "Jyväskylä"
+  url: "/jyvaskyla/"
+  side: right
+
 - title: "Teachers"
   url: "/teachers/"
   side: right

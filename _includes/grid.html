@@ -17,7 +17,8 @@
 	{% assign i = 0 %}
 	{% for entry in include.collection limit:include.entries %}
 		{% unless entry.published == false %}
-			{% if i > 1 and i | modulo: colcount == 0 %}
+			{% assign i_modulo = i | modulo: colcount %}
+			{% if i > 1 and i_modulo == 0 %}
 				</div><div class="row">
 			{% endif %}
 			<div class="large-{{ colclass }} columns">

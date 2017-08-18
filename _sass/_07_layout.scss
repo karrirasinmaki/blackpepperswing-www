@@ -80,6 +80,21 @@ body.video cite { color: #fff; }
 }
 
 
+/* Shadow
+------------------------------------------------------------------ */
+#masthead-with-text.with-image,
+.city-selection {
+  .shadow {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #212121;
+    opacity: 0.3;
+  }
+}
+
 
 /* Masthead
 ------------------------------------------------------------------- */
@@ -99,16 +114,6 @@ body.video cite { color: #fff; }
     &.with-image {
       background-size: cover;
       background-position: center center;
-
-      .shadow {
-        position: absolute;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        background: #212121;
-        opacity: 0.3;
-      }
     }
 
     .row {
@@ -419,6 +424,7 @@ body.video cite { color: #fff; }
 ------------------------------------------------------------------- */
 
 .city-selection {
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
   .row {
     max-width: none;
   }
@@ -432,6 +438,8 @@ body.video cite { color: #fff; }
     right: 0;
     bottom: 0;
     background-size: cover;
+    background-position: center center;
+    background-position: center center;
   }
   h2 {
     z-index: 2;

@@ -7,7 +7,8 @@ format: page-fullwidth
 		{% include _masthead.html %}
 	</header>
 	<div class="city-selection">
-		{% include grid.html cols=2 collection=site.cities template='city-selection-snippet.html' %}
+		{% assign cities = site.cities | sort: 'order' %}
+		{% include grid.html cols=cities.length collection=cities template='city-selection-snippet.html' %}
 	</div>
 	<div class="row t30">
 		<div class="medium-12 columns">

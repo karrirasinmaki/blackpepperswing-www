@@ -1,5 +1,6 @@
 ---
 layout: page
+order: 0
 
 title: Helsinki
 image:
