@@ -47,6 +47,27 @@ body.video cite { color: #fff; }
 #navigation {
     -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.2);
     box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
+    @media #{$large-up} {
+      .top-bar-section {
+        li a {
+          width: auto;
+          padding: 0;
+          margin: 0 0.8em;
+        }
+        li.active a {
+          position: relative;
+          &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            height: 6px;
+            background: #fff;
+          }
+        }
+      }
+    }
 }
 
 

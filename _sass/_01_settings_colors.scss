@@ -84,28 +84,26 @@ $topbar-bg-color: $ci-1;
 $topbar-dropdown-toggle-color: $ci-1;
 
 $topbar-link-color: #fff;
-$topbar-link-color-hover: #000;
-$topbar-link-color-active: #000;
-$topbar-link-color-active-hover: #000;
+$topbar-link-color-hover: darken($topbar-link-color, 25%);
+$topbar-link-color-active: $topbar-link-color-hover;
+$topbar-link-color-active-hover: $topbar-link-color-hover;
 
-$topbar-dropdown-label-color: $ci-2;
-$topbar-dropdown-link-bg-hover: $ci-6;
+$topbar-dropdown-label-color: $ci-1;
+$topbar-dropdown-link-bg-hover: $ci-1;
 
-$topbar-link-bg-active: $ci-6; // Active Navigation Link
-$topbar-link-bg-hover: $ci-6;
-$topbar-link-bg-active-hover: lighten($ci-6, 10%);
+$topbar-link-bg-active: $topbar-dropdown-label-color; // Active Navigation Link
+$topbar-link-bg-hover: $topbar-dropdown-label-color;
+$topbar-link-bg-active-hover: $topbar-dropdown-label-color;
 
 
-$topbar-dropdown-bg: $ci-6; // Background Mobile Navigation
+$topbar-dropdown-bg: $ci-1; // Background Mobile Navigation
 $topbar-dropdown-link-color: darken($topbar-link-color, 20%);
 $topbar-dropdown-link-bg: lighten($topbar-bg-color, 10%);
 
-$topbar-menu-link-color-toggled: $ci-1;
-$topbar-menu-icon-color-toggled: $ci-1;
-$topbar-menu-link-color: #000;
-$topbar-menu-icon-color: #000;
-$topbar-menu-link-color-toggled: $ci-6;
-$topbar-menu-icon-color-toggled: $ci-6;
+$topbar-menu-link-color: $topbar-link-color;
+$topbar-menu-icon-color: $topbar-link-color;
+$topbar-menu-link-color-toggled: $topbar-link-color-hover;
+$topbar-menu-icon-color-toggled: $topbar-link-color-hover;
 
 
 
