@@ -5,6 +5,8 @@ order: 0
 title: Helsinki
 image:
   src: vintage-helsinki.jpg
+  caption: Aarne Pietinen Oy | Historian kuvakokoelma | kuvakokoelmat.fi
+  caption_url: https://www.kuvakokoelmat.fi/
 
 permalink: "/helsinki/"
 ---

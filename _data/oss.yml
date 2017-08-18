@@ -2,20 +2,20 @@
 
 - name: "Icons by Daniel Bruce"
   url: "http://entypo.com/"
-  class: "network-entypo"
   title: "Icons by Daniel Bruce"
 
 - name: "Built on Foundation"
   url: "http://foundation.zurb.com/"
-  class: "services-newsletter"
   title: "Built on Foundation"
 
 - name: "Based on Feeling Responsive"
   url: "https://phlow.github.io/feeling-responsive/"
-  class: "services-newsletter"
   title: "Based on Feeling Responsive"
 
 - name: "Using Backstretch by Scott Robbin"
   url: "http://srobbin.com/jquery-plugins/backstretch/"
-  class: "sitemap-link"
   title: "Using Backstretch by Scott Robbin"
+
+- name: "Thanks to Helsinkikuvia.fi"
+  url: "https://www.helsinkikuvia.fi/"
+  title: "Thanks to Helsinkikuvia.fi"

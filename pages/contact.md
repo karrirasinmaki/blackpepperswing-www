@@ -4,6 +4,8 @@ layout: page
 title: Contact Us
 image:
   src: telephone-center.jpg
+  caption: Artist Unknown | Helsinkikuvia.fi
+  caption_url: https://www.helsinkikuvia.fi/
 
 permalink: "/contact/"
 ---

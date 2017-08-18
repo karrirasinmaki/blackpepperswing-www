@@ -5,6 +5,8 @@ order: 2
 title: Jyväskylä
 image:
   src: vintage-jyvaskyla.jpg
+  caption: Keith Nyborg | Keski-Suomen museo | museot.finna.fi
+  caption_url: https://museot.finna.fi/
 
 permalink: "/jyvaskyla/"
 ---

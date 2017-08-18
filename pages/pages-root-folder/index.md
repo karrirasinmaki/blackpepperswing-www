@@ -5,6 +5,8 @@ title: Black Pepper Swing
 subheadline: hopping around Helsinki and Tampere since 2017
 image:
   src: men-stones.jpg
+  caption: Kannisto Väinö | Helsinkikuvia.fi
+  caption_url: https://www.helsinkikuvia.fi/
 
 permalink: /index.html
 ---
