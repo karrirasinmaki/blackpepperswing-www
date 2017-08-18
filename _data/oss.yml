@@ -16,6 +16,14 @@
   url: "http://srobbin.com/jquery-plugins/backstretch/"
   title: "Using Backstretch by Scott Robbin"
 
-- name: "Thanks to Helsinkikuvia.fi"
+- name: "Photos around Helsinki from Helsinkikuvia.fi"
   url: "https://www.helsinkikuvia.fi/"
   title: "Thanks to Helsinkikuvia.fi"
+
+- name: "Some old photos from Kuvakokoelmat.fi"
+  url: "https://www.kuvakokoelmat.fi/"
+  title: "Thanks to Helsinkikuvia.fi"
+
+- name: "Thanks to Museo Finna for photo archive"
+  url: "https://museot.finna.fi/"
+  title: "Thanks to Museo Finna"
