@@ -20,20 +20,19 @@
 			<div class="masthead-subtitle">{{ page.subheadline }}</div>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
+	{% if page.image and page.image.caption %}
+	<div class="masthead-caption">
+		{% if page.image.caption_url %}
+		<a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
+		{% else %}
+		{{ page.image.caption }}
+		{% endif %}
+	</div>
+	{% endif %}
 </div><!-- /#masthead -->
 
 {% if page.breadcrumb == true %}
 {% include _breadcrumb.html %}
-{% endif %}
-
-{% if page.image and page.image.caption %}
-<div class="masthead-caption">
-	{% if page.image.caption_url %}
-	<a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
-	{% else %}
-	{{ page.image.caption }}
-	{% endif %}
-</div>
 {% endif %}
 
 
