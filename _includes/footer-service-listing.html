@@ -1,0 +1,17 @@
+{% unless include.notitle %}
+  {% for service_item in include.collection %}
+    {% if forloop.first == true %}
+    <h5 class="shadow-black">{{ service_item.menu_name }}</h5>
+    {% endif %}
+  {% endfor %}
+{% endunless %}
+
+<ul class="no-bullet shadow-black">
+  {% for service_item in include.collection %}
+    {% if service_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = site.baseurl %}{% endif %}
+    <li {% if service_item.class %}class="{{ service_item.class }}" {% endif %}>
+      <a href="{{ domain }}{{ service_item.url }}" {% if service_item.url contains 'http' %}target="_blank" {% endif %} title="{{ service_item.title }}">{{ service_item.name }}</a>
+    </li>
+  {% endfor %}
+</ul>
+

@@ -43,5 +43,5 @@ Vivamus pharetra laoreet dui, commodo aliquet ante finibus pretium. Vivamus lobo
 
 {% include grid.html cols=2 entries=2 collection=site.posts template='post-snippet.html' %}
 <div class="text-center">
-  <a href="blog"><big>Show all articles</big></a>
+  <a href="blog"><big>{{ site.data.language.show_all_articles }}</big></a>
 </div>

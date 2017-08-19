@@ -39,8 +39,6 @@ body.video cite a, { color: #fff; }
 body.video cite a:visited, { color: #fff; }
 body.video cite { color: #fff; }
 
-
-
 /* Navigation
 ------------------------------------------------------------------- */
 
@@ -68,6 +66,18 @@ body.video cite { color: #fff; }
         }
       }
     }
+}
+
+
+/* Language selector
+------------------------------------------------------------------- */
+.top-bar-section .language-selector {
+  a {
+    color: $topbar-lang-select-link-color;
+  }
+  a.active, a:hover {
+    color: $topbar-lang-select-link-color-active;
+  }
 }
 
 

@@ -4,7 +4,7 @@
 	<link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}/assets/css/styles_feeling_responsive.css" />
 	<script src="{{ site.url }}{{ site.baseurl }}/assets/js/modernizr.min.js"></script>
 
-  <!--
+  {% unless site.webfonts == false %}
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
   <script>
     WebFont.load({
@@ -13,7 +13,7 @@
       }
     });
   </script>
-  -->
+  {% endunless %}
   <noscript>
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic|Volkhov' rel='stylesheet' type='text/css' />
   </noscript>

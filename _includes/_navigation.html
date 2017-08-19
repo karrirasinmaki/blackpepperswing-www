@@ -63,6 +63,11 @@
         {% endfor %}
         {% comment %}   First loop finished 1   {% endcomment %}
       </ul>
+      <ul class="right language-selector">
+          {% for tongue in site.languages %}
+          <li><a class="{% if tongue == site.active_lang %}active{% endif %}" href="{% if tongue == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}">{{ tongue }}</a></li>
+          {% endfor %}
+      </ul>
 {% comment %}
 
     __         ______     _   __            _             __  _           

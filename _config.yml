@@ -1,3 +1,6 @@
+plugins:
+  - jekyll-polyglot
+
 # ASCII-Font › http://patorjk.com/software/taag/#p=display&f=Slant&t=Phlow
 #
 #      _____ _ __          _____      __  __  _                 
@@ -44,7 +47,7 @@ urlimg: 'https://blackpepperswing.com/images/'
 
 # Logo size is 600x80 pixels
 logo: "logo.png"
-
+webfonts: true
 
 # Paginates all X entries
 paginate: 5
@@ -72,6 +75,11 @@ exclude:
 
 # The language setting is used in /includes/header.html for html-settings
 language: "en"
+
+languages: ["en", "fi"]
+default_lang: "en"
+exclude_from_localization: ["assets", "images"]
+parallel_localization: true
 
 
 # Used › default.html front-matter and compress.html
@@ -112,7 +120,7 @@ defaults:
       header: true
       show_meta: false
       comments: false
-      author: phlow
+      author: blackpepperswing
   -
     scope:
       path: ""
@@ -120,7 +128,7 @@ defaults:
     values:
       show_meta: true
       comments: true
-      author: phlow
+      author: blackpepperswing
   -
     scope:
       path: ""
@@ -129,7 +137,7 @@ defaults:
       layout: page
       show_meta: false
       comments: false
-      author: phlow
+      author: blackpepperswing
   -
     scope:
       path: ""
@@ -138,7 +146,7 @@ defaults:
       layout: page
       show_meta: false
       comments: false
-      author: phlow
+      author: blackpepperswing
   -
     scope:
       path: ""
@@ -148,7 +156,7 @@ defaults:
       header: true
       show_meta: false
       comments: false
-      author: phlow
+      author: blackpepperswing
 
 
 
