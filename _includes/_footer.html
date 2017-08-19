@@ -8,9 +8,8 @@
     <footer id="footer-content" class="bg-grau">
       <div id="footer">
         <div class="row">
-          <div class="medium-6 large-5 columns">
+          <div class="small-12 medium-5 columns">
             <h5 class="shadow-black">{{ site.data.language.info_website }}</h5>
-
             <p class="shadow-black">
               {{ site.description }}
               <a href="{{ site.url }}{{ site.baseurl }}/info/">{{ site.data.language.more }}</a>
@@ -18,14 +17,14 @@
           </div><!-- /.large-6.columns -->
 
 
-          <div class="small-6 medium-3 large-3 large-offset-1 columns">
-              {% include footer-service-listing.html collection = site.data.services %} 
+          <div class="small-12 medium-6 columns">
+            <h5>&nbsp;</h5>
+            <p class="shadow-black">
+                  <b>{{ site.title }}</b><br>
+                  {{ site.email }}
+              </p>
           </div><!-- /.large-4.columns -->
 
-
-          <div class="small-6 medium-3 large-3 columns">
-              {% include footer-service-listing.html collection = site.data.network %} 
-          </div><!-- /.large-3.columns -->
         </div><!-- /.row -->
 
       </div><!-- /#footer -->
@@ -33,25 +32,31 @@
 
       <div id="subfooter">
         <nav class="row">
-            <section id="subfooter-left" class="b30 small-12 medium-6 columns credits">
+            <section class="b30 small-12 medium-6 large-6 columns credits">
                 <p>
                     Made with &hearts; by <a href="https://intraktio.com" alt="Made by Intraktio" target="_blank">Intraktio</a>
                 </p>
                 <p>
                     {% include footer-service-listing.html collection = site.data.oss notitle=true %} 
                 </p>
-                <a id="logo" href="{{ site.url }}" title="{{ site.title }} – {{ site.slogan }}">
-                    <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.logo }}" alt="{{ site.title }} – {{ site.slogan }}">
-                </a>
             </section>
 
-          <section id="subfooter-right" class="small-12 medium-6 columns social-icons">
-            <ul class="inline-list">
+          <section class="small-12 medium-6 large-4 columns">
+            {% include footer-service-listing.html collection = site.data.network %} 
+          </section>
+
+          <section class="small-12 medium-12 large-2 columns">
+            <ul class="inline-list social-icons">
             {% for social_item in site.data.socialmedia %}
               <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
             {% endfor %}
             </ul>
           </section>
         </nav>
+        <div class="row">
+            <a id="logo" href="{{ site.url }}" title="{{ site.title }} – {{ site.slogan }}">
+                <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.logo }}" alt="{{ site.title }} – {{ site.slogan }}">
+            </a>
+        </div>
       </div><!-- /#subfooter -->
     </footer>

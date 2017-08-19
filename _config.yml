@@ -16,7 +16,7 @@ title_abbrev: "BPS"
 
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: "A Flexible Theme for Jekyll"
+slogan: "Hopping around Helsinki, Tampere and Jyväskylä since 2017"
 
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
@@ -25,6 +25,10 @@ description: "The description is used on homepage and in the footer to quickly d
 # Main author of the website
 # See > authors.yml
 author: karrirasinmaki
+
+# Contact info
+email: info@blackpepperswing.com
+
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #

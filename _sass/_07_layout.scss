@@ -383,17 +383,19 @@ body.video cite { color: #fff; }
     h4, h5 {
       letter-spacing: 1px;
       color: $subfooter-color;
+      margin-top: 0;
+    }
+
+    a {
+      color: $subfooter-link-color;
+      border: 0;
+      &:hover {
+        color: #fff;
+      }
     }
 }
-    #subfooter-left ul.inline-list {
+    #subfooter ul.inline-list {
         float: left;
-    }
-    #subfooter .credits a {
-        color: $subfooter-link-color;
-        border: 0;
-        &:hover {
-            color: #fff;
-        }
     }
 
     #subfooter .social-icons li a {
@@ -470,6 +472,7 @@ body.video cite { color: #fff; }
     margin-top: -0.5em;
     text-align: center;
     color: #fff;
+    font-size: rem-calc(45);
   }
   a {
     z-index: 5;
@@ -478,5 +481,13 @@ body.video cite { color: #fff; }
     top: 0;
     right: 0;
     bottom: 0;
+  }
+}
+
+@media #{$medium-only} {
+  .city-selection {
+    h2 {
+      font-size: rem-calc(32);
+    }
   }
 }
