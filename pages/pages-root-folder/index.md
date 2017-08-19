@@ -2,7 +2,7 @@
 layout: frontpage
 
 title: Black Pepper Swing
-subheadline: hopping around Helsinki and Tampere since 2017
+subheadline: Hopping around swamps and lakes since 2017
 image:
   src: men-stones.jpg
   caption: Kannisto Väinö | Helsinkikuvia.fi
@@ -37,6 +37,7 @@ Vivamus pharetra laoreet dui, commodo aliquet ante finibus pretium. Vivamus lobo
   </div>
 </div>
 
+<!--
 ---
 
 ## Latest articles
@@ -45,3 +46,4 @@ Vivamus pharetra laoreet dui, commodo aliquet ante finibus pretium. Vivamus lobo
 <div class="text-center">
   <a href="blog"><big>{{ site.data.language.show_all_articles }}</big></a>
 </div>
+-->
