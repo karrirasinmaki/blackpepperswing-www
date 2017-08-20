@@ -151,6 +151,16 @@ figcaption a:hover,
     text-align: right;
 }
 
+@media #{$small-only} {
+  figcaption,
+  .masthead-caption {
+    font-size: rem-calc(10);
+  }
+}
+
+
+
+
 
 
 /* Tables
