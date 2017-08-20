@@ -1,0 +1,27 @@
+---
+layout: page
+---
+
+<h3>{{ page.name }}</h3>
+<b>{{ site.data.language.teachers }}: </b>{{ page.teachers}}<br>
+<b>{{ site.data.language.dates }}: </b>{{ page.dates}}<br>
+<b>{{ site.data.language.time }}: </b>{{ page.time}}<br>
+<b>{{ site.data.language.price }}: </b>{{ page.price}}<br>
+
+{% if page.default_pricing %}
+	{% if site.active_lang == 'en' %}
+		<h4>Pricing and discounts</h4>
+		48 € per month<br>
+		-10% if student or unemployed</br>
+		-5% from total when paid in one batch<br>
+	{% elsif site.active_lang == 'fi' %}
+		<h4>Hinnoittelu ja alennukset</h4>
+		48 € kuukaudessa<br>
+		-10% opiskelijoille ja työttömille</br>
+		-5% loppusummasta kun koko kurssi maksetaan kerralla<br>
+	{% endif %}
+{% endif %}
+
+<hr>
+
+{{ content }}

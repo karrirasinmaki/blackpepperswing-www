@@ -148,10 +148,11 @@ defaults:
       path: ""
       type: "courses"
     values:
-      layout: page
+      layout: course
       show_meta: false
       comments: false
       author: blackpepperswing
+      default_pricing: true
   -
     scope:
       path: ""

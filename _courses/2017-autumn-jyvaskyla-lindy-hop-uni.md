@@ -6,8 +6,10 @@ teachers: Jaana Moisio & Marko Moisio
 dates: Saturdays, 28.10.2017 - 18.11.2017
 time: 14.00 - 15.30
 price: 25 € (4 classes)
+default_pricing: false
+
+title: Lindy Hop Beginners @University
 ---
-# Lindy Hop Beginners @University
 
 Dates:
 - 28.10.2017

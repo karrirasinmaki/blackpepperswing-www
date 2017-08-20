@@ -1,6 +1,6 @@
 <h3>{{ entry.name }}</h3>
-<b>Teachers: </b>{{ entry.teachers}}<br>
-<b>Dates: </b>{{ entry.dates}}<br>
-<b>Time: </b>{{ entry.time}}<br>
-<b>Price: </b>{{ entry.price}}<br>
-<a href="{{{ site.url }}{{ entry.url }}">Read more and sign up</a>
+<b>{{ site.data.language.teachers }}: </b>{{ entry.teachers}}<br>
+<b>{{ site.data.language.dates }}: </b>{{ entry.dates}}<br>
+<b>{{ site.data.language.time }}: </b>{{ entry.time}}<br>
+<b>{{ site.data.language.price }}: </b>{{ entry.price}}<br>
+<a href="{{{ site.url }}{{ entry.url }}">{{ site.data.language.read_more_and_sign_up }}</a>

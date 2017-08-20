@@ -1,9 +1,5 @@
 - menu_name: "Open Source Libraries"
 
-- name: "Icons by Daniel Bruce"
-  url: "http://entypo.com/"
-  title: "Icons by Daniel Bruce"
-
 - name: "Built on Foundation"
   url: "http://foundation.zurb.com/"
   title: "Built on Foundation"
@@ -11,6 +7,10 @@
 - name: "Based on Feeling Responsive"
   url: "https://phlow.github.io/feeling-responsive/"
   title: "Based on Feeling Responsive"
+
+- name: "Icons by Daniel Bruce"
+  url: "http://entypo.com/"
+  title: "Icons by Daniel Bruce"
 
 - name: "Photos around Helsinki from Helsinkikuvia.fi"
   url: "https://www.helsinkikuvia.fi/"
