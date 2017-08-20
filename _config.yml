@@ -125,6 +125,7 @@ defaults:
       path: ""
       type: "pages"
     values:
+      layout: page
       header: true
       show_meta: false
       comments: false
@@ -134,6 +135,7 @@ defaults:
       path: ""
       type: "posts"
     values:
+      layout: page
       show_meta: true
       comments: true
       author: blackpepperswing

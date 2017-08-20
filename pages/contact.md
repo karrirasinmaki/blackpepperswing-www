@@ -1,6 +1,4 @@
 ---
-layout: page
-
 title: Contact Us
 image:
   src: telephone-center.jpg
