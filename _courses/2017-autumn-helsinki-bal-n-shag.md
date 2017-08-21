@@ -1,4 +1,6 @@
 ---
+published: false
+
 name: Beginners
 city: Helsinki
 type: Bal'n'Shag

@@ -17,6 +17,10 @@
   url: "/jyvaskyla/"
   side: right
 
+- title: "Parties"
+  url: "/parties/"
+  side: right
+
 - title: "Courses"
   url: "/courses/"
   side: right

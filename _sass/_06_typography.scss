@@ -245,7 +245,7 @@ blockquote {
     color: #4b4b4d
 }
 
-    blockquote p {font-style: italic; color: $grey-10; }
+    blockquote p {font-style: italic; color: $grey-10; width: 94%; margin: 0 auto; }
 
     blockquote:before {
         display:block;content:"\00BB";

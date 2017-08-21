@@ -118,7 +118,7 @@ body.video cite { color: #fff; }
 #masthead-with-text {
     position: relative;
     text-align: center;
-    padding-top: 37.5%;
+    padding-top: 47.5%;
     padding-bottom: 2em;
 
     &.with-image {
@@ -126,11 +126,8 @@ body.video cite { color: #fff; }
       background-position: center center;
     }
 
-    .row {
-      position: absolute;
-      left: 0;
-      bottom: 30%;
-      right: 0;
+    .masthead-title {
+      margin-bottom: 0.4em;
     }
 
     .masthead-title, .masthead-subtitle {
@@ -140,7 +137,7 @@ body.video cite { color: #fff; }
     }
 
     h1 {
-      font-size: rem-calc(78);
+      font-size: rem-calc(62);
     }
 
     .masthead-subtitle {
@@ -183,9 +180,6 @@ body.video cite { color: #fff; }
     }
     #masthead-with-text {
         padding: 4em 0 3em 0;
-        .row {
-          position: relative;
-        }
         h1 {
           font-size: rem-calc(50);
         }
@@ -213,10 +207,7 @@ body.video cite { color: #fff; }
         padding: 20px 0;
     }
     #masthead-with-text {
-        padding: 6em 0 4em 0;
-        .row {
-          position: relative;
-        }
+        padding: 6em 0 6em 0;
         h1 {
           font-size: rem-calc(65);
         }
@@ -263,6 +254,20 @@ body.video cite { color: #fff; }
     }
     #masthead-with-text {
     }
+}
+
+@media #{$large-up} {
+  #masthead-with-text {
+    .row {
+      position: absolute;
+      left: 0;
+      bottom: 40%;
+      right: 0;
+      transform: translate(0%, 30%);
+      -moz-transform: translate(0%, 30%);
+      -webkit-transform: translate(0%, 30%);
+    }
+  }
 }
 
 
