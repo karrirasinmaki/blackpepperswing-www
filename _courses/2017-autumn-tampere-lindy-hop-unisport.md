@@ -1,4 +1,6 @@
 ---
+published: false
+
 name: Beginners @UniSport
 city: Helsinki
 type: Lindy Hop

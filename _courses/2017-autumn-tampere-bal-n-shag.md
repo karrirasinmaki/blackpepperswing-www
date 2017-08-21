@@ -1,4 +1,6 @@
 ---
+published: false
+
 name: Beginners
 city: Tampere
 type: Bal'n'Shag

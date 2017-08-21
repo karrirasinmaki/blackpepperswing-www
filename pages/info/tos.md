@@ -14,7 +14,7 @@ Kurssi voidaan keskeyttää vain erityistapauksissa, kuten sairastumisen, loukka
 
 ## Maksut
 
-Kursseista lähetetään laskut ilmoittautumisen yhteydessä ilmoittautuneelle. Laskuilla on 14 päivän maksuehto.
+Kursseista lähetetään lasku ilmoittautumisen yhteydessä. Laskuilla on 14 päivän maksuehto.
 
 ## Alennukset
 
@@ -22,7 +22,7 @@ Opiskelijat ja työttömät ovat oikeutettu 10% alennukseen merkityillä kurssei
 
 ## Muutokset tunteihin
 
-Yllättävistä ja äkillisistä muutoksista tunteihin (opettajien sairastuminen, yms.) ilmoitetaan sähköpostilla ilmoittautuneille. Peruttu tunti korvataan saman kauden aikana. Mahdollisista sijaistuksista ei ilmoiteta erikseen.
+Yllättävistä ja äkillisistä muutoksista tunteihin (peruuntuminen, sijainnin muutos, yms.) ilmoitetaan sähköpostilla ilmoittautuneille. Peruttu tunti korvataan saman kauden aikana. Mahdollisista sijaistuksista ei ilmoiteta erikseen.
 
 ## Muuta
 

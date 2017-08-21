@@ -1,4 +1,6 @@
 ---
+published: false
+
 name: Beginners @Unipol
 city: Tampere
 type: Lindy Hop
