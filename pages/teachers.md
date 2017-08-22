@@ -1,7 +1,9 @@
 ---
 layout: page-fullwidth
 
-title: Teachers
+meta_title: Teachers
+title: Our Teachers
+subheadline: Skilled. Precise. Engaging. And a bit special.
 image:
   src: classroom.jpg
   caption: Artist Unknown | Helsinkikuvia.fi

@@ -16,3 +16,5 @@ Dates:
 No lesson on 18.10.
 
 This course aims at teaching you the very basics of Lindy hop. You will learn how to move yourself and your partner to swinging jazz tunes. We will work on basic patterns, rhythms and fundamentals of partner connection. In the Beginners course all participants learns to lead and follow. We rotate partners during the lesson. You may sign up alone or with a partner.
+
+{% include signup.html %}

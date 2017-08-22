@@ -21,6 +21,8 @@ This course will take your hopping to a new level by focussing on basic dance te
 
 You can sign up alone or with a partner. Single registrations are accepted in order of registration.
 
+{% include signup.html %}
+
 {% elsif site.active_lang == 'fi' %}
 
 Kurssilla kehitämme tanssisi sujuvuutta ja perustekniikkaa, opit ymmärtämään seuraamisen ja viemisen mekanismeja ja manipuloimaan niitä, käyttämään omaa kehoa jalkatyön ja askelvariaatioiden ohella ja opit uusia keinoja tulkita swing-musiikkia. Teemme tavoitteellisia harjoitteita yksilö-, pari-, ja ryhmätasolla.

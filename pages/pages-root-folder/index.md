@@ -1,12 +1,12 @@
 ---
 layout: frontpage
 
+meta_title: Black Pepper Swing
 title: Hopping around swamps and lakes since 2017
-subheadline: We are a swing dance school based in Helsinki, Tampere and Jyväskylä, founded and run through passion for authentic jazz dances. We teach, organize, social dance, perform and keep the dance floor busy.
+subheadline: We are a swing dance school based in Helsinki, Tampere and Jyväskylä, founded and run through passion for authentic swing dances. We teach, organize, social dance, perform and keep the dance floor busy.
 image:
-  src: men-stones.jpg
-  caption: Kannisto Väinö | Helsinkikuvia.fi
-  caption_url: https://www.helsinkikuvia.fi/
+  src: lindy-in-forest.jpg
+  caption: Jouko Järnefelt
 
 permalink: /index.html
 ---
@@ -34,11 +34,10 @@ Lindy hop, Shag and Balboa for dancers of different levels and with different ai
 
 We focus on teaching and practising authentic jazz dances. These dance forms from America’s 1920’s to 1940’s are all marked by their development as social dances. They also formed the roots for many well known modern street dances. Thanks to the large swing dance revival of the 1990’s they are now more popular than ever before and inspire people all over the planet to dance with each other. 
 
-{% assign dances = site.dances | sort: "order" %}
+{% assign dances = site.dances | sort: "order" %}
 {% include grid.html cols=3 collection=dances template="title-exceprt-snippet.html" %}
 
 <!--
----
 
 ## Latest articles
 

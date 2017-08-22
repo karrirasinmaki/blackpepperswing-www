@@ -23,4 +23,6 @@ This course is meant for university students who want to have an insight into th
 
 Teaching is in English, but Finnish can be used when needed.
 
+The registration link will forward you to the official inscription on the university sport webpage.
+
 <a href="https://korppi.jyu.fi/kotka/course/student/generalCourseInfo.jsp?course=221218" target="_blank" class="button">Sign up here</a>

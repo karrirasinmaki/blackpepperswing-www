@@ -27,8 +27,9 @@ function optimizeImages() {
     .pipe(gulp.dest('images'));
 }
 
-function buildJekyll() {
-  exec('bundle exec jekyll build --config _config.yml,_config_firebase.yml', (err, stdout, stderr) => {
+function buildJekyll(extraparams) {
+  extraparams = extraparams || '';
+  exec('bundle exec jekyll build --config _config.yml' + extraparams, (err, stdout, stderr) => {
     if (err) {
       // node couldn't execute the command
       console.log('Error', err);
@@ -48,4 +49,8 @@ gulp.task('default', ['images'], () => {});
 
 gulp.task('build', ['images'], () => {
   buildJekyll();
+});
+
+gulp.task('build-dev', ['images'], () => {
+  buildJekyll(',_config_firebase.yml');
 });

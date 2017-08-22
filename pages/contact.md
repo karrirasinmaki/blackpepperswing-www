@@ -1,4 +1,5 @@
 ---
+meta_title: Contact
 title: Contact Us
 image:
   src: telephone-center.jpg

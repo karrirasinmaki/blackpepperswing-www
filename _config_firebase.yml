@@ -5,8 +5,10 @@
 #
 # Start development with › $ jekyll serve --config _config.yml,_config_firebase.yml
 
-url: 'https://blackpepperswing.firebaseapp.com/'
+url: 'https://blackpepperswing.firebaseapp.com'
+baseurl: ''
 urlimg: 'https://blackpepperswing.firebaseapp.com/images/'
+urlassets: 'https://blackpepperswing.firebaseapp.com/assets/'
 
 sass:
   # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
