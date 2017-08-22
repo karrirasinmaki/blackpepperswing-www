@@ -25,7 +25,10 @@ help_improve_it: "Help improve it"
 enter_search_term: "Enter search term and hit enter"
 
 teachers: "Teachers"
+duration: "Duration"
 dates: "Dates"
 time: "Time"
 price: "Price"
 read_more_and_sign_up: "Read more and sign up"
+
+months_duration: "months"

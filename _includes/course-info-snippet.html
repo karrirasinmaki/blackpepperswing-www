@@ -1,0 +1,15 @@
+{% unless entry %}
+  {% assign entry = page %}
+{% endunless %}
+<h3>
+  <small class="subheader">{{ entry.name }}</small><br>
+  {{ entry.type }}
+</h3>
+<p>
+  <b>{{ site.data.language.teachers }}: </b>{{ entry.teachers}}<br>
+  {% if entry.duration_in_months %}<b>{{ site.data.language.duration }}: </b>{{ entry.duration_in_months}} {{ site.data.language.months_duration }}<br>{% endif %}
+  <b>{{ site.data.language.dates }}: </b>{{ entry.dates}}<br>
+  <b>{{ site.data.language.time }}: </b>{{ entry.time}}<br>
+  <b>{{ site.data.language.price }}: </b>{{ entry.price}}<br>
+</p>
+

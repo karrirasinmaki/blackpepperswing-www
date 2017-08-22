@@ -1,11 +1,2 @@
-<h3>
-  <small class="subheader">{{ entry.name }}</small><br>
-  {{ entry.type }}
-</h3>
-<p>
-  <b>{{ site.data.language.teachers }}: </b>{{ entry.teachers}}<br>
-  <b>{{ site.data.language.dates }}: </b>{{ entry.dates}}<br>
-  <b>{{ site.data.language.time }}: </b>{{ entry.time}}<br>
-  <b>{{ site.data.language.price }}: </b>{{ entry.price}}<br>
-</p>
+{% include course-info-snippet.html %}
 <a class="button" href="{{{ site.url }}{{ entry.url }}">{{ site.data.language.read_more_and_sign_up }}</a>

@@ -2,11 +2,7 @@
 layout: page
 ---
 
-<h3>{{ page.name }}</h3>
-<b>{{ site.data.language.teachers }}: </b>{{ page.teachers}}<br>
-<b>{{ site.data.language.dates }}: </b>{{ page.dates}}<br>
-<b>{{ site.data.language.time }}: </b>{{ page.time}}<br>
-<b>{{ site.data.language.price }}: </b>{{ page.price}}<br>
+{% include course-info-snippet.html %}
 
 {% if page.default_pricing %}
 	{% if site.active_lang == 'en' %}

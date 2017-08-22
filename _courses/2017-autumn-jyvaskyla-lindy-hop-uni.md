@@ -3,6 +3,7 @@ name: Beginners @University
 city: Jyväskylä
 type: Lindy Hop
 teachers: Jaana Moisio & Marko Moisio
+duration_in_months: 1
 dates: Saturdays, 28.10.2017 - 18.11.2017
 time: 14.00 - 15.30
 price: 25 € (4 classes)
@@ -18,10 +19,8 @@ Dates:
 - 25.11.2017
 
 
-Lindy Hop on hauska, energinen paritanssi, joka on peräisin 1930-luvun New Yorkista. Tällä kurssilla tutustumme Lindy Hopin liikekieleen, rytmityksiin ja vienti-seurantaan. Vanhana tanssina Lindy Hoppiin sisältyy paljon elementtejä, joten ensimmäisellä tutustumiskurssilla painopiste on vauhtiin ja tanssin iloon pääsemisessä; tyhjentävään liikkeiden opetukseen ei ole mahdollisuutta. 
+This course is meant for university students who want to have an insight into the most fun dance in the world. In this course you learn basic movements, rhythms and couple connection of the dance. The aim of the course is to give you a fun and fundamental start. You can sign up alone or preferably with a partner. The registration is gender neutral, so be ready to lead and follow. We rotate partners during the classes.
 
-Kurssi opetetaan englanniksi suomenkielellä höystettynä tarpeen tullen. 
+Teaching is in English, but Finnish can be used when needed.
 
-Koska Lindy Hop on paritanssi, olisi hyvä (muttei välttämätöntä) ilmoittautua parin kanssa. Naisparit ja miesparit sopivat hyvin Lindy Hopin henkeen, tärkeää on sopia että toinen opettelee tällä kurssilla seuraamista ja toinen viemistä. Pareja vaihdetaan jatkuvasti tunnilla, eli parin kanssa ilmoittautuminen on vain ilmoittautumiseen liittyvä yksityiskohta.
-
-https://korppi.jyu.fi/kotka/course/student/generalCourseInfo.jsp?course=221218
+<a href="https://korppi.jyu.fi/kotka/course/student/generalCourseInfo.jsp?course=221218" target="_blank" class="button">Sign up here</a>

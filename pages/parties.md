@@ -1,5 +1,6 @@
 ---
-title: Swing out all night long.
+meta_title: Parties and social nights
+title: Swing out all night long
 image:
   src: parties.jpg
   caption: Ahola Harri | Helsinkikuvia.fi
