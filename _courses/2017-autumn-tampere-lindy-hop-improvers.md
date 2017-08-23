@@ -5,6 +5,8 @@ type: Lindy Hop
 teachers: Tanja Wingerter & Karri Rasinmäki
 duration_in_months: 3
 dates: Wednesdays, 6.9.2017 - 29.11.2017
+registration_open: 2017-08-22
+registration_close: 2017-08-30
 time: 19.00 - 20.00
 price: 144 € (12 classes)
 

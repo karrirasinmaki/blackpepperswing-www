@@ -5,6 +5,8 @@ type: Lindy Hop
 teachers: Jaana Moisio & Marko Moisio
 duration_in_months: 1
 dates: Saturdays, 28.10.2017 - 18.11.2017
+registration_open: 2017-10-14
+registration_close: 2017-10-28
 time: 14.00 - 15.30
 price: 25 € (4 classes)
 default_pricing: false

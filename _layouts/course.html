@@ -18,6 +18,12 @@ layout: page
 	{% endif %}
 {% endif %}
 
+{% if page.registration_open and page.registration_close %}
+<h4>Registration</h4>
+<b>{{ site.data.language.opens_registration }}:</b> {{ page.registration_open | time_tag }}<br>
+<b>{{ site.data.language.closes_registration }}:</b> {{ page.registration_close | time_tag }}
+{% endif %}
+
 <hr>
 
 {{ content }}

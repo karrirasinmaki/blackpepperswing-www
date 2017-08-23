@@ -91,6 +91,7 @@ default_lang: "en"
 exclude_from_localization: ["assets", "images"]
 parallel_localization: true
 
+date_format: "%d %B %Y"
 
 # Used › default.html front-matter and compress.html
 # Options › http://jch.penibelst.de
