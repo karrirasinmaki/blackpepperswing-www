@@ -3,6 +3,11 @@ layout: page
 ---
 
 {% include course-info-snippet.html %}
+{% if page.address %}
+<p>
+	<b>{{ site.data.language.address }}: </b>{{ page.address }}
+</p>
+{% endif %}
 
 {% if page.default_pricing %}
 	{% if site.active_lang == 'en' %}
@@ -27,3 +32,14 @@ layout: page
 <hr>
 
 {{ content }}
+
+<hr>
+
+{% if page.address %}
+<h4>
+	<small class="subheader">{{ site.data.language.address }}</small>
+	<br>
+{{ page.address }}</h4>
+<br>
+<iframe src="https://maps.google.com/maps?q={{ page.address }}&output=embed" width="620" height="230" frameborder="0" style="border:0;max-width:100%;" allowfullscreen></iframe>
+{% endif %}
