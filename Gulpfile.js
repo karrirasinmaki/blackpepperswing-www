@@ -2,7 +2,8 @@ const gulp = require('gulp');
 const imageResize = require('gulp-image-resize');
 const imagemin = require('gulp-imagemin');
 const { exec } = require('child_process');
- 
+const runSequence = require('run-sequence');
+
 function resizeImages() {
   return gulp.src('_images/*')
     .pipe(imageResize({
@@ -54,10 +55,16 @@ gulp.task('default', () => {
   `);
 });
 
-gulp.task('images', ['resize_images', 'optimize_images'], () => {});
+gulp.task('images', (cb) => {
+  runSequence('resize_images', 'optimize_images', cb);
+});
 
-gulp.task('build', ['images'], () => {
+gulp.task('build-jekyll', () => {
   buildJekyll();
+});
+
+gulp.task('build', (cb) => {
+  runSequence('images', 'build-jekyll', cb);
 });
 
 gulp.task('build-dev', ['images'], () => {
