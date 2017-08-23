@@ -31,7 +31,7 @@ function optimizeImages() {
 
 function buildJekyll(extraparams) {
   extraparams = extraparams || '';
-  exec('bundle exec jekyll build --config _config.yml' + extraparams, (err, stdout, stderr) => {
+  exec('bundle exec jekyll build --incremental --config _config.yml' + extraparams, (err, stdout, stderr) => {
     if (err) {
       // node couldn't execute the command
       console.log('Error', err);
