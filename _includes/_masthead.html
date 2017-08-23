@@ -9,7 +9,7 @@
 
 
 
-<div id="masthead-with-text" class="{% if page.image %}with-image{% endif %}" style="
+<div id="masthead-with-text" class="{% if page.image %}with-image {% endif %}{% if page.header.large %}large{% endif %}" style="
 	{% if page.image and page.image.src %}background-image: url('{{ site.urlimg }}/{{ page.image.src }}'); {% endif %}
 	{% if page.header.background-color %}background-color: {{ page.header.background-color }}; {% endif %}
 	{% if page.header.pattern %}background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('{{ site.urlimg }}/{{ page.header.pattern }}'); {% endif %}">

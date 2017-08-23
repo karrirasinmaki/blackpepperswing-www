@@ -15,3 +15,6 @@ Do you have ideas for courses? Feedback? Or you look for a performance at your e
 {{ site.email }}
 
 {{ site.address }}
+
+{% assign facebook = site.data.socialmedia | where: "name","Facebook" | first %}
+[You can find us on Facebook]({{ facebook.url }})

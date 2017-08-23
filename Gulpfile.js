@@ -4,25 +4,27 @@ const imagemin = require('gulp-imagemin');
 const { exec } = require('child_process');
  
 function resizeImages() {
-  gulp.src('_images/*')
+  return gulp.src('_images/*')
     .pipe(imageResize({
       width : 300,
       height : 300,
       crop : true,
-      upscale : false
+      upscale : false,
+      imageMagick: true
     }))
-    .pipe(gulp.dest('images/thumb'));
-  gulp.src('_images/*')
+    .pipe(gulp.dest('images/thumb'))
+
     .pipe(imageResize({
       width : 1366,
       crop : false,
-      upscale : false
+      upscale : false,
+      imageMagick: true
     }))
     .pipe(gulp.dest('images/large'));
 }
 
 function optimizeImages() {
-  gulp.src(['_images/*', 'images/*'])
+  return gulp.src(['_images/*', 'images/*'])
     .pipe(imagemin())
     .pipe(gulp.dest('images'));
 }
@@ -43,9 +45,16 @@ function buildJekyll(extraparams) {
 
 gulp.task('resize_images', () => resizeImages());
 gulp.task('optimize_images', () => optimizeImages());
-gulp.task('images', ['resize_images', 'optimize_images'], () => {});
 
-gulp.task('default', ['images'], () => {});
+gulp.task('default', () => {
+  console.log(`
+  images - build images
+  build - build all
+  build-dev - build all for dev
+  `);
+});
+
+gulp.task('images', ['resize_images', 'optimize_images'], () => {});
 
 gulp.task('build', ['images'], () => {
   buildJekyll();
