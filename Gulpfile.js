@@ -11,6 +11,7 @@ function resizeImagesThumb() {
       height : 300,
       crop : true,
       upscale : false,
+      quality: 0.85,
       imageMagick: true
     }))
     .pipe(gulp.dest('images/thumb'));
@@ -23,6 +24,7 @@ function resizeImagesCover() {
       height : 716,
       crop : true,
       upscale : false,
+      quality: 0.85,
       imageMagick: true
     }))
     .pipe(gulp.dest('images/cover'));
@@ -34,20 +36,32 @@ function resizeImagesLarge() {
       width : 1366,
       crop : false,
       upscale : false,
+      quality: 0.85,
       imageMagick: true
     }))
     .pipe(gulp.dest('images/large'));
 }
 
 function optimizeImages() {
-  return gulp.src(['_images/*', 'images/*'])
-    .pipe(imagemin())
+  return gulp.src(['images/**/*'])
+    .pipe(imagemin([
+      imagemin.jpegtran({ progressive: true })
+    ]))
     .pipe(gulp.dest('images'));
 }
 
-function buildJekyll(extraparams) {
-  extraparams = extraparams || '';
-  exec('bundle exec jekyll build --incremental --config _config.yml' + extraparams, (err, stdout, stderr) => {
+function buildJekyll(env) {
+  var buildline = 'bundle exec jekyll build --incremental --config _config.yml';
+  if (env === 'production') {
+    buildline = 'JEKYLL_ENV=production ' + buildline;
+  }
+  else if (env === 'development') {
+    buildline = buildline + ',_config_firebase.yml';
+  }
+  else if (env === 'local') {
+    buildline = buildline.replace('jekyll build', 'jekyll serve') + ',_config_dev.yml';
+  }
+  exec(buildline, (err, stdout, stderr) => {
     if (err) {
       // node couldn't execute the command
       console.log('Error', err);
@@ -79,7 +93,7 @@ gulp.task('images', (cb) => {
 });
 
 gulp.task('build-jekyll', () => {
-  buildJekyll();
+  buildJekyll('production');
 });
 
 gulp.task('build', (cb) => {
@@ -87,5 +101,9 @@ gulp.task('build', (cb) => {
 });
 
 gulp.task('build-dev', ['images'], () => {
-  buildJekyll(',_config_firebase.yml');
+  buildJekyll('development');
+});
+
+gulp.task('serve', ['images'], () => {
+  buildJekyll('local');
 });
