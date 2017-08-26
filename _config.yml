@@ -248,6 +248,9 @@ msapplication_tilecolor:                "#fabb00"
 # og_url:                           ""
 # og_site_name:                     ""
 
+facebook_sdk: true
+facebook_app_id: 335589810224955
+
 
 #      _____            _       __   __  ___         ___
 #     / ___/____  _____(_)___ _/ /  /  |/  /__  ____/ (_)___ _
