@@ -12,7 +12,7 @@ price: 160 € (5 * 120 min classes)
 default_pricing: false
 address: Jazz Factory, Sörnäisten rantatie 33, 00500 Helsinki
 
-registration_open: 2017-08-27
+registration_open: 2017-08-28
 registration_close: 2017-09-20
 
 title: Lindy Hop Boot Camp
