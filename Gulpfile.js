@@ -4,7 +4,7 @@ const imagemin = require('gulp-imagemin');
 const { exec } = require('child_process');
 const runSequence = require('run-sequence');
 
-function resizeImages() {
+function resizeImagesThumb() {
   return gulp.src('_images/*')
     .pipe(imageResize({
       width : 300,
@@ -13,8 +13,23 @@ function resizeImages() {
       upscale : false,
       imageMagick: true
     }))
-    .pipe(gulp.dest('images/thumb'))
+    .pipe(gulp.dest('images/thumb'));
+}
 
+function resizeImagesCover() {
+  return gulp.src('_images/*')
+    .pipe(imageResize({
+      width : 1440,
+      height : 716,
+      crop : true,
+      upscale : false,
+      imageMagick: true
+    }))
+    .pipe(gulp.dest('images/cover'));
+}
+
+function resizeImagesLarge() {
+  return gulp.src('_images/*')
     .pipe(imageResize({
       width : 1366,
       crop : false,
@@ -44,7 +59,11 @@ function buildJekyll(extraparams) {
   });
 }
 
-gulp.task('resize_images', () => resizeImages());
+gulp.task('resize_images_thumb', () => resizeImagesThumb());
+gulp.task('resize_images_large', () => resizeImagesLarge());
+gulp.task('resize_images_cover', () => resizeImagesCover());
+
+gulp.task('resize_images', ['resize_images_thumb', 'resize_images_large', 'resize_images_cover'], () => {});
 gulp.task('optimize_images', () => optimizeImages());
 
 gulp.task('default', () => {
