@@ -1,6 +1,8 @@
 ---
 lang: en
 
+meta_description: Our policies about registration, discounts, payments and other.
+
 title: Terms of Service
 
 permalink: /info/tos/

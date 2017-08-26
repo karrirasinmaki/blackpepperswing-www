@@ -11,6 +11,8 @@ image:
 permalink: "/helsinki/"
 ---
 
+<!--more-->
+
 ## Lindy Hop
 {% include courses.html type='Lindy Hop' city='Helsinki' %}
 

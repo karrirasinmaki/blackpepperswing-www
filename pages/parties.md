@@ -1,5 +1,7 @@
 ---
 meta_title: Parties and social nights
+meta_description: More information coming soon...
+
 title: Swing out all night long
 image:
   src: parties.jpg

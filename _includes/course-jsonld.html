@@ -1,0 +1,48 @@
+{% unless entry %}
+  {% assign entry = page %}
+{% endunless %}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Course",
+  "name": "{{ entry.type }} {{ entry.name }}",
+  "description": "{{ entry.excerpt | strip_html }}",
+  "provider": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "sameAs": "{{ site.url }}"
+  },
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "name": "{{ entry.type }} {{ entry.name }}",
+    "location": {
+      "@type": "Place",
+      "address": {
+	"@type": "PostalAddress",
+	"addressCountry": "Finland",
+	"addressLocality": "{{ entry.city }}",
+	"streetAddress": "{{ entry.address }}"
+      }
+    },
+    "startDate": "{{ entry.date_start }}",
+    "endDate": "{{ entry.date_end }}",
+    "instructor": [
+       {% assign teachers = entry.teachers | split: ' & ' | join: ', ' | split: ', ' %}
+       {% for teacher in teachers %}
+       {
+	 "@type": "Person",
+	 "name": "{{ teacher }}"
+       }{% if forloop.last == false %},{% endif %}
+       {% endfor %}
+    ]
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "EUR",
+    {% assign price = entry.price | split: '€' %}
+    {% assign price = price[0] | strip %}
+    "price": "{{ price }}"
+  }
+}
+</script>
+

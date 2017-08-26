@@ -2,6 +2,8 @@
 layout: page-fullwidth
 
 meta_title: Teachers
+meta_description: Skilled. Precise. Engaging. And a bit special.
+
 title: Our Teachers
 subheadline: Skilled. Precise. Engaging. And a bit special.
 image:

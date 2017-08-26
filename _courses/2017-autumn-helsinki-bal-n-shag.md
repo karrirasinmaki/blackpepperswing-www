@@ -4,10 +4,15 @@ city: Helsinki
 type: Bal'n'Shag
 teachers: Riikka Väänäkoski & Mikko Väänäkoski, Elisa Schäfer & Pasi Ojala
 duration_in_months: 2
-dates: Wednesdays, 27.9.2017 - 15.11.2017
+day: Wednesdays
+date_start: 2017-09-27
+date_end: 2017-11-15
 time: 17.30 - 18.30
 price: 96 € (8 classes)
 address: Jazz Factory, Sörnäisten rantatie 33, 00500 Helsinki
+
+registration_open: 2017-08-27
+registration_close: 2017-09-20
 
 title: Bal 'n' Shag
 ---

@@ -4,7 +4,9 @@ city: Tampere
 type: Lindy Hop
 teachers: Tanja Wingerter & Karri Rasinmäki
 duration_in_months: 3
-dates: Wednesdays, 6.9.2017 - 29.11.2017
+day: Wednesdays
+date_start: 2017-09-06
+date_end: 2017-11-29
 registration_open: 2017-08-22
 registration_close: 2017-08-30
 address: Kumppanuustalo Artteli, Salhojankatu 42, 4th floor

@@ -4,7 +4,9 @@ city: Tampere
 type: Bal'n'Shag
 teachers: Sanna Leinonen & Adam LaMontagne, Ulla Ritamäki & Klaus-Mikael Honko
 duration_in_months: 2
-dates: Wednesdays, 4.10.2017 - 29.11.2017
+day: Wednesdays
+date_start: 2017-10-04
+date_end: 2017-11-29
 registration_open: 2017-08-22
 registration_close: 2017-09-20
 address: Kumppanuustalo Artteli, Salhojankatu 42, 4th floor

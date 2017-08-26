@@ -4,10 +4,15 @@ city: Helsinki
 type: Lindy Hop
 teachers: Tanja Wingerter & Karri Rasinmäki
 duration_in_months: 2
-dates: Thursdays, 5.10.2017 - 30.11.2017
+day: Thursdays
+date_start: 2017-10-05
+date_end: 2017-11-30
 time: 19.15 - 20.15
 price: 96 € (8 classes)
 address: Aleksis Kiven Katu 34, Helsinki
+
+registration_open: 2017-08-27
+registration_close: 2017-09-20
 
 title: Lindy Hop Beginners
 ---

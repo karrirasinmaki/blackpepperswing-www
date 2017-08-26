@@ -11,6 +11,8 @@ image:
 permalink: "/tampere/"
 ---
 
+<!--more-->
+
 ## Lindy Hop
 {% include courses.html type='Lindy Hop' city='Tampere' %}
 

@@ -2,16 +2,13 @@
 layout: page
 ---
 
+{% include course-jsonld.html %}
+
 <div class="text-right">
 	<div class="fb-save" data-uri="{{ page.url | absolute_url }}" class="float-right"></div>
 </div>
 
-{% include course-info-snippet.html %}
-{% if page.address %}
-<p>
-	<b>{{ site.data.language.address }}: </b>{{ page.address }}
-</p>
-{% endif %}
+{% include course-info-snippet.html show_address=true %}
 
 {% if page.default_pricing %}
 	{% if site.active_lang == 'en' %}
@@ -28,7 +25,7 @@ layout: page
 {% endif %}
 
 {% if page.registration_open and page.registration_close %}
-<h4>Registration</h4>
+<h4>{{ site.data.language.registration }}</h4>
 <b>{{ site.data.language.opens_registration }}:</b> {{ page.registration_open | time_tag }}<br>
 <b>{{ site.data.language.closes_registration }}:</b> {{ page.registration_close | time_tag }}
 {% endif %}
