@@ -1,5 +1,24 @@
 {
   "hosting": {
-    "public": "_site"
+    "public": "_site",
+    "headers": [
+      {
+        "source" : "**/*.@(eot|otf|ttf|ttc|woff|font.css)",
+        "headers" : [ {
+          "key" : "Access-Control-Allow-Origin",
+          "value" : "*"
+        }, {
+          "key" : "Cache-Control",
+          "value" : "max-age=86400"
+        } ]
+      },
+      {
+        "source" : "**/*.@(jpg|jpeg|gif|png)",
+        "headers" : [ {
+          "key" : "Cache-Control",
+          "value" : "max-age=7200"
+        } ]
+      }
+    ]
   }
 }
