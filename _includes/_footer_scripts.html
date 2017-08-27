@@ -2,18 +2,10 @@
 
 
 {% unless site.webfonts == false %}
-<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
-<script>
-  WebFont.load({
-    google: {
-      families: [ 'Bitter:400,700,400italic:latin', 'Montserrat:400,700:latin' ]
-    }
-  });
-</script>
+{% assign webfonts_href = 'http://fonts.googleapis.com/css?family=Bitter:400,700,400italic:latin|Montserrat:400,700:latin' %}
+<link href='{{ webfonts_href }}' rel='stylesheet' type='text/css' media="none" onload="if(media!='all')media='all'" />
+<noscript><link href='{{ webfonts_href }}' rel='stylesheet' type='text/css' /></noscript>
 {% endunless %}
-<noscript>
-  <link href='http://fonts.googleapis.com/css?family=Bitter:400,700,400italic:latin|Montserrat:400,700:latin' rel='stylesheet' type='text/css' />
-</noscript>
 
 
 {% if page.mediaplayer == true %}

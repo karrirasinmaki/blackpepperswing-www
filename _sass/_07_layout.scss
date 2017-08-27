@@ -118,10 +118,6 @@ body.video cite { color: #fff; }
 #masthead-with-text {
     position: relative;
     text-align: center;
-    padding-top: 27%;
-    &.large {
-      padding-top: 47.5%;
-    }
     padding-bottom: 2em;
 
     &.with-image {
@@ -182,9 +178,12 @@ body.video cite { color: #fff; }
         padding: 15px 0;
     }
     #masthead-with-text {
-        padding: 4em 0 3em 0;
+        padding: 2em 0 3em 0;
+        .masthead-subtitle {
+          font-size: rem-calc(18);
+        }
         h1 {
-          font-size: rem-calc(50);
+          font-size: rem-calc(42);
         }
     }
     #masthead-no-image-header {
@@ -212,7 +211,7 @@ body.video cite { color: #fff; }
     #masthead-with-text {
         padding: 6em 0 6em 0;
         h1 {
-          font-size: rem-calc(65);
+          font-size: rem-calc(58);
         }
     }
 }
@@ -261,6 +260,10 @@ body.video cite { color: #fff; }
 
 @media #{$large-up} {
   #masthead-with-text {
+    padding-top: 27%;
+    &.large {
+      padding-top: 47.5%;
+    }
     .row {
       position: absolute;
       left: 0;
