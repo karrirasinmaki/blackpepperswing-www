@@ -7,7 +7,7 @@ day: Sundays
 date_start: 2017-10-01
 date_end: 2017-11-27
 repeat: every second week
-time: Will be confirmed soon!
+time: 14.00 - 16.00
 price: 160 € (5 * 120 min classes)
 default_pricing: false
 address: Jazz Factory, Sörnäisten rantatie 33, 00500 Helsinki

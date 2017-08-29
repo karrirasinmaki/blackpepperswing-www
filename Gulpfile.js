@@ -51,7 +51,7 @@ function optimizeImages() {
 }
 
 function buildJekyll(env) {
-  var buildline = 'bundle exec jekyll build --incremental --config _config.yml';
+  var buildline = 'bundle exec jekyll build --config _config.yml';
   if (env === 'production') {
     buildline = 'JEKYLL_ENV=production ' + buildline;
   }
