@@ -2,7 +2,7 @@
 name: Boot Camp
 city: Helsinki
 type: Lindy Hop
-teachers: Laura Halttunen and quest teachers
+teachers: Laura Halttunen and guest teachers
 day: Sundays
 date_start: 2017-10-01
 date_end: 2017-11-27
