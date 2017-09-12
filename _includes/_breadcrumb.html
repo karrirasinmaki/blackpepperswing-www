@@ -4,9 +4,31 @@
 *  
 {% endcomment %}
 
+{% assign crumbs = page.url | split: '/' %}
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {% for crumb in crumbs offset: 1 %}
+    {% capture crumb_url %}{{ site.url }}{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}{% endcapture %}
+    {
+      "@type": "ListItem",
+      "position": {{ forloop.index }},
+      "item": {
+        "@id": "{{ crumb_url }}",
+        "name": "{{ crumb | replace:'-',' ' }}"
+      }
+    }{% if forloop.last == false %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+
+{% if page.breadcrumb == true %}
 <nav class="breadcrumbs" role="menubar" aria-label="breadcrumbs">
  <a href="{{ site.url }}">{{ site.data.language.breadcrumb_start }}</a>
- {% assign crumbs = page.url | split: '/' %}
    {% for crumb in crumbs offset: 1 %}
     {% if forloop.last %}
         <a class="current">{{ page.title }}</a>
@@ -15,3 +37,4 @@
     {% endif %}
   {% endfor %}
 </nav>
+{% endif %}

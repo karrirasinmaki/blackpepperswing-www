@@ -1,0 +1,30 @@
+<script type='application/ld+json'> 
+{
+  "@context": "http://www.schema.org",
+  "@type": "HealthAndBeautyBusiness",
+  "legalName": "Black Pepper Swing",
+  "name": "Black Pepper Swing",
+  "url": "https://blackpepperswing.com/",
+  "description": "{{ description }}",
+  "sameAs": [
+    {% for social_item in site.data.socialmedia %}
+    "{{ social_item.url }}"{% if forloop.last == false %},{% endif %}
+    {% endfor %}
+  ],
+  "address": [
+    {
+      "@type": "PostalAddress",
+      "addressLocality": "Helsinki"
+    },
+    {
+      "@type": "PostalAddress",
+      "addressLocality": "Tampere"
+    },
+    {
+      "@type": "PostalAddress",
+      "addressLocality": "Jyväskylä"
+    }
+  ]
+}
+ </script>
+

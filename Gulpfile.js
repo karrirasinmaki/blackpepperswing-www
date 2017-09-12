@@ -61,7 +61,8 @@ function buildJekyll(env) {
   else if (env === 'local') {
     buildline = buildline.replace('jekyll build', 'jekyll serve') + ',_config_dev.yml';
   }
-  exec(buildline, (err, stdout, stderr) => {
+  console.log(buildline);
+  return exec(buildline, (err, stdout, stderr) => {
     if (err) {
       // node couldn't execute the command
       console.log('Error', err);
@@ -104,6 +105,6 @@ gulp.task('build-dev', ['images'], () => {
   buildJekyll('development');
 });
 
-gulp.task('serve', ['images'], () => {
+gulp.task('serve', () => {
   buildJekyll('local');
 });

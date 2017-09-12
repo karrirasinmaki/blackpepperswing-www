@@ -8,10 +8,11 @@
   class: icon-youtube
   title: ""
 
-# - name: Twitter
-#   url: http://twitter.com/
-#   class: icon-twitter
-#   title: ""
+- name: Twitter
+  url: http://twitter.com/bpsswing
+  class: icon-twitter
+  title: ""
+  visible: false
 
 # - name: Mixcloud
 #   url: http://www.mixcloud.com/
@@ -23,10 +24,11 @@
   class: icon-facebook
   title: ""
 
-# - name: Messenger
-#   url: https://m.me/blackpepperswing
-#   class: icon-message
-#   title: ""
+- name: Messenger
+  url: https://m.me/blackpepperswing
+  class: icon-message
+  title: ""
+  visible: false
 
 # - name: Soundcloud
 #   url: http://soundcloud.com/
