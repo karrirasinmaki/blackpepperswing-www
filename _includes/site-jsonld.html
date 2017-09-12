@@ -5,7 +5,7 @@
   "legalName": "Black Pepper Swing",
   "name": "Black Pepper Swing",
   "url": "https://blackpepperswing.com/",
-  "description": "{{ description }}",
+  "description": "{{ site.description }}",
   "sameAs": [
     {% for social_item in site.data.socialmedia %}
     "{{ social_item.url }}"{% if forloop.last == false %},{% endif %}

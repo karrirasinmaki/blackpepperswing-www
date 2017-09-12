@@ -15,7 +15,7 @@ Twitter: {{ author.twitter }}{% endif %}
 /* THANKS */
 
 Name: Moritz »mo.« Sauer
-Role: Creator of the Theme
+Role: Creator of the base theme Theme Feeling Responsive
 Site: http://mo.phlow.de/
 Twitter: @phlow
 Theme: http://phlow.github.io/feeling-responsive/
@@ -25,5 +25,5 @@ Theme: http://phlow.github.io/feeling-responsive/
 
 Last Updated: {{ site.time | date:"%Y/%m/%d" }}
 Standards: HTML5, CSS3
-Software: Sublime Text, Chrome, Jekyll, Git, Imageoptim, JPEGMini, Gulp.js, Sass
-Components: Foundation Framework, Modernizr, jQuery, Backstretch.js, Reveal
+Software: vim, Chrome, Jekyll, Git, Imageoptim, JPEGMini, Gulp.js, Sass
+Components: Foundation Framework, Modernizr, jQuery

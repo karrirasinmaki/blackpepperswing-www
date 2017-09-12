@@ -1,4 +1,19 @@
+{% comment %} Title {% endcomment %}
 {% capture title_tag %}{% if page.meta_title %}{{ page.meta_title }}{% elsif page.title %}{{ page.title }}{% endif %}{% endcapture %}
+
+{% comment %} Description {% endcomment %}
+{% if page.meta_description %}
+  {% assign og_description = page.meta_description %}
+{% elsif page.description %}
+  {% assign og_description = page.description %}
+{% elsif page.teaser %}
+  {% assign og_description = page.teaser %}
+{% elsif site.description %}
+  {% assign og_description = site.description %}
+  {% if page.excerpt %}{% if page.excerpt.size > 5 %}{% capture og_description %}{{ page.excerpt }} | {{ og_description }}{% endcapture %}{% endif %}
+  {% else %}{% capture og_description %}{{ page.content | strip_html | truncate: 80 }} | {{ og_description }}{% endcapture %}{% endif %}
+{% endif %}
+
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>{{ title_tag }} | {{ site.title }}</title>
@@ -7,8 +22,7 @@
 
 	{% if site.google_site_verification %}<meta name="google-site-verification" content="{{ site.google_site_verification}}" />{% endif %}
 	{% if site.bing_webmastertools_id %}<meta name="msvalidate.01" content="{{ site.bing_webmastertools_id }}" />{% endif %}
-	{% if page.meta_description %}<meta name="description" content="{{ page.meta_description | strip_html | escape }}"/>{% elsif page.teaser %}<meta name="description" content="{{ page.teaser | strip_html | escape }}" />{% elsif site.description %}<meta name="description" content="{{ site.description | strip_html | escape }}" />{% endif %}
-
+	<meta name="description" content="{{ og_description | strip_html | escape }}"/>
 	{% if site.google_author %}<link rel="author" href="{{ site.google_author }}"/>{% endif %}
 
 	{% include _favicon.html %}
@@ -17,15 +31,6 @@
 	<meta property="og:locale" content="{% if site.og_locale == nil %}en_EN{% else %}{{ site.og_locale }}{% endif %}" />
 	{% if site.og_type %}<meta property="og:type" content="website" />{% endif %}
 	<meta property="og:title" content="{{ title_tag }}" />
-	{% if page.meta_description %}
-	  {% assign og_description = page.meta_description %}
-	{% elsif page.description %}
-	  {% assign og_description = page.description %}
-	{% elsif site.description %}
-	  {% assign og_description = site.description %}
-	  {% if page.excerpt %}{% if page.excerpt.size > 5 %}{% capture og_description %}{{ page.excerpt }} | {{ og_description }}{% endcapture %}{% endif %}
-	  {% else %}{% capture og_description %}{{ page.content | strip_html | truncate: 80 }} | {{ og_description }}{% endcapture %}{% endif %}
-	{% endif %}
 	<meta property="og:description" content="{{ og_description | strip_html | escape }}" />
 	<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}/{{ page.url }}" />
 	{% if site.title %}<meta property="og:site_name" content="{{ site.title }}" />{% endif %}
