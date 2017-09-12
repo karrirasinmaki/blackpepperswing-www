@@ -39,6 +39,8 @@ Lindy hop, Shag and Balboa for dancers of different levels and with different ai
 
 We focus on teaching and practising authentic jazz dances. These dance forms from America’s 1920’s to 1940’s are all marked by their development as social dances. They also formed the roots for many well known modern street dances. Thanks to the large swing dance revival of the 1990’s they are now more popular than ever before and inspire people all over the planet to dance with each other. 
 
+At the moment we offer teaching of Lindy hop, Balboa and Shag in Tampere, Helsinki and Jyväskylä.
+
 {% assign dances = site.dances | sort: "order" %}
 {% include grid.html cols=3 collection=dances template="title-exceprt-snippet.html" %}
 
