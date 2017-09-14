@@ -43,7 +43,7 @@ function resizeImagesLarge() {
 }
 
 function optimizeImages() {
-  return gulp.src(['images/**/*'])
+  return gulp.src(['_images/*', 'images/**/*'])
     .pipe(imagemin([
       imagemin.jpegtran({ progressive: true })
     ]))

@@ -14,7 +14,7 @@ address: Jazz Factory, Sörnäisten rantatie 33, 00500 Helsinki
 registration_open: 2017-08-27
 registration_close: 2017-09-20
 
-title: Bal 'n' Shag
+title: Helsinki Bal 'n' Shag
 ---
 
 In this course will learn to dance to upper tempo swing music by using Balboa or Shag. You will learn the fundamentals of the elegant Balboa and energetic Collegiate shag. The course is divided into 4 weeks of Balboa and 4 weeks of Shag.

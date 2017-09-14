@@ -14,7 +14,7 @@ address: Aleksis Kiven Katu 34, Helsinki
 registration_open: 2017-08-27
 registration_close: 2017-09-20
 
-title: Lindy Hop Beginners
+title: Helsinki Lindy Hop Beginners
 ---
 
 This course aims at teaching you the very basics of Lindy hop. You will learn how to move yourself and your partner to swinging jazz tunes. We will work on basic patterns, rhythms and fundamentals of partner connection. In the Beginners course all participants learns to lead and follow.

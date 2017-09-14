@@ -9,11 +9,11 @@ date_start: 2017-09-06
 date_end: 2017-11-29
 registration_open: 2017-08-22
 registration_close: 2017-09-05
-address: Kumppanuustalo Artteli, Salhojankatu 42, 4th floor
+address: Kumppanuustalo Artteli, Salhojankatu 42, 4th floor, Tampere
 time: 19.00 - 20.00
 price: 144 € (12 classes)
 
-title: Lindy Hop Improvers
+title: Tampere Lindy Hop Improvers
 ---
 
 Dates:  

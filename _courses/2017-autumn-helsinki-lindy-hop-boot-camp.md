@@ -15,7 +15,7 @@ address: Jazz Factory, Sörnäisten rantatie 33, 00500 Helsinki
 registration_open: 2017-08-29
 registration_close: 2017-09-20
 
-title: Lindy Hop Boot Camp
+title: Helsinki Lindy Hop Boot Camp
 ---
 
 This course does not have a level in particular but the access to the course is decided by motivation. The course is aimed at those who are ready to  go through training routines outside class and take a focus on the most basic concepts of partnered and solo dancing. You will also learn how to practise better on your own. Some topics of the course will be quality and aesthetics of movement, body posture, partner communication, performing and many more.
