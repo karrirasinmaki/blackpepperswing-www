@@ -12,7 +12,7 @@ price: 96 € (8 classes)
 address: Jazz Factory, Sörnäisten rantatie 33, 00500 Helsinki
 
 registration_open: 2017-08-27
-registration_close: 2017-09-20
+registration_close: 2017-09-26
 
 title: Helsinki Bal 'n' Shag
 ---
