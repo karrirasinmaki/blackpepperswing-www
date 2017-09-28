@@ -12,7 +12,7 @@ price: 96 € (8 classes)
 address: Aleksis Kiven Katu 34, Helsinki
 
 registration_open: 2017-08-27
-registration_close: 2017-09-20
+registration_close: 2017-10-02
 
 title: Lindy Hop Improvers
 ---

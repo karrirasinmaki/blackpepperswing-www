@@ -8,7 +8,7 @@ day: Wednesdays
 date_start: 2017-10-04
 date_end: 2017-11-29
 registration_open: 2017-08-22
-registration_close: 2017-09-20
+registration_close: 2017-10-02
 address: Kumppanuustalo Artteli, Salhojankatu 42, 4th floor
 time: 18.00 - 19.00
 price: 96 € (8 classes)
