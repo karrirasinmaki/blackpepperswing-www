@@ -13,7 +13,7 @@ time: 14.00 - 15.30
 price: 25 € (4 classes)
 default_pricing: false
 
-title: Lindy Hop Beginners @University
+title: Jyväskylä Lindy Hop Beginners @University
 ---
 
 This course is meant for university students who want to have an insight into the most fun dance in the world. In this course you learn basic movements, rhythms and couple connection of the dance. The aim of the course is to give you a fun and fundamental start. You can sign up alone or preferably with a partner. The registration is gender neutral, so be ready to lead and follow. We rotate partners during the classes.

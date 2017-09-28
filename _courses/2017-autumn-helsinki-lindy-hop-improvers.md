@@ -14,7 +14,7 @@ address: Aleksis Kiven Katu 34, Helsinki
 registration_open: 2017-08-27
 registration_close: 2017-10-02
 
-title: Lindy Hop Improvers
+title: Helsinki Lindy Hop Improvers
 ---
 
 This course will take your hopping to a new level by focussing on basic dance technique. You will understand how to make your dancing more fluid, learn about the mechanisms in leading and following and how to manipulate them, use your whole body more efficiently and work on your footwork and step variations as well as develop an ear to express characteristic of swing music. We will do exercises individually, in couples, and groups. And not forget about the fun of course.
