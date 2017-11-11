@@ -8,8 +8,12 @@
 <p>
   <b>{{ site.data.language.teachers }}: </b>{{ entry.teachers }}<br>
   {% if entry.duration_in_months %}<b>{{ site.data.language.duration }}: </b>{{ entry.duration_in_months}} {{ site.data.language.months_duration }}<br>{% endif %}
-  <b>{{ site.data.language.start_date }}: </b>{{ entry.date_start | time_tag }}<br>
-  <b>{{ site.data.language.end_date }}: </b>{{ entry.date_end | time_tag }}<br>
+  {% if entry.date_end %}
+    <b>{{ site.data.language.start_date }}: </b>{{ entry.date_start | time_tag }}<br>
+    <b>{{ site.data.language.end_date }}: </b>{{ entry.date_end | time_tag }}<br>
+  {% else %}
+    <b>{{ site.data.language.date }}: </b>{{ entry.date_start | time_tag }}<br>
+  {% endif %}
   <b>{{ site.data.language.day }}: </b>{{ entry.day }}<br>
   {% if entry.repeat %}({{ entry.repeat }})<br>{% endif %}
   <b>{{ site.data.language.time }}: </b>{{ entry.time }}<br>

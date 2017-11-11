@@ -59,7 +59,7 @@ function buildJekyll(env) {
     buildline = buildline + ',_config_firebase.yml';
   }
   else if (env === 'local') {
-    buildline = buildline.replace('jekyll build', 'jekyll serve') + ',_config_dev.yml';
+    buildline = buildline.replace('jekyll build', 'jekyll serve') + ',_config_dev.yml --watch';
   }
   console.log(buildline);
   return exec(buildline, (err, stdout, stderr) => {

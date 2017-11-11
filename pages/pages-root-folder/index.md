@@ -28,9 +28,13 @@ Lindy hop, Shag and Balboa for dancers of different levels and with different ai
 </div>
 
 <!--
+{% comment %}
+
 ## Our teachers
 
 {% include grid.html cols=4 collection=site.teachers template='teacher-snippet.html' %}
+
+{% endcomment %}
 -->
 
 ---
@@ -45,6 +49,7 @@ At the moment we offer teaching of Lindy hop, Balboa and Shag in Tampere, Helsin
 {% include grid.html cols=3 collection=dances template="title-exceprt-snippet.html" %}
 
 <!--
+{% comment %}
 
 ## Latest articles
 
@@ -52,4 +57,6 @@ At the moment we offer teaching of Lindy hop, Balboa and Shag in Tampere, Helsin
 <div class="text-center">
   <a href="blog"><big>{{ site.data.language.show_all_articles }}</big></a>
 </div>
+
+{% endcomment %}
 -->

@@ -17,8 +17,8 @@
   url: "/jyvaskyla/"
   side: right
 
-- title: "Parties"
-  url: "/parties/"
+- title: "Events"
+  url: "/events/"
   side: right
 
 - title: "Courses"
