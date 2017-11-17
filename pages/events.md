@@ -1,5 +1,5 @@
 ---
-meta_title: Parties and social nights
+meta_title: Parties and workshops
 meta_description: More information coming soon...
 
 title: Parties and workshops

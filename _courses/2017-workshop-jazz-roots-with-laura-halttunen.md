@@ -11,7 +11,7 @@ address: Tanssistudio Razzmatazz, Satakunnankatu 18, 33210 Tampere
 
 default_pricing: false
 registration_open: 2017-11-11
-registration_close: 2017-11-17
+registration_close: 2017-11-18
 
 title: Jazz Roots with Laura Halttunen
 teaser: The one and only Laura Halttunen will come to Tampere November 18th to turn your dancing into authentic jazz.
