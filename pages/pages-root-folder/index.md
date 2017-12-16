@@ -12,6 +12,8 @@ header:
 image:
   src: lindy-in-forest.jpg
   caption: Jouko Järnefelt
+iframe:
+  src: https://drive.google.com/file/d/1u0Det01MmeUotVMP944bfdgwLL_zD9y4/preview?autoplay=1&controls=0&loop=1
 
 permalink: /index.html
 ---
