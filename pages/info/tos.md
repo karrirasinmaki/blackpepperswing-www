@@ -32,6 +32,14 @@ A bill for the course fee will be sent after we receive the registration. The bi
 
 Students are informed about surprising and sudden changes concerning the classes (cancellation, change of place, etc.) via email. A cancelled lesson is held on a different occasion during the same season. Short term replacements of teachers are not announced separately.
 
+## Webstore
+
+Waiting for translation... See Finnish section below.
+
+## Gift cards
+
+Waiting for translation... See Finnish section below.
+
 ## Other
 
 All sort of disturbing behaviour is forbidden in the classes. If the student causes damage to property of the school or class venues, he/she will be held responsible to pay the damage caused. If a student breaks the rules of the school constantly, the teacher can consider removing the student from his course.
@@ -63,6 +71,14 @@ Opiskelijat ja työttömät ovat oikeutettu 10% alennukseen merkityillä kurssei
 ## Muutokset tunteihin
 
 Yllättävistä ja äkillisistä muutoksista tunteihin (peruuntuminen, sijainnin muutos, yms.) ilmoitetaan sähköpostilla ilmoittautuneille. Peruttu tunti korvataan saman kauden aikana. Mahdollisista sijaistuksista ei ilmoiteta erikseen.
+
+## Verkkokauppa
+
+Verkkokaupasta ostetuilla tuotteilla on 14 päivän palautusoikeus. Palautus tehdään kirjallisella ilmoituksella osoitteeseen {{ site.email }}. Tuote on oltava palautettaessa käyttämätön.
+
+## Lahjakortit
+
+Lahjakortit käyvät maksuvälineenä kaikille Black Pepper Swing -kursseille, ellei toisin mainittu. Lahjakortti on käytettävä kerralla, eikä ylijäänyttä saldoa hyvitetä. Lahjakorttia ei voi vaihtaa rahaksi.
 
 ## Muuta
 
