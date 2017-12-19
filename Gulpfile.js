@@ -5,7 +5,7 @@ const { exec } = require('child_process');
 const runSequence = require('run-sequence');
 
 function resizeImagesThumb() {
-  return gulp.src('_images/*')
+  return gulp.src('_images/**/*')
     .pipe(imageResize({
       width : 300,
       height : 300,
@@ -18,7 +18,7 @@ function resizeImagesThumb() {
 }
 
 function resizeImagesCover() {
-  return gulp.src('_images/*')
+  return gulp.src('_images/**/*')
     .pipe(imageResize({
       width : 1440,
       height : 716,
@@ -31,7 +31,7 @@ function resizeImagesCover() {
 }
 
 function resizeImagesLarge() {
-  return gulp.src('_images/*')
+  return gulp.src('_images/**/*')
     .pipe(imageResize({
       width : 1366,
       crop : false,
@@ -43,7 +43,7 @@ function resizeImagesLarge() {
 }
 
 function optimizeImages() {
-  return gulp.src(['_images/*', 'images/**/*'])
+  return gulp.src(['_images/**/*', 'images/**/*'])
     .pipe(imagemin([
       imagemin.jpegtran({ progressive: true })
     ]))
