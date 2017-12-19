@@ -1,1 +1,25 @@
-<a href="{{ site.baseurl }}/register" target="_blank" class="button">Sign up here</a>
+{% unless entry %}
+  {% assign entry = page %}
+{% endunless %}
+
+{% assign show_reg = false %}
+
+{% if entry.registration_open %}
+  {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+  {% capture regopentime %}{{entry.registration_open | date: '%s'}}{% endcapture %}
+  {% capture regclosetime %}{{entry.registration_close | date: '%s'}}{% endcapture %}
+  
+  {% if nowunix < regopentime %}
+  <a class="button" disabled>__{{ site.data.language.registration_will_open_soon }}__</a>
+  {% elsif regclosetime and nowunix > regclosetime %}
+  <a class="button" disabled>__{{ site.data.language.registration_is_closed }}__</a>
+  {% else %}
+    {% assign show_reg = true %}
+  {% endif %}
+{% else %}
+  {% assign show_reg = true %}
+{% endif %}
+
+{% if show_reg %}
+<a href="{{ site.baseurl }}/register" target="_blank" class="button">{{ site.data.language.sign_up_here }}</a>
+{% endif %}

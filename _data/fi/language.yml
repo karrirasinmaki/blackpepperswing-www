@@ -29,3 +29,7 @@ dates: "Päivät"
 time: "Aika"
 price: "Hinta"
 read_more_and_sign_up: "Lue lisää ja ilmoittaudu"
+
+sign_up_here: "Ilmoittaudu tästä"
+registration_will_open_soon: "Ilmoittautuminen aukeaa pian"
+registration_is_closed: "Ilmoittautuminen on suljettu"

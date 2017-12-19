@@ -8,8 +8,12 @@ permalink: "/courses/"
 {% assign courses = site.courses | sort: 'type' | sort: 'name' | sort: 'city' %}
 {% include itemlist-jsonld.html items=courses %}
 
-## Helsinki
+<!--
+## Workshops
 {% include courses.html city='Workshop' %}
+-->
+
+__More coruses will be announced soon!__
 
 ## Helsinki
 {% include courses.html city='Helsinki' %}

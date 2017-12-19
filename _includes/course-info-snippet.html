@@ -2,7 +2,7 @@
   {% assign entry = page %}
 {% endunless %}
 <h3>
-  <small class="subheader">{{ entry.name }} | {{ entry.city }}</small><br>
+  <small class="subheader">{{ entry.level }} | {{ entry.city }}</small><br>
   {{ entry.type }}
 </h3>
 <p>
@@ -19,7 +19,7 @@
   <b>{{ site.data.language.time }}: </b>{{ entry.time }}<br>
   <b>{{ site.data.language.price }}: </b>{{ entry.price }}<br>
   {% if include.show_address and page.address %}
-     <b>{{ site.data.language.address }}: </b>{{ page.address }}
+    <b>{{ site.data.language.address }}: </b>{{ page.address }}<br>
   {% endif %}
 </p>
 

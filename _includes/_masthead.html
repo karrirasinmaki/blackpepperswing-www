@@ -3,19 +3,25 @@
 	{% assign use_header = true %}
 {% elsif page.header and page.header.background-color or page.header.pattern %}
 	{% assign use_header = true %}
+{% elsif page.header and  page.iframe %}
+	{% assign use_header = true %}
 {% endif %}
 
 {% if use_header %}
 
 
 
-<div id="masthead-with-text" class="{% if page.image %}with-image {% endif %}{% if page.header.large %}large{% endif %}" style="
+<div id="masthead-with-text" class="
+	{% if page.image %}with-image {% endif %}
+	{% if page.header.large %}large {% endif %}
+	{% if page.iframe %}with-media {% endif %}"
+	style="
 	{% if page.image and page.image.src %}background-image: url('{{ site.urlimg }}cover/{{ page.image.src }}'); {% endif %}
 	{% if page.header.background-color %}background-color: {{ page.header.background-color }}; {% endif %}
 	{% if page.header.pattern %}background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('{{ site.urlimg }}/{{ page.header.pattern }}'); {% endif %}">
 	{% if page.iframe and page.iframe.src %}
 	<div class="cover-media">
-		<iframe src="{{ page.iframe.src }}"></iframe>
+		<iframe src="{{ page.iframe.src }}" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 	</div>
 	{% endif %}
 	<div class="shadow" style="{% if page.header.shadow_opacity %}opacity: {{ page.header.shadow_opacity }}; {% endif %}"></div>
@@ -46,7 +52,7 @@
 
 {% include _breadcrumb.html %}
 
-<div class="row t30">
+<div id="masthead" class="row t30">
 	<div class="medium-8 columns medium-offset-2">
 		{% if page.image and page.image.src %}
 		<figure>
@@ -62,6 +68,12 @@
 			</figcaption>
 			{% endif %}
 		</figure>
+		{% endif %}
+
+		{% if page.iframe and page.iframe.src %}
+		<div class="cover-media">
+			<iframe src="{{ page.iframe.src }}" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+		</div>
 		{% endif %}
 
 		<span itemprop="name">

@@ -41,3 +41,7 @@ start_date: "Start date"
 end_date: "End date"
 date: "Date"
 repeat: "Repeat"
+
+sign_up_here: "Sign up here"
+registration_will_open_soon: "Registration will open soon"
+registration_is_closed: "Registration is closed"
