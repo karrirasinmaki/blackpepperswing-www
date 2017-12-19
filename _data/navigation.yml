@@ -33,6 +33,10 @@
   url: "/contact/"
   side: right
 
+- title: "Shop"
+  url: "https://holvi.com/shop/blackpepperswing/"
+  side: right
+
 # 
 # - title: "Info"
 #   url: "/info/"

@@ -13,7 +13,7 @@ permalink: "/courses/"
 {% include courses.html city='Workshop' %}
 -->
 
-__More coruses will be announced soon!__
+__More courses will be announced soon!__
 
 ## Helsinki
 {% include courses.html city='Helsinki' %}
