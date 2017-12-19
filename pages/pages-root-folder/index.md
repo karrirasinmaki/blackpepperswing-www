@@ -6,6 +6,7 @@ meta_description: We are a swing dance school based in Helsinki, Tampere and Jyv
 
 # title: Hopping around swamps and lakes since 2017
 title: New courses starting in January. Join us!
+subheadline: "&nbsp;"
 # subheadline: We are a swing dance school based in Helsinki, Tampere and Jyväskylä, founded and run through passion for authentic swing dances. We teach, organize, social dance, perform and keep the dance floor busy.
 header:
   shadow_opacity: 0.2
