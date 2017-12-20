@@ -21,7 +21,7 @@
 	{% if page.header.pattern %}background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('{{ site.urlimg }}/{{ page.header.pattern }}'); {% endif %}">
 	{% if page.iframe and page.iframe.src %}
 	<div class="cover-media">
-		<iframe src="{{ page.iframe.src }}" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+		<iframe width="1400" height="790" src="{{ page.iframe.src }}" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 	</div>
 	{% endif %}
 	<div class="shadow" style="{% if page.header.shadow_opacity %}opacity: {{ page.header.shadow_opacity }}; {% endif %}"></div>
@@ -72,7 +72,7 @@
 
 		{% if page.iframe and page.iframe.src %}
 		<div class="cover-media">
-			<iframe src="{{ page.iframe.src }}" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="{{ page.iframe.src }}" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 		</div>
 		{% endif %}
 
