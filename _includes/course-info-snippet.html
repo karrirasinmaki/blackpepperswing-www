@@ -18,8 +18,13 @@
   {% if entry.repeat %}({{ entry.repeat }})<br>{% endif %}
   <b>{{ site.data.language.time }}: </b>{{ entry.time }}<br>
   <b>{{ site.data.language.price }}: </b>{{ entry.price }}<br>
-  {% if include.show_address and page.address %}
-    <b>{{ site.data.language.address }}: </b>{{ page.address }}<br>
+  {% if include.show_additional_info %}
+    {% if entry.address %}
+      <b>{{ site.data.language.address }}: </b>{{ entry.address }}<br>
+    {% endif %}
+    {% if entry.links?.facebook %}
+      <b>{{ site.data.language.facebook_event }}: </b>{{ entry.links.facebook }}<br>
+    {% endif %}
   {% endif %}
 </p>
 
