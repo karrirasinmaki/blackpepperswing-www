@@ -167,11 +167,17 @@ body.video cite { color: #fff; }
       right: 0;
       bottom: 0;
       iframe {
-        position: relative;
-        left: -4.38%;
-        top: -7.38%;
-        width: 108.76%;
-        height: 114.76%;
+        // position: relative;
+        // left: -4.38%;
+        // top: -7.38%;
+        // width: 108.76%;
+        // height: 114.76%;
+
+        position: absolute;
+        left: 0;
+        max-width: none !important;
+        object-fit: cover;
+        overflow: hidden;
       }
     }
 }
