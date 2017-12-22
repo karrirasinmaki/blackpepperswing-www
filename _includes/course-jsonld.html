@@ -5,7 +5,7 @@
 {
   "@context": "http://schema.org",
   "@type": "Course",
-  "name": "{{ entry.title }}",
+  "name": "{{ entry.type }} {{ entry.level }}",
   "description": "{{ entry.excerpt | strip_html }}",
   "provider": {
     "@type": "Organization",
@@ -15,6 +15,7 @@
   "hasCourseInstance": {
     "@type": "CourseInstance",
     "name": "{{ entry.title }}",
+    "sameAs": "{{ site.url }}{{ entry.url }}",
     "location": {
       "@type": "Place",
       "address": {

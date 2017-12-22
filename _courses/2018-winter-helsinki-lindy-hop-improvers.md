@@ -15,7 +15,7 @@ address: Etu-Töölön lukio, Arkadiankatu 26, 00100 Helsinki
 links:
     facebook: https://www.facebook.com/events/184900618915272/
 
-registration_open: 2017-12-27
+registration_open: 2017-12-27T14:00
 registration_close: 2018-01-21
 ---
 

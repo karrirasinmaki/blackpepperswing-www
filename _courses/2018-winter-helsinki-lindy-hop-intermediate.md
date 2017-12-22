@@ -4,7 +4,7 @@ title: Lindy Hop Intermediate | Helsinki
 city: Helsinki
 level: Intermediate
 type: Lindy Hop
-teachers: Riikka & Mikko Väänäkoski
+teachers: Riikka Väänäkoski & Mikko Väänäkoski
 duration_in_months: 3
 day: Mondays
 date_start: 2018-01-22
@@ -15,7 +15,7 @@ address: Käpylän peruskoulu, Mäkelänkatu 93, 00610 Helsinki
 links:
     facebook: https://www.facebook.com/events/1935396383378685/
 
-registration_open: 2017-12-27
+registration_open: 2017-12-27T14:00
 registration_close: 2018-01-19
 ---
 

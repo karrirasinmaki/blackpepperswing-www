@@ -9,7 +9,7 @@ duration_in_months: 1
 day: Thursdays
 date_start: 2017-02-01
 date_end: 2017-02-22
-registration_open: 2017-10-14
+registration_open: 2017-10-14T10:00
 registration_close: 2017-10-28
 time: 14.00 - 15.30
 price: 25 € (4 classes)

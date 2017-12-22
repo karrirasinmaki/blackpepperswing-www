@@ -26,7 +26,7 @@ layout: page
 
 {% if page.registration_open and page.registration_close %}
 <h4>{{ site.data.language.registration }}</h4>
-<b>{{ site.data.language.opens_registration }}:</b> {{ page.registration_open | time_tag }}<br>
+<b>{{ site.data.language.opens_registration }}:</b> {{ page.registration_open | time_tag: format: "%d %B %Y at %H:%M" }}<br>
 <b>{{ site.data.language.closes_registration }}:</b> {{ page.registration_close | time_tag }}
 {% endif %}
 
