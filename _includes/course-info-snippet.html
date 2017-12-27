@@ -22,8 +22,8 @@
     {% if entry.address %}
       <b>{{ site.data.language.address }}: </b>{{ entry.address }}<br>
     {% endif %}
-    {% if entry.links?.facebook %}
-      <b>{{ site.data.language.facebook_event }}: </b>{{ entry.links.facebook }}<br>
+    {% if entry.links.facebook %}
+      <b>{{ site.data.language.facebook_event }}: </b><a href="{{ entry.links.facebook }}" target="_blank">{{ entry.links.facebook }}</a><br>
     {% endif %}
   {% endif %}
 </p>
