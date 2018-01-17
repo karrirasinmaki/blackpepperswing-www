@@ -4,7 +4,7 @@ title: Lindy Hop Intermediate | Tampere
 city: Tampere
 level: Intermediate
 type: Lindy Hop
-teachers: Tanja Wingerter & Karri Rasinmäki, Adam LaMotagna & Sanna Leinonen
+teachers: Tanja Wingerter & Karri Rasinmäki, Sanna Leinonen & Adam LaMotagna
 duration_in_months: 2
 day: Wednesdays
 date_start: 2018-01-24
@@ -21,7 +21,7 @@ registration_close: 2018-01-21
 
 Teachers:  
 Karri Rasinmäki & Tanja Wingerter (4h)  
-Adam LaMontagne & Sanna Leinonen (4h)
+Sanna Leinonen & Adam LaMontagne (4h)
 
 Previous Lindy hop experience: 6 months - 1 year
 
