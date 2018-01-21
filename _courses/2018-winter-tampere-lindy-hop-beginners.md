@@ -16,7 +16,7 @@ links:
     facebook:https://www.facebook.com/events/183327162250772/
 
 registration_open: 2017-12-27T14:00
-registration_close: 2018-01-21
+registration_close: 2018-01-23
 ---
 
 This course aims at learning the basics of Lindy hop. You will learn how to move yourself and a partner to swinging jazz tunes. We will work on typical patterns, rhythms and fundamentals of partner connection. The main goal of the course is to get you a feeling for the Lindy hop, leading and following and to prepare you for social dancing. We rotate partners and change roles during the lesson. You may sign up alone or with a partner.

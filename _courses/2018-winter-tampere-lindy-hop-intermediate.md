@@ -16,7 +16,7 @@ links:
     facebook: https://www.facebook.com/events/857196687793935/
 
 registration_open: 2017-12-27T14:00
-registration_close: 2018-01-21
+registration_close: 2018-01-23
 ---
 
 Teachers:  

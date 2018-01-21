@@ -16,7 +16,7 @@ links:
     facebook: https://www.facebook.com/events/184900618915272/
 
 registration_open: 2017-12-27T14:00
-registration_close: 2018-01-21
+registration_close: 2018-01-24
 ---
 
 You have already done some Lindy hop? Taken a Beginners course? Familiar with basic 8-count and 6-count Lindy hop? Then this is the right follow-up course for you. 
