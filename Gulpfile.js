@@ -85,6 +85,7 @@ gulp.task('default', () => {
   console.log(`
   images - build images
   build - build all
+  build-lightweight - lightweight build (no image procesing)
   build-dev - build all for dev
   `);
 });
@@ -99,6 +100,10 @@ gulp.task('build-jekyll', () => {
 
 gulp.task('build', (cb) => {
   runSequence('images', 'build-jekyll', cb);
+});
+
+gulp.task('build-lightweight', (cb) => {
+  runSequence('build-jekyll', cb);
 });
 
 gulp.task('build-dev', ['images'], () => {
