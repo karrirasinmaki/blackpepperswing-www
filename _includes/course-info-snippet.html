@@ -2,8 +2,8 @@
   {% assign entry = page %}
 {% endunless %}
 <h3>
-  <small class="subheader">{{ entry.level }} | {{ entry.city }}</small><br>
-  {{ entry.type }}
+  <small class="subheader">{{ entry.type }} | {{ entry.level }} | {{ entry.city }}</small><br>
+  {% if entry.name %}{{ entry.name }}{% else %}{{ entry.type }}{% endif %}
 </h3>
 <p>
   <b>{{ site.data.language.teachers }}: </b>{{ entry.teachers }}<br>
