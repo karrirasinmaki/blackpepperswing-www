@@ -39,4 +39,4 @@ This course is suitable if you can already lead and follow a few simple figures.
 
 For more information send us your questions to info@blackpepperswing.com
 
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScHEoHAoOgQRWlU_eYz37iNt4YrrAZVSrHFswKnkecpOapsEw/viewform" target="_blank" class="button">Sign up here</a>
+{% include signup.html %}

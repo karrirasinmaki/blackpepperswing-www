@@ -3,7 +3,7 @@ title: Lindy hop in one day w/ Adrian & Tanja | Helsinki
 name: Lindy hop in one day w/ Adrian & Tanja
 
 
-city: Helsinki
+city: Workshop
 level: Beginners
 type: Lindy Hop
 teachers: Adrian Ehrlich & Tanja Wingerter
@@ -21,6 +21,8 @@ registration_open: 2018-03-06
 registration_close: 2017-03-18
 
 teaser: This three hour Beginners workshop will immerse you into the world of authentic swing dancing.
+image:
+  src: adrian-tanja.jpg
 ---
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdz4hRdXmyXXMR5llrMNQGD2g5mf6V-Q7YDHn38ShTkm7omvA/viewform" target="_blank" class="button">Sign up here</a>

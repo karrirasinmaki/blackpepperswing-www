@@ -44,3 +44,5 @@ Saku found his passion for Lindy hop in 2007. Ever since he has been participati
 Place: Azembora dance studios with hardwood floor and mirrors, in Sörnainen
 
 Max. 24 participants.
+
+{% include signup.html %}

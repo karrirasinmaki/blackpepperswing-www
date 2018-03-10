@@ -20,10 +20,10 @@ Mrs Griffin & the Soldiers of Jazz Cosmos will play their finest footpatting tun
 _(Mrs Griffin playing in Tenho Restobar)_
 
 ### Schedule:
-18.30 doors open  
-18.30 - 22.30 Social dance,  
-19.30 - 21.30 Showtime,  
-22.00 end of the night  
+18.30 Doors open  
+18.30 - 19.30 DJ music  
+19.30 - 21.30 Showtime  
+21.30 - 22.30 DJ music
 
 (We reserve rights for changes in the schedule.)
 
