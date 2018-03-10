@@ -18,7 +18,7 @@ links:
 
 default_pricing: false
 registration_open: 2018-03-06
-registration_close: 2017-03-18
+registration_close: 2018-03-18
 
 teaser: This three hour Beginners workshop will immerse you into the world of authentic swing dancing.
 image:

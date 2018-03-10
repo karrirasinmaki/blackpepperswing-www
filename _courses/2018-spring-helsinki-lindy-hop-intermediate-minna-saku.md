@@ -20,7 +20,7 @@ image:
 
 default_pricing: false
 registration_open: 2018-03-10
-registration_close: 2017-03-21
+registration_close: 2018-03-21
 
 ---
 
@@ -32,6 +32,7 @@ registration_close: 2017-03-21
 * Challenging variations 
 
 ### Who is teaching?
+
 
 __Minna__
 
