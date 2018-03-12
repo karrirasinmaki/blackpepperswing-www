@@ -1,0 +1,4 @@
+---
+name: "Karri Rasinmäki"
+bio: ""
+---

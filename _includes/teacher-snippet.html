@@ -1,5 +1,23 @@
+{% comment %}
 <a href="{{ site.url }}{{ entry.url }}">
 	<h3>{{ entry.name }}</h3>
-	<img src="{{ site.urlimg }}{{ entry.profile_pic }}">
+	{% if entry.image?.url %}<img src="{{ site.urlimg }}thumb/{{ entry.image.src }}">{% endif %}
 </a>
+{% endcomment %}
+
+{% assign courses = site.courses | sort: 'type' | sort: 'name' | sort: 'city' %}
+{% assign teaching_cities = '' %}
+{% assign teaching_dances = '' %}
+{% for course in courses %}
+       {% assign teachers = course.teachers | split: ' & ' | join: ', ' | split: ', ' %}
+       {% if teachers contains entry.name %}
+       {% capture teaching_cities %}{{ teaching_cities }}{{ course.city }}{% if forloop.length > 1 and forloop.last == false %};{% endif %}{% endcapture %}
+       {% capture teaching_dances %}{{ teaching_dances }}{{ course.type }}{% if forloop.length > 1 and forloop.last == false %};{% endif %}{% endcapture %}
+       {% endif %}
+{% endfor %}
+
+<h3>{{ entry.name }}
+</h3>
+<p class="subheader">Teaches {{ teaching_dances | split: ';' | uniq | array_to_sentence_string: 'and' }} in {{ teaching_cities | split: ';' | uniq | array_to_sentence_string: 'and' }}</p>
+{% if entry.image?.url %}<img src="{{ site.urlimg }}thumb/{{ entry.image.src }}">{% endif %}
 <p>{{ entry.bio | truncate: 160 }}</p>
