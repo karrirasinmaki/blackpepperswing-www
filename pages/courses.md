@@ -5,15 +5,13 @@ title: Courses
 permalink: "/courses/"
 ---
 
-{% assign courses = site.courses | sort: 'type' | sort: 'name' | sort: 'city' %}
+{% assign courses = site.courses | sort: 'name' | sort: 'city' | sort: 'date_start' | sort: 'type' | reverse %}
 {% include itemlist-jsonld.html items=courses %}
 
 <!--
 ## Workshops
 {% include courses.html city='Workshop' %}
 -->
-
-__More courses will be announced soon!__
 
 ## Helsinki
 {% include courses.html city='Helsinki' %}

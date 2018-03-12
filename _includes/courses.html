@@ -1,4 +1,4 @@
-{% assign courses = site.courses | where: 'city', include.city | sort: 'type' | sort: 'name' %}
+{% assign courses = site.courses | where: 'city', include.city | sort: 'name' | sort: 'date_start' | sort: 'type' | reverse %}
 {% if include.type %}
   {% assign courses = courses | where: 'type', include.type %}
 {% endif %}

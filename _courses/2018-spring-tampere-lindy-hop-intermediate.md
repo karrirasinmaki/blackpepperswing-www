@@ -5,7 +5,7 @@ name: Lindy Hop Intermediate
 city: Tampere
 level: Intermediate
 type: Lindy Hop
-teachers: Tanja Wingerter & Karri Rasinmäki, Ulla Ritamäki & Klaus Mikael Honko
+teachers: Tanja Wingerter & Karri Rasinmäki, Ulla Ritamäki & Klaus-Mikael Honko
 duration_in_months: 2
 day: Wednesdays
 date_start: 2018-03-21
