@@ -122,6 +122,9 @@ collections:
     output: true
   courses:
     output: true
+  archive_courses:
+    output: true
+    permalink: /courses/:name/index.html
   parties:
     output: true
   cities:
@@ -163,6 +166,16 @@ defaults:
     scope:
       path: ""
       type: "courses"
+    values:
+      layout: course
+      show_meta: false
+      comments: false
+      author: blackpepperswing
+      default_pricing: true
+  -
+    scope:
+      path: ""
+      type: "archive_courses"
     values:
       layout: course
       show_meta: false
