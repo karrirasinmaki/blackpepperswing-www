@@ -7,8 +7,9 @@ city: Helsinki
 level: Intermediate
 type: Lindy Hop
 teachers: Minna Marttila & Saku Päivärinta
-day: Wednesday
+day: Wednesdays
 date_start: 2018-03-21
+date_end: 2018-04-11
 time: 17.30 - 19
 price: 64 € (students/unemployed 58 €)
 address: Azembora, Sörnäisten rantatie 33C, 00500 Helsinki
@@ -33,14 +34,15 @@ registration_close: 2018-03-21
 
 ### Who is teaching?
 
-
-__Minna__
+#### Minna
 
 Minna found the world of dancing 20 years ago and has never looked back. During this time she has competed, performed, and also taught weekly classes and workshops. She runs weekly social dances - wintertime Tuesday Night Hop and summertime Lindy in the Park. She's also known as DJ Minni the Moocher. 
 
-__Saku__
+#### Saku
 
 Saku found his passion for Lindy hop in 2007. Ever since he has been participating in workshops and competitions at home and abroad. His repertoire goes all the way from Lindy hop to Balboa and tap. He is known for his energetic way of dancing spiced with changes of dynamics and rhythm.
+
+### About
 
 Place: Azembora dance studios with hardwood floor and mirrors, in Sörnainen
 
