@@ -13,13 +13,13 @@ permalink: "/events/"
 
 ## Parties
 
-{% assign parties = site.parties sort: 'date' | sort: 'date_start' | sort: 'title' %}
+{% assign parties = site.parties | sort: 'title' | sort: 'date' | sort: 'date_start' | reverse %}
 {% include grid.html cols=1 collection=parties template='post-snippet.html' %}
 
 
 ## Workshops
 
-{% assign courses = site.courses | where: 'event_type', 'workshop' | sort: 'date_start' | sort: 'type' | sort: 'name' %}
+{% assign courses = site.courses | where: 'event_type', 'workshop' | sort: 'name' | sort: 'date_start' | sort: 'type'  %}
 {% include grid.html cols=1 collection=courses template='post-snippet.html' %}
 
 <div class="t60 b60">&nbsp;</div>
