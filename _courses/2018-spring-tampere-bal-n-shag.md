@@ -8,7 +8,7 @@ day: Wednesdays
 date_start: 2018-02-21
 date_end: 2018-04-11
 registration_open: 2018-02-13
-registration_close: 2018-02-21
+registration_close: 2018-03-21
 address: Kumppanuustalo Artteli, Salhojankatu 42, 4th floor, Tampere
 time: 20.00 - 21.00
 price: 96 € (8 classes)
@@ -38,5 +38,7 @@ During the Beginners+ level you will learn more dance vocabulary, get more detai
 This course is suitable if you can already lead and follow a few simple figures. Alternatively, you should have significant experience in other dances and be ready to work more to catch up with the group if you have not taken Balboa/ Shag classes before.
 
 For more information send us your questions to info@blackpepperswing.com
+
+Registration open for the shag part of the course!
 
 {% include signup.html %}
