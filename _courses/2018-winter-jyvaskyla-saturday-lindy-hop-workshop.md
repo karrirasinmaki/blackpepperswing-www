@@ -1,5 +1,6 @@
 ---
 title: Saturday Lindy Hop workshop | Jyväskylä
+name: Saturday Lindy Hop workshop (triples)
 
 city: Jyväskylä
 level: Improvers

@@ -3,7 +3,7 @@ title: Lindy hop in one day w/ Adrian & Tanja | Helsinki
 name: Lindy hop in one day w/ Adrian & Tanja
 
 
-city: Workshop
+city: Helsinki
 level: Beginners
 type: Lindy Hop
 teachers: Adrian Ehrlich & Tanja Wingerter
@@ -15,6 +15,7 @@ address: Azembora, Sörnäisten rantatie 33C, 00500 Helsinki
 links:
     facebook: https://www.facebook.com/events/188608691740059/
 
+event_type: workshop
 
 default_pricing: false
 registration_open: 2018-03-06

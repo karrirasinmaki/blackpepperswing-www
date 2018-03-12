@@ -19,7 +19,7 @@ permalink: "/events/"
 
 ## Workshops
 
-{% assign courses = site.courses | where: 'city', 'Workshop' | sort: 'date_start' | sort: 'type' | sort: 'name' %}
+{% assign courses = site.courses | where: 'city', 'Workshop' | where: 'event_type', 'workshop' | sort: 'date_start' | sort: 'type' | sort: 'name' %}
 {% include grid.html cols=1 collection=courses template='post-snippet.html' %}
 
 <div class="t60 b60">&nbsp;</div>
