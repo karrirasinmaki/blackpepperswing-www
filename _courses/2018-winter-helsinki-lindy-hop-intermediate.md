@@ -1,5 +1,6 @@
 ---
 title: Lindy Hop Intermediate | Helsinki
+name: Lindy Hop Intermediate
 
 city: Helsinki
 level: Intermediate

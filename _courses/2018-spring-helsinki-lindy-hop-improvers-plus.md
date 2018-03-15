@@ -1,6 +1,6 @@
 ---
 title: Lindy Hop Improvers+ | Helsinki
-name: Lindy Hop improvers+
+name: Lindy Hop Improvers+
 
 city: Helsinki
 level: Improvers+
