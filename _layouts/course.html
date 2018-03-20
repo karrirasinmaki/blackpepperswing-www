@@ -34,9 +34,8 @@ layout: page
 
 {{ content }}
 
+{% if page.address and page.show_map %}
 <hr>
-
-{% if page.address %}
 <h4>
 	<small class="subheader">{{ site.data.language.address }}</small>
 	<br>

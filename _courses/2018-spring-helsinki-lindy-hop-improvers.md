@@ -12,8 +12,10 @@ date_start: 2018-03-22
 date_end: 2018-05-17
 time: 20.00 - 21.00
 price: 96 € (8 classes, 9 hours)
-address: Etu-Töölön lukio, Arkadiankatu 26, 00100 Helsinki
+address: "March: Ressun Peruskoulu, Lapinlahdenkatu 10 / April-May: Etu-Töölön lukio, Arkadiankatu 26"
+address1: Etu-Töölön lukio, Arkadiankatu 26, 00100 Helsinki
 address2: Ressun Peruskoulu, Lapinlahdenkatu 10, 00180 Helsinki
+show_map: false
 
 registration_open: 2018-03-13
 registration_close: 2018-03-22
@@ -22,7 +24,7 @@ registration_close: 2018-03-22
 __HOX:__
 
 - Address during March: {{ page.address2 }}  
-- Address during April/May: {{ page.address }}
+- Address during April/May: {{ page.address1 }}
 - No class on May 10th (Ascension day).
 - Extra long class on May 17th, 19.00 - 21.00 (musicality class with live music)
 
@@ -56,3 +58,13 @@ You can sign up alone or with a partner. Participants are accepted in order of r
 </h4>
 <br>
 <iframe src="https://maps.google.com/maps?q={{ page.address2 }}&output=embed" width="620" height="230" frameborder="0" style="border:0;max-width:100%;" allowfullscreen></iframe>
+
+---
+
+<h4>
+	<small class="subheader">{{ site.data.language.address }} (April/May)</small>
+	<br>
+        {{ page.address1 }}
+</h4>
+<br>
+<iframe src="https://maps.google.com/maps?q={{ page.address1 }}&output=embed" width="620" height="230" frameborder="0" style="border:0;max-width:100%;" allowfullscreen></iframe>

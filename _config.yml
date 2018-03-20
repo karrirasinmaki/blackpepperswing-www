@@ -172,6 +172,7 @@ defaults:
       comments: false
       author: blackpepperswing
       default_pricing: true
+      show_map: true
   -
     scope:
       path: ""
