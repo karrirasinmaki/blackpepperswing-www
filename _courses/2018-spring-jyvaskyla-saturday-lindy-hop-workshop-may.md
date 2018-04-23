@@ -1,6 +1,6 @@
 ---
 title: Saturday Lindy Hop workshop | Jyväskylä
-name: Saturday Lindy Hop workshop (kicks)
+name: Saturday Lindy Hop workshop (pt. 3)
 
 city: Jyväskylä
 level: Open level
@@ -18,7 +18,7 @@ links:
 registration_open: 2018-04-23T00:00
 registration_close: 2018-05-05T13:00
 
-teaser: Jyväskylä Saturday lindy hop workshop is here again!
+teaser: Jyväskylä Saturday lindy hop workshop is here again - this time with Tanja and Karri!
 ---
 
 Jyväskylä Saturday lindy hop workshop is here again! This time we have visitors from Helsinki - Tanja and Karri, founders of the Black Pepper Swing dance school.
