@@ -25,3 +25,9 @@ permalink: "/courses/"
 
 ## Jyväskylä
 {% include courses.html city='Jyväskylä' %}
+
+
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+[Course archive]({{ site.url }}/course-archive/)

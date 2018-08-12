@@ -18,6 +18,7 @@ address: Ressun Peruskoulu, Lapinlahdenkatu 10, 00180 Helsinki
 
 registration_open: 2018-08-13T12:00
 registration_close: 2018-09-06T12:00
+show_reg: true
 ---
 
 _This course will continue as Improvers course from 1 Nov – 13 Dec with new registration but same day, hour and venue._
@@ -37,5 +38,6 @@ No previous dance experience required. No partner necessary.
 ### Registration
 You can sign up alone or with a partner. Participants are accepted in order of registration. After registration through the link you will receive a confirmation within a couple of days.
 
+{% include signup.html %}
 
 

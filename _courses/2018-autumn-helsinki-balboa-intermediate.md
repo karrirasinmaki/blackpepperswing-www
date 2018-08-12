@@ -16,6 +16,7 @@ address: Grundskolan Norsen, Unioninkatu 2, 00130 Helsinki
 
 registration_open: 2018-08-13T12:00
 registration_close: 2018-09-05T12:00
+show_reg: true
 ---
 
 _A continuation for Balboa Intermediate course might be announced later._
@@ -27,6 +28,4 @@ More info to be announced.
 ### Registration
 You can sign up alone or with a partner. Participants are accepted in order of registration. After registration through the link you will receive a confirmation within a couple of days.
 
-
-
-
+{% include signup.html %}

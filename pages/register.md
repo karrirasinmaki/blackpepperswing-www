@@ -11,5 +11,4 @@ permalink: /register/
 <script type="text/javascript">
 document.querySelector("#typeform-full").src += location.search;
 </script>
-</script>
 <script type="text/javascript" src="https://embed.typeform.com/embed.js"></script>

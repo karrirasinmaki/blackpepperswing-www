@@ -18,6 +18,7 @@ address: Kumppanuustalo Artteli, Salhojankatu 42, 33500 Tampere, Finland
 
 registration_open: 2018-08-13T12:00
 registration_close: 2018-09-03T12:00
+show_reg: true
 ---
 
 _Course will continue as Intermediate with new registration and topics from 29 Oct – 10 Dec with same time, date and venue._
@@ -35,5 +36,5 @@ This course is aimed at dancers with 0,5-2 years of dance experience. You are co
 ### Registration
 You can sign up alone or with a partner. Participants are accepted in order of registration. After registration through the link you will receive a confirmation within a couple of days.
 
-
+{% include signup.html %}
 

@@ -3,8 +3,12 @@
 {% endunless %}
 
 {% assign show_reg = false %}
+{% if entry.show_reg == true %}
+  {% assign show_reg = true %}
+{% endif %}
 
-{% if entry.registration_open %}
+
+{% if entry.registration_open and show_reg == false %}
   {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
   {% capture regopentime %}{{entry.registration_open | date: '%s'}}{% endcapture %}
   {% capture regclosetime %}{{entry.registration_close | date: '%s'}}{% endcapture %}

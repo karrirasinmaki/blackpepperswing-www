@@ -18,6 +18,7 @@ address: Ressun Peruskoulu, Lapinlahdenkatu 10, 00180 Helsinki
 
 registration_open: 2018-08-13T12:00
 registration_close: 2018-09-06T12:00
+show_reg: true
 ---
 
 _After this course you should be able to move to [Intermediate]({{ site.url }}/courses/2018-autumn-helsinki-lindy-hop-intermediate) level._
@@ -37,4 +38,5 @@ __Previous course level:__ Improvers
 ### Registration
 You can sign up alone or with a partner. Participants are accepted in order of registration. After registration through the link you will receive a confirmation within a couple of days.
 
+{% include signup.html %}
 

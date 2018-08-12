@@ -1,5 +1,23 @@
-{% assign courses = site.courses | where: 'city', include.city | sort: 'name' | sort: 'date_start' | sort: 'order' %}
+{% assign courses = site.courses %}
+{% if include.items %}
+  {% assign courses = include.items %}
+{% endif %}
+
+{% if include.city %}
+  {% assign courses = courses | where: 'city', include.city %}
+{% endif %}
 {% if include.type %}
   {% assign courses = courses | where: 'type', include.type %}
 {% endif %}
-{% include grid.html cols=2 collection=courses template='course-snippet.html' %}
+
+{% if include.sort != false %}
+  {% assign courses = courses | sort: 'name' | sort: 'date_start' | sort: 'order' %}
+{% endif %}
+
+
+{% assign cols = 2 %}
+{% if include.cols %}
+  {% assign cols = include.cols %}
+{% endif %}
+
+{% include grid.html cols=cols collection=courses template='course-snippet.html' %}
