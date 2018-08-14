@@ -5,9 +5,10 @@ meta_title: Black Pepper Swing
 meta_description: We are a swing dance school based in Helsinki, Tampere and Jyväskylä, founded and run through passion for authentic swing dances. We teach, organize, social dance, perform and keep the dance floor busy.
 
 # title: Hopping around swamps and lakes since 2017
-# title: New courses starting in January. Join us!
-title: ""
-subheadline: "&nbsp;"
+title: New courses starting on September
+# title: ""
+subheadline: "Join us and swing up your life!"
+# subheadline: "&nbsp;"
 # subheadline: We are a swing dance school based in Helsinki, Tampere and Jyväskylä, founded and run through passion for authentic swing dances. We teach, organize, social dance, perform and keep the dance floor busy.
 header:
   shadow_opacity: 0.2
@@ -18,7 +19,7 @@ header:
 #  caption: Jouko Järnefelt
 
 iframe:
-  src: https://www.youtube.com/embed/DSkcZayWcpk?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;enablejsapi=1
+  src: https://www.youtube.com/embed/hrAMDTchIxY?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;enablejsapi=1
 
 permalink: /index.html
 ---
