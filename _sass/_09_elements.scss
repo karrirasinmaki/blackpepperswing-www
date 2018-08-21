@@ -10,6 +10,9 @@
 - Accordion
 - Lazy Load XT
 - Frontpage Widget
+- img em
+- Gif Reveal
+- Article media
 
 */
 
@@ -225,6 +228,44 @@ img + em {
     transition: 0.5s opacity;
     &:hover {
       opacity: 1;
+    }
+  }
+}
+
+/* Article media
+------------------------------------------------------------------- */
+
+.article-media {
+  iframe, img, video {
+    width: 100%;
+    max-width: 100%;
+  }
+  @media #{$medium-up} {
+    margin-left: -4%;
+    width: 104%;
+
+    &.small-left {
+      float: left;
+      margin-left: -29%;
+      margin-right: 2%;
+      width: 64%;
+      .fb-post, .fb-video {
+        float: right;
+      }
+    }
+    &.small-right {
+      float: right;
+      margin-right: -29%;
+      margin-left: 2%;
+      width: 64%;
+      .fb-post, .fb-video {
+        float: left;
+      }
+    }
+
+    &.small-left + .small-right,
+    &.small-right + .small-left {
+      width: 74%;
     }
   }
 }
