@@ -11,11 +11,9 @@ Lindy hop is often referred to as swing dancing. That’s pretty logical because
 
 # ...and why you should do it, too
 
-<!--
-<div style="max-width: 320px; text-align: center; margin: 0 auto; margin-bottom: 2em;">
+<div style="max-width: 320px; text-align: center; margin: 2em auto; margin-bottom: 2em;">
   <a class="button" href="#signup">Sign up now</a>
 </div>
--->
 
 ## 1. It is the second best way to meet people (beside sauna)
 
