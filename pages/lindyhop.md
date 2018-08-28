@@ -2,6 +2,12 @@
 meta_title: What is Lindy Hop?
 meta_description: Lindy hop, also called Jitterbug, is known as the ”original” afro-american swing dance. Rhytmic and joyful couple dance, danced to fast and slow jazz music as it was played e.g. by Duke Ellington, Count Basie or Benny Goodman.
 
+header:
+  shadow_opacity: 0
+
+iframe:
+  src: https://www.youtube.com/embed/hrAMDTchIxY?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;enablejsapi=1
+
 permalink: "/lindyhop/"
 ---
 
