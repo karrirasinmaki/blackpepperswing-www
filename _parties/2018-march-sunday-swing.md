@@ -10,7 +10,6 @@ links:
 image:
   src: mrs-griffin.jpg
 ---
-<a href="https://holvi.com/shop/blackpepperswing/product/acbb48b4ca118fbd2e851df9ee66d2a0/" target="_blank" class="button">Tickets on sale</a>
 
 The arrival of spring clearly needs a proper swing dance evening!
 
@@ -32,6 +31,3 @@ Tickets on presale 15e / on spot 18e
 More info will be updated
 
 Pd. Dont know how to lindy hop yet? No worries, we can get you dancing the same day: [Lindy hop in one day w/ Adrian & Tanja]({{site.url}}/courses/2018-spring-helsinki-lindy-hop-in-one-day/)
-
-<a href="https://holvi.com/shop/blackpepperswing/product/acbb48b4ca118fbd2e851df9ee66d2a0/" target="_blank" class="button">Tickets on sale</a>
-

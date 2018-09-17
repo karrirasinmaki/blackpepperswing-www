@@ -25,12 +25,14 @@
 	</div>
 	{% endif %}
 	<div class="shadow" style="{% if page.header.shadow_opacity %}opacity: {{ page.header.shadow_opacity }}; {% endif %}"></div>
+	{% unless page.header.hide_text %}
 	<div class="row">
 		<div class="small-12 columns" itemprop="name">
 			<h1 class="masthead-title">{{ page.title }}</h1>
 			<div class="masthead-subtitle">{{ page.subheadline }}</div>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
+	{% endunless %}
 	{% if page.image and page.image.caption %}
 	<div class="masthead-caption">
 		{% if page.image.caption_url %}
