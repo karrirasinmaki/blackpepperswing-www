@@ -1,5 +1,5 @@
 ---
-order: 2
+order: 32
 
 title: Lindy Hop Improvers+ | Helsinki
 name: Lindy Hop Improvers+

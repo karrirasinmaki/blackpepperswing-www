@@ -1,5 +1,5 @@
 ---
-order: 4
+order: 34
 
 title: Intermediate-Advanced | Helsinki
 name: Lindy Hop Intermediate-Advanced
@@ -21,6 +21,10 @@ registration_close: 2018-09-05T12:00
 show_reg: true
 ---
 
+**This course is cancelled.** You might want to consider [Intermediate course]({{ site.url }}/courses/2018-autumn-helsinki-lindy-hop-intermediate) instead.
+
+---
+
 ### Content
 
 __Preliminary Course content:__
@@ -40,8 +44,5 @@ We rotate partners during lesson.
 This level is for dancers with 2+ years of dance experience (or equal dance kilometres). We expect you to be technically knowledgeable and be very fluent in your social dancing. The material will give you challenges for technique, style and rhythm. You attend social dances as often as possible and have motivation to practise. You might have become keen on competing or performing as well.
 
 ### Registration
-You can sign up alone or with a partner. Participants are accepted in order of registration. After registration through the link you will receive a confirmation within a couple of days.
-
-{% include signup.html %}
-
+This course is cancelled.
 

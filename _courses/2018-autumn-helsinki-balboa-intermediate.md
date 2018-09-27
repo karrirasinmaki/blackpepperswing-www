@@ -19,7 +19,9 @@ registration_close: 2018-09-05T12:00
 show_reg: true
 ---
 
-_A continuation for Balboa Intermediate course might be announced later._
+**This course is cancelled.**
+
+_We will try to arrange another Balboa course later this year!_
 
 ---
 
@@ -32,6 +34,4 @@ Pure Bal: uphold, downhold, adlibs/scoots, paddles, come around
 Bal-Swing: in-and-out, lollies, swivels, throw-out  
 
 ### Registration
-You can sign up alone or with a partner. Participants are accepted in order of registration. After registration through the link you will receive a confirmation within a couple of days.
-
-{% include signup.html %}
+This course is cancelled.

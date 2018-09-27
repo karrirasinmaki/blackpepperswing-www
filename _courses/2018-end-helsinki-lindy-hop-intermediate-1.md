@@ -1,27 +1,29 @@
 ---
-order: 33
+order: 13
 
-title: Lindy Hop Intermediate | Helsinki
-name: Lindy Hop Intermediate
+title: Lindy Hop Intermediate, group 1 | Helsinki
+name: Lindy Hop Intermediate (group 1)
 
 city: Helsinki
 level: Intermediate
 type: Lindy Hop
-teachers: Tanja Wingerter & Karri Rasinmäki
+teachers: Maria Puustinen & Karri Rasinmäki
 duration_in_months: 2
 day: Thursdays
-date_start: 2018-09-06
-date_end: 2018-10-25
-time: 19.00 - 20.00
+date_start: 2018-11-01
+date_end: 2018-12-20
+time: 20.00 - 21.00
 price: 96 € (8 classes)
 address: Ressun Peruskoulu, Lapinlahdenkatu 10, 00180 Helsinki
 
-registration_open: 2018-08-13T12:00
-registration_close: 2018-09-06T12:00
+registration_open: 2018-10-04T12:00
+registration_close: 2018-11-01T12:00
 show_reg: true
 ---
 
-_Course will continue as Intermediate with new registration and topics from 1 Nov – 13 Dec with same time, date and venue._ 
+_This course can be taken at the same time with the other [Intermediate course, group 2]({{ site.url }}/courses/2018-winter-helsinki-lindy-hop-intermediate-2)._
+
+_This will be the suggested group for the previous Improvers+ group._
 
 ---
 
