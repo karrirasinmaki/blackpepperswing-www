@@ -1,27 +1,29 @@
 ---
 order: 31
 
-title: Lindy Hop Beginners ELEF | Helsinki
+title: Lindy Hop Beginners ELEF | Tampere
 name: Lindy Hop Beginners
 
-city: Helsinki
+city: Tampere
 level: Beginners
 type: Lindy Hop
-teachers: Karri Rasinmäki & Adrian Ehrlich 
+teachers: Tanja Wingerter & Adrian Ehrlich 
 duration_in_months: 2
-day: Wednesdays
-date_start: 2018-09-05
-date_end: 2018-10-24
-time: 20.00 - 21.00
+day: Mondays
+date_start: 2018-09-03
+date_end: 2018-10-22
+time: 18.00 - 19.00
 price: 96 € (8 classes)
-address: Grundskolan Norsen, Unioninkatu 2, 00130 Helsinki
+address: Kumppanuustalo Artteli, Salhojankatu 42, 33500 Tampere, Finland
 
 registration_open: 2018-08-13T12:00
-registration_close: 2018-09-05T12:00
+registration_close: 2018-09-03T12:00
 show_reg: true
 ---
 
-_This course will continue as Improvers ELEF course from 31 Oct – 12 Dec with new registration but same day, hour and venue._
+**This course is cancelled.**
+
+New beginners course starting October 29! [Click here.]({{ site.url }}/courses/2018-winter-tampere-lindy-hop-beginners)
 
 ---
 

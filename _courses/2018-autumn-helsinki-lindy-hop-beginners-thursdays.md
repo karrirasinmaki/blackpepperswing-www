@@ -1,5 +1,5 @@
 ---
-order: 1
+order: 31
 
 title: Lindy Hop Beginners ELEF | Helsinki
 name: Lindy Hop Beginners
