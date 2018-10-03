@@ -13,7 +13,7 @@ permalink: "/events/"
 
 ## Parties
 
-{% assign parties = site.parties | sort: 'title' | sort: 'date' | sort: 'date_start' | reverse %}
+{% assign parties = site.parties | where_exp: 'item', 'item.archived != true' | sort: 'title' | sort: 'date' | sort: 'date_start' | reverse %}
 {% include grid.html cols=1 collection=parties template='post-snippet.html' %}
 
 

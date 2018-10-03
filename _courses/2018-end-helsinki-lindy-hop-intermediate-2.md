@@ -13,7 +13,7 @@ day: Thursdays
 date_start: 2018-11-01
 date_end: 2018-12-20
 time: 19.00 - 20.00
-price: 96 € (8 classes)
+price: 96 €
 address: Ressun Peruskoulu, Lapinlahdenkatu 10, 00180 Helsinki
 
 registration_open: 2018-10-04T12:00
@@ -27,10 +27,14 @@ _This will be the suggested group for the previous Intermediate group._
 
 ---
 
+**Note:** No class on 6th of December.
+
 ### Content
 In this course you will get to know certain lindy hop styles, larger concepts, strengthen your basics but also be challenged with more advanced moves and variations. We expect students to attend Intermediate level classes for at least one year before advancing to Intermediate-Advanced.
 
 We rotate partners during lesson.
+
+**Last class is double class from 19.00 to 21.00 with special theme.**
 
 ### Requirements
 This level is for dancers, who are comfortable social dancing Lindy Hop on a regular basis. You are familiar with grooves, kicks and triples and you handle a stable set of patterns in closed and open position. You already might have some notion on interpreting music, tricky patterns and simple footwork variations. You might already have attended some Lindy hop events abroad.

@@ -1,4 +1,6 @@
 ---
+archived: true
+
 title: Sunday Swing w/ Mrs Griffin
 teaser: Lindy hop social dance party in Balderin sali with live swing band Mrs Griffin and the Soldiers of Jazz Cosmos.
 date_start: 2018-03-18
