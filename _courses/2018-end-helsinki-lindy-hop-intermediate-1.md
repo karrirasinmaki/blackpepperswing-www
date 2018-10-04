@@ -11,9 +11,9 @@ teachers: Maria Puustinen & Karri Rasinmäki
 duration_in_months: 2
 day: Thursdays
 date_start: 2018-11-01
-date_end: 2018-12-20
+date_end: 2018-12-13
 time: 20.00 - 21.00
-price: 96 €
+price: 84 € (7h, 6 classes)
 address: Ressun Peruskoulu, Lapinlahdenkatu 10, 00180 Helsinki
 
 registration_open: 2018-10-04T12:00

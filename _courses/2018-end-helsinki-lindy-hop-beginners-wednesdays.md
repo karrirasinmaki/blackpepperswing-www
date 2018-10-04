@@ -11,9 +11,9 @@ teachers: Tanja Wingerter & Adrian Ehrlich
 duration_in_months: 2
 day: Wednesdays
 date_start: 2018-10-31
-date_end: 2018-12-19
+date_end: 2018-12-12
 time: 20.00 - 21.00
-price: 96 € (8 classes)
+price: 96 € (8h, 7 classes)
 address: Grundskolan Norsen, Unioninkatu 2, 00130 Helsinki
 
 registration_open: 2018-10-04T12:00
@@ -30,6 +30,8 @@ This course aims at teaching you the very basics of Lindy hop. You will learn ho
 We rotate partners during lesson.
 
 Note: In all our Beginners courses all participants learn to lead and follow. We have seen, that this leads to the best learning results. (ELEF = everybody leads, everybody follows)
+
+**Last class is double class from 19.00 to 21.00 with special theme.**
 
 ### Requirements
 No previous dance experience required. No partner necessary.
