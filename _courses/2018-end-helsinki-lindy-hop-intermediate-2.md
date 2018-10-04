@@ -27,7 +27,8 @@ _This will be the suggested group for the previous Intermediate group._
 
 ---
 
-**Note:** No class on 6th of December.
+**Note:** No class on 6th of December.  
+**Note:** Last class (Dec 13) is double class from 19.00 to 21.00 with special theme.
 
 ### Content
 In this course you will get to know certain lindy hop styles, larger concepts, strengthen your basics but also be challenged with more advanced moves and variations. We expect students to attend Intermediate level classes for at least one year before advancing to Intermediate-Advanced.

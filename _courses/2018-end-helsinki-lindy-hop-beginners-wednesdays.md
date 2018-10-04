@@ -21,8 +21,7 @@ registration_close: 2018-10-31T12:00
 show_reg: true
 ---
 
-
----
+**Note:** Last class (Dec 12) is double class from 19.00 to 21.00 with special theme.
 
 ### Content
 This course aims at teaching you the very basics of Lindy hop. You will learn how to move yourself and with your partner to swinging jazz tunes. We will work on basic patterns, rhythms and fundamentals of partner connection.
@@ -30,8 +29,6 @@ This course aims at teaching you the very basics of Lindy hop. You will learn ho
 We rotate partners during lesson.
 
 Note: In all our Beginners courses all participants learn to lead and follow. We have seen, that this leads to the best learning results. (ELEF = everybody leads, everybody follows)
-
-**Last class is double class from 19.00 to 21.00 with special theme.**
 
 ### Requirements
 No previous dance experience required. No partner necessary.

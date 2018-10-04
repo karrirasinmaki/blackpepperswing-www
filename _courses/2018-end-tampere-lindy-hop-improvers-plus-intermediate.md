@@ -21,15 +21,12 @@ registration_close: 2018-12-17T12:00
 show_reg: true
 ---
 
-
----
+**Note:** Last class (Dec 10) is double class from 18.00 to 20.00 with special theme.
 
 ### Content
 This course will build on your basis and give new challenges for the more experienced dancers in the course. This course will have a strong emphasis on rhythms and solo jazz steps as part of your lindy hop vocabulary.
 
 We rotate partners during lesson.
-
-**Last class is double class from 18.00 to 20.00 with special theme.**
 
 ### Requirements
 This course is aimed at dancers with 0,5-2 years of dance experience. You are comfortable social dancing at medium and faster tempos.  You are familiar with grooves, kicks, triples and you handle a stable set of patterns in closed and open position. You are comfortable social dancing at medium and faster tempos. 
