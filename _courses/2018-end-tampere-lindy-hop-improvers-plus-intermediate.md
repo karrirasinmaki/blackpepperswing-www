@@ -13,7 +13,7 @@ day: Mondays
 date_start: 2018-10-29
 date_end: 2018-12-10
 time: 19.00 - 20.00
-price: 96 € (8h, 7 classes)
+price: 96 €
 address: Kumppanuustalo Artteli, Salhojankatu 42, 33500 Tampere, Finland
 
 registration_open: 2018-10-04T12:00

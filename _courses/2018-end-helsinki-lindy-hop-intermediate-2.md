@@ -13,7 +13,7 @@ day: Thursdays
 date_start: 2018-11-01
 date_end: 2018-12-20
 time: 19.00 - 20.00
-price: 84 € (7h, 6 classes)
+price: 84 €
 address: Ressun Peruskoulu, Lapinlahdenkatu 10, 00180 Helsinki
 
 registration_open: 2018-10-04T12:00
@@ -21,7 +21,7 @@ registration_close: 2018-11-01T12:00
 show_reg: true
 ---
 
-_This course can be taken at the same time with the other [Intermediate course, group 1]({{ site.url }}/courses/2018-winter-helsinki-lindy-hop-intermediate-1)._
+_This course can be taken at the same time with the other [Intermediate course, group 1]({{ site.url }}/courses/2018-winter-helsinki-lindy-hop-intermediate-1). The two courses follow a different list of topics._
 
 _This will be the suggested group for the previous Intermediate group._
 

@@ -13,7 +13,7 @@ day: Wednesdays
 date_start: 2018-10-31
 date_end: 2018-12-12
 time: 20.00 - 21.00
-price: 96 € (8h, 7 classes)
+price: 96 €
 address: Grundskolan Norsen, Unioninkatu 2, 00130 Helsinki
 
 registration_open: 2018-10-04T12:00
