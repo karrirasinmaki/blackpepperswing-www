@@ -16,8 +16,16 @@ permalink: "/helsinki/"
 ## Lindy Hop
 {% include courses.html type='Lindy Hop' city='Helsinki' %}
 
+## Collegiate Shag
+{% include courses.html type='Collegiate Shag' city='Helsinki' %}
+
+## Solo Jazz
+{% include courses.html type='Solo Jazz' city='Helsinki' %}
+
+<!--
 ## Balboa
 {% include courses.html type='Balboa' city='Helsinki' %}
+-->
 
 <!--
 ## Shag / Balboa

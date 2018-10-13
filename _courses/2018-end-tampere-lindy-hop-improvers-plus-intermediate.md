@@ -7,11 +7,11 @@ name: Lindy Hop Improvers+ - Intermediate
 city: Tampere
 level: Improvers+ - Intermediate
 type: Lindy Hop
-teachers: Tanja Wingerter & Adrian Ehrlich 
+teachers: Meri Korpela & Adrian Ehrlich 
 duration_in_months: 2
 day: Mondays
 date_start: 2018-10-29
-date_end: 2018-12-17
+date_end: 2018-12-10
 time: 19.00 - 20.00
 price: 96 € (8h, 7 classes)
 address: Kumppanuustalo Artteli, Salhojankatu 42, 33500 Tampere, Finland

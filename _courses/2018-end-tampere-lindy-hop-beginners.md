@@ -7,7 +7,7 @@ name: Lindy Hop Beginners
 city: Tampere
 level: Beginners
 type: Lindy Hop
-teachers: Tanja Wingerter & Adrian Ehrlich 
+teachers: Meri Korpela & Adrian Ehrlich 
 duration_in_months: 2
 day: Mondays
 date_start: 2018-10-29
