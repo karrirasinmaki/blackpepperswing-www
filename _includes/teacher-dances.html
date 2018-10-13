@@ -1,0 +1,19 @@
+{% assign teaching_cities = '' %}
+{% assign teaching_dances = '' %}
+{% assign courses = site.courses %}
+
+{% if include.all %}
+  {% assign courses_archive = site.archive_courses %}
+  {% assign courses = courses | concat: courses_archive %}
+{% endif %}
+
+
+{% assign teaching_dances = '' %}
+{% for course in courses %}
+       {% assign teachers = course.teachers | split: ' & ' | join: ', ' | split: ', ' %}
+       {% if teachers contains entry.name %}
+       {% capture teaching_cities %}{{ teaching_cities }}{{ course.city }}{% if forloop.length > 1 and forloop.last == false %};{% endif %}{% endcapture %}
+       {% capture teaching_dances %}{{ teaching_dances }}{{ course.type }}{% if forloop.length > 1 and forloop.last == false %};{% endif %}{% endcapture %}
+       {% endif %}
+{% endfor %}
+

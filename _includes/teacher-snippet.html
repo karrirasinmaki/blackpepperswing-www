@@ -5,19 +5,20 @@
 </a>
 {% endcomment %}
 
-{% assign courses = site.courses | sort: 'type' | sort: 'name' | sort: 'city' %}
-{% assign teaching_cities = '' %}
-{% assign teaching_dances = '' %}
-{% for course in courses %}
-       {% assign teachers = course.teachers | split: ' & ' | join: ', ' | split: ', ' %}
-       {% if teachers contains entry.name %}
-       {% capture teaching_cities %}{{ teaching_cities }}{{ course.city }}{% if forloop.length > 1 and forloop.last == false %};{% endif %}{% endcapture %}
-       {% capture teaching_dances %}{{ teaching_dances }}{{ course.type }}{% if forloop.length > 1 and forloop.last == false %};{% endif %}{% endcapture %}
-       {% endif %}
-{% endfor %}
+{% include teacher-dances.html all=false %}
 
-<h3>{{ entry.name }}
-</h3>
-<p class="subheader">Teaches {{ teaching_dances | split: ';' | uniq | array_to_sentence_string: 'and' }} in {{ teaching_cities | split: ';' | uniq | array_to_sentence_string: 'and' }}</p>
+<h3>{{ entry.name }}</h3>
+
+{% include teacher-dances.html all=true %}
+<p class="subheader">Teacher in {{ teaching_dances | split: ';' | uniq | array_to_sentence_string: 'and' }}.</p>
+<p class="subheader">
+{% include teacher-dances.html all=false %}
+{% if teaching_dances != '' %}
+Teaches {{ teaching_dances | split: ';' | uniq | array_to_sentence_string: 'and' }} in {{ teaching_cities | split: ';' | uniq | array_to_sentence_string: 'and' }}
+{% else %}
+No current courses.
+{% endif %}
+</p>
+
 {% if entry.image?.url %}<img src="{{ site.urlimg }}thumb/{{ entry.image.src }}">{% endif %}
 <p>{{ entry.bio | truncate: 160 }}</p>
