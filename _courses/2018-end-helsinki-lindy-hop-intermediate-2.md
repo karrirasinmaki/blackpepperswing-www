@@ -11,7 +11,7 @@ teachers: Tanja Wingerter & Karri Rasinmäki
 duration_in_months: 2
 day: Thursdays
 date_start: 2018-11-01
-date_end: 2018-12-20
+date_end: 2018-12-13
 time: 19.00 - 20.00
 price: 84 €
 address: Ressun Peruskoulu, Lapinlahdenkatu 10, 00180 Helsinki

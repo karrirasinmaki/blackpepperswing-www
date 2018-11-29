@@ -21,6 +21,8 @@ On 8-9.12. Father Christmas is bringing you an authentic swing dance workshops a
 
 For a homey Christmas feel we invited our dear neighbours from Tallinn and St. Petersburg to share mind-kicking skills with us. 
 
+The Saturday party takes place in Balderin Sali from 8 PM until 1 AM and is accompanied by the probably most authentic sounding swing combo in Helsinki: Elina Virtanen & Tomi Kettunen Trio. 
+
 **Teachers:**
 
 - Katharina Matkevich & Johannes Gustav Varkki (Collegiate & St. Louis Shag)
@@ -51,9 +53,9 @@ Solo Jazz / House: You should have some previous experience from Solo jazz OR be
 Each class is pre-defined by a topic and are bought separately (25e / 1h55min). The workshops will take place on Saturday & Sunday in Fiesta Flamenca, Laivurinrinne 5. Spots are limited to ~20 participants per workshop. 
 
 <iframe src="https://drive.google.com/file/d/1apjpWWI9OFayJmDByVUTUZnM2tVFrT85/preview" width="640" height="480" style="width:100%;"></iframe>
-[https://drive.google.com/file/d/1apjpWWI9OFayJmDByVUTUZnM2tVFrT85/view?usp=sharing](https://drive.google.com/file/d1apjpWWI9OFayJmDByVUTUZnM2tVFrT85/view?usp=sharing)
+[https://drive.google.com/file/d/1apjpWWI9OFayJmDByVUTUZnM2tVFrT85/view](https://drive.google.com/file/d/1apjpWWI9OFayJmDByVUTUZnM2tVFrT85/view)
 
-#### The pre-holiday party takes place in the beautiful Balderin sali on Saturday 8.12., 7pm-1am and will be accompanied by foot patting live music.
+#### The pre-holiday party takes place in the beautiful Balderin sali on Saturday 8.12., 7pm-1am and will be accompanied by foot patting live music - Elina Virtanen & Tomi Kettunen Trio.
 
 <br><br>
 
