@@ -1,4 +1,5 @@
 ---
+title: Helswingi 2018
 meta_title: Helswingi 2018
 teaser: Helswingi is an authentic swing dance festival held in Helsinki, Finland.
 date_start: 2018-10-05
