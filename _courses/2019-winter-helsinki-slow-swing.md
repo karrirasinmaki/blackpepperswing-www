@@ -20,7 +20,9 @@ registration_open: 2018-12-12T21:10
 registration_close: 2019-01-22T12:00
 show_reg: true
 ---
+
 **Note:** Exception on March 12th: class held 18.30-19.30 at Ressun peruskoulu, Lapinlahdenkatu 10, 00180 Helsinki
+
 ---
 
 ### Content

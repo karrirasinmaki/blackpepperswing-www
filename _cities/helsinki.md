@@ -27,6 +27,9 @@ _Class schedule, winter 2019 (Jan 21 - March 17)_
 ## Solo Jazz
 {% include courses.html type='Solo Jazz' city='Helsinki' %}
 
+## Tap Dance
+{% include courses.html type='Tap' city='Helsinki' %}
+
 <!--
 ## Balboa
 {% include courses.html type='Balboa' city='Helsinki' %}

@@ -20,7 +20,9 @@ registration_open: 2018-12-12T21:10
 registration_close: 2019-01-23T12:00
 show_reg: true
 ---
+
 _Address to be confirmed soon._
+
 ---
 
 ### Content

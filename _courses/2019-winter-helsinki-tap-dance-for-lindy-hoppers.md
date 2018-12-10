@@ -1,12 +1,12 @@
 ---
 order: 403
 
-title: Solo Jazz for lindy hoppers | Helsinki
-name: Solo Jazz for lindy hoppers
+title: Tap for lindy hoppers | Helsinki
+name: Tap for lindy hoppers
 
 city: Helsinki
 level: Beginners
-type: Solo Jazz
+type: Tap
 teachers: Essi Tikanoja
 duration_in_months: 1
 day: Mondays
@@ -21,8 +21,10 @@ registration_close: 2019-01-21T12:00
 show_reg: true
 ---
 
-**Note:** Max 15 participants.
+**Note:** Max 15 participants.  
 **Note:** There is a yoga class before us in the venue. You may arrive 10 minutes earlier, but please mind the class and let them enjoy their ending mediation/relaxation.
+
+---
 
 ### Content
 In this course you will explore tap dancing as a part of swing dance family. We’ll go through basic steps, practise rhythms and timing, and also learn catchy combinations to practice while waiting for your bus in cold winter days. You might even learn bits and pieces of tap shim sham, which by the way was the original one before lindy version!
