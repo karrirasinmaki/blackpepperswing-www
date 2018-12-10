@@ -16,8 +16,8 @@ time: 18.00 - 19.00
 price: 96 € (8 classes)
 address: Etu-Töölön lukio, Arkadiankatu 26, 00100 Helsinki
 
-registration_open: 2018-10-04T12:00
-registration_close: 2018-11-01T12:00
+registration_open: 2018-12-12T21:10
+registration_close: 2019-01-22T12:00
 show_reg: true
 ---
 **Note:** Exception on March 12th: class held 18.30-19.30 at Ressun peruskoulu, Lapinlahdenkatu 10, 00180 Helsinki
@@ -25,6 +25,7 @@ show_reg: true
 
 ### Content
 Floating, effortless, gooey or groovy, heavy and grounded - Slow swing is diverse and playful!
+
 During this course you will get ideas and tools to sloooow down your dancing and how to use the special assets of slow music and movement. We will mainly work within the Lindy hop framework but we will explore movements from other related dances like Blues and Balboa. We will elaborate our slow dancing with movements both in closed and open position.
 
 We rotate partners during lesson.

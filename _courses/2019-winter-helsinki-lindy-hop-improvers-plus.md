@@ -16,15 +16,15 @@ time: 20.00 - 21.00
 price: 96 € (8 classes)
 address: Ressun Peruskoulu, Lapinlahdenkatu 10, 00180 Helsinki
 
-registration_open: 2018-08-13T12:00
-registration_close: 2018-09-06T12:00
+registration_open: 2018-12-12T21:10
+registration_close: 2019-01-24T12:00
 show_reg: true
 ---
 
 ---
 
 ### Content
-During this course you will build on your base of essential moves and concepts. You will also learn more about partner connection and musicality and get some first variation and styling options for spicing up your dancing.
+During this course you will build your base of essential moves and concepts. We keep working on with very basic foundations, rhythms and patterns of Lindy hop to get more familiar and comfortable with the dance. You will also learn more about partner connection and musicality and get some first variation and styling options for spicing up your dancing.
 
 We rotate partners during lesson.
 

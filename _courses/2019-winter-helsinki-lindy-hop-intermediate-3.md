@@ -16,8 +16,8 @@ time: 19.00 - 20.00
 price: 96 € (8 classes)
 address: Ressun Peruskoulu, Lapinlahdenkatu 10, 00180 Helsinki
 
-registration_open: 2018-10-04T12:00
-registration_close: 2018-11-01T12:00
+registration_open: 2018-12-12T21:10
+registration_close: 2019-01-24T12:00
 show_reg: true
 ---
 
@@ -27,7 +27,7 @@ Things are getting serious and seriously awesome! You have probably been dancing
 We rotate partners during lesson.
 
 ### Requirements
-// TODO
+We expect you to be taken Intermediate classes worth of 2-3 courses or seasons (4-9 months). Ask the teachers if you are not sure which level/group would be most suitable for you. 😊
 
 ### Registration
 You can sign up alone or with a partner. Participants are accepted in order of registration. After registration through the link you will receive a confirmation within a couple of days.

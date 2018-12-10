@@ -16,8 +16,8 @@ time: 19.30 - 20.30
 price: 48 € (4 classes)
 address: Jazz Factory, Sörnäisten rantatie 33, 00500 Helsinki
 
-registration_open: 2018-10-17T12:00
-registration_close: 2018-11-02T12:00
+registration_open: 2018-12-12T21:10
+registration_close: 2019-01-21T12:00
 show_reg: true
 ---
 
