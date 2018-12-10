@@ -1,5 +1,5 @@
 ---
-order: 12
+order: 1012
 
 title: Lindy Hop Improvers+ - Intermediate | Tampere
 name: Lindy Hop Improvers+ - Intermediate

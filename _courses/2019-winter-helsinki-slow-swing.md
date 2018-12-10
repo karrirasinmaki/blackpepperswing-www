@@ -1,5 +1,5 @@
 ---
-order: 411
+order: 420
 
 title: Slow swing (slow lindy) | Helsinki
 name: Slow swing

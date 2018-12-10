@@ -1,5 +1,5 @@
 ---
-order: 13
+order: 1013
 
 title: Lindy Hop Intermediate, group 1 | Helsinki
 name: Lindy Hop Intermediate (group 1)

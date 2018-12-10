@@ -15,7 +15,7 @@ permalink: "/helsinki/"
 
 
 <iframe src="https://drive.google.com/file/d/1D6mRWJlNp78f0QrmzT1PZSEXpbpi0Cfo/preview" width="640" height="280" style="width:100%;"></iframe>
-_([https://drive.google.com/file/d/1D6mRWJlNp78f0QrmzT1PZSEXpbpi0Cfo/view](https://drive.google.com/file/d/1D6mRWJlNp78f0QrmzT1PZSEXpbpi0Cfo/view)_
+_[https://drive.google.com/file/d/1D6mRWJlNp78f0QrmzT1PZSEXpbpi0Cfo/view](https://drive.google.com/file/d/1D6mRWJlNp78f0QrmzT1PZSEXpbpi0Cfo/view)_
 _Class schedule, winter 2019 (Jan 21 - March 17)_
 
 ## Lindy Hop
