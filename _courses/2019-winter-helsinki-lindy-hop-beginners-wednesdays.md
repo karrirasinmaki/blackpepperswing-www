@@ -1,0 +1,37 @@
+---
+order: 11
+
+title: Lindy Hop Beginners ELEF | Helsinki
+name: Lindy Hop Beginners
+
+city: Helsinki
+level: Beginners
+type: Lindy Hop
+teachers: Tanja Wingerter & Co-teacher to be announced
+duration_in_months: 2
+day: Wednesdays
+date_start: 2019-01-23
+date_end: 2019-03-13
+time: 20.00 - 21.00
+price: 96 € (8 classes)
+address: 
+
+show_reg: true
+---
+
+### Content
+This course aims at teaching you the very basics of Lindy hop. You will learn how to move yourself and with your partner to swinging jazz tunes. We will work on basic patterns, rhythms and fundamentals of partner connection.
+
+We rotate partners during lesson.
+
+Note: In all our Beginners courses all participants learn to lead and follow. We have seen, that this leads to the best learning results. (ELEF = everybody leads, everybody follows). In following courses, you can either choose to continue with both roles or specialize in one.
+
+### Requirements
+No previous dance experience required. No partner necessary.
+
+### Registration
+You can sign up alone or with a partner. Participants are accepted in order of registration. After registration through the link you will receive a confirmation within a couple of days.
+
+{% include signup.html %}
+
+
