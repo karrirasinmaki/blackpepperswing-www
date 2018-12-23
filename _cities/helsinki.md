@@ -24,11 +24,10 @@ _Class schedule, winter 2019 (Jan 21 - March 17)_
 ## Collegiate Shag
 {% include courses.html type='Collegiate Shag' city='Helsinki' %}
 
-## Solo Jazz
+## Solo Jazz / Tap / House
 {% include courses.html type='Solo Jazz' city='Helsinki' %}
-
-## Tap Dance
 {% include courses.html type='Tap' city='Helsinki' %}
+{% include courses.html type='House' city='Helsinki' %}
 
 <!--
 ## Balboa
