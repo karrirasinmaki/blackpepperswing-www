@@ -2,7 +2,7 @@
 order: 401
 
 title: Lindy Hop Beginners for University students | Tampere
-name: Lindy Hop Beginners
+name: Lindy Hop Beginners (University)
 
 city: Tampere
 level: Beginners
