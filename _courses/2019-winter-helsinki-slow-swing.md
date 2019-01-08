@@ -26,11 +26,26 @@ show_reg: true
 ---
 
 ### Content
+
 Floating, effortless, gooey or groovy, heavy and grounded - Slow swing is diverse and playful!
 
 During this course you will get ideas and tools to sloooow down your dancing and how to use the special assets of slow music and movement. We will mainly work within the Lindy hop framework but we will explore movements from other related dances like Blues and Balboa. We will elaborate our slow dancing with movements both in closed and open position.
 
 We rotate partners during lesson.
+
+#### Course outline
+
+_Preliminary, subject to change._
+
+1. Slow dance texture
+2. Touch steps, walks and triplets. 
+3. Stretch out
+4. Pretzel it up
+5. Pivots
+6. Ochos and tango dips
+7. Mind your feet!
+8. Show your story
+
 
 #### Videos
 
