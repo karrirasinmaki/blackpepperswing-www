@@ -7,7 +7,7 @@ name: Collegiate Shag Beginners/Improvers
 city: Helsinki
 level: Beginners
 type: Collegiate Shag
-teachers: Sara Mallinen & Alessadro Ituarte
+teachers: Sara Mallinen & Alessandro Ituarte
 duration_in_months: 2
 day: Fridays
 date_start: 2019-01-25
