@@ -7,7 +7,7 @@ name: Lindy Hop Improvers+
 city: Helsinki
 level: Improvers+
 type: Lindy Hop
-teachers: Tanja Wingerter & Co-teacher to be announced
+teachers: Tanja Wingerter & Panu Pesonen
 duration_in_months: 2
 day: Thursdays
 date_start: 2019-01-24

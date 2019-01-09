@@ -12,9 +12,10 @@ permalink: /info/tos/
 
 # In English
 
+
 ## Registration
 
-Registration is binding. You may cancel your registration within two weeks after registration by sending us a written note to : info@blackpepperswing.com. In that case we will refund you the entire course fee.
+Registration is binding. After confirmed registration, cancellation is not possible.
 
 ## Course interruption
 
@@ -26,7 +27,7 @@ Students and unemployed have a right for 10% discount from the monthly fee on th
 
 ## Payment
 
-A bill for the course fee will be sent after we receive the registration. The bill has to be paid within 14 days.
+A bill for the course fee will be sent after confirmed registration. The bill has to be paid within 14 days.
 
 ## Course changes
 
@@ -34,11 +35,11 @@ Students are informed about surprising and sudden changes concerning the classes
 
 ## Webstore
 
-Waiting for translation... See Finnish section below.
+Webstore orders (excluding event tickets) have 14-day return policy for unused goods unless stated otherwise. In case of refund, please contact {{ site.email }}.
 
 ## Gift cards
 
-Waiting for translation... See Finnish section below.
+Gift cards are valid payment method for every Black Pepper Swing course unless stated otherwise. Gift cards are single use only and cannot be exchanged for money.
 
 ## Other
 
@@ -52,9 +53,10 @@ Rules may be subject to change without notice.
 
 # Suomeksi 
 
+
 ## Ilmoittautuminen
 
-Ilmoittautuminen on sitova. Ilmoittautuminen on mahdollista perua kahden viikon sisällä ilmoittautumisesta kirjallisella ilmoituksella osoitteeseen {{ site.email }}. Tällöin mahdollinen maksusuoritus palautetaan kokonaisuudessaan maksajalle.
+Ilmoittautuminen on sitova. Rekisteröitymisvahvistuksen jälkeen tulleita peruutuksia ei hyvitetä.
 
 ## Keskeyttäminen
 
@@ -62,7 +64,7 @@ Kurssi voidaan keskeyttää vain erityistapauksissa, kuten sairastumisen, loukka
 
 ## Maksut
 
-Kursseista lähetetään lasku ilmoittautumisen yhteydessä. Laskuilla on 14 päivän maksuehto.
+Kursseista lähetetään lasku rekisteröitymisvahvistuksen yhteydessä. Laskuilla on 14 päivän maksuehto.
 
 ## Alennukset
 
