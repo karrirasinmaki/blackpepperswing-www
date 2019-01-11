@@ -41,6 +41,5 @@ No previous dance experience required. No partner necessary.
 ### Registration
 You can sign up alone or with a partner. Participants are accepted in order of registration. After registration through the link you will receive a confirmation within a couple of days.
 
-{% include signup.html %}
-
+_This Tuesday's course is full. Check out [Lindy Hop Beginners on Wednesdays]({{ site.url }}/courses/2019-winter-helsinki-lindy-hop-beginners-wednesdays/) or [Collegiate Shag Beginners]({{ site.url }}/courses/2019-winter-helsinki-collegiate-shag-beginners/)! You may also email at {{ site.email }} and ask for single spots on this course._
 
