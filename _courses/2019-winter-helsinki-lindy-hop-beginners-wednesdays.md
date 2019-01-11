@@ -7,7 +7,7 @@ name: Lindy Hop Beginners
 city: Helsinki
 level: Beginners
 type: Lindy Hop
-teachers: Tanja Wingerter & Co-teacher to be announced
+teachers: Tanja Wingerter & Karri Rasinmäki
 duration_in_months: 2
 day: Wednesdays
 date_start: 2019-01-23
