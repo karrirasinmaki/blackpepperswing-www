@@ -21,6 +21,7 @@ registration_close: 2019-01-25T12:00
 show_reg: true
 ---
 Note: We have reserved 30min after the class (19.00-19.30) for practice if wanted. Students can play their own music.
+
 ---
 
 ### Content
