@@ -20,11 +20,18 @@ registration_open: 2018-12-27T12:00
 registration_close: 2019-01-25T12:00
 show_reg: true
 ---
+Note: We have reserved 30min after the class (19.00-19.30) for practice if wanted. Students can play their own music.
+---
 
 ### Content
-This course aims at teaching you the very basics of Collegiate Shag. You will learn how to move yourself and with your partner to faster tempo swing tunes. We will work on basic patterns, rhythms, footwork drills, and fundamentals of partner connection.
 
-If you have been dancing shag before, this course could still be for you! After 4 weeks we move more towards improvers stuff, so we are sure you get enough challenges. If you have never danced before, no worries, we start from very basics so it's easy for everyone to join in :).
+This course consists of two parts:
+ 
+Part I (25.1.-15.2.) is suitable for total Beginners and anyone who wants to polish their basics. You will learn how to move yourself and with your partner to that uptempo Shag music. We will work on basic patterns, rhythms, footwork drills, and fundamentals of partner connection. In this part everyone learns to lead and follow the Shag basics.
+ 
+Part II (15.2.-15.3.) is suitable for those who already have solid Shag basics. The course material will offer new challenges also for those who have previously attended Improvers level classes and/or intense weekend workshops. During this part of the course you can specialize in one role. 
+ 
+As registration option you can either take Part I + Part II or only Part II.
 
 #### What is Collegiate Shag?
 <iframe width="600" height="340" src="https://www.youtube.com/embed/CfjclgNtUpI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
