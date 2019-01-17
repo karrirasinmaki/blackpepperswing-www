@@ -25,4 +25,6 @@ The classes will take place on Saturday and Sunday. Saturday night is of course 
 
 Locations and schedule will be announced soon.
 
-__Graphics by the amazing Catarina Allen.__
+---
+
+_Graphics by the amazing Catarina Allen._
