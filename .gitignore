@@ -1,4 +1,5 @@
 _site/
 .sass-cache/
+.firebase/
 node_modules/
 images/
