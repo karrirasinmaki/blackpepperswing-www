@@ -30,7 +30,7 @@ This course consists of two parts:
  
 Part I (25.1.-15.2.) is suitable for total Beginners and anyone who wants to polish their basics. You will learn how to move yourself and with your partner to that uptempo Shag music. We will work on basic patterns, rhythms, footwork drills, and fundamentals of partner connection. In this part everyone learns to lead and follow the Shag basics.
  
-Part II (15.2.-15.3.) is suitable for those who already have solid Shag basics. The course material will offer new challenges also for those who have previously attended Improvers level classes and/or intense weekend workshops. During this part of the course you can specialize in one role. 
+Part II (22.2.-15.3.) is suitable for those who already have solid Shag basics. The course material will offer new challenges also for those who have previously attended Improvers level classes and/or intense weekend workshops. During this part of the course you can specialize in one role. 
  
 As registration option you can either take Part I + Part II or only Part II.
 
