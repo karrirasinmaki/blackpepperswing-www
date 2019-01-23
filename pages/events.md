@@ -13,7 +13,7 @@ permalink: "/events/"
 
 ## Special events, workshops and festivals
 
-{% assign parties = site.parties | where_exp: 'item', 'item.archived != true' | where: 'repeats', 'false' | sort: 'title' | sort: 'order' %}
+{% assign parties = site.parties | where_exp: 'item', 'item.archived != true' | where: 'repeats', 'false' | sort: 'title' | sort: 'date' | sort: 'date_start' | reverse %}
 {% include grid.html cols=1 collection=parties template='post-snippet.html' %}
 
 

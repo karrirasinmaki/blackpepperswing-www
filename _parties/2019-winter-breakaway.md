@@ -1,7 +1,9 @@
 ---
+repeats: false
+
 title: Winter Breakaway
 meta_title: Winter Breakaway 2019
-teaser: On the weekend 9-10th of March it will be time again to give our swing dancing a little international booster. During the mini-workshop weekend you can pick from a palette of different theme classes.  
+teaser: On the weekend 9-10th of March it will be time to give our swing dancing a little international booster. Inspiring mini-workshop weekend with Saturday party.
 
 date_start: 2019-03-09
 date_end: 2019-03-10
