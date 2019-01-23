@@ -6,7 +6,10 @@
 	</div>
 	<div class="medium-8 columns">
 		<a href="{{ site.url }}{{ entry.url }}">
-			<h3 class="t10">{{ entry.title }}</h3>
+			<h3 class="t10">
+				{% if entry.subtitle %}<small class="subheader">{{ entry.subtitle }}</small><br>{% endif %}
+				{{ entry.title }}
+			</h3>
 		</a>
 		<p>{{ entry.teaser | truncate: 160 }}</p>
 	</div>

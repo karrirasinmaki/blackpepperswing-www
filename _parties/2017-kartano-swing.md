@@ -1,5 +1,7 @@
 ---
 archived: true
+repeats: false
+
 date_start: 2017-11-18
 date_end: 2017-11-18
 time: 20.00 - 02.00

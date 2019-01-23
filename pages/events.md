@@ -1,6 +1,6 @@
 ---
-meta_title: Parties and workshops
-meta_description: More information coming soon...
+meta_title: Events, workshops and festivals
+meta_description: Parties and events to swing out, hang out and meet new friends.
 
 title: Parties and workshops
 image:
@@ -11,16 +11,16 @@ image:
 permalink: "/events/"
 ---
 
-## Parties
+## Special events, workshops and festivals
 
-{% assign parties = site.parties | where_exp: 'item', 'item.archived != true' | sort: 'title' | sort: 'date' | sort: 'date_start' | reverse %}
+{% assign parties = site.parties | where_exp: 'item', 'item.archived != true' | where: 'repeats', 'false' | sort: 'title' | sort: 'order' %}
 {% include grid.html cols=1 collection=parties template='post-snippet.html' %}
 
 
-## Workshops
+## Weekly events
 
-{% assign courses = site.courses | where: 'event_type', 'workshop' | sort: 'name' | sort: 'date_start' | sort: 'type'  %}
-{% include grid.html cols=1 collection=courses template='post-snippet.html' %}
+{% assign parties = site.parties | where_exp: 'item', 'item.archived != true' | where: 'repeats', 'weekly' | sort: 'title' | sort: 'order' %}
+{% include grid.html cols=1 collection=parties template='post-snippet.html' %}
 
 <div class="t60 b60">&nbsp;</div>
 

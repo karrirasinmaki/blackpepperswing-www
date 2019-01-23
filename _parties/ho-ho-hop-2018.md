@@ -1,4 +1,6 @@
 ---
+repeats: false
+
 title: Christmas Ho-Ho-Hop 2018
 meta_title: Christmas Ho-Ho-Hop 2018
 teaser: On 8-9.12. Father Christmas is bringing you an authentic swing dance workshops and a pre-holiday party to Helsinki. 
