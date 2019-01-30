@@ -14,15 +14,12 @@ date_start: 2019-01-23
 date_end: 2019-03-13
 time: 20.00 - 21.00
 price: 96 € (8 classes)
-address: 
+address: Grundskolan Norsen, Unioninkatu 2, 00130 Helsinki
+
 
 registration_open: 2018-12-12T21:10
 registration_close: 2019-01-23T12:00
 show_reg: true
----
-
-_Address to be confirmed soon._
-
 ---
 
 ### Content
