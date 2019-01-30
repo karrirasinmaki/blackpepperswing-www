@@ -21,9 +21,9 @@ registration_close: 2019-01-22T12:00
 show_reg: true
 ---
 
-**Note:** Exception on Jan 29th: class held 19.00-20.00 at Ressun peruskoulu, Lapinlahdenkatu 10, 00180 Helsinki
-**Note:** Exception on March 5th: class held 19.00-20.00 at Ressun peruskoulu, Lapinlahdenkatu 10, 00180 Helsinki
-**Note:** Exception on March 12th: class held 19.00-20.00 at Kruununhaan yläaste, Snellmanninkatu 18, 00170 Helsinki
+**Note:** Exception on Jan 29th: class held 19.00-20.00 at Ressun peruskoulu, Lapinlahdenkatu 10, 00180 Helsinki  
+**Note:** Exception on March 5th: class held 19.00-20.00 at Ressun peruskoulu, Lapinlahdenkatu 10, 00180 Helsinki  
+**Note:** Exception on March 12th: class held 19.00-20.00 at Kruununhaan yläaste, Snellmanninkatu 18, 00170 Helsinki  
 
 ---
 
