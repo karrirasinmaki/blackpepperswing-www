@@ -33,7 +33,7 @@ At the end you’ll have a deeper understanding of the swing music structure and
 
 **Requirement:** You should have been taking Lindy hop classes for at least 1 year.
 
-**Facebook:** [https://www.facebook.com/events/734261490307861/](https://www.facebook.com/events/734261490307861/)
+**Facebook:** [https://www.facebook.com/events/734261490307861/](https://www.facebook.com/events/734261490307861/)  
 **Address:** Grundskolan Norsen, Unioninkatu 2, 00130 Helsinki  
 **Time:** Monday, 11th of February, 19.00 - 21.00 (incl. 15min break)  
 **Price:** 25 €  
@@ -55,7 +55,7 @@ After the class you’ll be more aware about the choices you make during the dan
 
 **Requirement:** You should have been taking Lindy hop classes and dancing "on fire" for at least 2 years.
 
-**Facebook:** [https://www.facebook.com/events/334444853838093/](https://www.facebook.com/events/334444853838093/)
+**Facebook:** [https://www.facebook.com/events/334444853838093/](https://www.facebook.com/events/334444853838093/)  
 **Address:** Grundskolan Norsen, Unioninkatu 2, 00130 Helsinki  
 **Time:** Friday, 15th of February, 19.15 - 21.15 (incl. 15min break)  
 **Price:** 25 €  
@@ -73,7 +73,7 @@ We rotate partners during the workshop.
 
 **Requirement:** You should have been dancing Lindy hop for at least one year to take part.
 
-**Facebook:** [https://www.facebook.com/events/550554365450414/](https://www.facebook.com/events/550554365450414/)
+**Facebook:** [https://www.facebook.com/events/550554365450414/](https://www.facebook.com/events/550554365450414/)  
 **Address:** Grundskolan Norsen, Unioninkatu 2, 00130 Helsinki  
 **Time:** Saturday, 16th of February, 13.00 - 17.00 (3h teaching + 2 longer breaks)  
 **Price:** 35€  
