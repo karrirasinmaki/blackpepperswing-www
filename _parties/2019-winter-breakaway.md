@@ -22,7 +22,7 @@ On the weekend 9-10th of March it will be time again to give our swing dancing a
 
 - Carla St & Andrés Lázaro (Madrid, Spain)
 - Eliisa Õunamägi & Janek Õunamägi (Tallinn, Estonia)
-- Maria Puustinen & Karri Rasinmäki (BPS) (Beginners course)
+- Maria Puustinen & Karri Rasinmäki (BPS) ([Beginners course]({{ site.url }}/courses/2019-winter-breakaway-beginners/))
 
 During the mini-workshop weekend you can pick from a palette of different theme classes with different level requirements.
 
@@ -61,7 +61,17 @@ All classes are rather defined by the topic than by a certain level, but you wil
 **Additional notes**
 
 - Open-ended lead & follow: Achieving a balanced dance conversation, less traditional lead/follow.
-- Shim Sham Tap Rhythm variations: You can use your soft-soled shoes for this class, but bring tap shoes if you have some. 
+- Shim Sham Tap Rhythm variations: You can use your soft-soled shoes for this class, but bring tap shoes if you have some.
+
+
+## New in Lindy Hop?
+Are you new in Lindy Hop or you know a friend who would like to start dancing?
+
+During the total of ~ 4h of lessons you will get a profound insight into the world of authentic swing dancing. You will get a sense of interpreting swinging rhythm in dancing, how to both* lead and follow movement, and learn some of the moves lindy hoppers have been rocking since the 1920's. 
+
+Beginner's course includes Saturday and Sunday party tickets!
+
+[{{ site.url }}/courses/2019-winter-breakaway-beginners/]({{ site.url }}/courses/2019-winter-breakaway-beginners/)
 
 ---
 
