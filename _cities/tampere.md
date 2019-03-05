@@ -13,8 +13,16 @@ permalink: "/tampere/"
 
 <!--more-->
 
+Check out:
+
+- [Courses]({{ site.url }}/courses)
+- [Events]({{ site.url }}/events)
+
+<!--
+
 ## Lindy Hop
 {% include courses.html type='Lindy Hop' city='Tampere' %}
+-->
 
 <!--
 ## Shag / Balboa

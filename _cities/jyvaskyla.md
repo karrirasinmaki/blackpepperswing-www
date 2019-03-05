@@ -13,5 +13,14 @@ permalink: "/jyvaskyla/"
 
 <!--more-->
 
+Check out:
+
+- [Courses]({{ site.url }}/courses)
+- [Events]({{ site.url }}/events)
+- [Lindy Hop Jyväskylä on Facebook](https://www.facebook.com/lindyhopjkl/)
+
+<!--
+
 ## Lindy Hop
 {% include courses.html type='Lindy Hop' city='Jyväskylä' %}
+-->
