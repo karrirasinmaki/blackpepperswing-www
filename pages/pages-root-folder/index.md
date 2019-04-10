@@ -10,7 +10,7 @@ meta_description: We are a swing dance school based in Helsinki, Tampere and Jyv
 title: "Black Pepper Swing"
 # subheadline: "New courses starting March 18th"
 # subheadline: "Join us and swing up your life!"
-# subheadline: "&nbsp;"
+subheadline: "&nbsp;"
 # subheadline: We are a swing dance school based in Helsinki, Tampere and Jyväskylä, founded and run through passion for authentic swing dances. We teach, organize, social dance, perform and keep the dance floor busy.
 header:
   shadow_opacity: 0.2
