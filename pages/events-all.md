@@ -13,8 +13,8 @@ permalink: "/events/all"
 ## All events - upcoming and past
   <a href="{{ site.url }}/events/">Show only upcoming events</a>
 
-{% assign parties = site.parties | sort: 'title' | sort: 'date' | sort: 'date_start' | reverse %}
-{% include grid.html cols=1 collection=parties template='post-snippet.html' %}
+{% assign events = site.events | sort: 'title' | sort: 'date' | sort: 'date_start' | reverse %}
+{% include grid.html cols=1 collection=events template='post-snippet.html' %}
 
 ## Events on Facebook
 <br>

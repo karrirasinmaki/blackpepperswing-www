@@ -125,8 +125,10 @@ collections:
     output: true
   archive_courses:
     output: true
-    permalink: /courses/:name/index.html
+    permalink: /courses/:name
   parties:
+    output: true
+  events:
     output: true
   cities:
     output: true
@@ -188,6 +190,16 @@ defaults:
     scope:
       path: ""
       type: "parties"
+    values:
+      layout: page
+      header: true
+      show_meta: false
+      comments: false
+      author: blackpepperswing
+  -
+    scope:
+      path: ""
+      type: "events"
     values:
       layout: page
       header: true

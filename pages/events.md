@@ -13,8 +13,8 @@ permalink: "/events/"
 
 ## Special events, workshops and festivals
 
-{% assign parties = site.parties | where_exp: 'item', 'item.archived != true' | where: 'repeats', 'false' | sort: 'title' | sort: 'date' | sort: 'date_start' | reverse %}
-{% include grid.html cols=1 collection=parties template='post-snippet.html' %}
+{% assign events = site.events | where_exp: 'item', 'item.archived != true' | where: 'repeats', 'false' | sort: 'title' | sort: 'date' | sort: 'date_start' | reverse %}
+{% include grid.html cols=1 collection=events template='post-snippet.html' %}
 
 <br>
 <div class="text-center">
@@ -24,8 +24,8 @@ permalink: "/events/"
 
 ## Weekly events
 
-{% assign parties = site.parties | where_exp: 'item', 'item.archived != true' | where: 'repeats', 'weekly' | sort: 'title' | sort: 'order' %}
-{% include grid.html cols=1 collection=parties template='post-snippet.html' %}
+{% assign events = site.events | where_exp: 'item', 'item.archived != true' | where: 'repeats', 'weekly' | sort: 'title' | sort: 'order' %}
+{% include grid.html cols=1 collection=events template='post-snippet.html' %}
 
 <div class="t60 b60">&nbsp;</div>
 
