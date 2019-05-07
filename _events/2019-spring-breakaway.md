@@ -14,6 +14,7 @@ links:
   facebook: https://www.facebook.com/events/1242373859219839/
 image:
   src: spring-breakaway-2019.jpg
+  caption: Beautiful cover graphics by Catarina Allen
 
 old:
   - /parties/2019-spring-breakaway
@@ -21,7 +22,14 @@ old:
 
 With spring in full swing it's time for the last mini workshop of the season! Before y'all Lindy hoppers run of for greener summer pastures, get your hopping into summer shape with theme classes with the cool and smooth Jenna Applegarth (US / AU).
 
-[Read more about Jenna](#about-jenna)
+Menu:  
+- [Workshops](#the-workshops)  
+  - [Schedule](#schedule)  
+  - [Levels and Content](#levels-and-content)  
+  - [About Jenna](#about-jenna)  
+- [Saturday party](#the-party)  
+  - [Schedule](#schedule-1)  
+  - [About the musicians](#about-the-musicians)  
 
 ## The workshops
 
@@ -41,7 +49,7 @@ The workshops on Saturday and Sunday be again around different topics which will
 - 16:00-17:55  
   [Momentum](https://portal.blackpepperswing.com/courses/20gs5mqqiimp30pun9anognpdg)
 - 21:45-02:00 (overnight)  
-  Saturday party w/ live music
+  [Saturday party w/ live music](#the-party)
 
 **Sunday, 19 May 2019**
 - 12:00-13:55  
@@ -66,15 +74,7 @@ The workshops on Saturday and Sunday be again around different topics which will
 
 <a href="https://portal.blackpepperswing.com/courses?q=Spring%20Breakaway&tab=overview" target="_blank" class="button">{{ site.data.language.sign_up_here }}</a>
 
-## The party
-
-On Saturday evening we will have a dance party approximately from 9PM- 2AM. The final venue and schedule will be announced in a few days.
-
-### Live music
-
-We will have the pleasure to dance and listen to the fine combination of world class jazz clarinetism and guitarism by Antti Sarpila & Tomi Kettunen trio.
-
-## About Jenna
+### About Jenna
 
 Jenna first started dancing when she was still in diapers. She began swing dancing some many years later, luckily no longer in diapers. Jenna continues to expand her dancing repertoire and share her love and knowledge of these dances with others. Although she enjoys pretty much any type of dancing and music you can move to, her first love is Lindy Hop. Her energy and passion create the perfect environment for learning, creating challenging yet applicable lessons.
 
@@ -89,7 +89,34 @@ Jenna has attended, coordinated, and taught various workshops and exchanges all 
 
 <div class="clearfix">&nbsp;</div>
 
+## The party
 
+We are putting up a last party at Balderin sali before the summer break. We will have the pleasure to dance and listen to the fine combination of world class jazz clarinetism and guitarism by Antti Sarpila & Tomi Kettunen trio.
 
----
-_Beautiful graphics by Catarina Allen._
+The variety of tempos will give you all options from slow dance over moderate Lindy hop to fast feet Shag and Balboa.
+
+More info on Facebook event: [https://www.facebook.com/events/670457393395822/](https://www.facebook.com/events/670457393395822/)
+
+### Schedule
+
+21.45 Doors open  
+22.15 1st band set starts  
+23.15 2nd band set starts  
+0.00 DJ music  
+1.45 Last song  
+
+### About the musicians
+
+**Antti Sarpila** is an internationally known jazz musicians from Finland. He has been a student of the world famous American clarinet and saxophone player Bob Wilber during the 1980's. Wilber himself was a student of legendary Sidney Bechet in the 1940's. This legacy is the reason for Antti’s dedication and respect to the traditions in jazz. He wants to combine the influences captured from the early masters, from Louis Armstrong to Charlie Parker, with his own personal style to create, what would today be described as classic jazz.
+
+<div class="article-media small-right">
+  <figure>
+    <img src="{{ site.url }}/images/antti-sarpila-tomi-kettunen-lavaklubi.jpg" />
+    <figcaption><a href="https://www.youtube.com/watch?v=okT4O-wM5AA" target="_blank">Antti Sarpila & Tomi Kettunen Trio</a></figcaption>
+  </figure>
+</div>
+
+**Tomi Kettunen** is one of Finland's finest gypsy jazz musicians. He started his musical career playing on pans and pots of his mum and soon taking drum classes. His father taught him the basics of guitar and soon his focus shifted to the string instrument. He found his path to gypsy jazz in 2007 after exploring rock and jazz styles. Now adays he is one of the top Gypsy Jazz guitar players in Finland, and his authentic style is frequently to be heard and seen at Lindy hop events.
+
+<div class="clearfix">&nbsp;</div>
+
