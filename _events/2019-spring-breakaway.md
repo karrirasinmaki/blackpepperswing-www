@@ -31,11 +31,14 @@ Menu:
   - [Schedule](#schedule-1)  
   - [About the musicians](#about-the-musicians)  
 
+<div style="text-align: center;">
+  <a href="https://portal.blackpepperswing.com/courses?q=Spring%20Breakaway&tab=overview" target="_blank" class="button">Sign up for workshops</a>&nbsp;
+  <a href="https://holvi.com/shop/blackpepperswing/product/3300d804815cf234ca3f1738cd48ade3/" target="_blank" class="button">Get party tickets</a>
+</div>
+
 ## The workshops
 
 The workshops on Saturday and Sunday be again around different topics which will be suitable for slightly different skill levels. The schedule and registration will be announced soon so keep following us. The participant number will be limited to ca. 20 participants per class.
-
-<a href="https://portal.blackpepperswing.com/courses?q=Spring%20Breakaway&tab=overview" target="_blank" class="button">{{ site.data.language.sign_up_here }}</a>
 
 <div class="fb-post" data-href="https://www.facebook.com/events/1242373859219839/permalink/1254442801346278/?ref=1&amp;action_history=null&amp;__xts__%5B0%5D=68.ARDHAm0yloF2Sa0qbJ4PIaF1tTyWgJS4jtx0v5eIpDsD3n2iU5CJmQOu3y266Jiya2YXfUZzm0rtgtzkUcCJR4pUy298PvdMzS9kLeewdUtbAgxEmgZhKD6kupjVckEHeoO-9WRfibPTH26g6NnHlBwXzfkuREn1J6VTBYrWcuMvA4tklhKysNEj5eFiNiFJ0tsbMiN4hNTBmssgn3TKWRfrGUZPU2iRaRl-K5LTNpgvVRBTU4s5us7d4GxHlRSkvi-rWBzsFhDY5ggqebVlBEbJiiXitrqn22kMOil9l2IXZ4UacUypo68MxunHUDfx_-2o&amp;__tn__=-R" data-width="720" data-show-text="true"><blockquote cite="https://developers.facebook.com/events/1242373859219839/permalink/1254442801346278/" class="fb-xfbml-parse-ignore"><p>This is the schedule for the weekend. Interesting topics, huh? :) Registration is due to open next Tuesday. Enjoy your...</p>Posted by <a href="https://www.facebook.com/blackpepperswing/">Black Pepper Swing</a> on&nbsp;<a href="https://developers.facebook.com/events/1242373859219839/permalink/1254442801346278/">Friday, 19 April 2019</a></blockquote></div>
 
@@ -96,6 +99,8 @@ We are putting up a last party at Balderin sali before the summer break. We will
 The variety of tempos will give you all options from slow dance over moderate Lindy hop to fast feet Shag and Balboa.
 
 More info on Facebook event: [https://www.facebook.com/events/670457393395822/](https://www.facebook.com/events/670457393395822/)
+
+<a href="https://holvi.com/shop/blackpepperswing/product/3300d804815cf234ca3f1738cd48ade3/" target="_blank" class="button">Get party tickets</a>
 
 ### Schedule
 
