@@ -1,4 +1,5 @@
 ---
+archived: true
 order: 31
 repeats: weekly
 
@@ -10,7 +11,7 @@ address: Ravintola Mutka, Kauppakatu 35 / Kauppalaispiha, 40100 Jyväskylä, Fin
 header:
   hide_text: true
 links:
-  facebook: https://www.facebook.com/events/358624974927889/
+  facebook: https://www.facebook.com/events/2042327849401972/
 image:
   src: swingin-mutka.jpg
 ---

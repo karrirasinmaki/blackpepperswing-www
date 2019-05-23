@@ -4,25 +4,29 @@ repeats: weekly
 
 meta_title: Blues Dance Mondays
 subtitle: Helsinki
-teaser: Weekly blues social dance. On a break - currently looking for a new venue.
-date_start: 2019-01-14
-address: Navy Jerry's, Hietaniemenkatu 2, 00100 Helsinki, Finland
+teaser: Weekly blues social dance. Check the dates for the summer!
+date_start: 2019-06-10
+day: Mondays
+price: Free
+address: Kaffila Bokvillan, Hämeentie 125, 00560 Helsinki
 header:
   hide_text: true
 links:
   facebook: https://www.facebook.com/bluesdancehelsinki/
 image:
-  src: blues-dance-monday.jpg
+  src: blues-dance-monday-summer.jpg
 ---
 
-_3rd party organizer. Event organized by Blues Dance Helsinki & Arja Sahlberg + Alessandro Ituarte._
+_3rd party organizer. Event organized by Blues Dance Helsinki & Arja Sahlberg._
 
-Weekly Blues dances are looking for a new venue. Until then weekly Blues dances are on a break. More info and occassional events are published on Blues Dance Helsinki Facebook page.
+In Summer 2019 Blues dances are located in the lovely and cozy Bokvillan in Arabia for the third summer in a row. 
 
-Blues Dance Helsinki Facebook page: [https://www.facebook.com/bluesdancehelsinki/](https://www.facebook.com/bluesdancehelsinki/)
+The dates are as follows: 10.6., 24.6., 8.7., 22.7. and 5.8. (every second Monday).
 
-~~Blues Dance Mondays are social Blues dance events in Helsinki open for everyone.~~
+**Schedule**  
+18-19: Open leven blues dance class, topic to be confirmed  
+19-22: Blues dance party to DJ music  
 
-~~Let's dance some Blues, enjoy delicious drinks and chat with old and new friends in Navy Jerry's. The bar opens at 8 pm and you're welcome right away. Some help is needed in arranging the furniture to start the party. So come right away or join us later on. It'll be a blast!~~
+Bokvillan has a cafeteria, which closes at 6 pm. Feel free to arrive earlier and enjoy its offerings! More information here: http://arabianasukastalot.fi/index.php/kaffila-bokvillan 
 
-~~Free entrance~~
+<div class="fb-page" data-href="https://www.facebook.com/pg/bluesdancehelsinki/" data-tabs="events" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/pg/bluesdancehelsinki/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/pg/bluesdancehelsinki/">Blues Dance Helsinki</a></blockquote></div>

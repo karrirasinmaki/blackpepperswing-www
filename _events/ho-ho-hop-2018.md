@@ -1,4 +1,5 @@
 ---
+archived: true
 repeats: false
 
 title: Christmas Ho-Ho-Hop 2018

@@ -1,0 +1,28 @@
+{% unless entry %}
+  {% assign entry = page %}
+{% endunless %}
+<p>
+  {% if entry.date_end %}
+    <b>{{ site.data.language.start_date }}: </b>{{ entry.date_start | time_tag }}<br>
+    <b>{{ site.data.language.end_date }}: </b>{{ entry.date_end | time_tag }}<br>
+  {% elsif entry.repeats %}
+    <b>{{ site.data.language.start_date }}: </b>{{ entry.date_start | time_tag }}<br>
+  {% else %}
+    <b>{{ site.data.language.date }}: </b>{{ entry.date_start | time_tag }}<br>
+  {% endif %}
+  {% if entry.day %}
+    <b>{{ site.data.language.day }}: </b>{{ entry.day }} {% if entry.repeats %}({{ entry.repeats }}){% endif %}<br>
+  {% endif %}
+  {% if entry.time %}
+	<b>{{ site.data.language.time }}: </b>{{ entry.time }}<br>
+  {% endif %}
+  {% if entry.price %}
+	<b>{{ site.data.language.price }}: </b>{{ entry.price }}<br>
+  {% endif %}
+  {% if entry.address %}
+    <b>{{ site.data.language.address }}: </b>{{ entry.address }}<br>
+  {% endif %}
+  {% if entry.links.facebook %}
+    <b>{{ site.data.language.facebook_event }}: </b><a href="{{ entry.links.facebook }}" target="_blank">{{ entry.links.facebook }}</a><br>
+  {% endif %}
+</p>
