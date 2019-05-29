@@ -125,7 +125,7 @@ collections:
     output: true
   archive_courses:
     output: true
-    permalink: /courses/:name
+    permalink: /courses/:name/
   parties:
     output: true
   events:
