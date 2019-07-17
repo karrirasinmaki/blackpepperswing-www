@@ -12,7 +12,7 @@ jobs:
     <<: *defaults
     docker:
       # specify the version you desire here
-      - image: circleci/ruby:2.6-node
+      - image: circleci/ruby:2.5.5-buster-node
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
