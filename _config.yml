@@ -1,5 +1,6 @@
 plugins:
   - jekyll-polyglot
+  - jekyll-paginate
 
 # ASCII-Font › http://patorjk.com/software/taag/#p=display&f=Slant&t=Phlow
 #
@@ -70,7 +71,6 @@ paginate_path: "blog/page:num"
 markdown: kramdown
 permalink: /:title/:year-:month-:day/
 highlight: rouge
-gems: [jekyll-paginate]
 excerpt_separator: "<!--more-->"
 include: ['.htaccess']
 # Exclude these files from your production _site
@@ -86,6 +86,8 @@ exclude:
     - Gulpfile.js
     - node_modules
     - _images
+    - vendor
+    - .bundle
 
 
 # The language setting is used in /includes/header.html for html-settings
