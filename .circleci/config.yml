@@ -5,19 +5,6 @@
 defaults: &defaults
   working_directory: ~/repo
 
-restore_deps: &restore_deps
-  # Download and cache dependencies
-  - restore_cache:
-      keys:
-        # ruby deps
-        - v1-ruby-deps-{{ checksum "Gemfile.lock" }}
-        - v1-ruby-deps- # fallback to using the latest cache if no exact match is found
-  - restore_cache:
-      keys:
-        # npm deps
-        - v1-npm-deps-{{ checksum "package-lock.json" }}
-        - v1-npm-deps- # Fallback cache to be used
-
 version: 2
 jobs:
   # Job: install
@@ -34,7 +21,17 @@ jobs:
 
     steps:
       - checkout
-      <<: *restore_deps
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+            # ruby deps
+            - v1-ruby-deps-{{ checksum "Gemfile.lock" }}
+            - v1-ruby-deps- # fallback to using the latest cache if no exact match is found
+      - restore_cache:
+          keys:
+            # npm deps
+            - v1-npm-deps-{{ checksum "package-lock.json" }}
+            - v1-npm-deps- # Fallback cache to be used
       - run:
           name: npm install
           command: npm install
@@ -49,6 +46,12 @@ jobs:
           paths:
             - ./node_modules
           key: v1-npm-deps-{{ checksum "package-lock.json" }}
+      - persist_to_workspace:
+          root: ./
+          paths:
+            - node_modules
+            - vendor
+            - .bundle
 
   # Job: build
   build:
@@ -57,10 +60,13 @@ jobs:
       - image: circleci/ruby:2.6-node
     steps:
       - checkout
-      <<: *restore_deps
       - run:
           name: Build
           command: npm run gulp build
+      - persist_to_workspace:
+          root: ./
+          paths:
+            - _site
 
   # Job: deploy
   deploy:
@@ -69,11 +75,6 @@ jobs:
       - image: circleci/ruby:2.6-node
     steps:
       - checkout
-      <<: *restore_deps
-      - persist_to_workspace:
-          root: ./
-          paths:
-            - _site
       - run:
           name: Firebase Deploy
           command: ./node_modules/.bin/firebase deploy --token "$FIREBASE_TOKEN"
