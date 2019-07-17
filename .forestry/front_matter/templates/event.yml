@@ -2,9 +2,6 @@
 label: Event
 hide_body: false
 fields:
-- type: boolean
-  name: repeats
-  label: repeats
 - type: text
   name: title
   label: title
@@ -17,6 +14,9 @@ fields:
 - type: datetime
   name: date_end
   label: date_end
+- type: boolean
+  name: repeats
+  label: repeats
 - type: text
   name: address
   label: address
