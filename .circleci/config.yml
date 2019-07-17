@@ -63,7 +63,7 @@ jobs:
           name: Build
           command: npm run gulp build
       - persist_to_workspace:
-          at: ./
+          root: ./
           paths:
             - _site
 
