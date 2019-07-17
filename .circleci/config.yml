@@ -1,0 +1,89 @@
+# Ruby CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-ruby/ for more details
+#
+defaults: &defaults
+  working_directory: ~/repo
+
+version: 2
+jobs:
+  # Job: install
+  install:
+    <<: *defaults
+    docker:
+      # specify the version you desire here
+      - image: circleci/ruby:2.6-node
+
+      # Specify service dependencies here if necessary
+      # CircleCI maintains a library of pre-built images
+      # documented at https://circleci.com/docs/2.0/circleci-images/
+      # - image: circleci/postgres:9.4
+
+    steps:
+      - checkout
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+            # ruby deps
+            - v1-ruby-deps-{{ checksum "Gemfile.lock" }}
+            - v1-ruby-deps- # fallback to using the latest cache if no exact match is found
+      - restore_cache:
+          keys:
+            # npm deps
+            - v1-npm-deps-{{ checksum "package-lock.json" }}
+            - v1-npm-deps- # Fallback cache to be used
+      - run:
+          name: npm install
+          command: npm install
+      - run:
+          name: bundle install
+          command: npm run gulp install
+      - save_cache:
+          paths:
+            - ./vendor/bundle
+          key: v1-ruby-deps-{{ checksum "Gemfile.lock" }}
+      - save_cache:
+          paths:
+            - ./node_modules
+          key: v1-npm-deps-{{ checksum "package-lock.json" }}
+
+  # Job: build
+  deploy:
+    <<: *defaults
+    docker:
+      - image: circleci/ruby:2.6-node
+    steps:
+      - checkout
+      - run:
+          name: Build
+          command: npm run gulp build
+
+  # Job: deploy
+  deploy:
+    <<: *defaults
+    docker:
+      - image: circleci/ruby:2.6-node
+    steps:
+      - checkout
+      - persist_to_workspace:
+          root: ./
+          paths:
+            - _site
+      - run:
+          name: Firebase Deploy
+          command: ./node_modules/.bin/firebase deploy --token "$FIREBASE_TOKEN"
+
+workflows:
+  version: 2
+  deploy:
+    jobs:
+      - install
+      - build:
+          requires:
+            - install
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master

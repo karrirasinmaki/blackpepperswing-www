@@ -4,6 +4,20 @@ const imagemin = require('gulp-imagemin');
 const { exec } = require('child_process');
 const runSequence = require('run-sequence');
 
+function doExec(buildline) {
+  console.log(buildline);
+  return exec(buildline, (err, stdout, stderr) => {
+    if (err) {
+      // node couldn't execute the command
+      console.log('Error', err);
+      return;
+    }
+    // the *entire* stdout and stderr (buffered)
+    console.log(`stdout: ${stdout}`);
+    console.log(`stderr: ${stderr}`);
+  });
+}
+
 function resizeImagesThumb() {
   return gulp.src('_images/**/*')
     .pipe(imageResize({
@@ -61,17 +75,7 @@ function buildJekyll(env) {
   else if (env === 'local') {
     buildline = buildline.replace('jekyll build', 'jekyll serve') + ',_config_dev.yml --watch';
   }
-  console.log(buildline);
-  return exec(buildline, (err, stdout, stderr) => {
-    if (err) {
-      // node couldn't execute the command
-      console.log('Error', err);
-      return;
-    }
-    // the *entire* stdout and stderr (buffered)
-    console.log(`stdout: ${stdout}`);
-    console.log(`stderr: ${stderr}`);
-  });
+  return doExec(buildline);
 }
 
 gulp.task('resize_images_thumb', () => resizeImagesThumb());
@@ -81,8 +85,13 @@ gulp.task('resize_images_cover', () => resizeImagesCover());
 gulp.task('resize_images', ['resize_images_thumb', 'resize_images_large', 'resize_images_cover'], () => {});
 gulp.task('optimize_images', () => optimizeImages());
 
+gulp.task('bundle-install', () => {
+  doExec('bundle install --jobs=4 --retry=3');
+});
+
 gulp.task('default', () => {
   console.log(`
+  install - install bundle
   images - build images
   build - build all
   build-lightweight - lightweight build (no image procesing)
