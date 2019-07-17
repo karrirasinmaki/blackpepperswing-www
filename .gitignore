@@ -3,3 +3,5 @@ _site/
 .firebase/
 node_modules/
 images/
+vendor/
+.bundle/

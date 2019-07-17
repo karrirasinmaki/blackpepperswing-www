@@ -96,7 +96,7 @@ gulp.task('default', () => {
 });
 
 gulp.task('install', () => {
-  doExec('bundle install --jobs=4 --retry=3');
+  doExec('bundle install --jobs=4 --retry=3 --path ./vendor/bundle');
 });
 
 gulp.task('images', (cb) => {
