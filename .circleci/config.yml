@@ -47,11 +47,9 @@ jobs:
             - ./node_modules
           key: v1-npm-deps-{{ checksum "package-lock.json" }}
       - persist_to_workspace:
-          root: ./
+          root: /tmp/workspace
           paths:
-            - node_modules
-            - vendor
-            - .bundle
+            - ./*
 
   # Job: build
   build:
@@ -60,12 +58,12 @@ jobs:
       - image: circleci/ruby:2.6-node
     steps:
       - attach_workspace:
-          at: ./
+          at: /tmp/workspace
       - run:
           name: Build
           command: npm run gulp build
       - persist_to_workspace:
-          root: ./
+          at: /tmp/workspace
           paths:
             - _site
 
