@@ -48,7 +48,7 @@ jobs:
           key: v1-npm-deps-{{ checksum "package-lock.json" }}
 
   # Job: build
-  deploy:
+  build:
     <<: *defaults
     docker:
       - image: circleci/ruby:2.6-node
