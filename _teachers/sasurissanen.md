@@ -1,5 +1,5 @@
 ---
-name: "Maria Puustinen"
+name: "Sasu Rissanen"
 dances: Lindy Hop
 bio: ""
 ---

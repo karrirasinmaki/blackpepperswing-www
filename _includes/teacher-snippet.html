@@ -5,20 +5,32 @@
 </a>
 {% endcomment %}
 
-{% include teacher-dances.html all=false %}
 
 <h3>{{ entry.name }}</h3>
 
+<p class="subheader">
+{% if entry.dances %}
+Teacher in {{ entry.dances | split: ',' | sort | uniq | array_to_sentence_string: 'and' }}.
+{% else %}
+No current courses.
+{% endif %}
+</p>
+
+{% comment %}
+// Parsing dances and courses for current teacher from courses pages. Not in use after courses moved to BPS Portal.
+
 {% include teacher-dances.html all=true %}
+
 <p class="subheader">Teacher in {{ teaching_dances | split: ';' | uniq | array_to_sentence_string: 'and' }}.</p>
 <p class="subheader">
-{% include teacher-dances.html all=false %}
 {% if teaching_dances != '' %}
 Teaches {{ teaching_dances | split: ';' | uniq | array_to_sentence_string: 'and' }} in {{ teaching_cities | split: ';' | uniq | array_to_sentence_string: 'and' }}
 {% else %}
 No current courses.
 {% endif %}
 </p>
+
+{% endcomment %}
 
 {% if entry.image?.url %}<img src="{{ site.urlimg }}thumb/{{ entry.image.src }}">{% endif %}
 <p>{{ entry.bio | truncate: 160 }}</p>
