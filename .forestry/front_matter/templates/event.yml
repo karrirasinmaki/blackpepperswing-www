@@ -1,0 +1,36 @@
+---
+label: Event
+hide_body: false
+fields:
+- type: boolean
+  name: repeats
+  label: repeats
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: teaser
+  label: teaser
+- type: datetime
+  name: date_start
+  label: date_start
+- type: datetime
+  name: date_end
+  label: date_end
+- type: text
+  name: address
+  label: address
+- type: field_group
+  name: header
+  label: header
+  fields:
+  - type: boolean
+    name: hide_text
+    label: hide_text
+- type: field_group
+  name: image
+  label: image
+  fields:
+  - type: file
+    name: src
+    label: src
