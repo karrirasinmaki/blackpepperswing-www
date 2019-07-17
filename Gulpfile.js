@@ -85,10 +85,6 @@ gulp.task('resize_images_cover', () => resizeImagesCover());
 gulp.task('resize_images', ['resize_images_thumb', 'resize_images_large', 'resize_images_cover'], () => {});
 gulp.task('optimize_images', () => optimizeImages());
 
-gulp.task('bundle-install', () => {
-  doExec('bundle install --jobs=4 --retry=3');
-});
-
 gulp.task('default', () => {
   console.log(`
   install - install bundle
@@ -97,6 +93,10 @@ gulp.task('default', () => {
   build-lightweight - lightweight build (no image procesing)
   build-dev - build all for dev
   `);
+});
+
+gulp.task('install', () => {
+  doExec('bundle install --jobs=4 --retry=3');
 });
 
 gulp.task('images', (cb) => {
