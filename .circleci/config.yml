@@ -59,7 +59,9 @@ jobs:
           at: ./
       - run:
           name: Build
-          command: npm run gulp build
+          command: |
+            npm run gulp install
+            npm run gulp build
       - persist_to_workspace:
           root: ./
           paths:
