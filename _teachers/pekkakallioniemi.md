@@ -1,5 +1,5 @@
 ---
-name: "Maria Puustinen"
+name: "Pekka Kallioniemi"
 dances: Lindy Hop
 bio: ""
 ---

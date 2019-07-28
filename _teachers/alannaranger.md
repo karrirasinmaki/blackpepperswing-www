@@ -1,6 +1,5 @@
 ---
-name: "Maria Puustinen"
+name: "Alanna Ranger"
 dances: Lindy Hop
 bio: ""
 ---
-
