@@ -1,9 +1,9 @@
 #
-# This config-file is only needed for development. Instead of changing the url
+# This config-file is only needed for development in Forestry.io. Instead of changing the url
 # everytime you work locally on the project, you start both config-files, overwriting
 # the first one with the development variables needed.
 #
-# Start development with › $ jekyll serve --config _config.yml,_config_dev.yml
+# Start development with › $ jekyll serve --config _config.yml,_config_forestryio.yml
 
 url: 'http://jpn18c7w7yyclw.instant.forestry.io'
 baseurl: ''
