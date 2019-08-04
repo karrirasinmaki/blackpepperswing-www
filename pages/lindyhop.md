@@ -40,7 +40,7 @@ The band will be playing again at In the Mood -tanssiaiset Valkoisessa salissa 1
 We all have had those empty evenings when we just scroll the whole night through cat clips and wonder what went wrong in our life. Well, actually, Lindy hop might help you to have less of those evenings. Just fill in with a couple of Lindy classes and socials per week and you might soon find your calendar flooded with all kind of dance or dance-people-related activities. 
 
 <div class="article-media small-right">
-  <div class="fb-post" data-href="https://www.facebook.com/photo.php?fbid=10154177589213621&amp;set=g.199294950203088&amp;type=1&amp;theater&amp;ifg=1" data-width="400" data-show-text="false"><blockquote cite="https://www.facebook.com/photo.php?fbid=10154177589213621&amp;set=gm.901321743333735&amp;type=3" class="fb-xfbml-parse-ignore">Posted by <a href="#" role="button">Minna Marttila</a> on&nbsp;<a href="https://www.facebook.com/photo.php?fbid=10154177589213621&amp;set=gm.901321743333735&amp;type=3">Wednesday, 12 October 2016</a></blockquote></div>
+  <div class="fb-post" data-href="https://www.facebook.com/tuesdaynighthop/photos/a.273298410050618/326920944688364/?type=3" data-width="500" data-show-text="false"><blockquote cite="https://developers.facebook.com/tuesdaynighthop/photos/a.273298410050618/326920944688364/?type=3" class="fb-xfbml-parse-ignore">Posted by <a href="https://www.facebook.com/tuesdaynighthop/">Tuesday Night Hop</a> on&nbsp;<a href="https://developers.facebook.com/tuesdaynighthop/photos/a.273298410050618/326920944688364/?type=3">Wednesday, 24 April 2019</a></blockquote></div>
 </div>
 
 
