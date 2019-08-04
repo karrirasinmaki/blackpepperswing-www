@@ -4,6 +4,10 @@
       </div><!-- /.small-12.columns -->
     </div><!-- /.row -->
 
+	<div class="city-selection">
+		{% assign cities = site.cities | sort: 'order' %}
+		{% include grid.html cols=cities.length collection=cities template='city-selection-snippet.html' %}
+	</div>
 
     <footer id="footer-content" class="bg-grau">
       <div id="footer">
