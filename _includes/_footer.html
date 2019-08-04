@@ -4,10 +4,13 @@
       </div><!-- /.small-12.columns -->
     </div><!-- /.row -->
 
-	<div class="city-selection">
-		{% assign cities = site.cities | sort: 'order' %}
-		{% include grid.html cols=cities.length collection=cities template='city-selection-snippet.html' %}
-	</div>
+    {% if page.layout == 'frontpage' %}
+    <div class="city-selection">
+        {% assign cities = site.cities | sort: 'order' %}
+        {% assign cities_len = cities.size %}
+        {% include grid.html cols=cities_len cols_m=cities_len cols_s=1 collection=cities template='city-selection-snippet.html' %}
+    </div>
+    {% endif %}
 
     <footer id="footer-content" class="bg-grau">
       <div id="footer">

@@ -19,7 +19,7 @@ function doExec(buildline) {
 }
 
 function resizeImagesThumb() {
-  return gulp.src('_images/**/*')
+  return gulp.src('_original_images/**/*')
     .pipe(imageResize({
       width : 300,
       height : 300,
@@ -32,7 +32,7 @@ function resizeImagesThumb() {
 }
 
 function resizeImagesCover() {
-  return gulp.src('_images/**/*')
+  return gulp.src('_original_images/**/*')
     .pipe(imageResize({
       width : 1440,
       height : 716,
@@ -45,7 +45,7 @@ function resizeImagesCover() {
 }
 
 function resizeImagesLarge() {
-  return gulp.src('_images/**/*')
+  return gulp.src('_original_images/**/*')
     .pipe(imageResize({
       width : 1366,
       crop : false,
@@ -56,11 +56,25 @@ function resizeImagesLarge() {
     .pipe(gulp.dest('images/large'));
 }
 
+function resizeImagesMedium() {
+  return gulp.src('_original_images/**/*')
+    .pipe(imageResize({
+      width : 620,
+      crop : false,
+      upscale : false,
+      quality: 0.85,
+      imageMagick: true
+    }))
+    .pipe(gulp.dest('images/medium'));
+}
+
 function optimizeImages() {
-  return gulp.src(['_images/**/*', 'images/**/*'])
+  return gulp.src(['_original_images/**/*', 'images/**/*'])
     .pipe(imagemin([
       imagemin.jpegtran({ progressive: true })
-    ]))
+    ]).on('error', (e) => {
+      console.warn(e)
+    }))
     .pipe(gulp.dest('images'));
 }
 
@@ -80,9 +94,15 @@ function buildJekyll(env) {
 
 gulp.task('resize_images_thumb', () => resizeImagesThumb());
 gulp.task('resize_images_large', () => resizeImagesLarge());
+gulp.task('resize_images_medium', () => resizeImagesMedium());
 gulp.task('resize_images_cover', () => resizeImagesCover());
 
-gulp.task('resize_images', ['resize_images_thumb', 'resize_images_large', 'resize_images_cover'], () => {});
+gulp.task('resize_images', [
+  'resize_images_thumb',
+  'resize_images_large',
+  'resize_images_medium',
+  'resize_images_cover'
+], () => {});
 gulp.task('optimize_images', () => optimizeImages());
 
 gulp.task('default', () => {

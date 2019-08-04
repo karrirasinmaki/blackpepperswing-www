@@ -85,7 +85,7 @@ exclude:
     - INSTALL.md
     - Gulpfile.js
     - node_modules
-    - _images
+    - _original_images
     - vendor
     - .bundle
 

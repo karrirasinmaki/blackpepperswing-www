@@ -2,17 +2,18 @@
 repeats: false
 
 title: Helswingi 2019
+subtitle: Helsinki
 meta_title: Helswingi 2019
 teaser: Save the date for the new edition of Helswingi - 20th-22nd of September.
 date_start: 2019-09-20
-date_end: 2018-09-22
+date_end: 2019-09-22
 address: Helsinki, Finland
 header:
   hide_text: true
 links:
   facebook: https://www.facebook.com/events/357214858208526/
 image:
-  src: helswingi-2019.jpg
+  src: helswingi-2019-final.jpg
 ---
 
 Save the date for the new edition of Helswingi. On the 20th-22nd of September, we shall bring different authentic swing dances back on a common dance floor accompanied by great aggregations of swinging artists and musicians.

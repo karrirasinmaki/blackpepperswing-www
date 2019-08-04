@@ -6,6 +6,7 @@ meta_title: Lindy in the Park
 subtitle: Helsinki
 teaser: Weekly swing social dance. Every summer Tuesday at 16-19 at the amfitheater behind the Opera house.
 date_start: 2019-05-28
+date_end: 2019-08-13
 day: Tuesdays
 price: Free
 address: Opera Amphitheatre, Helsinginkatu 58, 00251 Helsinki

@@ -2,6 +2,7 @@
 order: 0
 
 title: Lindy Hop
+portal_q: Lindy Hop
 ---
 
 <!--

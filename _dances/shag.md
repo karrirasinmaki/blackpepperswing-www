@@ -2,6 +2,7 @@
 order: 2
 
 title: Collegiate Shag
+portal_q: Collegiate Shag
 ---
 
 <!--

@@ -492,7 +492,7 @@ body.video cite { color: #fff; }
     max-width: none;
   }
   .columns {
-    padding-top: 20%;
+    padding-top: 7%;
   }
   .backdrop {
     position: absolute;
@@ -501,7 +501,6 @@ body.video cite { color: #fff; }
     right: 0;
     bottom: 0;
     background-size: cover;
-    background-position: center center;
     background-position: center center;
   }
   h2 {
@@ -513,7 +512,7 @@ body.video cite { color: #fff; }
     margin-top: -0.5em;
     text-align: center;
     color: #fff;
-    font-size: rem-calc(45);
+    font-size: rem-calc(24);
   }
   a {
     z-index: 5;
@@ -528,7 +527,33 @@ body.video cite { color: #fff; }
 @media #{$medium-only} {
   .city-selection {
     h2 {
-      font-size: rem-calc(32);
+      font-size: rem-calc(20);
+    }
+  }
+}
+
+@media #{$small-only} {
+  .city-selection {
+    .columns {
+      padding-top: 14%;
+    }
+  }
+}
+
+
+
+/* Cols & Rows
+------------------------------------------------------------------- */
+
+@media #{$medium-up} {
+  .row.cols-3 {
+    &.cols-left-2 {
+      .columns:first-child {
+        margin-left: 16.666%;
+      }
+      .columns:last-child {
+        margin-right: 16.666%;
+      }
     }
   }
 }
