@@ -6,6 +6,7 @@
   font-family: "iconfont";
   src: url("./iconfont.eot");
   src: url("./iconfont.eot?#iefix") format("embedded-opentype"),
+       url("./iconfont.woff2") format("woff2"),
        url("./iconfont.woff") format("woff"),
        url("./iconfont.ttf") format("truetype"),
        url("./iconfont.svg#iconfont") format("svg");
@@ -64,6 +65,7 @@
 .icon-rocket:before,
 .icon-rss:before,
 .icon-soundcloud:before,
+.icon-spotify:before,
 .icon-star:before,
 .icon-star-outlined:before,
 .icon-thumbs-down:before,
@@ -132,6 +134,7 @@
 .icon-rocket:before { content: "\f125"; }
 .icon-rss:before { content: "\f126"; }
 .icon-soundcloud:before { content: "\f127"; }
+.icon-spotify:before { content: "\f136"; }
 .icon-star:before { content: "\f128"; }
 .icon-star-outlined:before { content: "\f129"; }
 .icon-thumbs-down:before { content: "\f12a"; }

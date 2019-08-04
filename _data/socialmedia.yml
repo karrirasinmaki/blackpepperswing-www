@@ -40,6 +40,11 @@
   class: icon-instagram
   title: ""
 
+- name: Spotify
+  url: https://open.spotify.com/user/syhpj21g3o80hlr9s277mc3r8?si=edSaBlNpT-e6gp2O62gi4w
+  class: icon-spotify
+  title: ""
+
 # - name: Pinterest
 #   url: http://www.pinterest.com/
 #   class: icon-pinterest
