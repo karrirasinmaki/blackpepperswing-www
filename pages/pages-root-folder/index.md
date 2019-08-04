@@ -72,36 +72,12 @@ Lindy hop, Shag and Balboa, Solo Jazz and Tap Dancing - for dancers of different
 
 <div class="t50"><hr/></div>
 
-<div class="row">
-  <div class="columns large-5 medium-4 small-8">
-    <div class="article-media pull-left">
-      <img src="{{ site.urlimg }}medium/bps-classroom-big.jpg" alt="BPS Classes" title="BPS Classes" />
-    </div>
-  </div>
-  <div class="columns large-7 medium-8 small-12">
-    <section>
-      {% assign page_lindy = site.pages | where: "name", "lindyhop.md" | first %}
-      <h2>{{ page_lindy.title }}</h2>
-      {{ page_lindy.description }}
-      <p>
-        <a href="{{ site.baseurl }}{{ page_lindy.url }}">{{ site.data.language.read_more }}</a>
-      </p>
-    </section>
-    <section>
-      <h2>Beginners' courses</h2>
-      <p><strong>We start new beginners' courses 4 times in a year!</strong></p>
-      <p>
-        Lindy Hop Beginners' courses aim to teach you the very basics of Lindy hop. You will learn how to move yourself and with your partner to swinging jazz tunes. We will work on basic patterns, rhythms and fundamentals of partner connection.
-      </p>
-      <p>
-        No previous dance experience required. No partner necessary.
-      </p>
-      <div class="">
-        <a href="https://portal.blackpepperswing.com/courses?tab=overview&q=beginners" class="button small" target="_blank">Check out all beginners' courses</a>
-      </div>
-    </section>
-  </div>
-</div>
+{% include index_blocks/block-beginners.html %}
+
+
+<div class="t50"><hr/></div>
+
+{% include index_blocks/block-testimonials.html %}
 
 <!--
 {% comment %}

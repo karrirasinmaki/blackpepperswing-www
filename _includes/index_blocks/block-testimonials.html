@@ -1,0 +1,32 @@
+<div class="row">
+  <div class="columns large-7 medium-8 small-12">
+    <h1>Testimonials</h1>
+
+    <div class="fb-post" data-href="https://www.facebook.com/jenine.edward/posts/10157119309290681" data-width="500" data-show-text="true"><blockquote cite="https://developers.facebook.com/jenine.edward/posts/10157119309290681" class="fb-xfbml-parse-ignore"><p>Great atmosphere, fun and funky students and the teachers Tanja+ Karri CLEARLY LOVE LINDY (=contagious)... And as an...</p>Posted by <a href="https://www.facebook.com/jenine.edward">Jenine Simons</a> on&nbsp;<a href="https://developers.facebook.com/jenine.edward/posts/10157119309290681">Saturday, 1 September 2018</a></blockquote></div>
+
+    <div class="fb-post t10" data-href="https://www.facebook.com/chaoyi.zhou/posts/1456336307804785:0" data-width="500" data-show-text="true"><blockquote cite="https://developers.facebook.com/chaoyi.zhou/posts/1456336307804785:0" class="fb-xfbml-parse-ignore"><p>I had great fun from taking classes and meeting awesome people from Black Pepper Swing. Thank you for the wonderful experience!</p>Posted by <a href="#" role="button">Chaoyi Zhou</a> on&nbsp;<a href="https://developers.facebook.com/chaoyi.zhou/posts/1456336307804785:0">Sunday, 20 May 2018</a></blockquote></div>
+
+  </div>
+  <div class="columns large-5 medium-4 small-8">
+    <h1>Contact</h1>
+
+    <div class="fb-page" data-href="https://www.facebook.com/blackpepperswing/" data-tabs="messages" data-width="500" data-height="280" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/blackpepperswing/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/blackpepperswing/">Black Pepper Swing</a></blockquote></div>
+
+    <p class="text-center t30">
+      {{ site.email }}<br>
+      {{ site.tel }}
+    </p>
+
+    <div class="text-center t15">
+      <ul class="inline-list social-icons" style="display: inline-block;">
+        {% for social_item in site.data.socialmedia %}
+        {% if social_item.visible != false %}
+        <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+
+  </div>
+</div>
+
