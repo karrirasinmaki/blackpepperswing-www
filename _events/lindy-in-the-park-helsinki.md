@@ -1,4 +1,5 @@
 ---
+archived: true
 order: 11
 repeats: weekly
 
@@ -20,6 +21,8 @@ image:
 ---
 
 _3rd party organizer. Event organized by Lindy in the Park & Minna Marttila._
+
+**Check Tuesday Night Hop: [{{ site.url }}/tuesday-night-hop/]({{ site.url }}/tuesday-night-hop/)**
 
 Lindy in the Park celebrates its fifteenth summer. This summer we dance in the park every Tuesday from 28th May 'till 13th August.
 

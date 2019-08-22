@@ -4,29 +4,28 @@ repeats: weekly
 
 meta_title: Blues Dance Mondays
 subtitle: Helsinki
-teaser: Weekly blues social dance. Check the dates for the summer!
-date_start: 2019-06-10
+teaser: Weekly blues social dance. (Almost) Every Monday, Ravintola Oiva, 19.00 - 21.30.
+date_start: 2019-08-19
 day: Mondays
-price: Free
-address: Kaffila Bokvillan, Hämeentie 125, 00560 Helsinki
+time: 19:00 - 21:30
+price: Free entrance
+address: Ravintola Oiva, Porthaninkatu 5, 00530 Helsinki
 header:
   hide_text: true
 links:
   facebook: https://www.facebook.com/bluesdancehelsinki/
 image:
-  src: blues-dance-monday-summer.jpg
+  src: blues-dance-helsinki.jpg
 ---
 
 _3rd party organizer. Event organized by Blues Dance Helsinki & Arja Sahlberg._
 
-In Summer 2019 Blues dances are located in the lovely and cozy Bokvillan in Arabia for the third summer in a row. 
+Blues Dance Monday Helsinki continues taking place in Oiva in fall 2019!
 
-The dates are as follows: 10.6., 24.6., 8.7., 22.7. and 5.8. (every second Monday).
+Blues Dance Monday takes place on Mondays except for the first Monday of the month. Let's dance to selected Blues tunes, enjoy the bar's offerings and chat with old and new friends.
 
-**Schedule**  
-18-19: Open leven blues dance class, topic to be confirmed  
-19-22: Blues dance party to DJ music  
+Blues Dance Mondays are social Blues dance events in Helsinki open for everyone. Previous Blues dance experience is not a requirement, but if you are interested in learning opportunities, the organizers and other dancers are happy to help you find more information about courses and workshops.
 
-Bokvillan has a cafeteria, which closes at 6 pm. Feel free to arrive earlier and enjoy its offerings! More information here: http://arabianasukastalot.fi/index.php/kaffila-bokvillan 
+### Event dates
 
 <div class="fb-page" data-href="https://www.facebook.com/pg/bluesdancehelsinki/" data-tabs="events" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/pg/bluesdancehelsinki/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/pg/bluesdancehelsinki/">Blues Dance Helsinki</a></blockquote></div>

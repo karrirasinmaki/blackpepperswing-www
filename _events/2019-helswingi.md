@@ -27,10 +27,15 @@ What can you expect:
 - Schedule with freetime for activities or resting your feet
 - Warm-hearted people and a beautiful city
 
-Mark your calendars! More information will follow...
+### Read more
 
 [www.helswingi.fi](https://www.helswingi.fi)  
 [www.facebook.com/events/357214858208526/](https://www.facebook.com/events/357214858208526/)
+
+## Beginners' tracks
+
+- [Balboa & Collegiate Shag intense start weekend 14.-15.9](https://www.helswingi.fi/classes/#beginners)  
+- [Lindy Hop Beginners’ track 21.-22.9](https://www.helswingi.fi/classes/#beginners)
 
 ---
 

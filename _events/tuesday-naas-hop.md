@@ -1,4 +1,5 @@
 ---
+archived: true
 order: 21
 repeats: weekly
 
