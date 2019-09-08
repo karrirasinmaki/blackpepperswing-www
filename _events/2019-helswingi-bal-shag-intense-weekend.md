@@ -2,7 +2,7 @@
 repeats: false
 
 title: Helswingi 2019 - Bal n' Shag Beginners' weekend
-subtitle: Helsinki
+subtitle: Helsinki | Sept 14th - 15th
 meta_title: Helswingi 2019 - Balboa and Collegiate Shag intense start weekend workshop
 teaser: Give Balboa or Collegiate Shag an intense start or a proper post-summer brush up.
 date_start: 2019-09-14

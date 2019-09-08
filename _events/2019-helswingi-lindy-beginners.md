@@ -2,7 +2,7 @@
 repeats: false
 
 title: Helswingi 2019 - Lindy Beginners
-subtitle: Helsinki
+subtitle: Helsinki | Sept 21st - 22nd
 meta_title: Helswingi 2019 - Lindy Hop Beginners' workshop
 teaser: Kick-start Lindy Hop - Beginners' track during Helswingi festival.
 date_start: 2019-09-21

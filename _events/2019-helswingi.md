@@ -2,7 +2,7 @@
 repeats: false
 
 title: Helswingi 2019
-subtitle: Helsinki
+subtitle: Helsinki | Sept 20th - 22nd
 meta_title: Helswingi 2019
 teaser: Save the date for the new edition of Helswingi - 20th-22nd of September.
 date_start: 2019-09-20
