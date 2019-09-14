@@ -20,17 +20,15 @@ image:
 
 Give Balboa or Collegiate Shag an intense start or a proper post-summer brush up. This workshop will teach you the basics of Balboa or Collegiate Shag, but the course will have a tight pace. It’s also the ideal place to wake up your Balboa or Shag basics after a summer break. To attend this workshop you should have taken some couple dance classes for to be familiar with basic terms and technique.
 
- With our frequent visiting teachers Katharina and Johannes you can be sure to be in loving hands.
+With our frequent visiting teachers Katharina and Johannes you can be sure to be in loving hands.
 
 Teaching language is English and we rotate partners.
 
 **Shag:**  
 Saturday 11.00-12.30 and 13.30-15.00  
-Place: Grundskola Norsen, 3rd floor dance hall)
 
 **Balboa:**  
 Sunday, 11.00-12.30 and 13.30-15.00  
-(Place: Saiffa, Flow Mo Dance School)
 
 ## Read more
 
