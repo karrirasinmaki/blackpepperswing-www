@@ -8,7 +8,7 @@ teaser: Kick-start Lindy Hop - Beginners' track during Helswingi festival.
 date_start: 2019-09-21
 date_end: 2019-09-22
 price: 55€ (students/unemplyed -20%)
-address: Kaisaniemen ala-aste, Puutarhakatu 1, 00100 Helsinki
+address: Saiffa - Flow Mo Dance School, Lönnrotinkatu 25 A, 00180 Helsinki
 header:
   hide_text: true
 links:
