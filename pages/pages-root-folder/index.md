@@ -48,8 +48,8 @@ Lindy hop, Shag and Balboa, Solo Jazz and Tap Dancing - for dancers of different
 <div class="text-center">
   <a href="{{ site.baseurl }}/courses" class="button">Check the courses</a>
   <p>
-    New courses starting in September.<br>
-    Registration opens on 5th of August at 18:00.
+    New courses starting last week of October.<br>
+    Registration opens on 7th of October at 20:00.
   </p>
 </div>
 
