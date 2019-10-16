@@ -13,7 +13,7 @@ address: Tanssikoulu EdBH, Merimiehenkatu 29 sisäpiha, 00150 Helsinki
 header:
   hide_text: true
 links:
-  facebook: https://www.facebook.com/events/2463087013915164/
+  facebook: https://www.facebook.com/events/2378383378955097
 image:
   src: kir-evgenia-lindy-hop.jpg
   position: "top center"
