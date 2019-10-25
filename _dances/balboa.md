@@ -1,5 +1,6 @@
 ---
 order: 1
+layout: dance
 
 title: Balboa
 portal_q: Balboa

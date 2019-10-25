@@ -8,6 +8,8 @@ image:
   caption: Ahola Harri | Helsinkikuvia.fi
   caption_url: https://www.helsinkikuvia.fi/
 
+sitemap:
+  priority: 0.98
 permalink: "/events/"
 ---
 

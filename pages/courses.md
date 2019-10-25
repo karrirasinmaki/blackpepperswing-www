@@ -5,6 +5,8 @@ hide_footer: true
 meta_description: Authentic swing dance courses in Helsinki, Tampere and Jyväskylä. New courses starting thruought the year!
 
 title: Courses
+sitemap:
+  priority: 0.99
 permalink: "/courses/"
 ---
 

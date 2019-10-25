@@ -1,6 +1,8 @@
 ---
 title: Info
 
+sitemap:
+  priority: 0.9
 permalink: /info/
 ---
 

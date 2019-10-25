@@ -8,6 +8,8 @@ header:
 iframe:
   src: https://www.youtube.com/embed/hrAMDTchIxY?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;enablejsapi=1
 
+sitemap:
+  priority: 1
 permalink: "/lindyhop/"
 ---
 

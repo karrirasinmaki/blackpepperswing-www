@@ -8,6 +8,8 @@ image:
   caption: Pälsi Sakari | Helsinkikuvia.fi
   caption_url: https://www.helsinkikuvia.fi/
 
+sitemap:
+  priority: 0.95
 permalink: /news/
 ---
 

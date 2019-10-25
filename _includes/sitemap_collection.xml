@@ -1,6 +1,6 @@
 <!-- {{ include.name }}: {{ include.links | size }} links with priority={{ include.priority }}, changefreq={{ include.changefreq }} -->
 {% for link in include.links %}
-	{% unless link.sitemap.exclude or link.published == false %}
+	{% unless link.sitemap.exclude or link.sitemap == false or link.published == false %}
 	<url>
 	<loc>{{ site.url }}{{ site.baseurl }}{{ link.url | remove: 'index.html' }}</loc>
 	{% if link.sitemap.lastmod %}
@@ -12,11 +12,15 @@
 	{% endif %}
 	{% if link.sitemap.changefreq %}
 		<changefreq>{{ link.sitemap.changefreq }}</changefreq>
+	{% elsif link.archived %}
+		<changefreq>never</changefreq>
 	{% else %}
 		<changefreq>{{ include.changefreq }}</changefreq>
 	{% endif %}
 	{% if link.sitemap.priority %}
 		<priority>{{ link.sitemap.priority }}</priority>
+	{% elsif link.archived %}
+		<priority>{{ include.priority | divided_by: 10 }}</priority>
 	{% else %}
 		<priority>{{ include.priority }}</priority>
 	{% endif %}

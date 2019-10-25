@@ -12,5 +12,8 @@
 			</h3>
 		</a>
 		<p>{{ entry.teaser | truncate: 160 }}</p>
+		<p>
+			<a href="{{ site.url }}{{ entry.url }}">{{ site.data.language.read_more }}</a>
+		</p>
 	</div>
 </div>

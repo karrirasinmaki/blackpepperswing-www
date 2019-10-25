@@ -6,6 +6,8 @@ image:
   caption: Artist Unknown | Helsinkikuvia.fi
   caption_url: https://www.helsinkikuvia.fi/
 
+sitemap:
+  priority: 0.96
 permalink: "/contact/"
 ---
 
