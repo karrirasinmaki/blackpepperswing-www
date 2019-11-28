@@ -5,13 +5,13 @@ sitemap: true
 archived: false
 repeats: false
 
-title: Blues & Swing night
-subtitle: Helsinki | Dec 7, 20:00-24:00
-teaser: Saturday Swing & Blues party during Slow in the snow with Ruth & Mike, Saturday, December 7th, from 20 till midnight.
+title: End of Season Swing & Blues party
+subtitle: Helsinki | Dec 7, 19:00-24:00
+teaser: The swing and blues season in Helsinki is slowly coming to its end. Time for a Saturday night party with intense Swing and Blues rhythms at Kirjantalo.
 
 date_start: 2019-12-07
 date_end: 2019-12-08
-time: 20:00-24:00
+time: 19:00-24:00
 address: Kirjan talo, Kirjatyöntekijänkatu 10, 00170 Helsinki, Finland
 links:
   facebook: https://www.facebook.com/events/531554964333661
