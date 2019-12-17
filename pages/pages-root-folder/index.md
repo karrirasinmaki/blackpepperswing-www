@@ -8,7 +8,7 @@ meta_description: We are a swing dance school based in Helsinki, Tampere and Jyv
 # title: New courses starting in November
 # title: ""
 title: "Black Pepper Swing"
-subheadline: "New courses starting last week of October"
+subheadline: "New courses starting in January 2020!"
 # subheadline: "Join us and swing up your life!"
 # subheadline: "&nbsp;"
 # subheadline: We are a swing dance school based in Helsinki, Tampere and Jyväskylä, founded and run through passion for authentic swing dances. We teach, organize, social dance, perform and keep the dance floor busy.
@@ -21,7 +21,7 @@ header:
 #  caption: Jouko Järnefelt
 
 iframe:
-  src: https://www.youtube.com/embed/nt2lpQdxVkY?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;enablejsapi=1
+  src: https://www.youtube.com/embed/nt2lpQdxVkY?rel=0&amp;controls=0&amp;disablekb=1&amp;playsinline=1&amp;showinfo=0&amp;version=3&amp;loop=1&amp;playlist=nt2lpQdxVkY&amp;autoplay=1&amp;enablejsapi=1
 
 permalink: /index.html
 ---
@@ -48,8 +48,8 @@ Lindy hop, Shag and Balboa, Solo Jazz and Tap Dancing - for dancers of different
 <div class="text-center">
   <a href="{{ site.baseurl }}/courses" class="button">Check the courses</a>
   <p>
-    New courses starting last week of October.<br>
-    Registration opens on 7th of October at 20:00.
+  Lindy hop on 5 levels, Tap dancing, Solo Jazz and Slow dancing is on menu.<br/>
+  Registration is open!
   </p>
 </div>
 

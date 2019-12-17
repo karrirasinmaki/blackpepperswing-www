@@ -178,6 +178,7 @@ body.video cite { color: #fff; }
         max-width: none !important;
         object-fit: cover;
         overflow: hidden;
+        pointer-events: none;
       }
     }
 }
