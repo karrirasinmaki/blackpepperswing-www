@@ -17,7 +17,7 @@ Tanja & Karri, the founders, stumbled over each other on the dance floor in 2017
 
 <figure class="article-media small-right">
   <img src="{{ site.url }}/images/tanja-karri-polaroid.png" />
-  <figcaption class="text-center">Tanja & Karri, autumn 2018. Photo by <a href="https://adrianehrlich.com/" target="_blank">Adrian Ehrlich</a>.</figcaption>
+  <figcaption class="text-center">Tanja Wingerter & Karri Rasinmäki, autumn 2018. Photo by <a href="https://adrianehrlich.com/" target="_blank">Adrian Ehrlich</a>.</figcaption>
 </figure>
 
 **Why did we start BPS?**
