@@ -16,7 +16,7 @@ permalink: "/about-us/"
 Tanja & Karri, the founders, stumbled over each other on the dance floor in 2017. Since then we have been training, learning, competing, hanging out, binge-drinking coffee for countless hours and taught several hundreds of hours together and separately. To the day we are enthusiastic to broaden our horizons in the fields of partner dancing and jazz music daily.
 
 <figure class="article-media small-right">
-  <img src="{{ site.url }}/images/tanja-karri-polaroid.png" />
+  <img src="{{ site.urlimg }}medium/tanja-karri-polaroid.png" />
   <figcaption class="text-center">Tanja Wingerter & Karri Rasinmäki, autumn 2018. Photo by <a href="https://adrianehrlich.com/" target="_blank">Adrian Ehrlich</a>.</figcaption>
 </figure>
 
