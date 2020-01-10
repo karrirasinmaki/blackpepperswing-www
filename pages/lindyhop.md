@@ -99,4 +99,4 @@ We live in a digitalized world. Work, school and a big part of our social life h
 ## Sign up for Beginners courses
 No partner or previous dance experience required
 
-<a class="button" href="https://portal.blackpepperswing.com/courses?tab=overview&q=beginners" target="_blank">Show all beginners' courses</a>
+<a class="button" href="{{ site.url }}/courses-for-beginners">Show all beginners' courses</a>

@@ -59,6 +59,7 @@ urlimg: 'https://blackpepperswing.com/images/'
 # Logo size is 600x80 pixels
 logo: "logo.png"
 webfonts: true
+mediaplayer: false
 
 # Paginates all X entries
 paginate: 5

@@ -22,6 +22,10 @@
   url: "/lindyhop/"
   side: right
 
+- title: "About Us"
+  url: "/about-us/"
+  side: right
+
 - title: "Courses"
   url: "/courses/"
   side: right

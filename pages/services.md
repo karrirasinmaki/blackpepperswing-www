@@ -1,0 +1,114 @@
+---
+layout: page-fullwidth
+
+title: Services & Pricing
+subheadline: Courses, private classes and teaching services
+description: Courses, private classes and teaching services.
+image:
+  src: erikoishintaan.jpg
+  caption: Artist Unknown | Helsinkikuvia.fi
+  caption_url: https://www.helsinkikuvia.fi/
+header:
+  shadow_opacity: 0.7
+
+sitemap:
+  priority: 0.95
+permalink: /services/
+---
+
+<div class="text-center">
+Menu
+<nav>
+<a href="#courses-and-weekly-classes">Courses and weekly classes</a>
+ | <a href="#private-classes">Private classes</a>
+ | <a href="#teaching-services">Teaching services</a>
+ | <a href="#corporate-events">Corporate events</a>
+</nav>
+</div>
+
+<div class="row cols-2">
+<div class="columns large-6" markdown="1">
+
+## Courses and weekly classes
+*For comprehensive learning experience.*
+
+We accept payments with card, MobilePay, cash or employee benefit vouchers. [Read more about payments here](https://blackpepperswing.freshdesk.com/en/support/solutions/articles/42000068393-what-payment-methods-are-accepted-).
+
+Courses and especially weekly classes are the default learning environment. By attending to weekly classes accompanied with weekend workshops and special courses, you will ensure your skillset stays relevant.
+
+Do you want extra boost? [Consider private classes with us.](#private-classes)
+
+*Prices include 10% VAT.*
+
+**Weekly classes**  
+120€ for 8 weeks  
+210€ for 16 weeks  
+18€ for single drop-in class  
+
+**Discounts**, only one applied  
+-20% for students and unemployed  
+-25% for every additional course during the same term  
+[Read detailed discount terms here.](https://blackpepperswing.freshdesk.com/en/support/solutions/articles/42000053082-terms-of-trade)
+
+**Workshops**  
+Workshop prices and discounts are defined per workshop.
+
+**Pricing examples**, weekly courses  
+210.00€ - 1 course, 16 weeks  
+367.50€ - 2 courses, 16 weeks  
+457.50€ - 3 courses, 2 x 16 weeks + 1 x 8 weeks
+
+168.00€ - 1 course, 16 weeks (student)  
+258.00€ - 2 courses, 1 x 16 weeks + 1 x 8 weeks (student)  
+
+## Private classes
+*For intensive training and more personal instruction.*
+
+We accept payments with card, MobilePay, cash or employee benefit vouchers. [Read more about payments here](https://blackpepperswing.freshdesk.com/en/support/solutions/articles/42000068393-what-payment-methods-are-accepted-).
+
+No time for weekly classes or you feel you need more personal instruction? You can take private classes with one or two instructors at a time. Private classes can have many purposes: you might want to catch up on class material, finetune your dancing and correct habits, learn special skills or movements of your choice etc. In a private class you get plenty of feedback and homework.
+
+Private classes can be demanding, which is why we can do them for 30min, 45min, or 60min. You can either choose to do the classes with only one or two teachers.
+
+*Prices include 24% VAT. If we need to book a hall, the rent will be added to the price.*
+
+**For 1-2 people** with one/two teacher(s)  
+60€/100€ for single session (1 hour)  
+200€/360€ for 4 sessions (1 hour / session)  
+
+**For 3-6 people** with one/two teacher(s)  
+90€/150€ for single session (1 hour)  
+320€/560€ for 4 sessions (1 hour / session)  
+
+**Wedding dance**  
+250€-350€ (incl. choreography and 2-3 teaching session)  
+
+</div>
+<div class="columns large-6" markdown="1">
+
+## Teaching services
+*For dance schools, associations, and festivals.*
+
+**Helsinki metropolitan area** with one/two teacher(s)  
+90€/160€ per hour + travel expenses outside AB-zone + VAT  
+
+**Rest of Finland** with one/two teacher(s)  
+90€/160€ per hour + travel, food and accommodation expenses + VAT  
+
+**Rest of the world** with one/two teacher(s)  
+Starting from 540€/1000€ for a weekend with 6 hours of teaching.
+
+Service includes social dance demonstration and for example teachers' introduction dance. There will be added travel, food and accommodation expenses + VAT.
+
+*Ask for the offer!* {{ site.email }}  
+
+## Corporate events
+*For a team day, recreational day, summer/Christmas party, kick off, customer event...*
+
+A fun and engaging Lindy Hop or authentic swing dance experience. Dancing is one of the best ways to really get to know with people - including your colleagues and team mates.
+
+**Teaching session** with two teachers  
+240€ + travel expenses + VAT
+
+</div>
+</div>
