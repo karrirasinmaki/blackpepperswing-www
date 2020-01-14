@@ -2,7 +2,7 @@
 layout: redirect
 sitemap: true
 
-archived: false
+archived: true
 repeats: false
 
 title: Slow in the snow with Ruth & Mike

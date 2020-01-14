@@ -1,4 +1,5 @@
 ---
+archived: true
 repeats: false
 
 title: Helswingi 2019

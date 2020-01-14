@@ -5,12 +5,12 @@ repeats: weekly
 
 meta_title: Tuesday Night Hop
 subtitle: Helsinki
-teaser: Weekly swing social dance. Every Tuesday, Elmun Baari, Helsinki, 19.00 - 22.00.
+teaser: Weekly swing social dance. Every Tuesday, On the Rocks, Helsinki, 19.00 - 22.00.
 date_start: 2019-09-03
 day: Tuesdays
 time: 19:00 - 22:00
 price: Free entrance
-address: Elmun Baari, Telakkakatu 8, 00150 Helsinki, Finland
+address: On the Rocks, Mikonkatu 15, 00100 Helsinki
 header:
   hide_text: true
 links:
@@ -29,14 +29,27 @@ Djs play danceable swing music including the classic songs by Count Basie, Duke 
 
 All music lovers, beginner dancers, non dancers and swing dance veterans are welcomed to enjoy Tuesday Nigth Hop.
 
-_Free entrance_  
-_(except during the Live nights announced seperately on Facebook)_
+_Free entrance (except during the [Live nights](#live-nights))_
 
 Tuesday Night Hop Facebook page: [https://www.facebook.com/tuesdaynighthop/](https://www.facebook.com/tuesdaynighthop/)
 
+### Live nights
+
+Once a month we enjoy live music and on those evenings we start already **at 18 with a taster class** in eg. lindy hop or another swing dance. Tickets for live nights can be bought at the door or from Tiketti.
+
+All live nights of this spring:
+
+- Jan 28th
+- Feb 25th
+- Mar 24th
+- Apr 21st
+
 ### What is Lindy hop?
 
-Lindy hop is a fun and expressive dance born in Harlem in the late 1920's danced to swinging jazz music. Here is some example of Lindy hop: [https://www.youtube.com/watch?v=mfFNEL3uAUk](https://www.youtube.com/watch?v=mfFNEL3uAUk) or here [https://www.youtube.com/watch?v=x3kvAt_TmPg](https://www.youtube.com/watch?v=x3kvAt_TmPg).
+Lindy hop is a fun and expressive dance born in Harlem in the late 1920's danced to swinging jazz music. Here are some example of Lindy hop:
+
+- [https://www.youtube.com/watch?v=mfFNEL3uAUk](https://www.youtube.com/watch?v=mfFNEL3uAUk)
+- [https://www.youtube.com/watch?v=x3kvAt_TmPg](https://www.youtube.com/watch?v=x3kvAt_TmPg)
 
 Read more about Lindy hop: [{{ site.url }}/lindyhop/]({{ site.url }}/lindyhop/)
 

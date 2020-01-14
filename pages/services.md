@@ -30,15 +30,11 @@ Menu
 <div class="columns large-6" markdown="1">
 
 ## Courses and weekly classes
-*For comprehensive learning experience.*
+*For a comprehensive learning experience.*
 
-We accept payments with card, MobilePay, cash or employee benefit vouchers. [Read more about payments here](https://blackpepperswing.freshdesk.com/en/support/solutions/articles/42000068393-what-payment-methods-are-accepted-).
+Courses and weekly classes are our default learning environment. By attending weekly classes you keep your progress steady and get a little bit better all the time. You get support from peers and teachers and can influence course content. We encourage all students to get more dance time e.g. by attending social dance events or weekend workshops.
 
-Courses and especially weekly classes are the default learning environment. By attending to weekly classes accompanied with weekend workshops and special courses, you will ensure your skillset stays relevant.
-
-Do you want extra boost? [Consider private classes with us.](#private-classes)
-
-*Prices include 10% VAT.*
+Do you want an extra boost? [Consider taking a private class with us.](#private-classes)
 
 **Weekly classes**  
 120€ for 8 weeks  
@@ -61,16 +57,18 @@ Workshop prices and discounts are defined per workshop.
 168.00€ - 1 course, 16 weeks (student)  
 258.00€ - 2 courses, 1 x 16 weeks + 1 x 8 weeks (student)  
 
-## Private classes
-*For intensive training and more personal instruction.*
+---
+
+*Prices include 10% VAT.*
 
 We accept payments with card, MobilePay, cash or employee benefit vouchers. [Read more about payments here](https://blackpepperswing.freshdesk.com/en/support/solutions/articles/42000068393-what-payment-methods-are-accepted-).
+
+## Private classes
+*For intensive training and more personal instruction.*
 
 No time for weekly classes or you feel you need more personal instruction? You can take private classes with one or two instructors at a time. Private classes can have many purposes: you might want to catch up on class material, finetune your dancing and correct habits, learn special skills or movements of your choice etc. In a private class you get plenty of feedback and homework.
 
 Private classes can be demanding, which is why we can do them for 30min, 45min, or 60min. You can either choose to do the classes with only one or two teachers.
-
-*Prices include 24% VAT. If we need to book a hall, the rent will be added to the price.*
 
 **For 1-2 people** with one/two teacher(s)  
 60€/100€ for single session (1 hour)  
@@ -82,6 +80,12 @@ Private classes can be demanding, which is why we can do them for 30min, 45min, 
 
 **Wedding dance**  
 250€-350€ (incl. choreography and 2-3 teaching session)  
+
+---
+
+*Prices include 24% VAT. If we need to book a hall, the rent will be added to the price.*
+
+We accept payments with card, MobilePay, cash or employee benefit vouchers. [Read more about payments here](https://blackpepperswing.freshdesk.com/en/support/solutions/articles/42000068393-what-payment-methods-are-accepted-).
 
 </div>
 <div class="columns large-6" markdown="1">
@@ -98,14 +102,14 @@ Private classes can be demanding, which is why we can do them for 30min, 45min, 
 **Rest of the world** with one/two teacher(s)  
 Starting from 540€/1000€ for a weekend with 6 hours of teaching.
 
-Service includes social dance demonstration and for example teachers' introduction dance. There will be added travel, food and accommodation expenses + VAT.
+At festivals or workshop weekends the price includes a social dance demonstration. We add VAT as well as travel, food and accommodation expenses (unless provided by the organizer) to the final price.
 
-*Ask for the offer!* {{ site.email }}  
+*Ask for an offer!* {{ site.email }}
 
 ## Corporate events
 *For a team day, recreational day, summer/Christmas party, kick off, customer event...*
 
-A fun and engaging Lindy Hop or authentic swing dance experience. Dancing is one of the best ways to really get to know with people - including your colleagues and team mates.
+A fun and engaging Lindy Hop or authentic swing dance experience. Dancing is one of the best ways to really get to know people - including your colleagues and team mates.
 
 **Teaching session** with two teachers  
 240€ + travel expenses + VAT

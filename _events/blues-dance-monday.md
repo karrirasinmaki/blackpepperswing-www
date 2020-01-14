@@ -20,8 +20,6 @@ image:
 
 _3rd party organizer. Event organized by Blues Dance Helsinki & Arja Sahlberg._
 
-Blues Dance Monday Helsinki continues taking place in Oiva in fall 2019!
-
 Blues Dance Monday takes place on Mondays except for the first Monday of the month. Let's dance to selected Blues tunes, enjoy the bar's offerings and chat with old and new friends.
 
 Blues Dance Mondays are social Blues dance events in Helsinki open for everyone. Previous Blues dance experience is not a requirement, but if you are interested in learning opportunities, the organizers and other dancers are happy to help you find more information about courses and workshops.
