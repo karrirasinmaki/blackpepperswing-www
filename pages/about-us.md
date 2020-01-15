@@ -1,8 +1,8 @@
 ---
 title: About Us
 subheadline: The story of Black Pepper Swing
-description: In 2020 we will celebrate our 4 year anniversary. So what is Black Pepper Swing all about?
-teaser: In 2020 we will celebrate our 4 year anniversary. So what is BPS all about?
+description: In 2020 we will celebrate our 3 year anniversary. So what is Black Pepper Swing all about?
+teaser: In 2020 we will celebrate our 3 year anniversary. So what is BPS all about?
 
 image:
   src: group-over-a-drink.jpg
