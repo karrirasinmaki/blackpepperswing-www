@@ -24,7 +24,7 @@ Come and join our beginners' weekend course to get your Lindy hop or Tap dance s
 
 ## LINDY HOP
 
-During the total of 4h of lessons you will get a profound insight into the world of authentic swing dancing. You will get a sense of interpreting swinging rhythm in dancing, how to both* lead and follow movement, and learn some of the moves lindy hoppers have been rocking since the 1920’s.
+During the total of 4h of lessons you will get a profound insight into the world of authentic swing dancing. You will get a sense of interpreting swinging rhythm in dancing, how to both\* lead and follow movement, and learn some of the moves lindy hoppers have been rocking since the 1920’s.
 
 No previous experience whatsoever needed! You can come on your own or with a friend. After the course you'll have all the necessary tools to enter weekly swing dances in Helsinki.
 
@@ -67,4 +67,4 @@ Course page: [https://portal.blackpepperswing.com/courses/4dvai4dnianf3ktrhm0a2q
 ---
 
 
-*Note: In all our Lindy Beginners courses all participants learn to lead and follow. We have seen, that this leads to the best learning results. (ELEF = everybody leads, everybody follows). You can read more about the benefits of double role learning here: https://bravenewswing.de/elef/
+*Note: In all our Lindy Beginners courses all participants learn to lead and follow. We have seen, that this leads to the best learning results. (ELEF = everybody leads, everybody follows). You can read more about the benefits of double role learning here: [https://bravenewswing.de/elef/](https://bravenewswing.de/elef/)
