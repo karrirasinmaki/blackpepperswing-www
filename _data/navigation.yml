@@ -25,6 +25,15 @@
 - title: "About Us"
   url: "/about-us/"
   side: right
+  dropdown:
+  - title: "Our Story"
+    url: "/about-us/"
+  - title: "Services"
+    url: "/services/"
+  - title: "Teachers"
+    url: "/teachers/"
+  - title: "Info"
+    url: "/info/"
 
 - title: "Courses"
   url: "/courses/"
@@ -32,10 +41,6 @@
 
 - title: "Events"
   url: "/events/"
-  side: right
-
-- title: "Teachers"
-  url: "/teachers/"
   side: right
 
 - title: "Contact"

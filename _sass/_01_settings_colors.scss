@@ -81,12 +81,16 @@ $grey-16: #0B0B0B;
 
 $topbar-bg-color: $ci-1;
 
-$topbar-dropdown-toggle-color: $ci-1;
+$topbar-dropdown-toggle-color: #fff;
+$topbar-dropdown-toggle-alpha: 1;
+$topbar-dropdown-toggle-size: 4px;
+$topbar-link-dropdown-padding: rem-calc($topbar-dropdown-toggle-size*2.6);
 
 $topbar-link-color: #fff;
 $topbar-link-color-hover: darken($topbar-link-color, 25%);
 $topbar-link-color-active: $topbar-link-color-hover;
 $topbar-link-color-active-hover: $topbar-link-color-hover;
+$topbar-link-padding: 0.6rem;
 
 $topbar-dropdown-label-color: $ci-1;
 $topbar-dropdown-link-bg-hover: $ci-1;

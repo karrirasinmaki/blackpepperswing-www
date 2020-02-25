@@ -47,14 +47,9 @@ body.video cite { color: #fff; }
     box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
     @media #{$large-up} {
       .top-bar-section {
-        li a {
-          width: auto;
-          padding: 0;
-          margin: 0 0.8em;
-        }
-        li.active a {
+        li.active > a {
           position: relative;
-          &::after {
+          &::before {
             content: "";
             position: absolute;
             left: 0;

@@ -100,9 +100,9 @@ We accept payments with card, MobilePay, cash or employee benefit vouchers. [Rea
 90€/160€ per hour + travel, food and accommodation expenses + VAT  
 
 **Rest of the world** with one/two teacher(s)  
-Starting from 540€/1000€ for a weekend with 6 hours of teaching.
+Starting at 540€/1000€ for a weekend with 6 hours of teaching.
 
-At festivals or workshop weekends the price includes a social dance demonstration. We add VAT as well as travel, food and accommodation expenses (unless provided by the organizer) to the final price.
+At festivals or workshop weekends the price includes a social dance demonstration. We add VAT (unless reversed) as well as travel, food and accommodation expenses (unless provided by the organizer) to the final price.
 
 *Ask for an offer!* {{ site.email }}
 
@@ -112,7 +112,9 @@ At festivals or workshop weekends the price includes a social dance demonstratio
 A fun and engaging Lindy Hop or authentic swing dance experience. Dancing is one of the best ways to really get to know people - including your colleagues and team mates.
 
 **Teaching session** with two teachers  
-240€ + travel expenses + VAT
+Starting at 240€ + travel expenses + VAT
+
+*Ask for more!* {{ site.email }}
 
 </div>
 </div>
