@@ -9,6 +9,7 @@ url: 'http://localhost:4000'
 baseurl: ''
 urlassets: 'http://localhost:4000/assets/'
 urlimg: 'http://localhost:4000/images/'
+urlvid: 'http://localhost:4000/videos/'
 
 sass:
   # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style

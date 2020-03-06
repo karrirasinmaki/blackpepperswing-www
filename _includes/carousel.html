@@ -1,0 +1,13 @@
+{% comment %}
+* in progress
+{% endcomment %}
+
+<div class="simple-carousel">
+  <div class="carousel-content">
+	{% for entry in include.collection limit:include.entries %}
+    <div class="item">
+      {% include {{include.template}} %}
+    </div>
+	{% endfor %}
+  </div>
+</div>

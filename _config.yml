@@ -41,6 +41,7 @@ invoice_address: info@blackpepperswing.com
 url: 'https://blackpepperswing.com'
 baseurl: ''
 urlimg: 'https://blackpepperswing.com/images/'
+urlvid: 'https://blackpepperswing.com/videos/'
 urlassets: 'https://blackpepperswing.com/assets/'
 
 # This is for the editing function in _/includes/improve_content

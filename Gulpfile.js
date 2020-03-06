@@ -68,6 +68,18 @@ function resizeImagesMedium() {
     .pipe(gulp.dest('images/medium'));
 }
 
+function resizeImagesSmall() {
+  return gulp.src('_original_images/**/*')
+    .pipe(imageResize({
+      width : 320,
+      crop : false,
+      upscale : false,
+      quality: 0.75,
+      imageMagick: true
+    }))
+    .pipe(gulp.dest('images/small'));
+}
+
 function optimizeImages() {
   return gulp.src(['_original_images/**/*', 'images/**/*'])
     .pipe(imagemin([
@@ -95,12 +107,14 @@ function buildJekyll(env) {
 gulp.task('resize_images_thumb', () => resizeImagesThumb());
 gulp.task('resize_images_large', () => resizeImagesLarge());
 gulp.task('resize_images_medium', () => resizeImagesMedium());
+gulp.task('resize_images_small', () => resizeImagesSmall());
 gulp.task('resize_images_cover', () => resizeImagesCover());
 
 gulp.task('resize_images', [
   'resize_images_thumb',
   'resize_images_large',
   'resize_images_medium',
+  'resize_images_small',
   'resize_images_cover'
 ], () => {});
 gulp.task('optimize_images', () => optimizeImages());
