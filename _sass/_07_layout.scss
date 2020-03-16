@@ -201,7 +201,7 @@ body.video cite { color: #fff; }
         padding: 15px 0;
     }
     #masthead-with-text {
-        padding: 2em 0 3em 0;
+        padding: 4em 0 3em 0;
         .masthead-subtitle {
           font-size: rem-calc(18);
         }
@@ -281,6 +281,10 @@ body.video cite { color: #fff; }
     }
 }
 
+
+/* Masthead › large-up
+------------------------------------------------------------------- */
+
 @media #{$large-up} {
   #masthead-with-text {
     padding-top: 27%;
@@ -299,6 +303,9 @@ body.video cite { color: #fff; }
   }
 }
 
+
+/* Title image
+------------------------------------------------------------------- */
 
 #title-image-small {
     height: 240px;
