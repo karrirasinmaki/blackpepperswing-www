@@ -56,6 +56,17 @@ Lindy hop, Shag and Balboa, Solo Jazz and Tap Dancing - for dancers of different
 
 <div class="t50"><hr/></div>
 
+{% capture covidwarn %}
+### Classes on hold
+_For at least till 27th of March._
+
+Due to the development of the COVID-19 situation in Finland, we need to put all classes on hold for at least two weeks. We are currently hoping to take up teaching activity again after the 27th of March, but we will have to evaluate the situation on a daily basis.
+
+Stay healthy!
+{% endcapture %}
+{% include alert text=covidwarn %}
+
+
 {% assign dances = site.dances | sort: "order" %}
 {% include grid.html cols=3 collection=dances template="dance-excerpt.html" %}
 
