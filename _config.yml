@@ -160,6 +160,7 @@ defaults:
       show_meta: true
       comments: true
       author: blackpepperswing
+      archive_url: "/blog/archive/"
   -
     scope:
       path: ""
@@ -230,7 +231,6 @@ defaults:
       show_meta: false
       comments: false
       author: blackpepperswing
-
 
 
 #       _   __            _             __  _
