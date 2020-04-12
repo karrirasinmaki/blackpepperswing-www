@@ -5,3 +5,5 @@ node_modules/
 images/
 vendor/
 .bundle/
+Gemfile.lock
+*.gem
