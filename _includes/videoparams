@@ -1,0 +1,15 @@
+{% unless entry %}
+  {% assign entry = page %}
+{% endunless %}
+
+{% assign vidId = entry.video.url | remove_first: "https://youtu.be/" %}
+{% assign thumbnailUrl = "https://i1.ytimg.com/vi/" | append: vidId | append: "/hqdefault.jpg" %}
+{% assign embedlUrl = "https://www.youtube-nocookie.com/embed/" | append: vidId | append: "?controls=0" %}
+{% assign contentUrl = "https://www.youtube.com/watch?v=" | append: vidId %}
+
+{% capture thumbnails %}
+{{ "https://i1.ytimg.com/vi/" | append: vidId | append: "/hq1.jpg" }}:::
+{{ "https://i1.ytimg.com/vi/" | append: vidId | append: "/hq2.jpg" }}:::
+{{ "https://i1.ytimg.com/vi/" | append: vidId | append: "/hq3.jpg" }}
+{% endcapture %}
+{% assign thumbnails = thumbnails | strip | split: ":::" %}
