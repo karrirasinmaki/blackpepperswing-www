@@ -7,9 +7,9 @@ params:
 
 
 <div class="thumbnail-stack">
-  <img class="thumbnail" src="{{ entry.thumbnail }}">
+  <img class="thumbnail" src="{{ include.thumbnail }}">
   <div class="alternative-thumbnails">
-    {% for thumb in entry.alternative_thumbnails %}
+    {% for thumb in include.alternative_thumbnails %}
     <span class="thumbnail-seeker"></span>
     <img src="{{ thumb }}">
     {% endfor %}
