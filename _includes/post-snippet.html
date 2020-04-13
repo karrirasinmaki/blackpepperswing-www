@@ -1,7 +1,7 @@
 <div class="row">
 	<div class="medium-4 columns t10">
 		<a href="{{ site.url }}{{ entry.url }}">
-			<img src="{{ site.urlimg }}thumb/{{ entry.image.src }}">
+			<img src="{{ entry.image.src | imgurl, size: 'thumb' }}">
 		</a>
 	</div>
 	<div class="medium-8 columns">

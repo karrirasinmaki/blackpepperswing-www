@@ -2,15 +2,18 @@
 layout: default
 format: video
 ---
+
+{% include videoparams %}
+
 <article class="video" itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
 	<div class="container-video">
 		<div class="row">
 			<div class="small-12 columns">
 				<div class="flex-video">
 					{{ page.iframe}}
-					{% if page.video.thumbnailUrl %}<meta itemprop="thumbnailUrl" content="{{ page.video.thumbnailUrl }}" />{% endif %}
-					{% if page.video.contentURL %}<meta itemprop="contentURL" content="{{ page.video.contentURL }}" />{% endif %}
-					{% if page.video.embedURL %}<meta itemprop="embedURL" content="{{ page.video.embedURL }}" />{% endif %}
+					<meta itemprop="thumbnail" content="{{ thumbnailUrl }}" />
+					<meta itemprop="contentUrl" content="{{ contentUrl }}" />
+					<meta itemprop="embedUrl" content="{{ embedlUrl }}" />
 				</div>
 			</div>
 		</div>
