@@ -5,7 +5,7 @@ format: page-fullwidth
 <article>
 	{% include _masthead.html %}
 	<div class="row t30">
-		<div class="medium-12 columns">
+		<div class="columns {% if page.sidebar == nil %}medium-12{% elsif page.sidebar.position == "left" %}medium-10 medium-push-2{% else %}medium-10{% endif %}">
 
 			{% if page.teaser %}
 			<p class="teaser">
@@ -15,5 +15,12 @@ format: page-fullwidth
 
 			{{ content }}
 		</div><!-- /.medium-12.columns -->
+
+		{% if page.sidebar %}
+		<div class="medium-2 columns {% if page.sidebar.position == "left" %} medium-pull-10{% endif %}">
+			{% include _sidebar.html %}
+		</div>
+		{% endif %}
+
 	</div><!-- /.row -->
 </article>

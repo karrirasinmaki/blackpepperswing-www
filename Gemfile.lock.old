@@ -1,13 +1,13 @@
 GIT
-  remote: https://github.com/jekyll/jekyll-sass-converter.git
+  remote: git://github.com/jekyll/jekyll-sass-converter.git
   revision: 402533bd91d8f5a807ce9157a6af2333b205c346
   specs:
     jekyll-sass-converter (2.1.0)
       sassc (> 2.0.1, < 3.0)
 
 GIT
-  remote: https://github.com/jekyll/jekyll.git
-  revision: 561531eca6c6dff07b0c862ad7c40af4f2f7d7b9
+  remote: git://github.com/jekyll/jekyll.git
+  revision: 4e25c36d86caafd16c1db0ddd427a63b767dd3ab
   specs:
     jekyll (4.0.0)
       addressable (~> 2.4)
@@ -86,4 +86,4 @@ DEPENDENCIES
   jekyll-target-blank
 
 BUNDLED WITH
-   2.1.4
+   1.17.3

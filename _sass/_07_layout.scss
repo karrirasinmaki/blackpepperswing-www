@@ -356,32 +356,22 @@ article.video {
 /* Meta
 ------------------------------------------------------------------- */
 
-#page-meta, #page-meta a {
+#page-meta {
     color: $grey-5;
 }
 
-#page-meta .button {
-    background: $grey-5;
-    border: 0;
-}
-#page-meta .button {
-    color: #fff;
-}
-#page-meta .button:hover {
-    background: $primary-color;
-}
 .meta-info p {
   font-size: rem-calc(13);
   color: scale-color($grey-1, $lightness: 40%);
 }
-  .meta-info a {
-    text-decoration: underline;
-    color: scale-color($grey-1, $lightness: 40%);
-  }
-  .meta-info a:hover {
-    text-decoration: none;
-    color: $secondary-color;
-  }
+.meta-info a {
+  text-decoration: underline;
+  color: scale-color($grey-1, $lightness: 40%);
+}
+.meta-info a:hover {
+  text-decoration: none;
+  color: $secondary-color;
+}
 
 
 

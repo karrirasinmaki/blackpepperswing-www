@@ -1,0 +1,14 @@
+.card {
+	.subheader {
+		display: inline-block;
+		max-width: 100%;
+		line-height: 1.1em;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.excerpt {
+	}
+}
+
+.hide-excerpt .excerpt { display: none; }

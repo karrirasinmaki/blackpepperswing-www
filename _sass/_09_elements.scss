@@ -15,6 +15,7 @@
 - Thumbnail stack
 - Simple carousel (in progress)
 - Article media
+- Flex video
 
 */
 
@@ -335,5 +336,18 @@ img + em {
     &.small-right + .small-left {
       width: 74%;
     }
+  }
+}
+
+/* Flex video
+------------------------------------------------------------------- */
+
+.flex-video-youtube {
+  @include flex-video-container();
+  padding-top: 4rem; // YouTube player top bar height
+  margin-top: 1rem;
+  margin-bottom: -3rem;
+  iframe {
+    top: -4rem;
   }
 }

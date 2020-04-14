@@ -10,6 +10,7 @@
 @import "04_settings_global.scss";
 @import "05_normalize.scss"; // normalize.css v3.0.2
 
+// foundation v5.5.0
 @import "foundation-components/top-bar";
 @import "foundation-components/accordion";
 @import "foundation-components/alert-boxes";
@@ -30,6 +31,7 @@
 @import "foundation-components/side-nav";
 @import "foundation-components/sub-nav";
 @import "foundation-components/tables";
+@import "foundation-components/tabs";
 @import "foundation-components/thumbs";
 @import "foundation-components/top-bar";
 @import "foundation-components/type";
@@ -41,5 +43,6 @@
 @import "09_elements.scss";
 
 @import "elements/nav_list.scss";
+@import "elements/card.scss";
 
 @import "11_syntax-highlighting.scss";
