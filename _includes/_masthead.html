@@ -16,7 +16,7 @@
 	{% if page.header.large %}large {% endif %}
 	{% if page.iframe %}with-media {% endif %}"
 	style="
-	{% if page.image and page.image.src %}background-image: url('{{ site.urlimg }}cover/{{ page.image.src }}'); {% endif %}
+	{% if page.image and page.image.src %}background-image: url('{{ page.image.src | imgurl,size:'cover' }}'); {% endif %}
 	{% if page.image and page.image.position %}background-position: {{ page.image.position }}; {% endif %}
 	{% if page.header.background-color %}background-color: {{ page.header.background-color }}; {% endif %}
 	{% if page.header.pattern %}background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('{{ site.urlimg }}/{{ page.header.pattern }}'); {% endif %}">
@@ -59,7 +59,7 @@
 	<div class="medium-8 columns medium-offset-2">
 		{% if page.image and page.image.src %}
 		<figure>
-			<img src="{{ site.urlimg }}{{ page.image.src }}" width="970" alt="{{ page.title | escape_once }}" itemprop="image">
+			<img src="{{ page.image.src | imgurl,size:'large' }}" width="970" alt="{{ page.title | escape_once }}" itemprop="image">
 
 			{% if page.image.caption %}
 			<figcaption class="text-right">
@@ -100,9 +100,4 @@
 
 </header>
 
-<!-- Floating head -->
-<div class="floating-head">
-	<a href="{{ site.baseurl }}/lindyhop" class="button speech-bubble">{{ site.data.language.new_to_lindy_hop_trigger }}</a>
-	<img src="{{ site.urlimg }}heads/cab-calloway.jpg" class="head"></span>
-	<a href="{{ site.baseurl }}/lindyhop" class="full-a"></a>
-</div>
+{% include floating-head.html %}

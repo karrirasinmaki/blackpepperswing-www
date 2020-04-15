@@ -25,9 +25,9 @@
 		{% if page.show_meta.tags != false and page.tags %}
 		<span class="pr20">{% for tag in page.tags %}
 			{% assign slug = tag | slugify %}
-			<a href="{{ site.autopages.tags.permalink | replace:":tag",slug }}">
-				<span class="icon-price-tag pr10"> {{tag}}</span>
-			</a>
+			<span class="icon-price-tag pr10">
+				<a href="{{ site.autopages.tags.permalink | replace:":tag",slug }}"> {{tag}}</a>
+			</span>
 			{% endfor %}
 		</span>
 		{% endif %}
