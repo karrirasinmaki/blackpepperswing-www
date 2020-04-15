@@ -22,14 +22,20 @@
 
 
 {% comment %}
-Foundation scripts
-Using CDN versions
+# Foundation scripts
+# Using CDN versions
 {% endcomment %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/foundation.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/foundation.tab.min.js"></script>
 <script>
   $(document).foundation();
 </script>
+
+
+{% comment %}
+# Custom script for themes based on this theme
+{% endcomment %}
+{% include custom-footer-scripts.html %}
 
 
 {% if site.google_analytics_tracking_id %}

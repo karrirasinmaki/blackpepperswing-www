@@ -13,7 +13,7 @@ format: video
 					{% if page.iframe %}
 						{{ page.iframe}}
 					{% else %}
-						<iframe width="560" height="315" src="{{ embedlUrl }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<iframe id="embed-video-player" width="560" height="315" src="{{ embedlUrl }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					{% endif %}
 					<meta itemprop="thumbnail" content="{{ thumbnailUrl }}" />
 					<meta itemprop="contentUrl" content="{{ contentUrl }}" />

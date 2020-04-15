@@ -4,7 +4,7 @@
 
 {% assign vidId = entry.video.url | remove_first: "https://youtu.be/" %}
 {% assign thumbnailUrl = "https://i1.ytimg.com/vi/" | append: vidId | append: "/hqdefault.jpg" %}
-{% assign embedlUrl = "https://www.youtube-nocookie.com/embed/" | append: vidId | append: "?controls=1&modestbranding=1&rel=0&autoplay=1" %}
+{% assign embedlUrl = "https://www.youtube-nocookie.com/embed/" | append: vidId | append: "?controls=1&modestbranding=1&rel=0&autoplay=1&enablejsapi=1" %}
 {% assign contentUrl = "https://www.youtube.com/watch?v=" | append: vidId %}
 
 {% capture thumbnails %}
