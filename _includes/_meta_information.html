@@ -3,7 +3,7 @@
 		<!-- Look the author details up from the site config. -->
 		{% assign author = site.data.authors[page.author] %}
 		<!-- Output author details if some exist. -->
-		{% if page.show_meta.author and author %}
+		{% if page.show_meta.author != false and author %}
 		<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="pr20 icon-edit"><a href="{{ author.uri }}" target="_blank"> {{ author.name }}</a></span>
 		</span>
 		{% endif %}
@@ -12,9 +12,25 @@
 		<time class="icon-calendar pr20" datetime="{{ page.date | date: "%Y-%m-%d" }}" itemprop="datePublished"> {{ page.date | date: "%Y-%m-%d" }}</time>
 		{% endif %}
 
-		{% if page.categories %}<span class="icon-archive pr20"> {{ page.categories | join: ' · ' | upcase }}{% endif %}</span>
-		<br />
-		<span class="pr20">{% for tag in page.tags %}<span class="icon-price-tag pr10"> {{tag}}</span> {% endfor %}</span>
+		{% if page.show_meta.categories != false and page.categories %}
+		<span class="icon-archive pr20">{% for cat in page.categories %}
+			{% assign slug = cat | slugify %}
+			{% if forloop.first != true %}<span> · </span>{% endif %}
+			<a href="{{ site.autopages.categories.permalink | replace:":cat",slug }}">
+				<span>{{ cat }}</span>
+			</a>
+			{% endfor %}<br />
+		</span>
+		{% endif %}
+		{% if page.show_meta.tags != false and page.tags %}
+		<span class="pr20">{% for tag in page.tags %}
+			{% assign slug = tag | slugify %}
+			<a href="{{ site.autopages.tags.permalink | replace:":tag",slug }}">
+				<span class="icon-price-tag pr10"> {{tag}}</span>
+			</a>
+			{% endfor %}
+		</span>
+		{% endif %}
 	</p>
 
 	{% if page.show_meta.nav != false %}

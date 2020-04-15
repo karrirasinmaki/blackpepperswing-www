@@ -35,6 +35,9 @@ vat_number: FI28578381
 legal_name: Osuuskunta Swing Kollektiivi / Coop Swing Collective
 invoice_address: info@blackpepperswing.com
 
+# When serving on a local machine, the default time zone is set by your operating system. But when served on a remote host/server, the default time zone depends on the server's setting or location.
+timezone: Finland/Helsinki
+
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
@@ -61,11 +64,26 @@ logo: "logo.png"
 webfonts: true
 mediaplayer: false
 
-## TODO: Convert to new pagination
-# Paginates all X entries
-# paginate: 5
-# Pagination path › Important for blog page in /blog/ to work
-# paginate_path: "blog/page:num"
+###
+# Pagination and autopages
+pagination:
+  enabled: true
+  per_page: 15
+  permalink: /page/:num/
+
+autopages:
+  enabled: true
+  categories:
+    title: ":cat"
+    permalink: /posts/categories/:cat/
+    layouts: 
+      - 'autopage.html'
+  tags:
+    title: ":tag"
+    permalink: /posts/tags/:tag/
+    layouts: 
+      - 'autopage.html'
+
 
 # Theme works best with Kramdown (using the table of contents function)
 markdown: kramdown
@@ -91,6 +109,7 @@ exclude:
     - vendor
     - .bundle
     - bundler
+    - tags
 
 
 # The language setting is used in /includes/header.html for html-settings
