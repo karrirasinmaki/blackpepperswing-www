@@ -9,6 +9,8 @@
 //
 $include-pagination-classes: $include-html-classes !default;
 
+$pagination-li-a-border-enabled: false;
+
 // We use these to control the pagination container
 $pagination-height: rem-calc(24) !default;
 $pagination-margin: rem-calc(-5) !default;
@@ -117,6 +119,9 @@ $pagination-link-current-active-bg: $primary-color !default;
         font-size: 1em;
         line-height: inherit;
         @include single-transition(background-color);
+        @if $pagination-li-a-border-enabled == false {
+          border-width: 0;
+        }
       }
 
       &:hover a,

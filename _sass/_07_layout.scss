@@ -559,10 +559,10 @@ article.video {
 @media #{$medium-up} {
   .row.cols-3 {
     &.cols-left-2 {
-      .columns:first-child {
+      > .columns:first-child {
         margin-left: 16.666%;
       }
-      .columns:last-child {
+      > .columns:last-child {
         margin-right: 16.666%;
       }
     }
