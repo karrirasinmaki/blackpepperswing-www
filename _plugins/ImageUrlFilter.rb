@@ -1,10 +1,7 @@
 module Jekyll
   module ImageUrlFilter
     def imgurl(input, opts={})
-      puts "URLIMG"
-      puts input
       if input.include? "://"
-        puts "--ext"
         # is external url
         return input
       end
