@@ -48,11 +48,6 @@ body.video-full {
 article.video {
   .container-video {
     @extend .video-container;
-    background: #000;
-  }
-  .container-video-header {
-    @extend .video-container;
-    background: #000;
   }
 }
 

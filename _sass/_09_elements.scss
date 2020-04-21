@@ -346,9 +346,17 @@ img + em {
 
 .flex-video-youtube {
   @include flex-video-container();
-  padding-top: 4rem; // YouTube player top bar height
-  margin-top: 1rem;
-  margin-bottom: -3rem;
+
+  // hiding yt topbar - fallback if rem not supported
+  padding-top: 130px; // fallback
+  margin-top: 26px;
+  margin-bottom: -65px + 26px;
+
+  // hiding yt topbar
+  padding-top: 8rem; // YouTube player top bar height
+  margin-top: 1.6rem;
+  margin-bottom: -4rem + 1.6rem;
+
   iframe {
     top: -4rem;
   }
