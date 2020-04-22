@@ -13,6 +13,11 @@ format: post
 
 	<div class="row t30">
 		<div class="medium-8 columns{% if page.sidebar == nil %} medium-offset-2 end{% elsif page.sidebar.position == "right" %} medium-pull-4{% endif %}">
+
+			{% if page.show_meta %}
+			{% include _meta_information.html %}
+			{% endif %}
+
 			{% if page.teaser %}
 			<p class="teaser" itemprop="description">
 				{{ page.teaser }}
@@ -22,10 +27,6 @@ format: post
 			<div itemprop="articleSection">
 			{{ content }}
 			</div>
-
-			{% if page.show_meta == true %}
-			{% include _meta_information.html %}
-			{% endif %}
 
 			{% if page.comments == true %}
 			{% include _comments.html %}

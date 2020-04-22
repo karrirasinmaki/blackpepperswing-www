@@ -7,13 +7,14 @@
 	{% assign use_header = true %}
 {% endif %}
 
+<header>
 {% if use_header %}
 
 
-<header>
 <div id="masthead-with-text" class="masthead
 	{% if page.image %}with-image {% endif %}
 	{% if page.header.large %}large {% endif %}
+	{% if page.header.short %}short {% endif %}
 	{% if page.iframe %}with-media {% endif %}"
 	style="
 	{% if page.image and page.image.src %}background-image: url('{{ page.image.src | imgurl,size:'cover' }}'); {% endif %}
@@ -49,7 +50,7 @@
 
 
 
-{% elsif disable_header != true %}
+{% elsif page.disable_header != true %}
 
 
 

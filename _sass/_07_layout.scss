@@ -189,6 +189,12 @@ article.video {
         pointer-events: none;
       }
     }
+
+    &.short {
+      padding: 0 0 1.4em 0;
+      .masthead-title { margin-bottom: 0; }
+      .masthead-caption { bottom: 0.2em; }
+    }
 }
 #masthead-no-image-header {
     height: 175px;
@@ -312,6 +318,13 @@ article.video {
       transform: translate(0%, 30%);
       -moz-transform: translate(0%, 30%);
       -webkit-transform: translate(0%, 30%);
+    }
+    &.short .row {
+      position: relative;
+      bottom: auto;
+      transform: none;
+      -moz-transform: none;
+      -webkit-transform: none;
     }
   }
 }
