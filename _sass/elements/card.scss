@@ -11,4 +11,8 @@
 	}
 }
 
-.hide-excerpt .excerpt { display: none; }
+.hide-excerpt .excerpt,
+.hide-subheader .subheader,
+.hide-title .title,
+.hide-title-row .title-row
+{ display: none; }
