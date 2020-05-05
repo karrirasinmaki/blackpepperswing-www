@@ -14,6 +14,8 @@ permalink: "/links/"
     <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.name }}"> {{ social_item.name }}</a></li>
     {% endif %}
     {% endfor %}
+    <li class="divider b60"></li>
+    <li><a href="https://www.youtube.com/playlist?list=PLXuPJeS8W-KoF6CIHZan0xlxfD0hO4iYQ">Colorized clips</a></li>
   </ul>
 </div>
 
