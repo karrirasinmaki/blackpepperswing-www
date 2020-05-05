@@ -321,6 +321,7 @@ facebook_app_id: 335589810224955
 sass:
     sass_dir: _sass
     style: :compressed
+    sourcemap: 'never'
 
 
 #       ___                __      __  _
