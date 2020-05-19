@@ -1,3 +1,5 @@
+{% assign old_entry = entry %}
+
 {% unless entry %}
 	{% assign entry = page %}
 {% endunless %}
@@ -14,4 +16,4 @@
 {% endcapture %}
 {% assign thumbnails = thumbnails | strip | split: ":::" %}
 
-{% assign entry = nil %}
+{% assign entry = old_entry %}
