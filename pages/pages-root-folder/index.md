@@ -8,7 +8,7 @@ meta_description: We are a swing dance school based in Helsinki, Tampere and Jyv
 # title: New courses starting in November
 # title: ""
 title: "Black Pepper Swing"
-subheadline: "New season starting on 16th of March!"
+# subheadline: "New season starting on 16th of March!"
 # subheadline: "Join us and swing up your life!"
 # subheadline: "&nbsp;"
 # subheadline: We are a swing dance school based in Helsinki, Tampere and Jyväskylä, founded and run through passion for authentic swing dances. We teach, organize, social dance, perform and keep the dance floor busy.
@@ -61,12 +61,15 @@ Lindy hop, Shag and Balboa, Solo Jazz and Tap Dancing - for dancers of different
 <div class="t50"><hr/></div>
 
 {% capture covidwarn %}
-<p><b>COVID-19</b> | March 29, 2020</p> <h3>Classes on hold</h3>
-<i>We are hopefully back in summer.</i>
-<p>More restrictions have been imposed and we are unfortunately not very hopeful to restart our teaching activity before the end of May. We are really terribly sorry for this unhoped-for dance break.</p>
-<p>We will offer summer classes - classes on weekdays and workshops on weekends. This means we will teach in June and August, maybe also in July. All this will depend on the further development of the situation and we will, of course, keep you updated.</p>
-<p>More info about cancelled courses and reimbursements will be sent to all participants.</p>
-<p>We miss teaching and seeing you! Stay healthy and happy!</p>
+<p><b>COVID-19</b> | May 27, 2020</p> <h3>Tiny summer groups &amp; online material</h3>
+<i>We are restarting in a lower gear from the 1st of June!</i>
+<p>We are starting Tiny Lindy Training Groups,  and donation-based Outdoor Solo training with changing topics as well as reopening our Solo Jazz Group (Beginner-Improver).</p>
+<p>All classes have a maximum of 8-10 participants to make it possible to keep distance to your group mates. We also recommend using a light face mask.</p>
+<p>Additionally, everyone with a BPS account will get access to our new online library, where you can browse content from previous classes. We will publish the library on the 1st of June.</p>
+<p>We are still available to teach private classes in June. In July you can take privates from Karri.</p>
+<p>Read more about the classes and groups here:
+<a href="https://portal.blackpepperswing.com/courses">portal.blackpepperswing.com/courses</a>
+</p>
 
 <dl class="accordion" data-accordion>
   <dd class="accordion-navigation">
@@ -76,11 +79,13 @@ Lindy hop, Shag and Balboa, Solo Jazz and Tap Dancing - for dancers of different
 <ul>
 <li>First and foremost: Keep dancing, stay motivated, listen to jazz music <3</li>
 <li>Stay patient and return to classes when things normalize</li>
-<li>Follow our <a href="https://www.youtube.com/channel/UCqhUGGN-O_FC5Luf3wOmO1g" target="_blank">Youtube-channel</a></li>
-<li>Follow us on <a href="https://www.instagram.com/blackpepperswing/" target="_blank">Instagram</a> and <a href="https://www.facebook.com/blackpepperswing/" target="_blank">Facebook</a></li>
-<li>Write us a nice evaluation of our classes or events on <a href="https://www.facebook.com/blackpepperswing/" target="_blank">Facebook</a></li>
-<li>Buy a gorgeous <a href="https://holvi.com/shop/LkwQb5/section/helsinki-swing-community/" target="_blank">Helsinki Swing scene support</a> T-shirt or package</li>
-<li>Take a private class with us</li>
+<li><a href="https://www.youtube.com/c/blackpepperswing?sub_confirmation=1" target="_blank" rel="noopener noreferrer">Subscribe to our Youtube-channel</a></li>
+<li>Like and follow us on <a href="https://www.instagram.com/blackpepperswing/" target="_blank" rel="noopener noreferrer">Instagram</a> and <a href="https://www.facebook.com/blackpepperswing/" target="_blank" rel="noopener noreferrer">Facebook</a>
+</li>
+<li>
+<a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fblackpepperswing%2Freviews%2F" target="_blank" rel="noopener noreferrer">Recommend us on Facebook</a> or <a href="https://g.page/blackpepperswing/review?rc" target="_blank" rel="noopener noreferrer">write a review on Google</a>
+</li>
+<li><a href="https://blackpepperswing.com/services/#private-classes" target="_blank" rel="noopener noreferrer">Take a private class with us</a></li>
 </ul>
 <p>Also, if you need help and see a way how we could support you, please email us.</p>
     </div>
