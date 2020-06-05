@@ -21,6 +21,9 @@
 - name: "Beginners' Courses"
   url: "/courses-for-beginners/"
 
+- name: "Online Library"
+  url: "https://library.blackpepperswing.com/"
+
 - name: "&nbsp;"
   type: "divider"
 

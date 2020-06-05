@@ -65,10 +65,10 @@ Lindy hop, Shag and Balboa, Solo Jazz and Tap Dancing - for dancers of different
 <i>We are restarting in a lower gear from the 1st of June!</i>
 <p>We are starting Tiny Lindy Training Groups,  and donation-based Outdoor Solo training with changing topics as well as reopening our Solo Jazz Group (Beginner-Improver).</p>
 <p>All classes have a maximum of 8-10 participants to make it possible to keep distance to your group mates. We also recommend using a light face mask.</p>
-<p>Additionally, everyone with a BPS account will get access to our new online library, where you can browse content from previous classes. We will publish the library on the 1st of June.</p>
+<p>Additionally, everyone with a BPS account has an instant access to our new online library, where you can browse content from previous classes. Address for the library is:<br/><a href="https://library.blackpepperswing.com/">https://library.blackpepperswing.com</a></p>
 <p>We are still available to teach private classes in June. In July you can take privates from Karri.</p>
-<p>Read more about the classes and groups here:
-<a href="https://portal.blackpepperswing.com/courses">portal.blackpepperswing.com/courses</a>
+<p>Read more about the classes and groups here:<br/>
+<a href="https://portal.blackpepperswing.com/courses">https://portal.blackpepperswing.com/courses</a>
 </p>
 
 <dl class="accordion" data-accordion>
