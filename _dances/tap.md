@@ -1,5 +1,5 @@
 ---
-order: 5
+order: 2
 
 title: Tap Dancing
 portal_q: Tap

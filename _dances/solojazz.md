@@ -1,5 +1,5 @@
 ---
-order: 4
+order: 1
 
 title: Solo Jazz
 portal_q: Solo Jazz

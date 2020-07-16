@@ -61,35 +61,13 @@ Lindy hop, Shag and Balboa, Solo Jazz and Tap Dancing - for dancers of different
 <div class="t50"><hr/></div>
 
 {% capture covidwarn %}
-<p><b>COVID-19</b> | May 27, 2020</p> <h3>Tiny summer groups &amp; online material</h3>
-<i>We are restarting in a lower gear from the 1st of June!</i>
-<p>We are starting Tiny Lindy Training Groups,  and donation-based Outdoor Solo training with changing topics as well as reopening our Solo Jazz Group (Beginner-Improver).</p>
-<p>All classes have a maximum of 8-10 participants to make it possible to keep distance to your group mates. We also recommend using a light face mask.</p>
-<p>Additionally, everyone with a BPS account has an instant access to our new online library, where you can browse content from previous classes. Address for the library is:<br/><a href="https://library.blackpepperswing.com/">https://library.blackpepperswing.com</a></p>
-<p>We are still available to teach private classes in June. In July you can take privates from Karri.</p>
-<p>Read more about the classes and groups here:<br/>
-<a href="https://portal.blackpepperswing.com/courses">https://portal.blackpepperswing.com/courses</a>
-</p>
+<h3>Ready for autumn term!</h3>
+<p>Our courses are restarting from the 24th of August! We are happy to bounce up our new 100m2 home studio at Bulevardi 31 with classes of Lindy hop, Solo Jazz and Tap dancing.</p>
+<p>You can check all classes <a href="/courses">here</a>. Registration opening July 17th.</p>
+<p>Due to the current COVID-situation, we are making special arrangements to minimize <a href="https://blackpepperswing.freshdesk.com/en/support/solutions/articles/42000077421-our-covid-19-protocol" target="_blank">risks</a>. We take care of cleanliness and hygiene at the studio, teach only smaller groups (&lt; 16 participants) and there is no obligatory couple rotation, but you may choose to rotate with 2-3 couples.</p>
+<p>We are looking forward to a season full of possibilities together with you!</p>
 
 <dl class="accordion" data-accordion>
-  <dd class="accordion-navigation">
-    <a href="#howto-help">How can you help?</a>
-    <div id="howto-help" class="content">
-<p>This crisis is probably taking a toll on many of you. If you have a minute or some extra money to spare here are some ideas:</p>
-<ul>
-<li>First and foremost: Keep dancing, stay motivated, listen to jazz music <3</li>
-<li>Stay patient and return to classes when things normalize</li>
-<li><a href="https://www.youtube.com/c/blackpepperswing?sub_confirmation=1" target="_blank" rel="noopener noreferrer">Subscribe to our Youtube-channel</a></li>
-<li>Like and follow us on <a href="https://www.instagram.com/blackpepperswing/" target="_blank" rel="noopener noreferrer">Instagram</a> and <a href="https://www.facebook.com/blackpepperswing/" target="_blank" rel="noopener noreferrer">Facebook</a>
-</li>
-<li>
-<a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fblackpepperswing%2Freviews%2F" target="_blank" rel="noopener noreferrer">Recommend us on Facebook</a> or <a href="https://g.page/blackpepperswing/review?rc" target="_blank" rel="noopener noreferrer">write a review on Google</a>
-</li>
-<li><a href="https://blackpepperswing.com/services/#private-classes" target="_blank" rel="noopener noreferrer">Take a private class with us</a></li>
-</ul>
-<p>Also, if you need help and see a way how we could support you, please email us.</p>
-    </div>
-  </dd>
   <dd class="accordion-navigation">
     <a href="#danceathome-music">Tanja’s playlists for your at-home-dancing</a>
     <div id="danceathome-music" class="content"><ul>
@@ -99,7 +77,23 @@ Lindy hop, Shag and Balboa, Solo Jazz and Tap Dancing - for dancers of different
 </ul>
     </div>
   </dd>
-  <!-- ... -->
+  <dd class="accordion-navigation">
+    <a href="#private-class">Kick-start the autumn with a private classes</a>
+    <div id="private-class" class="content">
+      <p>Freshen up your skills before new season with a private class or two with us. Just drop us a message and arrange a meeting!</p>
+      <p>info@blackpepperswing.com<br/>+358 84 154 1724</p>
+    </div>
+  </dd>
+  <dd class="accordion-navigation">
+    <a href="#social-media">Our social media</a>
+    <div id="social-media" class="content">
+      <ul>
+        <li><a href="https://www.youtube.com/channel/UCqhUGGN-O_FC5Luf3wOmO1g" target="_blank">Youtube</a></li>
+        <li><a href="https://www.instagram.com/blackpepperswing/" target="_blank">Instagram</a></li>
+        <li> <a href="https://www.facebook.com/blackpepperswing/" target="_blank">Facebook</a></li>
+      </ul>
+    </div>
+  </dd>
 </dl>
 {% endcapture %}
 {% include alert text=covidwarn %}

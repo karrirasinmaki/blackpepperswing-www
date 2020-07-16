@@ -1,5 +1,5 @@
 ---
-order: 2
+order: 4
 
 title: Collegiate Shag
 portal_q: Collegiate Shag
