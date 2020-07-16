@@ -11,7 +11,7 @@ permalink: "/courses/"
 ---
 
 <div class="f-topbar-fixed">
-  <iframe class="f-topbar-fixed" src="https://portal.blackpepperswing.com/courses/embed?tab=overview" width="100%" height="100%" style="position: absolute; left:0; right:0; bottom:0; top:0; border:0;">
+  <iframe class="f-topbar-fixed" src="https://portal.blackpepperswing.com/courses/embed?tab=overview" width="100%" height="100%" style="position: absolute; left:0; right:0; bottom:0; top:0; border:0; z-index:-1;">
     Courses and registration: <a href="https://portal.blackpepperswing.com/courses/" target="_blank">portal.blackpepperswing.com/courses</a>
   </iframe>
 </div>
