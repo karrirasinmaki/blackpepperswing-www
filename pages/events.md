@@ -28,6 +28,9 @@ permalink: "/events/"
 
 {% assign events = site.events | where_exp: 'item', 'item.archived != true' | where: 'repeats', 'weekly' | sort: 'title' | sort: 'order' %}
 {% include grid.html cols=1 collection=events template='post-snippet.html' %}
+{% if events.size == 0 %}
+  There are currently no weekly swing dance events.
+{% endif %}
 
 <div class="t60 b60">&nbsp;</div>
 

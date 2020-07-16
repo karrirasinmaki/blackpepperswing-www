@@ -1,3 +1,4 @@
+{% assign old_entry = entry %}
 {% unless entry %}
   {% assign entry = page %}
 {% endunless %}
@@ -26,3 +27,4 @@
     <b>{{ site.data.language.facebook }}: </b><a href="{{ entry.links.facebook }}" target="_blank">{{ entry.links.facebook }}</a><br>
   {% endif %}
 </p>
+{% assign entry = old_entry %}

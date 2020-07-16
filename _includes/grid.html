@@ -10,6 +10,8 @@
 *   
 {% endcomment %}
 
+{% assign old_entry = entry %}
+
 {% assign classlist = "columns" %}
 {% assign rowclasslist = "row" %}
 
@@ -47,3 +49,5 @@
 		{% endunless %}
 	{% endfor %}
 </div>
+
+{% assign entry = old_entry %}

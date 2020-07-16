@@ -1,5 +1,5 @@
 ---
-archived: false
+archived: true
 order: 11
 repeats: weekly
 
