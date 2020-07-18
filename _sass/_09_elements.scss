@@ -87,6 +87,43 @@
 }
 
 
+/* "Read more" element
+------------------------------------------------------------------- */
+
+.read-more-wrapper {
+
+  .more-trigger {
+    display: none;
+  }
+
+  .more-button {
+    margin-top: -0.6em;
+    transform: translateY(0em);
+    transition: 0.2s transform;
+  }
+  .more-trigger:checked~.more-button {
+    display: none;
+  }
+
+  .more-content {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 6em;
+    overflow: hidden;
+  }
+  .more-content-tall {
+    max-height: 21em;
+  }
+  .more-trigger:not(:checked)+.more-content {
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(0.7, #000), to(rgba(0,0,0,0)));
+  }
+  .more-trigger:checked+.more-content {
+    max-height: 9999em;
+  }
+
+}
+
+
 
 /* Table of Contents (Index)
 ------------------------------------------------------------------- */

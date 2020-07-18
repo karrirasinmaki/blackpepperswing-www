@@ -1,3 +1,16 @@
 <h2>{{ entry.title }}</h2>
+{% if entry.show_short %}
+  {% assign read_more_id = "read-more-" | append: entry.slug %}
+  <div class="read-more-wrapper">
+  <input type="checkbox" id="{{ read_more_id }}" class="more-trigger">
+  <div class="more-content more-content-tall">
+{% endif %}
+
 {{ entry.excerpt }}
 {% include dance-courses-link.html %}
+
+{% if entry.show_short %}
+</div>
+<label for="{{ read_more_id }}" class="more-button text-center">More</label>
+</div>
+{% endif %}

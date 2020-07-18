@@ -16,12 +16,13 @@ header:
   shadow_opacity: 0.2
   large: true
 
-# image:
-#  src: lindy-in-forest.jpg
-#  caption: Jouko Järnefelt
+image:
+ src: backtojazz-v3-2.jpg
+ caption: Original photo by Eric Bobrie
+ caption_url: https://www.ebobrie.com/about
 
-iframe:
-  src: https://www.youtube.com/embed/nt2lpQdxVkY?rel=0&amp;controls=0&amp;disablekb=1&amp;playsinline=1&amp;showinfo=0&amp;version=3&amp;loop=1&amp;playlist=nt2lpQdxVkY&amp;autoplay=1&amp;enablejsapi=1
+# iframe:
+#   src: https://www.youtube.com/embed/nt2lpQdxVkY?rel=0&amp;controls=0&amp;disablekb=1&amp;playsinline=1&amp;showinfo=0&amp;version=3&amp;loop=1&amp;playlist=nt2lpQdxVkY&amp;autoplay=1&amp;enablejsapi=1
 
 permalink: /index.html
 ---

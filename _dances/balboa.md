@@ -1,6 +1,7 @@
 ---
 order: 3
 layout: dance
+show_short: true
 
 title: Balboa
 portal_q: Balboa

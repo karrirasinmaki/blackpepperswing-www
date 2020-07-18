@@ -15,6 +15,7 @@ permalink: "/links/"
     {% endif %}
     {% endfor %}
     <li class="divider b60"></li>
+    <li><a href="https://library.blackpepperswing.com/">Library</a></li>
     <li><a href="https://www.youtube.com/playlist?list=PLXuPJeS8W-KoF6CIHZan0xlxfD0hO4iYQ">Colorized clips</a></li>
   </ul>
 </div>

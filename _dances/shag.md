@@ -1,5 +1,6 @@
 ---
 order: 4
+show_short: true
 
 title: Collegiate Shag
 portal_q: Collegiate Shag
