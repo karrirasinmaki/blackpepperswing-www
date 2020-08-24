@@ -6,10 +6,10 @@ meta_description: We are a swing dance school based in Helsinki, Tampere and Jyv
 
 # title: Hopping around swamps and lakes since 2017
 # title: New courses starting in November
-title: ""
-# title: "Black Pepper Swing"
+# title: ""
+title: "Black Pepper Swing"
 
-# subheadline: "New season starting on 16th of March!"
+subheadline: "Next beginners' courses starting September 10th!"
 # subheadline: "Join us and swing up your life!"
 # subheadline: "&nbsp;"
 # subheadline: We are a swing dance school based in Helsinki, Tampere and Jyväskylä, founded and run through passion for authentic swing dances. We teach, organize, social dance, perform and keep the dance floor busy.
@@ -18,13 +18,13 @@ header:
   shadow_opacity: 0
   large: true
 
-image:
- src: backtojazz-v3-2.jpg
- caption: Original photo by Eric Bobrie
- caption_url: https://www.ebobrie.com/about
+# image:
+#  src: backtojazz-v3-2.jpg
+#  caption: Original photo by Eric Bobrie
+#  caption_url: https://www.ebobrie.com/about
 
-# iframe:
-#   src: https://www.youtube.com/embed/nt2lpQdxVkY?rel=0&amp;controls=0&amp;disablekb=1&amp;playsinline=1&amp;showinfo=0&amp;version=3&amp;loop=1&amp;playlist=nt2lpQdxVkY&amp;autoplay=1&amp;enablejsapi=1
+iframe:
+  src: https://www.youtube.com/embed/nt2lpQdxVkY?rel=0&amp;controls=0&amp;disablekb=1&amp;playsinline=1&amp;showinfo=0&amp;version=3&amp;loop=1&amp;playlist=nt2lpQdxVkY&amp;autoplay=1&amp;enablejsapi=1
 
 permalink: /index.html
 ---
@@ -37,7 +37,14 @@ permalink: /index.html
 {% include grid.html cols=4 collection=site.teachers template='teacher-snippet.html' %}
 
 {% endcomment %}
+A
 -->
+
+<ul class="button-group text-center">
+<li><a href="https://portal.blackpepperswing.com/courses/0ilqre62ilbv9eesulbh6dksd8" class="button">Lindy Hop Beginners</a></li>
+<li><a href="https://portal.blackpepperswing.com/courses/1526pbdujeh8b2tt3hf0ps9l5u" class="button">Solo Jazz & Charleston Beginners</a></li>
+</ul>
+<div class="b60"><hr/></div>
 
 > “I've never seen a Lindy Hopper who wasn't smiling. It's a happy dance. It makes you feel good.”  
   \- Frankie Manning
