@@ -1,4 +1,5 @@
 ---
+archived: true
 repeats: false
 
 title: Helswingi 2020
@@ -14,6 +15,8 @@ links:
 image:
   src: helswingi-2020-save-the-date.png
 ---
+
+**Unfortunately Helswingi is cancelled this year due to Covid-19 situation...**
 
 A good reason for Finland to be the happiest country in the world also in 2020: Helswingi is returning!
 
