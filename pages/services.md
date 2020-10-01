@@ -37,8 +37,8 @@ Courses and weekly classes are our default learning environment. By attending we
 Do you want an extra boost? [Consider taking a private class with us.](#private-classes)
 
 **Weekly classes**  
-120€ for 8 weeks  
-210€ for 16 weeks  
+240€ for 16 weeks  
+15€ per week with one course  
 18€ for single drop-in class  
 
 **Discounts**, only one applied  
@@ -50,12 +50,12 @@ Do you want an extra boost? [Consider taking a private class with us.](#private-
 Workshop prices and discounts are defined per workshop.
 
 **Pricing examples**, weekly courses  
-210.00€ - 1 course, 16 weeks  
-367.50€ - 2 courses, 16 weeks  
-457.50€ - 3 courses, 2 x 16 weeks + 1 x 8 weeks
+240.00€ - 1 course, 16 weeks  
+420.00€ - 2 courses, 16 weeks  
+510.00€ - 3 courses, 2 x 16 weeks + 1 x 8 weeks
 
-168.00€ - 1 course, 16 weeks (student)  
-258.00€ - 2 courses, 1 x 16 weeks + 1 x 8 weeks (student)  
+192.00€ - 1 course, 16 weeks (student)  
+282.00€ - 2 courses, 1 x 16 weeks + 1 x 8 weeks (student)  
 
 ---
 
