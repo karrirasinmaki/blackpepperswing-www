@@ -9,7 +9,7 @@ meta_description: We are a swing dance school based in Helsinki, Tampere and Jyv
 # title: ""
 title: "Black Pepper Swing"
 
-subheadline: "Next beginners' courses starting September 10th!"
+subheadline: "Next courses starting 18th of January 2021!"
 # subheadline: "Join us and swing up your life!"
 # subheadline: "&nbsp;"
 # subheadline: We are a swing dance school based in Helsinki, Tampere and Jyväskylä, founded and run through passion for authentic swing dances. We teach, organize, social dance, perform and keep the dance floor busy.
@@ -41,8 +41,9 @@ A
 -->
 
 <ul class="button-group text-center">
-<li><a href="https://portal.blackpepperswing.com/courses/0ilqre62ilbv9eesulbh6dksd8" class="button">Lindy Hop Beginners</a></li>
-<li><a href="https://portal.blackpepperswing.com/courses/1526pbdujeh8b2tt3hf0ps9l5u" class="button">Solo Jazz & Charleston Beginners</a></li>
+<li><a href="https://portal.blackpepperswing.com/courses/22kdu1mjnieam7f69hsd7kquio/lindy-hop-beginners" class="button">Lindy Hop Beginners</a></li>
+<li><a href="https://portal.blackpepperswing.com/courses/0ovr3eqb6f0ig2m3m92tcooq84/solo-jazz-&-charleston-beginners" class="button">Solo Jazz & Charleston Beginners</a></li>
+<li><a href="https://portal.blackpepperswing.com/courses/4lg842htpavf4l2a0adh8liaag/tap-beginners" class="button">Tap Dance Beginners</a></li>
 </ul>
 <div class="b60"><hr/></div>
 
@@ -71,13 +72,20 @@ Lindy hop, Shag and Balboa, Solo Jazz and Tap Dancing - for dancers of different
 <div class="t50"><hr/></div>
 
 {% capture covidwarn %}
-<h3>Ready for autumn term!</h3>
-<p>Our courses are restarting from the 24th of August! We are happy to bounce up our new 100m2 home studio at Bulevardi 31 with classes of Lindy hop, Solo Jazz and Tap dancing.</p>
-<p>You can check all classes <a href="/courses">here</a>. Registration opening July 17th.</p>
-<p>Due to the current COVID-situation, we are making special arrangements to minimize <a href="https://blackpepperswing.freshdesk.com/en/support/solutions/articles/42000077421-our-covid-19-protocol" target="_blank">risks</a>. We take care of cleanliness and hygiene at the studio, teach only smaller groups (&lt; 16 participants) and there is no obligatory couple rotation, but you may choose to rotate with 2-3 couples.</p>
-<p>We are looking forward to a season full of possibilities together with you!</p>
+<h3>Let's swing again!</h3>
+<p>Registration for new courses starts 16th of December at 10:00 EET.</p>
+<p>Our colourful course schedule for the new term is public now. Read more about our the classes, levels and teachers on course pages and reserve your spot from Wednesday, 16th of December, on.</p>
+<p>All groups are limited to max. 12-14 students, and we will only send out the bills once the classes have started.</p>
+<p>We can’t wait to see you again!</p>
 
 <dl class="accordion" data-accordion>
+  <dd class="accordion-navigation">
+    <a href="#private-class">Kick-start the new year with private classes</a>
+    <div id="private-class" class="content">
+      <p>Freshen up your skills before new season with a private class or two with us. Just drop us a message and arrange a meeting!</p>
+      <p>info@blackpepperswing.com<br/>+358 84 154 1724</p>
+    </div>
+  </dd>
   <dd class="accordion-navigation">
     <a href="#danceathome-music">Tanja’s playlists for your at-home-dancing</a>
     <div id="danceathome-music" class="content"><ul>
@@ -85,13 +93,6 @@ Lindy hop, Shag and Balboa, Solo Jazz and Tap Dancing - for dancers of different
 <li><a href="https://open.spotify.com/playlist/02b3VBQAntX9KmBNuSqEIE?si=1GXp5BkKTrmA1YWzi5Ud_A" target="_blank">Lindy classes - mid fast</a></li>
 <li><a href="https://open.spotify.com/playlist/3GXUexIVeXvxCuWzPcjqy1?si=AafwfOJ4SBenXCl-s3vXhw" target="_blank">Lindy classes - mid slow</a></li>
 </ul>
-    </div>
-  </dd>
-  <dd class="accordion-navigation">
-    <a href="#private-class">Kick-start the autumn with a private classes</a>
-    <div id="private-class" class="content">
-      <p>Freshen up your skills before new season with a private class or two with us. Just drop us a message and arrange a meeting!</p>
-      <p>info@blackpepperswing.com<br/>+358 84 154 1724</p>
     </div>
   </dd>
   <dd class="accordion-navigation">
