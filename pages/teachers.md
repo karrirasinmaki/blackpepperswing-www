@@ -20,4 +20,5 @@ permalink: /teachers/
 
 </div></div>
 
-{% include grid.html cols=3 collection=site.teachers template='teacher-snippet.html' %}
+{% assign current_teachers = site.teachers | sort: "dances", "last" %}
+{% include grid.html cols=3 collection=current_teachers template='teacher-snippet.html' %}

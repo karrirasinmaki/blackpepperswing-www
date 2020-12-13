@@ -1,6 +1,6 @@
 ---
 name: "Karri Rasinmäki"
-dances: Lindy Hop, Slow Lindy
+dances: Lindy Hop, Slow Lindy, Solo Jazz & Charleston
 bio: ""
 
 layout: page

@@ -1,6 +1,5 @@
 ---
 name: "Maria Puustinen"
-dances: Lindy Hop
 bio: ""
 ---
 

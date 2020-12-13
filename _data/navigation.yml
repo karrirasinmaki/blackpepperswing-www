@@ -38,6 +38,11 @@
 - title: "Courses"
   url: "/courses/"
   side: right
+  dropdown:
+  - title: "Courses"
+    url: "/courses/"
+  - title: "Roadmap"
+    url: "/roadmap/"
 
 - title: "Events"
   url: "/events/"
