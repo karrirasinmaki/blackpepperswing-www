@@ -41,6 +41,8 @@
   dropdown:
   - title: "Courses"
     url: "/courses/"
+  - title: "Beginners"
+    url: "/courses-for-beginners/"
   - title: "Roadmap"
     url: "/roadmap/"
 
