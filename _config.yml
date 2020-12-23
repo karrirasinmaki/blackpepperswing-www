@@ -242,6 +242,7 @@ defaults:
 #  Open _data/navigation.yml to adjust the left and right topbar navigation
 #
 
+google_apikey: "AIzaSyB2bRfM1u1JlLyXzkvWU4bLXdkH0v0DXoI"
 
 
 #     _____ __________

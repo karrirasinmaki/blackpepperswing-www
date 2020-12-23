@@ -19,8 +19,8 @@ permalink: /services/
 <div class="text-center">
 Menu
 <nav>
-<a href="#courses-and-weekly-classes">Courses and weekly classes</a>
- | <a href="#private-classes">Private classes</a>
+ <a href="#private-classes">Private classes</a>
+ | <a href="#courses-and-weekly-classes">Courses and weekly classes</a>
  | <a href="#teaching-services">Teaching services</a>
  | <a href="#corporate-events">Corporate events</a>
 </nav>
@@ -28,6 +28,36 @@ Menu
 
 <div class="row cols-2">
 <div class="columns large-6" markdown="1">
+
+## Private classes
+*For intensive training and more personal instruction.*
+
+No time for weekly classes or you feel you need more personal instruction? You can take private classes with one or two instructors at a time. Private classes can have many purposes: you might want to catch up on class material, finetune your dancing and correct habits, learn special skills or movements of your choice etc. In a private class you get plenty of feedback and homework.
+
+Private classes can be demanding, which is why we can do them for 30min, 45min, or 60min. You can either choose to do the classes with only one or two teachers.
+
+**Private classes are on sale till the end of the 2020!**
+Buy/book your private class today to claim the discount. The appointment can be scheduled for a later date.
+
+**For 1-4 people** with one/two teacher(s)  
+~~75€/115€~~ 60€/100€ for single session (1 hour) [buy here](https://holvi.com/shop/blackpepperswing/section/private-classes/)  
+~~260€/420€~~ 200€/360€ for 4 sessions (1 hour / session) [buy here](https://holvi.com/shop/blackpepperswing/section/private-classes/)  
+
+**For 5-8 people** with one/two teacher(s)  
+~~105€/165€~~ 90€/150€ for single session (1 hour)  
+~~380€/620€~~ 320€/560€ for 4 sessions (1 hour / session)  
+
+**Wedding dance**  
+250€-350€ (incl. choreography and 2-3 teaching session)  
+
+*Don't hesitate to contact us!* {{ site.email }}
+
+---
+
+*Prices include 24% VAT and studio rental.*
+
+We accept payments with card, MobilePay, cash or employee benefit vouchers. [Read more about payments here](https://blackpepperswing.freshdesk.com/en/support/solutions/articles/42000068393-what-payment-methods-are-accepted-).
+
 
 ## Courses and weekly classes
 *For a comprehensive learning experience.*
@@ -63,30 +93,6 @@ Workshop prices and discounts are defined per workshop.
 
 We accept payments with card, MobilePay, cash or employee benefit vouchers. [Read more about payments here](https://blackpepperswing.freshdesk.com/en/support/solutions/articles/42000068393-what-payment-methods-are-accepted-).
 
-## Private classes
-*For intensive training and more personal instruction.*
-
-No time for weekly classes or you feel you need more personal instruction? You can take private classes with one or two instructors at a time. Private classes can have many purposes: you might want to catch up on class material, finetune your dancing and correct habits, learn special skills or movements of your choice etc. In a private class you get plenty of feedback and homework.
-
-Private classes can be demanding, which is why we can do them for 30min, 45min, or 60min. You can either choose to do the classes with only one or two teachers.
-
-**For 1-2 people** with one/two teacher(s)  
-60€/100€ for single session (1 hour)  
-200€/360€ for 4 sessions (1 hour / session)  
-
-**For 3-6 people** with one/two teacher(s)  
-90€/150€ for single session (1 hour)  
-320€/560€ for 4 sessions (1 hour / session)  
-
-**Wedding dance**  
-250€-350€ (incl. choreography and 2-3 teaching session)  
-
----
-
-*Prices include 24% VAT. If we need to book a hall, the rent will be added to the price.*
-
-We accept payments with card, MobilePay, cash or employee benefit vouchers. [Read more about payments here](https://blackpepperswing.freshdesk.com/en/support/solutions/articles/42000068393-what-payment-methods-are-accepted-).
-
 </div>
 <div class="columns large-6" markdown="1">
 
@@ -105,6 +111,7 @@ Starting at 540€/1000€ for a weekend with 6 hours of teaching.
 At festivals or workshop weekends the price includes a social dance demonstration. We add VAT (unless reversed) as well as travel, food and accommodation expenses (unless provided by the organizer) to the final price.
 
 *Ask for an offer!* {{ site.email }}
+
 
 ## Corporate events
 *For a team day, recreational day, summer/Christmas party, kick off, customer event...*

@@ -47,6 +47,36 @@ fjs.parentNode.insertBefore(js, fjs);
 {% endif %}
 
 
+{% if site.google_apikey %}
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key={{ site.google_apikey }}"></script>
+
+
+<script src="{{ site.url }}{{ site.baseurl }}/assets/js/google-maps-reviews.js"></script>
+<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/google-maps-reviews.css" />
+
+  <script>
+  // Find a placeID via https://developers.google.com/places/place-id
+  googlePlaces("google-reviews", {
+    placeId: 'ChIJd8igPZsJkkYRGvVC5KeaE_A',
+    // the following params are optional (default values)
+    header: "", // html/text over Reviews
+    footer: "", // html/text under Reviews block
+    max_rows: 6, // max rows of reviews to be displayed
+    min_rating: 4, // minimum rating of reviews to be displayed
+    max_count: 4, // max number of reviews to show
+    months: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+    text_break_length: "90", // length before a review box is set to max width
+    show_date: true, // renders the date of the review before the review itself
+    date_relative: true,
+    shorten_names: true, // example: "Max Mustermann" -> "Max M.""
+    show_profile_picture: true,
+    replace_anonymous: false, // do not replace anonymous author_name from JSON
+    anonymous_name: "A Google User", // Google's default value depending on language used (en: "A Google User")
+    anonymous_name_replacement: "User chose to remain anonymous", // replacement for default (never shortens)
+  });
+  </script>
+{% endif %}
+
 
 {% comment %}
 #  Start of Tawk.to Script
