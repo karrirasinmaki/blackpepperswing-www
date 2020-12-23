@@ -40,11 +40,18 @@ permalink: /index.html
 A
 -->
 
+<div class="text-center">
+<h2>Start dancing with these courses</h2>
+<p>No previous experience whatsoever needed.</p>
 <ul class="button-group text-center">
 <li><a href="https://portal.blackpepperswing.com/courses/22kdu1mjnieam7f69hsd7kquio/lindy-hop-beginners" class="button">Lindy Hop Beginners</a></li>
 <li><a href="https://portal.blackpepperswing.com/courses/0ovr3eqb6f0ig2m3m92tcooq84/solo-jazz-&-charleston-beginners" class="button">Solo Jazz & Charleston Beginners</a></li>
 <li><a href="https://portal.blackpepperswing.com/courses/4lg842htpavf4l2a0adh8liaag/tap-beginners" class="button">Tap Dance Beginners</a></li>
 </ul>
+<h3>Already dancing?</h3>
+<a href="/courses" class="button">Browse all courses</a>
+</div>
+
 <div class="b60"><hr/></div>
 
 > “I've never seen a Lindy Hopper who wasn't smiling. It's a happy dance. It makes you feel good.”  
