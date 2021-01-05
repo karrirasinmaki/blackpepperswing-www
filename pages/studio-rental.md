@@ -66,6 +66,11 @@ Recurrent or full weekend reservations?
 
 You can see the studio calendar below. Send us a message to reserve your time slot(s). You can pay with MobilePay, benefit vouchers, cash, or wire transfer.
 
+Call or send us a message to make a booking!
+
+{{ site.email }}  
+{{ site.tel }}
+
 <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FHelsinki&amp;src=Y18xODhkc2NiYTlmdmc4aHVuanZqaHI5bGxwZGE1YzRna2M5bTYyb3JiZTFpbjBzMzVlOXBuZXFiZWNzbjY2cnJkQHJlc291cmNlLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23E67C73&amp;showTitle=1&amp;showNav=1&amp;showDate=1&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=0&amp;mode=WEEK" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 ## Address
