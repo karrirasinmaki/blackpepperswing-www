@@ -3,6 +3,7 @@ const imageResize = require('gulp-image-resize');
 const imagemin = require('gulp-imagemin');
 const { exec } = require('child_process');
 const runSequence = require('run-sequence');
+const plumber = require('gulp-plumber');
 
 function doExec(buildline) {
   console.log(buildline);
@@ -20,6 +21,7 @@ function doExec(buildline) {
 
 function resizeImagesThumb() {
   return gulp.src('_original_images/**/*')
+    .pipe(plumber())
     .pipe(imageResize({
       width : 300,
       height : 300,
@@ -33,6 +35,7 @@ function resizeImagesThumb() {
 
 function resizeImagesCover() {
   return gulp.src('_original_images/**/*')
+    .pipe(plumber())
     .pipe(imageResize({
       width : 1440,
       height : 716,
@@ -46,6 +49,7 @@ function resizeImagesCover() {
 
 function resizeImagesLarge() {
   return gulp.src('_original_images/**/*')
+    .pipe(plumber())
     .pipe(imageResize({
       width : 1366,
       crop : false,
@@ -58,6 +62,7 @@ function resizeImagesLarge() {
 
 function resizeImagesMedium() {
   return gulp.src('_original_images/**/*')
+    .pipe(plumber())
     .pipe(imageResize({
       width : 620,
       crop : false,
@@ -70,6 +75,7 @@ function resizeImagesMedium() {
 
 function resizeImagesSmall() {
   return gulp.src('_original_images/**/*')
+    .pipe(plumber())
     .pipe(imageResize({
       width : 320,
       crop : false,
@@ -82,6 +88,7 @@ function resizeImagesSmall() {
 
 function optimizeImages() {
   return gulp.src(['_original_images/**/*', 'images/**/*'])
+    .pipe(plumber())
     .pipe(imagemin([
       imagemin.jpegtran({ progressive: true })
     ]).on('error', (e) => {

@@ -22,6 +22,10 @@
   url: "/lindyhop/"
   side: right
 
+- title: "Studio Rental"
+  url: "/studio-rental/"
+  side: right
+
 - title: "About Us"
   url: "/about-us/"
   side: right
