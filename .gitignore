@@ -7,4 +7,5 @@ vendor/
 .bundle/
 Gemfile.lock
 *.gem
-.jekyll-cache
+.jekyll-metadata/
+.jekyll-cache/

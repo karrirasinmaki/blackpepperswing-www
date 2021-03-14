@@ -5,39 +5,33 @@ format: post
 <article itemscope itemtype="http://schema.org/Article">
 	{% include _masthead.html %}
 
+	{% if page.sidebar %}
+	<div class="medium-4 columns {% if page.sidebar.position == "right" %} medium-push-8{% endif %}">
+		{% include _sidebar.html %}
+	</div>
+	{% endif %}
+
 	<div class="row t30">
-		<div class="medium-8 columns{% if page.sidebar == NULL %} medium-offset-2 end{% endif %}{% if page.sidebar == "left" %} medium-push-4{% endif %}">
+		<div class="medium-8 columns{% if page.sidebar == nil %} medium-offset-2 end{% elsif page.sidebar.position == "right" %} medium-pull-4{% endif %}">
+
+			{% if page.show_meta %}
+			{% include _meta_information.html %}
+			{% endif %}
+
 			{% if page.teaser %}
 			<p class="teaser" itemprop="description">
 				{{ page.teaser }}
 			</p>
 			{% endif %}
 
-			<span itemprop="articleSection">
+			<div itemprop="articleSection">
 			{{ content }}
-			</span>
-
-			{% if page.show_meta == true %}
-			{% include _meta_information.html %}
-			{% endif %}
+			</div>
 
 			{% if page.comments == true %}
 			{% include _comments.html %}
 			{% endif %}
 		</div><!-- /.medium-8.columns -->
-
-		{% if page.sidebar == "left" %}
-		<div class="medium-4 columns medium-pull-8">
-			{% include _sidebar.html %}
-		</div><!-- /.medium-4.columns -->
-		{% endif %}
-
-
-		{% if page.sidebar == "right" %}
-		<div class="medium-4 columns">
-			{% include _sidebar.html %}
-		</div><!-- /.medium-4.columns -->
-		{% endif %}
 
 	</div><!-- /.row -->
 </article>

@@ -1,6 +1,6 @@
 plugins:
   - jekyll-polyglot
-  - jekyll-paginate
+  - jekyll-paginate-v2
 
 # ASCII-Font › http://patorjk.com/software/taag/#p=display&f=Slant&t=Phlow
 #
@@ -28,12 +28,16 @@ description: "Authentic swing dances in Helsinki, Tampere and Jyväskylä"
 author: blackpepperswing
 
 # Contact info
+name: "Black Pepper Swing"
 email: info@blackpepperswing.com
 tel: "+358 84 154 1724"
 address: "Fredrikinkatu 24 D 23, 00120 Helsinki, Finland"
 vat_number: FI28578381
 legal_name: Osuuskunta Swing Kollektiivi / Coop Swing Collective
 invoice_address: info@blackpepperswing.com
+
+# When serving on a local machine, the default time zone is set by your operating system. But when served on a remote host/server, the default time zone depends on the server's setting or location.
+timezone: Finland/Helsinki
 
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
@@ -61,12 +65,35 @@ logo: "logo.png"
 webfonts: true
 mediaplayer: false
 
-# Paginates all X entries
-paginate: 5
+###
+# Pagination and autopages
+pagination:
+  enabled: true
+  per_page: 15
+  permalink: /page/:num/
+  trail: 
+    before: 2
+    after: 2
 
+autopages:
+  enabled: true
+  categories:
+    title: ":cat"
+    permalink: /posts/categories/:cat/
+    layouts: 
+      - 'autopage.html'
+    slugify:
+      mode: 'default'   # :cat is slugified. Modes: default, raw, pretty, ascii, latin
+      case: false       # Whether to replace all uppercase letters with their lowercase counterparts
+  tags:
+    title: ":tag"
+    permalink: /posts/tags/:tag/
+    layouts: 
+      - 'autopage.html'
+    slugify:
+      mode: 'default'   # :cat is slugified. Modes: default, raw, pretty, ascii, latin
+      case: false       # Whether to replace all uppercase letters with their lowercase counterparts
 
-# Pagination path › Important for blog page in /blog/ to work
-paginate_path: "blog/page:num"
 
 # Theme works best with Kramdown (using the table of contents function)
 markdown: kramdown
@@ -76,19 +103,23 @@ excerpt_separator: "<!--more-->"
 include: ['.htaccess']
 # Exclude these files from your production _site
 exclude:
-    - .sass-cache
-    - .git
-    - .gitignore
+    - .sass-cache/
+    - .jekyll-cache/
+    - gemfiles/
     - Gemfile
     - Gemfile.lock
+    - node_modules/
+    - .git
+    - .gitignore
     - LICENSE
     - README.md
     - INSTALL.md
     - Gulpfile.js
-    - node_modules
     - _original_images
     - vendor
     - .bundle
+    - bundler
+    - tags
 
 
 # The language setting is used in /includes/header.html for html-settings

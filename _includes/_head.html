@@ -40,8 +40,11 @@
 	<link type="text/plain" rel="author" href="{{ site.url }}{{ site.baseurl }}/humans.txt" />
 
 	<!-- Styles and scripts -->
-	<link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}/assets/css/styles_feeling_responsive.css" />
-	<script src="{{ site.url }}{{ site.baseurl }}/assets/js/modernizr.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="{{ site.urlassets }}css/styles_feeling_responsive.css" />
+	<script src="{{ site.urlassets }}js/modernizr.min.js"></script>
 	{% unless page.style == NULL %}
 	<style type="text/css">{{ page.style }}</style>
 	{% endunless %}
+
+
+	{% include custom-head-scripts.html %}

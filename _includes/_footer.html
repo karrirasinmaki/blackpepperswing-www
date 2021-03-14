@@ -5,29 +5,7 @@
     </div><!-- /.row -->
 
     <footer id="footer-content" class="bg-grau">
-      <div id="footer">
-        <div class="row">
-          <div class="small-12 medium-5 columns">
-            <h5 class="shadow-black">{{ site.data.language.info_website }}</h5>
-            <p class="shadow-black">
-              {{ site.description }}
-              <a href="{{ site.url }}{{ site.baseurl }}/about-us/">{{ site.data.language.more }}</a>
-            </p>
-          </div><!-- /.large-6.columns -->
-
-
-          <div class="small-12 medium-6 columns">
-            <h5>&nbsp;</h5>
-            <p class="shadow-black">
-                  <b>{{ site.title }}</b><br>
-                  {{ site.email }}<br>
-                  {{ site.tel }}
-              </p>
-          </div><!-- /.large-4.columns -->
-
-        </div><!-- /.row -->
-
-      </div><!-- /#footer -->
+      {% include _footer_top.html %}
 
 
       <div id="subfooter">
@@ -57,7 +35,7 @@
         <!--
         <div class="row">
             <a id="logo" href="{{ site.url }}" title="{{ site.title }} – {{ site.slogan }}">
-                <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.logo }}" alt="{{ site.title }} – {{ site.slogan }}">
+                <img src="{{ site.urlassets }}img/{{ site.logo }}" alt="{{ site.title }} – {{ site.slogan }}">
             </a>
         </div>
         -->
