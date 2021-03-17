@@ -33,23 +33,27 @@ $body-bg: 			#fdfdfd;
 // $ci-6: #A1D044;     // green
 
 // http://www.colourlovers.com/palette/43234/malaria
-$ci-1: #4D4D4D;
-$ci-2: #637566;
-$ci-3: #A39C67;
-$ci-4: #FF704D;
+$ci-1: #1a1a1a; // black
+$ci-2: #1a1a1a; // gray
+$ci-3: #f2f2f2; // l-gray
+$ci-4: #429996; // turquoise
 $ci-5: #A39C67;
 $ci-6: #D69E60;
+$ci-7: #D69E60;
 
+$color-main: $ci-1;
+$color-bg: #ffffff;
+$color-accent: $ci-4;
 
 
 /* Foundation Color Variables
 ------------------------------------------------------------------- */
 
-$primary-color: $ci-1;
-$secondary-color: $ci-6;
+$primary-color: $ci-4;
+$secondary-color: $ci-3;
 $alert-color: $ci-5;
 $success-color: $ci-6;
-$warning-color: $ci-4;
+$warning-color: $ci-7;
 $info-color: $ci-2;
 
 
@@ -79,28 +83,28 @@ $grey-16: #0B0B0B;
 /* Topbar-Navigation
 ------------------------------------------------------------------- */
 
-$topbar-bg-color: $ci-1;
+$topbar-bg-color: transparent;
 
 $topbar-dropdown-toggle-color: #fff;
 $topbar-dropdown-toggle-alpha: 1;
 $topbar-dropdown-toggle-size: 4px;
 $topbar-link-dropdown-padding: rem-calc($topbar-dropdown-toggle-size*2.6);
 
-$topbar-link-color: #fff;
+$topbar-link-color: $color-main;
 $topbar-link-color-hover: darken($topbar-link-color, 25%);
 $topbar-link-color-active: $topbar-link-color-hover;
 $topbar-link-color-active-hover: $topbar-link-color-hover;
 $topbar-link-padding: 0.6rem;
 
-$topbar-dropdown-label-color: $ci-1;
-$topbar-dropdown-link-bg-hover: $ci-1;
+$topbar-dropdown-label-color: $topbar-bg-color;
+$topbar-dropdown-link-bg-hover: $topbar-bg-color;
 
 $topbar-link-bg-active: $topbar-dropdown-label-color; // Active Navigation Link
 $topbar-link-bg-hover: $topbar-dropdown-label-color;
 $topbar-link-bg-active-hover: $topbar-dropdown-label-color;
 
 
-$topbar-dropdown-bg: $ci-1; // Background Mobile Navigation
+$topbar-dropdown-bg: $topbar-bg-color; // Background Mobile Navigation
 $topbar-dropdown-link-color: darken($topbar-link-color, 20%);
 $topbar-dropdown-link-bg: lighten($topbar-bg-color, 10%);
 

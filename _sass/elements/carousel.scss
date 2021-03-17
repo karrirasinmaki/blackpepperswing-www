@@ -1,0 +1,14 @@
+$slick-font-family: "sans";
+
+.carousel.portrait {
+	&, .slick-slide {
+		height: 22vw * (16/9);
+		width: 22vw;
+		max-width: 100%;
+		img {
+			object-fit: cover;
+			width: 100%;
+			height: 100%;
+		}
+	}
+}

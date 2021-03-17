@@ -16,6 +16,7 @@
 - Simple carousel (in progress)
 - Article media
 - Flex video
+- Topbar overrides
 
 */
 
@@ -397,4 +398,11 @@ img + em {
   iframe {
     top: -4rem;
   }
+}
+
+/* Topbar overrides
+------------------------------------------------------------------- */
+
+body.f-topbar-fixed {
+  padding-top: 0 !important;
 }
