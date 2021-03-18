@@ -5,6 +5,21 @@
 	position: relative;
 }
 
+.row.align-items {
+	&-start {
+		display: flex;
+		align-items: flex-start;
+	}
+	&-end {
+		display: flex;
+		align-items: flex-end;
+	}
+	&-center {
+		display: flex;
+		align-items: center;
+	}
+}
+
 .columns.bg {
 	position: absolute;
 	top: 0;
@@ -28,6 +43,11 @@ hr.decor {
 	margin-bottom: 0;
 	border: 0;
 
+	&.underlay {
+		position: absolute;
+		width: 100%;
+	}
+
 	&.skew-left {
 		&:after {
 			content: "";
@@ -39,6 +59,31 @@ hr.decor {
 			height: 8em;
 			background-color: $color-main;
 			transform: skew(0deg, -3deg);
+		}
+	}
+	&.skew-x {
+		font-size: 80%;
+		&:before {
+			content: "";
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 84%;
+			width: 42%;
+			height: 8em;
+			background-color: $color-main;
+			transform: skew(0deg, -6deg);
+		}
+		&:after {
+			content: "";
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 50%;
+			width: 100%;
+			height: 8em;
+			background-color: $color-main;
+			transform: skew(0deg, 2deg);
 		}
 	}
 }

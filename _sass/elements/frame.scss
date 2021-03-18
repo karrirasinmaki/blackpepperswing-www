@@ -1,0 +1,24 @@
+.frame {
+	position: relative;
+	overflow: hidden;
+	
+	border-radius: $global-radius;
+
+	> * {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: auto;
+		margin: auto;
+	}
+	&.cover > * {
+		height: 100%;
+		object-fit: cover;
+	}
+
+	// Aspect ratios flipped: 16/9 -> 9/16
+	&.landscape { padding-top: (9/16)*100%; }
+	&.square { padding-top: (1/1)*100%; }
+	&.portrait { padding-top: (3/2)*100%; }
+}
