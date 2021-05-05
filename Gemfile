@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', "4.0.0", :github => "jekyll/jekyll"
+gem 'jekyll', "4.2.0", :github => "jekyll/jekyll"
 group :jekyll_plugins do
    gem "jekyll-sass-converter", "2.1.0", :github => "jekyll/jekyll-sass-converter"
    gem 'jekyll-target-blank'
