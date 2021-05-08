@@ -117,16 +117,17 @@ gulp.task('resize_images_medium', () => resizeImagesMedium());
 gulp.task('resize_images_small', () => resizeImagesSmall());
 gulp.task('resize_images_cover', () => resizeImagesCover());
 
-gulp.task('resize_images', [
-  'resize_images_thumb',
-  'resize_images_large',
-  'resize_images_medium',
-  'resize_images_small',
-  'resize_images_cover'
-], () => {});
-gulp.task('optimize_images', () => optimizeImages());
+gulp.task('resize_images', gulp.series(
+  gulp.parallel(
+    'resize_images_thumb',
+    'resize_images_large',
+    'resize_images_medium',
+    'resize_images_small',
+    'resize_images_cover'
+  )
+));
 
-gulp.task('default', () => {
+gulp.task('default', (cb) => {
   console.log(`
   install - install bundle
   images - build images
@@ -134,32 +135,33 @@ gulp.task('default', () => {
   build-lightweight - lightweight build (no image procesing)
   build-dev - build all for dev
   `);
+  cb();
 });
 
 gulp.task('install', () => {
-  doExec('bundle install --jobs=4 --retry=3 --path ./vendor/bundle');
+  return doExec('bundle install --jobs=4 --retry=3 --path ./vendor/bundle');
 });
 
-gulp.task('images', (cb) => {
-  runSequence('resize_images', 'optimize_images', cb);
+gulp.task('images', gulp.series('resize_images', (cb) => {
+  cb();
+}));
+
+gulp.task('build-jekyll', (done) => {
+  return buildJekyll('production');
 });
 
-gulp.task('build-jekyll', () => {
-  buildJekyll('production');
-});
-
-gulp.task('build', (cb) => {
-  runSequence('images', 'build-jekyll', cb);
-});
+gulp.task('build', gulp.series('images', 'build-jekyll', (cb) => {
+  cb();
+}));
 
 gulp.task('build-lightweight', (cb) => {
-  runSequence('build-jekyll', cb);
+  gulp.series('build-jekyll', cb);
 });
 
-gulp.task('build-dev', ['images'], () => {
-  buildJekyll('development');
-});
+gulp.task('build-dev', gulp.series('images', () => {
+  return buildJekyll('development');
+}));
 
 gulp.task('serve', () => {
-  buildJekyll('local');
+  return buildJekyll('local');
 });
