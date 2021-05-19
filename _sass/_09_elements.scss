@@ -406,3 +406,12 @@ img + em {
 body.f-topbar-fixed {
   padding-top: 0 !important;
 }
+
+#navigation {
+  z-index: 1003;
+}
+
+#navigation-bg {
+  z-index: 1001;
+  background: $topbar-background;
+}

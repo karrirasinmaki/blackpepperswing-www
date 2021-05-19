@@ -10,27 +10,24 @@ subheadline: "SWING TAP LINDY HOP CHARLESTON"
 permalink: /index.html
 
 slider1:
+- image_url: helswingi-2018-karri-ulla.jpg
+  position: 93%
+- image_url: helswingi-2018-andzej-essi.jpg
+  position: 70%
 - image_url: karri/karri-ball-heel-slide.jpg
-  caption: "Teaching Black Pepper Swing class. Photo by Alessandro Ituarte (www.alessandroituarte.com)."
-- image_url: karri/karri-balboa-helswingi-2018.jpg
-  caption: "Helswingi 2018. Photo by Eric Bobrie (www.ebobrie.com)."
-- image_url: karri/karri-slow-helswingi-2018.jpg
-  caption: "Helswingi 2018. Photo by Eric Bobrie (www.ebobrie.com)."
-- image_url: karri/karri-portrait.jpg
-  caption: "Portrait. Photo by Jyri Rasinmäki (www.instagram.com/rasinmaki)."
 - image_url: tanja-karri-polaroid.png
-  caption: "Tanja & Karri, teaching Black Pepper Swing class, autumn 2018. Photo by Adrian Ehrlich (adrianehrlich.com)."
+- image_url: bps-class-tanja-karri-ressu-2018-by-alessandroituarte.jpg
 ---
 
 <section class="hero-showcase row container max">
   <div class="medium-4 columns bg color-main"></div>
-  <div class="row t70 b30">
+  <div class="row t90 b30">
     <div class="medium-2 columns">&nbsp;</div>
     <div class="medium-4 columns aside">
-      <div class="carousel">
+      <div class="carousel shadow-pop">
         {% for img in page.slider1 %}
         <div class="frame portrait cover">
-          <img src="{{ img.image_url | imgurl,size:'medium' }}" />
+          <img src="{{ img.image_url | imgurl,size:'medium' }}" style="object-position: {{ img.position | default: "center" }}" />
         </div>
         {% endfor %}
       </div>
@@ -45,7 +42,7 @@ slider1:
 
 <section class="row align-items-center b30">
   <div class="medium-6 columns aside">
-    <div class="frame landscape">
+    <div class="frame landscape shadow-pop">
       <img src="{{ 'tuesday-night-hop-shimsham.jpg' | imgurl,size:'medium' }}" />
     </div>
   </div>
@@ -68,7 +65,7 @@ slider1:
 
 <section class="row b30 t-50">
   <div class="medium-6 columns aside">
-    <div class="frame square cover">
+    <div class="frame square cover shadow-pop">
       <img src="{{ 'tuesday-night-hop-shimsham.jpg' | imgurl,size:'medium' }}" />
     </div>
     <br />

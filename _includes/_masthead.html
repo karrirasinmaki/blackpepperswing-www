@@ -11,39 +11,47 @@
 {% if use_header %}
 
 
-<div id="masthead-with-text" class="masthead
+<div id="masthead-with-text" class="masthead decor-clip skew-left
 	{% if page.image %}with-image {% endif %}
 	{% if page.header.large %}large {% endif %}
 	{% if page.header.short %}short {% endif %}
-	{% if page.iframe %}with-media {% endif %}"
-	style="
-	{% if page.image and page.image.src %}background-image: url('{{ page.image.src | imgurl,size:'cover' }}'); {% endif %}
-	{% if page.image and page.image.position %}background-position: {{ page.image.position }}; {% endif %}
-	{% if page.header.background-color %}background-color: {{ page.header.background-color }}; {% endif %}
-	{% if page.header.pattern %}background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('{{ site.urlimg }}/{{ page.header.pattern }}'); {% endif %}">
+	{% if page.iframe %}with-media {% endif %}">
+	{% if page.image and page.image.src %}
+	<div class="cover-media cover-image"
+		style="
+		{% if page.image and page.image.src %}background-image: url('{{ page.image.src | imgurl,size:'cover' }}'); {% endif %}
+		{% if page.image and page.image.position %}background-position: {{ page.image.position }}; {% endif %}
+		{% if page.header.background-color %}background-color: {{ page.header.background-color }}; {% endif %}
+		{% if page.header.pattern %}background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('{{ site.urlimg }}/{{ page.header.pattern }}'); {% endif %}">
+	</div>
+	{% endif %}
 	{% if page.iframe and page.iframe.src %}
 	<div class="cover-media">
 		<iframe width="1400" height="790" src="{{ page.iframe.src }}" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 	</div>
 	{% endif %}
+	<div class="shadow-top"></div>
+	<div class="shadow-bottom"></div>
 	<div class="shadow" style="{% if page.header.shadow_opacity %}opacity: {{ page.header.shadow_opacity }}; {% endif %}"></div>
-	{% unless page.header.hide_text %}
-	<div class="row">
-		<div class="small-12 columns" itemprop="name">
-			<h1 class="masthead-title">{{ page.title }}</h1>
-			<div class="masthead-subtitle">{{ page.subheadline }}</div>
-		</div><!-- /.small-12.columns -->
-	</div><!-- /.row -->
-	{% endunless %}
-	{% if page.image and page.image.caption %}
-	<div class="masthead-caption">
-		{% if page.image.caption_url %}
-		<a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
-		{% else %}
-		{{ page.image.caption }}
+	<div class="cover-content">
+		{% unless page.header.hide_text %}
+		<div class="row">
+			<div class="small-12 columns" itemprop="name">
+				<h1 class="masthead-title">{{ page.title }}</h1>
+				<div class="masthead-subtitle">{{ page.subheadline }}</div>
+			</div><!-- /.small-12.columns -->
+		</div><!-- /.row -->
+		{% endunless %}
+		{% if page.image and page.image.caption %}
+		<div class="masthead-caption">
+			{% if page.image.caption_url %}
+			<a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
+			{% else %}
+			{{ page.image.caption }}
+			{% endif %}
+		</div>
 		{% endif %}
-	</div>
-	{% endif %}
+	</div><!-- /.cover-content -->
 </div><!-- /#masthead -->
 
 {% include _breadcrumb.html %}
