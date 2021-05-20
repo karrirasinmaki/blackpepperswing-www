@@ -268,6 +268,8 @@ $column-gutter: rem-calc(30) !default;
 // d. Media Query Ranges
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
+$include-xl-html-grid-classes: true;
+
 $small-range: (0em, 40em);
 $medium-range: (40.063em, 64em);
 $large-range: (64.063em, 90em);

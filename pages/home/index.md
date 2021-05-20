@@ -24,7 +24,7 @@ slider1:
   <div class="row t90 b30">
     <div class="medium-2 columns">&nbsp;</div>
     <div class="medium-4 columns aside">
-      <div class="carousel width-medium shadow-pop">
+      <div class="carousel vertical width-medium shadow-pop">
         {% for img in page.slider1 %}
         <div class="frame portrait cover">
           <img src="{{ img.image_url | imgurl,size:'medium' }}" style="object-position: {{ img.position | default: "center" }}" />
@@ -95,3 +95,17 @@ slider1:
     <p>We focus on teaching and practising authentic swing dances. These dance forms from America’s 1920’s to 1940’s are all marked by their development as social dances.</p>
   </div>
 </section>
+
+<section class="row b30">
+  <div class="medium-12 columns">
+    <h2 class="text-center">Upcoming events</h2>
+
+    {% assign events = site.events | sort: "date_end" | reverse %}
+    {% include grid.html cols=2 entries=2 collection=events template='post-snippet.html' %}
+    <div class="text-center t50">
+      <a href="{{ site.baseurl }}/events"><big>{{ site.data.language.show_all_events }}</big></a>
+    </div>
+  </div>
+</section>
+
+{% include index_blocks/block-testimonials.html %}
