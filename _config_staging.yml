@@ -1,0 +1,20 @@
+#
+# This config-file is only needed for development in Firebase. Instead of changing the url
+# everytime you work locally on the project, you start both config-files, overwriting
+# the first one with the development variables needed.
+#
+# Start development with › $ jekyll serve --config _config.yml,_config_firebase.yml
+
+url: 'https://blackpepperswing-dev.web.app/'
+baseurl: ''
+urlimg: 'https://blackpepperswing-dev.web.app/images/'
+urlassets: 'https://blackpepperswing-dev.web.app/assets/'
+
+sass:
+  style: 'nested'
+  sourcemap: 'never'
+  line_comments: true
+
+# Disable when not in production
+google_analytics_tracking_id:
+
