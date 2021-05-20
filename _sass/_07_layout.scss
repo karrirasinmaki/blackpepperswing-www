@@ -55,7 +55,7 @@ article.video {
 /* Navigation
 ------------------------------------------------------------------- */
 
-#navigation {
+#navigation.dashed {
     // -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.2);
     // box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
     @media #{$large-up} {
@@ -627,9 +627,4 @@ article.video {
       }
     }
   }
-}
-
-.row.max {
-  max-width: 100%;
-  overflow: hidden;
 }

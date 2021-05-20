@@ -20,6 +20,16 @@
 	}
 }
 
+.row.height-max {
+	height: 100%;
+	height: 100vh;
+}
+
+.row.width-max {
+	max-width: 100%;
+	overflow: hidden;
+}
+
 .columns.bg {
 	position: absolute;
 	top: 0;
@@ -62,7 +72,7 @@ hr.decor {
 		}
 	}
 	&.skew-x {
-		font-size: 80%;
+		font-size: 92%;
 		&:before {
 			content: "";
 			display: block;

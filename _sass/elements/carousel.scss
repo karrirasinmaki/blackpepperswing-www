@@ -1,1 +1,7 @@
 $slick-font-family: "sans";
+
+.carousel {
+	&.width-medium {
+		max-width: 400px;
+	}
+}

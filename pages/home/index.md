@@ -19,12 +19,12 @@ slider1:
 - image_url: bps-class-tanja-karri-ressu-2018-by-alessandroituarte.jpg
 ---
 
-<section class="hero-showcase row container max">
+<section class="hero-showcase row container width-max height-max align-items-center">
   <div class="medium-4 columns bg color-main"></div>
   <div class="row t90 b30">
     <div class="medium-2 columns">&nbsp;</div>
     <div class="medium-4 columns aside">
-      <div class="carousel shadow-pop">
+      <div class="carousel width-medium shadow-pop">
         {% for img in page.slider1 %}
         <div class="frame portrait cover">
           <img src="{{ img.image_url | imgurl,size:'medium' }}" style="object-position: {{ img.position | default: "center" }}" />
@@ -32,18 +32,18 @@ slider1:
         {% endfor %}
       </div>
     </div>
-    <div class="medium-5 columns end t90">
+    <div class="medium-6 columns end t90">
       {% include_relative intro.md %}
     </div>
   </div>
 </section>
 
-<hr class="decor skew-left" />
+<hr class="decor skew-left t-90" />
 
 <section class="row align-items-center b30">
   <div class="medium-6 columns aside">
     <div class="frame landscape shadow-pop">
-      <img src="{{ 'tuesday-night-hop-shimsham.jpg' | imgurl,size:'medium' }}" />
+      <img src="{{ 'helswingi-2018-group-picture-tommi.jpg' | imgurl,size:'medium' }}" />
     </div>
   </div>
   <div class="medium-6 columns end t50">
@@ -72,12 +72,12 @@ slider1:
     <div class="row">
       <div class="medium-6 columns">
         <div class="frame portrait cover">
-          <img src="{{ 'tuesday-night-hop-shimsham.jpg' | imgurl,size:'medium' }}" />
+          <img src="{{ 'helswingi-2018-maria-kir.jpg' | imgurl,size:'medium' }}" />
         </div>
       </div>
       <div class="medium-6 columns">
         <div class="frame portrait cover">
-          <img src="{{ 'tuesday-night-hop-shimsham.jpg' | imgurl,size:'medium' }}" />
+          <img src="{{ 'helswingi-2018-class-high-five.jpg' | imgurl,size:'medium' }}" />
         </div>
       </div>
     </div>

@@ -415,3 +415,33 @@ body.f-topbar-fixed {
   z-index: 1001;
   background: $topbar-background;
 }
+
+.top-bar {
+  margin: 6px;
+  .top-bar-section > ul > li {
+    margin: 0 $topbar-link-margin;
+    > a {
+      border-radius: 6px / 12px;
+    }
+  }
+  li.has-dropdown {
+    a {
+      z-index: 99;
+      position: relative;
+    }
+    .dropdown {
+      z-index: 98;
+      border-radius: 5px;
+      background: $topbar-dropdown-link-bg;
+      $dropdown-padding-x: $topbar-link-padding;
+      $dropdown-padding-top: $topbar-height*0.1;
+      top: -$dropdown-padding-top;
+      left: -$dropdown-padding-x/2;
+      right: -$dropdown-padding-x/2;
+      padding: $topbar-height*1.2 $dropdown-padding-x/2 0 $dropdown-padding-x/2;
+    }
+  }
+}
+
+
+

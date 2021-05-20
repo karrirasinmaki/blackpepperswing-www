@@ -4,6 +4,7 @@
 - Corporate Identity Colorpalette
 - Foundation Color Variables
 - Grey Scale
+- Additional colors
 - Topbar-Navigation
 - Footer
 - Code
@@ -81,6 +82,12 @@ $grey-16: #0B0B0B;
 
 
 
+/* Additional colors
+------------------------------------------------------------------- */
+
+$subheadline-color: $color-accent;
+
+
 /* Topbar-Navigation
 ------------------------------------------------------------------- */
 
@@ -93,22 +100,24 @@ $topbar-dropdown-toggle-size: 4px;
 $topbar-link-dropdown-padding: rem-calc($topbar-dropdown-toggle-size*2.6);
 
 $topbar-link-color: $color-contrast;
-$topbar-link-color-hover: darken($topbar-link-color, 25%);
+$topbar-link-color-hover: lighten($topbar-link-color, 25%);
 $topbar-link-color-active: $topbar-link-color-hover;
 $topbar-link-color-active-hover: $topbar-link-color-hover;
-$topbar-link-padding: 0.6rem;
+$topbar-link-padding: 0.4rem;
+$topbar-link-margin: 1px;
 
-$topbar-dropdown-label-color: $topbar-bg-color;
-$topbar-dropdown-link-bg-hover: $topbar-bg-color;
+$topbar-dropdown-label-color: $color-accent; // top li
+$topbar-dropdown-bg: $topbar-bg-color; // Background Mobile Navigation
 
 $topbar-link-bg-active: $topbar-dropdown-label-color; // Active Navigation Link
-$topbar-link-bg-hover: $topbar-dropdown-label-color;
+$topbar-link-bg-hover: lighten($topbar-dropdown-label-color, 10%);
 $topbar-link-bg-active-hover: $topbar-dropdown-label-color;
 
+$topbar-dropdown-link-color: $topbar-link-color-hover;
+$topbar-dropdown-link-color-hover: lighten($topbar-dropdown-link-color, 10%);
 
-$topbar-dropdown-bg: $topbar-bg-color; // Background Mobile Navigation
-$topbar-dropdown-link-color: darken($topbar-link-color, 20%);
-$topbar-dropdown-link-bg: lighten($topbar-bg-color, 10%);
+$topbar-dropdown-link-bg: lighten($topbar-dropdown-label-color, 20%);
+$topbar-dropdown-link-bg-hover: darken($topbar-dropdown-link-bg, 10%);
 
 $topbar-menu-link-color: $topbar-link-color;
 $topbar-menu-icon-color: $topbar-link-color;

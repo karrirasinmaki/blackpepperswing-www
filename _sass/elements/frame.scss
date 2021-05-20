@@ -21,4 +21,16 @@
 	&.landscape { padding-top: (9/16)*100%; }
 	&.square { padding-top: (1/1)*100%; }
 	&.portrait { padding-top: (3/2)*100%; }
+
+	&.align {
+		&-left img {
+			object-position: left;
+		}
+		&-center img {
+			object-position: center;
+		}
+		&-right img {
+			object-position: right;
+		}
+	}
 }
