@@ -44,7 +44,7 @@ $ci-7: #D69E60;
 
 $color-main: $ci-1;
 $color-contrast: #ececec;
-$color-bg: #ffffff;
+$color-bg: $body-bg;
 $color-accent: $ci-4;
 
 
@@ -107,7 +107,8 @@ $topbar-link-padding: 0.4rem;
 $topbar-link-margin: 1px;
 
 $topbar-dropdown-label-color: $color-accent; // top li
-$topbar-dropdown-bg: $topbar-bg-color; // Background Mobile Navigation
+$topbar-dropdown-bg: $topbar-bg-color;
+$topbar-menu-bg-mobile: $color-main;
 
 $topbar-link-bg-active: $topbar-dropdown-label-color; // Active Navigation Link
 $topbar-link-bg-hover: lighten($topbar-dropdown-label-color, 10%);

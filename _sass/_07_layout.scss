@@ -156,7 +156,7 @@ article.video {
     background-color: $primary-color;
 }
 #masthead-with-text {
-    z-index: 1002;
+    z-index: 82;
     position: relative;
     text-align: center;
 
@@ -255,12 +255,15 @@ article.video {
         padding: 15px 0;
     }
     #masthead-with-text {
-        padding: 4em 0 3em 0;
+        padding: 14% 0 17% 0;
         .masthead-subtitle {
           font-size: rem-calc(18);
         }
         h1 {
           font-size: rem-calc(42);
+        }
+        .cover-content {
+          padding: 27% 0 24% 0;
         }
     }
     #masthead-no-image-header {

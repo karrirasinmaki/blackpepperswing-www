@@ -7,12 +7,16 @@
 
 <script>
 $(document).ready(function(){
-  $('.carousel').slick({
-    arrows: false,
-    dots: true,
-    vertical: true,
-    verticalSwiping: true,
-    adaptiveHeight: false,
+  $('.carousel').each(function(index) {
+    var el = $(this);
+    var isVertical = el.hasClass("vertical");
+    el.slick({
+      arrows: false,
+      dots: true,
+      vertical: isVertical,
+      verticalSwiping: isVertical,
+      adaptiveHeight: false,
+    });
   });
 });
 </script>
