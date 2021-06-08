@@ -38,6 +38,7 @@
 	<!-- Search Engine Optimization -->
 	{% if page.noindex == true %}<meta name="robots" content="noindex" />{% endif %}
 	<link type="text/plain" rel="author" href="{{ site.url }}{{ site.baseurl }}/humans.txt" />
+	{% I18n_Headers %}
 
 	<!-- Styles and scripts -->
 	<link rel="stylesheet" type="text/css" href="{{ site.urlassets }}css/styles_feeling_responsive.css" />

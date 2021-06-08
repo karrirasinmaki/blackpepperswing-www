@@ -125,8 +125,8 @@ $topbar-menu-icon-color: $topbar-link-color;
 $topbar-menu-link-color-toggled: $topbar-link-color-hover;
 $topbar-menu-icon-color-toggled: $topbar-link-color-hover;
 
-$topbar-lang-select-link-color: lighten($topbar-bg-color, 20%);
-$topbar-lang-select-link-color-active: lighten($topbar-bg-color, 30%);
+$topbar-lang-select-link-color: lighten($topbar-menu-link-color, 20%);
+$topbar-lang-select-link-color-active: lighten($topbar-menu-link-color, 30%);
 
 
 /* Masthead

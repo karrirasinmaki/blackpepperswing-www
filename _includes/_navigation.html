@@ -19,6 +19,15 @@
         /____/                                 /____/                          
 
 {% endcomment %}
+      <ul class="right language-selector">
+        <li class="type-divider"><a href="#">|</a></li>
+        <li class="has-dropdown">
+          <a href="">{{ site.active_lang }}</a>
+          <ul class="dropdown">
+            {% include lang-selector.html %}
+          </ul>
+        </li>
+      </ul>
       <ul class="right">
         {% for link in site.data.navigation %}
 
@@ -35,7 +44,7 @@
             {% comment %}   If right side WITHOUT dropdown menu do   {% endcomment %}
             {% if link.dropdown == nil %}
               <li class="divider"></li>
-              <li{% if link.url == page.url %} class="active"{% endif %}><a href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a></li>
+              <li class="{% if link.url == page.url %}active{% endif %} type-{{ link.type | default:'normal' }}"><a href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a></li>
 
             {% comment %}   If right side WITH dropdown menu do   {% endcomment %}
             {% else %}
@@ -64,13 +73,6 @@
           {% endif %}
         {% endfor %}
         {% comment %}   First loop finished 1   {% endcomment %}
-      </ul>
-      <ul class="right language-selector">
-        {% if site.languages.size > 1 %}
-          {% for tongue in site.languages %}
-          <li><a class="{% if tongue == site.active_lang %}active{% endif %}" href="{% if tongue == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}">{{ tongue }}</a></li>
-          {% endfor %}
-        {% endif %}
       </ul>
 {% comment %}
 

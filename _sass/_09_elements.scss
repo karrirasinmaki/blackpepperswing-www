@@ -430,6 +430,9 @@ body.f-topbar-fixed {
       border-radius: 6px / 12px;
     }
   }
+  li.type-divider {
+    pointer-events: none;
+  }
   &:not(.expanded) {
     li.has-dropdown {
       a {
