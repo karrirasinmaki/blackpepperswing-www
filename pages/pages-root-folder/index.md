@@ -9,7 +9,7 @@ meta_description: We are a swing dance school based in Helsinki, Tampere and Jyv
 # title: ""
 title: "Black Pepper Swing"
 
-subheadline: "Next courses starting 18th of January 2021!"
+subheadline: "Autumn courses published. Registration is now open!"
 # subheadline: "Join us and swing up your life!"
 # subheadline: "&nbsp;"
 # subheadline: We are a swing dance school based in Helsinki, Tampere and Jyväskylä, founded and run through passion for authentic swing dances. We teach, organize, social dance, perform and keep the dance floor busy.
@@ -44,9 +44,10 @@ A
 <h2>Start dancing with these courses</h2>
 <p>No previous experience whatsoever needed.</p>
 <ul class="button-group text-center">
-<li><a href="https://portal.blackpepperswing.com/courses/22kdu1mjnieam7f69hsd7kquio/lindy-hop-beginners" class="button">Lindy Hop Beginners</a></li>
-<li><a href="https://portal.blackpepperswing.com/courses/0ovr3eqb6f0ig2m3m92tcooq84/solo-jazz-&-charleston-beginners" class="button">Solo Jazz & Charleston Beginners</a></li>
-<li><a href="https://portal.blackpepperswing.com/courses/4lg842htpavf4l2a0adh8liaag/tap-beginners" class="button">Tap Dance Beginners</a></li>
+<li><a href="https://portal.blackpepperswing.com/courses/7l5b08b7rgjrok34m78afh2ioi" class="button">Lindy Hop Beginners</a></li>
+<li><a href="https://portal.blackpepperswing.com/courses/4lg842htpavf4l2a0adh8liaag/tap-beginners" class="button">Tap Dance Beginners</a></li><br/>
+<li><a href="https://portal.blackpepperswing.com/courses/3avqrlpnkoe8luqqqp8gt8pse4" class="button">Solo Jazz & Charleston Beginners (Monday)</a></li>
+<li><a href="https://portal.blackpepperswing.com/courses/40oph7anh7678rd7a2bbc0a56c" class="button">Solo Jazz & Charleston Beginners (Tuesday)</a></li>
 </ul>
 <h3>Already dancing?</h3>
 <a href="/courses" class="button">Browse all courses</a>
@@ -79,22 +80,29 @@ Lindy hop, Shag and Balboa, Solo Jazz and Tap Dancing - for dancers of different
 <div class="t50"><hr/></div>
 
 {% capture covidwarn %}
-<h3>Let's swing again!</h3>
-<p>Registration for new courses starts 16th of December at 10:00 EET.</p>
-<p>Our colourful course schedule for the new term is public now. Read more about our the classes, levels and teachers on course pages and reserve your spot from Wednesday, 16th of December, on.</p>
-<p>All groups are limited to max. 12-14 students, and we will only send out the bills once the classes have started.</p>
-<p>We can’t wait to see you again!</p>
+<h3>Autumn course schedule is here!</h3>
+<p>Registration for autumn courses opens Tuesday, June 22nd at 11 AM.</p>
+<p>Check out the course schedule and declutter your calendar accordingly.</p>
+<a href="{{ site.baseurl }}/courses" class="button">Check out the course schedule</a>
 
 <dl class="accordion" data-accordion>
   <dd class="accordion-navigation">
-    <a href="#private-class">Kick-start the new year with private classes</a>
+    <a href="#what-level-should-i-pick">What course/level should I pick?</a>
+    <div id="what-level-should-i-pick" class="content">
+      <p>We wrote <a href="https://blackpepperswing.freshdesk.com/en/support/solutions/articles/42000082224-which-courses-should-i-pick-" target="_blank">this little handy article</a> helping you to find your next course(s) based on your previous course level.</p>
+      <p>Read the article: <a href="https://blackpepperswing.freshdesk.com/en/support/solutions/articles/42000082224-which-courses-should-i-pick-" target="_blank">https://blackpepperswing.freshdesk.com/en/support/solutions/articles/42000082224-which-courses-should-i-pick-</a></p>
+      <p>If you are still unsure, you can always contact us and ask for advice!</p>
+    </div>
+  </dd>
+  <dd class="accordion-navigation">
+    <a href="#private-class">Kick-start the new season with private classes</a>
     <div id="private-class" class="content">
       <p>Freshen up your skills before new season with a private class or two with us. Just drop us a message and arrange a meeting!</p>
       <p>info@blackpepperswing.com<br/>+358 84 154 1724</p>
     </div>
   </dd>
   <dd class="accordion-navigation">
-    <a href="#danceathome-music">Tanja’s playlists for your at-home-dancing</a>
+    <a href="#danceathome-music">Tanja’s playlists for practicing</a>
     <div id="danceathome-music" class="content"><ul>
 <li><a href="https://open.spotify.com/playlist/46xyHq9USHUU8oyEDscMVA?si=RPNdzrf1S5OzsuLcM1k8WQ" target="_blank">Solo Jazz</a></li>
 <li><a href="https://open.spotify.com/playlist/02b3VBQAntX9KmBNuSqEIE?si=1GXp5BkKTrmA1YWzi5Ud_A" target="_blank">Lindy classes - mid fast</a></li>
@@ -121,6 +129,7 @@ Lindy hop, Shag and Balboa, Solo Jazz and Tap Dancing - for dancers of different
 {% include grid.html cols=3 collection=dances template="dance-excerpt.html" %}
 
 
+{% comment %}
 <div class="t50"><hr/></div>
 # Upcoming events
 
@@ -129,7 +138,28 @@ Lindy hop, Shag and Balboa, Solo Jazz and Tap Dancing - for dancers of different
 <div class="text-center t50">
   <a href="{{ site.baseurl }}/events"><big>{{ site.data.language.show_all_events }}</big></a>
 </div>
+{% endcomment %}
 
+<div class="t50"><hr/></div>
+<h1 class="text-center">Inspiration</h1>
+
+<div class="row">
+  <div class="columns medium-1 hide-for-large-up">&nbsp;</div>
+  <div class="columns large-6 medium-5 small-12">
+    <div class="article-media pull-left">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vViI2Io_TeM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="columns large-6 medium-5 small-12">
+    <div class="article-media pull-right">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/cbF358ml5dk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="columns medium-1 hide-for-large-up">&nbsp;</div>
+</div>
+
+<br/>
+<p class="text-center">More videos on our <a href="https://www.youtube.com/c/BlackPepperSwing">YouTube channel</a></p>
 
 <div class="t50"><hr/></div>
 
