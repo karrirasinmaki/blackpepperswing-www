@@ -27,15 +27,19 @@ slider2:
 <section class="hero-showcase row container width-max height-max align-items-center">
   <div class="show-for-medium-up medium-4 columns bg color-main"></div>
   <div class="show-for-small-only small-12 columns bg color-contrast"></div>
-  <div class="row align-items-center">
+  <div class="row">
     <div class="medium-2 columns">&nbsp;</div>
     <div class="medium-4 columns aside">
       <div class="show-for-small-only small-6 columns bg color-main"></div>
-      <div class="t10"></div>
-      <div class="vertical width-medium frame-container shadow-pop">
-        <div class="cover-media frame portrait">
-          <iframe src="https://www.youtube.com/embed/nt2lpQdxVkY?rel=0&amp;controls=0&amp;disablekb=1&amp;playsinline=1&amp;showinfo=0&amp;version=3&amp;loop=1&amp;playlist=nt2lpQdxVkY&amp;autoplay=1&amp;enablejsapi=1"></iframe>
+      <div class="t70"></div>
+      <div class="carousel vertical width-medium frame-container portrait shadow-pop">
+        {% for img in page.slider1 %}
+        <div>
+          <div class="frame portrait cover">
+            <img src="{{ img.image_url | imgurl,size:'medium' }}" style="object-position: {{ img.position | default: "center" }}" />
+          </div>
         </div>
+        {% endfor %}
       </div>
       <div class="b30"></div>
     </div>
@@ -50,7 +54,7 @@ slider2:
 <div class="show-for-medium-up t-90"></div>
 <hr class="decor skew-left" />
 
-<section class="row b30 align-items-end">
+<section class="row b30">
   <div class="medium-6 columns aside">
     <div class="frame landscape shadow-pop">
       <img src="{{ 'helswingi-2018-group-picture-tommi.jpg' | imgurl,size:'medium' }}" />
@@ -60,7 +64,6 @@ slider2:
     <div class="show-for-medium-up t90"></div>
     <h2>Swing is <b>back</b></h2>
     <p>Spreading swing dancing in modern society means inspiring people to connect with jazz music, themselves and each other. We offer engaging, precise and fun teaching from the first course on. And we make sure your dance time is not limited to the lessons.</p>
-    <p>Lindy hop, Shag and Balboa, Solo Jazz and Tap Dancing - for dancers of different levels and with different aims. Get started or get better. <a href="{{ site.baseurl }}/courses" class="">Check which courses would suit you.</a></p>
   </div>
 </section>
 
@@ -109,41 +112,17 @@ slider2:
       </div>
     </div>
     <div class="t90"></div>
+    <p>Lindy Hop Beginners' courses aim to teach you the very basics of Lindy hop. You will learn how to move yourself and with your partner to swinging jazz tunes. We will work on basic patterns, rhythms and fundamentals of partner connection.</p>
     <p>We focus on teaching and practising authentic swing dances. These dance forms from America’s 1920’s to 1940’s are all marked by their development as social dances.</p>
-    <p>Check out our <a href="/courses">course schedule</a> and join in. We have weekly courses as well as <a href="/events">events</a> and weekend workshops.</p>
-    <p>We also offer private classes for those who wish to get a quick start on dancing or want to get more personal instruction.</p>
     <a href="/courses" class="button">Browse courses</a>
-    <a href="/services/#private-classes" class="button secondary">Private classes</a>
+    <a href="/about-us" class="button secondary">Read more about our school</a>
 
     <h3 class="t30">Courses from beginners to advanced</h3>
-    <p>Lindy Hop Beginners' courses aim to teach you the very basics of swing dancing. You will learn how to move yourself and with your partner to swinging jazz tunes. We will work on basic patterns, rhythms and fundamentals of partner connection.</p>
-    <p>We have <a href="/courses-for-beginners/">beginners' courses</a> on Lindy Hop, Solo Jazz & Charleston, and Tap Dancing. No previous experience required!</p>
-    <p>For those who are already dancing, we have a variety of classes of different styles and topics. Check out <a href="https://blackpepperswing.freshdesk.com/en/support/solutions/articles/42000082224-which-courses-should-i-pick-" target="_blank">this article</a> to find out which courses and levels would be the best for you.</p>
-    <a href="/courses-for-beginners/" class="button small">Check out all beginners' courses</a>
+    <p>Lindy Hop Beginners' courses aim to teach you the very basics of Lindy hop. You will learn how to move yourself and with your partner to swinging jazz tunes. We will work on basic patterns, rhythms and fundamentals of partner connection.</p>
+    <p>We focus on teaching and practising authentic swing dances. These dance forms from America’s 1920’s to 1940’s are all marked by their development as social dances.</p>
   </div>
 </section>
 
-<section class="row b30">
-  <h2 class="text-center">Inspiration</h2>
-  <div class="row">
-    <div class="columns medium-1 hide-for-large-up">&nbsp;</div>
-    <div class="columns large-6 medium-5 small-12">
-      <div class="article-media pull-left">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/vViI2Io_TeM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    </div>
-    <div class="columns large-6 medium-5 small-12">
-      <div class="article-media pull-right">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/cbF358ml5dk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    </div>
-    <div class="columns medium-1 hide-for-large-up">&nbsp;</div>
-  </div>
-  <br/>
-  <p class="text-center">More videos on our <a href="https://www.youtube.com/c/BlackPepperSwing">YouTube channel</a></p>
-</section>
-
-{% comment %}
 <section class="row b30">
   <div class="medium-12 columns">
     <h2 class="text-center">Upcoming events</h2>
@@ -155,6 +134,5 @@ slider2:
     </div>
   </div>
 </section>
-{% endcomment %}
 
 {% include index_blocks/block-testimonials.html %}

@@ -6,9 +6,20 @@
 </div>
 
 <div class="medium-10 xlarge-8" markdown="1">
-Spreading swing dancing in modern society means inspiring people to connect with jazz music, themselves and each other. We offer engaging, precise and fun teaching from the first course on. And we make sure your dance time is not limited to the lessons.
+Autumn season starts August 23rd. Registration is now open!
 
-Lindy hop, Shag and Balboa, Solo Jazz and Tap Dancing - for dancers of different levels and with different aims. Get started or get better. Check which course would suit you.
+**Start dancing with these courses**  
+No previous experience whatsoever needed.
+<ul>
+<li><a href="https://portal.blackpepperswing.com/courses/7l5b08b7rgjrok34m78afh2ioi" class="">Lindy Hop Beginners</a></li>
+<li><a href="https://portal.blackpepperswing.com/courses/4lg842htpavf4l2a0adh8liaag/tap-beginners" class="">Tap Dance Beginners</a></li>
+<li><a href="https://portal.blackpepperswing.com/courses/3avqrlpnkoe8luqqqp8gt8pse4" class="">Solo Jazz & Charleston Beginners (Monday)</a></li>
+<li><a href="https://portal.blackpepperswing.com/courses/40oph7anh7678rd7a2bbc0a56c" class="">Solo Jazz & Charleston Beginners (Tuesday)</a></li>
+</ul>
+
+**Already dancing?**  
+<a href="{{ site.baseurl }}/courses" class="">Check out the course schedule</a> and declutter your calendar accordingly. If you are unsure what levels/courses to pick, check out <a href="https://blackpepperswing.freshdesk.com/en/support/solutions/articles/42000082224-which-courses-should-i-pick-" target="_blank">this article here</a>.
+
 </div>
 
 <div class="button-group t30">

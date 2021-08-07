@@ -141,6 +141,35 @@ article.video {
 }
 
 
+/* Cover media */
+
+.cover-media {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+
+  iframe {
+    // position: relative;
+    // left: -4.38%;
+    // top: -7.38%;
+    // width: 108.76%;
+    // height: 114.76%;
+
+    position: absolute;
+    left: 0;
+    width: 100%;
+    max-width: none !important;
+    object-fit: cover;
+    overflow: hidden;
+    pointer-events: none;
+  }
+}
+
+
 /* Masthead
 ------------------------------------------------------------------- */
 
@@ -195,30 +224,6 @@ article.video {
         text-shadow: 0 2px 3px rgba(0,0,0,.4);
       }
     }
-
-    .cover-media {
-      overflow: hidden;
-      position: absolute;
-      left: 0;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      iframe {
-        // position: relative;
-        // left: -4.38%;
-        // top: -7.38%;
-        // width: 108.76%;
-        // height: 114.76%;
-
-        position: absolute;
-        left: 0;
-        max-width: none !important;
-        object-fit: cover;
-        overflow: hidden;
-        pointer-events: none;
-      }
-    }
-
     .cover-content {
       position: relative;
       width: 100%;
