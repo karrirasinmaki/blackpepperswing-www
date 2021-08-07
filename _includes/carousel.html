@@ -1,15 +1,22 @@
 {% comment %}
-* in progress
 {% endcomment %}
 
-<div class="simple-carousel">
-  <div class="carousel-content">
-    {% assign old_entry = entry %}
-    {% for entry in include.collection limit:include.entries %}
-    <div class="item">
-      {% include {{include.template}} %}
-    </div>
-    {% endfor %}
-    {% assign entry = old_entry %}
+{% capture data_slick %}
+{
+  "slidesToShow": {{include.slidesToShow | default: 1}},
+  "centerMode": {{include.centerMode | default: false}},
+  "arrows": {{include.arrows | default: false}},
+  "dots": {{include.dots | default: true}},
+  "adaptiveHeight": {{include.adaptiveHeight | default: false}}
+}
+{% endcapture %}
+
+<div class="carousel" data-slick='{{ data_slick | strip_newlines | strip }}'>
+  {% assign old_entry = entry %}
+  {% for entry in include.collection limit:include.entries %}
+  <div class="item">
+    {% include {{include.template}} %}
   </div>
+  {% endfor %}
+  {% assign entry = old_entry %}
 </div>

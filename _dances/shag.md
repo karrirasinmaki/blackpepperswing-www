@@ -1,12 +1,12 @@
 ---
 order: 4
-show_short: true
+show_short: false
 
 title: Collegiate Shag
 portal_q: Collegiate Shag
 ---
 
-<a href="https://www.youtube.com/watch?v=i97J1c943LY" target="_blank">
+<a href="https://www.youtube.com/watch?v=i97J1c943LY" target="_blank" class="article-media">
 	<video playsinline autoplay muted loop>
 		<source alt="{{ site.title }}" src="{{ site.urlvid }}shag.webm" type="video/webm" />
 	</video>

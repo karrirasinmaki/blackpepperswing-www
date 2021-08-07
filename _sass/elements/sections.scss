@@ -8,14 +8,17 @@
 .row.align-items {
 	&-start {
 		display: flex;
+		flex-wrap: wrap;
 		align-items: flex-start;
 	}
 	&-end {
 		display: flex;
+		flex-wrap: wrap;
 		align-items: flex-end;
 	}
 	&-center {
 		display: flex;
+		flex-wrap: wrap;
 		align-items: center;
 	}
 }
@@ -26,8 +29,16 @@
 }
 
 .row.width-max {
-	max-width: 100%;
+	min-width: 100%;
 	overflow: hidden;
+}
+
+div.width-medium {
+	width: 100%;
+	max-width: 400px;
+	&.align-center {
+		margin: 0 auto;
+	}
 }
 
 .columns.bg {

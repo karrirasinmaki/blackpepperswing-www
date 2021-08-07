@@ -5,7 +5,7 @@ title: Lindy Hop
 portal_q: Lindy Hop
 ---
 
-<a href="https://www.youtube.com/watch?v=H9ExBUKjqLo" target="_blank">
+<a href="https://www.youtube.com/watch?v=H9ExBUKjqLo" target="_blank" class="article-media">
 	<video playsinline autoplay muted loop>
 		<source alt="{{ site.title }}" src="{{ site.urlvid }}lindyhop.webm" type="video/webm" />
 	</video>

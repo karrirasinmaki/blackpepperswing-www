@@ -326,14 +326,20 @@ img + em {
 /* Article media
 ------------------------------------------------------------------- */
 
+div.article-media {
+  @media #{$medium-up} {
+    margin-left: -4%;
+    width: 108%;
+  }
+}
+
 .article-media {
+  overflow: hidden;
   iframe, img, video {
     width: 100%;
     max-width: 100%;
   }
   @media #{$medium-up} {
-    margin-left: -4%;
-    width: 104%;
 
     &.pull-left {
       float: left;

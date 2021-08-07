@@ -5,7 +5,7 @@ title: Solo Jazz
 portal_q: Solo Jazz
 ---
 
-<a href="https://www.facebook.com/events/321744205077572/permalink/330852327500093/" target="_blank">
+<a href="https://www.facebook.com/events/321744205077572/permalink/330852327500093/" target="_blank" class="article-media">
 	<video playsinline autoplay muted loop>
 		<source alt="{{ site.title }}" src="{{ site.urlvid }}solojazz.webm" type="video/webm" />
 	</video>

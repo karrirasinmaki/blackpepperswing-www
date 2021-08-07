@@ -1,7 +1,7 @@
 ---
 order: 3
 layout: dance
-show_short: true
+show_short: false
 
 title: Balboa
 portal_q: Balboa
@@ -13,7 +13,7 @@ portal_q: Balboa
 </div>
 -->
 
-<a href="https://www.youtube.com/watch?v=FKbznxrt6YQ" target="_blank">
+<a href="https://www.youtube.com/watch?v=FKbznxrt6YQ" target="_blank" class="article-media">
 	<video playsinline autoplay muted loop>
 		<source alt="{{ site.title }}" src="{{ site.urlvid }}balboa.webm" type="video/webm" />
 	</video>

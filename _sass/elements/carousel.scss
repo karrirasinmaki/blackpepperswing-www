@@ -1,8 +1,4 @@
 .carousel {
-
-	&.width-medium {
-		width: 400px;
-	}
 	&.vertical {
 		.slick-dots {
 			top: 50%;
@@ -18,4 +14,14 @@
 
 .slick-dots li {
 	margin: 0 2px;
+}
+
+.slick-prev,
+.slick-next {
+	background: white;
+	border-radius: 100%;
+}
+
+.slick-slide {
+	margin: 0.8em;
 }

@@ -27,20 +27,25 @@ slider2:
 <section class="hero-showcase row container width-max height-max align-items-center">
   <div class="show-for-medium-up medium-4 columns bg color-main"></div>
   <div class="show-for-small-only small-12 columns bg color-contrast"></div>
-  <div class="row align-items-center">
-    <div class="medium-2 columns">&nbsp;</div>
-    <div class="medium-4 columns aside">
+  <div class="row width-max align-items-center">
+    <div class="medium-2 columns show-for-medium-up">&nbsp;</div>
+    <div class="medium-4 small-12 columns aside">
       <div class="show-for-small-only small-6 columns bg color-main"></div>
-      <div class="t10"></div>
-      <div class="vertical width-medium frame-container shadow-pop">
-        <div class="cover-media frame portrait">
+      <div class="t30"></div>
+      <div class="vertical frame-container shadow-pop">
+        <div class="cover-media frame portrait show-for-medium-up">
+          <iframe src="https://www.youtube.com/embed/nt2lpQdxVkY?rel=0&amp;controls=0&amp;disablekb=1&amp;playsinline=1&amp;showinfo=0&amp;version=3&amp;loop=1&amp;playlist=nt2lpQdxVkY&amp;autoplay=1&amp;enablejsapi=1"></iframe>
+        </div>
+        <div class="cover-media frame square show-for-small-only">
           <iframe src="https://www.youtube.com/embed/nt2lpQdxVkY?rel=0&amp;controls=0&amp;disablekb=1&amp;playsinline=1&amp;showinfo=0&amp;version=3&amp;loop=1&amp;playlist=nt2lpQdxVkY&amp;autoplay=1&amp;enablejsapi=1"></iframe>
         </div>
       </div>
-      <div class="b30"></div>
+      <div class="b60 show-for-medium-up"></div>
     </div>
-    <div class="medium-6 columns end t30">
-      <div class="medium-12 columns">
+    <div class="medium-6 small-12 columns end">
+      <div class="show-for-small-only t30"></div>
+      <div class="show-for-medium-up t70"></div>
+      <div class="medium-12 columns b60">
       {% include_relative intro.md %}
       </div>
     </div>
@@ -50,28 +55,29 @@ slider2:
 <div class="show-for-medium-up t-90"></div>
 <hr class="decor skew-left" />
 
-<section class="row b30 align-items-end">
-  <div class="medium-6 columns aside">
+<section class="row b30 align-items-start">
+  <div class="large-6 medium-10 medium-centered columns aside">
     <div class="frame landscape shadow-pop">
       <img src="{{ 'helswingi-2018-group-picture-tommi.jpg' | imgurl,size:'medium' }}" />
     </div>
+    <div class="show-for-medium-up b30"></div>
   </div>
-  <div class="medium-6 columns end">
-    <div class="show-for-medium-up t90"></div>
-    <h2>Swing is <b>back</b></h2>
+  <div class="large-6 medium-8 medium-centered columns end t10">
+    <div class="show-for-large-up t90"></div>
+    <h2 class="t10">Swing is <b>back</b></h2>
     <p>Spreading swing dancing in modern society means inspiring people to connect with jazz music, themselves and each other. We offer engaging, precise and fun teaching from the first course on. And we make sure your dance time is not limited to the lessons.</p>
     <p>Lindy hop, Shag and Balboa, Solo Jazz and Tap Dancing - for dancers of different levels and with different aims. Get started or get better. <a href="{{ site.baseurl }}/courses" class="">Check which courses would suit you.</a></p>
   </div>
 </section>
 
-<section class="row">
+<section class="row width-max">
   <div class="medium-12 columns">
   {% assign dances = site.dances | sort: "order" %}
-  {% include grid.html cols=3 collection=dances template="dance-excerpt.html" %}
+  {% include carousel.html slidesToShow=3 centerMode="true" adaptiveHeight="true" arrows="true" dots="false" collection=dances template="dance-excerpt.html" %}
   </div>
 </section>
 
-<div class="t90 b50"></div>
+<div class="t90 b60"></div>
 
 <hr class="decor skew-x underlay" />
 
@@ -96,9 +102,9 @@ slider2:
     </div>
   </div>
   <div class="medium-6 columns end">
-    <h2 class="color-contrast">How to<br/><span class="l15"></span> join the fun?</h2>
-    <div class="show-for-small-only">
-      <div class="carousel width-medium frame-container square shadow-pop">
+    <div class="show-for-small-only width-medium align-center">
+      <h2 class="color-contrast">How to<br/><span class="l15"></span> join the fun?</h2>
+      <div class="carousel frame-container square shadow-pop">
         {% for img in page.slider2 %}
         <div>
           <div class="frame square cover">
@@ -108,6 +114,11 @@ slider2:
         {% endfor %}
       </div>
     </div>
+
+    <div class="show-for-medium-up">
+      <h2 class="color-contrast">How to<br/><span class="l15"></span> join the fun?</h2>
+    </div>
+
     <div class="t90"></div>
     <p>We focus on teaching and practising authentic swing dances. These dance forms from America’s 1920’s to 1940’s are all marked by their development as social dances.</p>
     <p>Check out our <a href="/courses">course schedule</a> and join in. We have weekly courses as well as <a href="/events">events</a> and weekend workshops.</p>
@@ -123,21 +134,19 @@ slider2:
   </div>
 </section>
 
-<section class="row b30">
+<section class="b30">
   <h2 class="text-center">Inspiration</h2>
   <div class="row">
-    <div class="columns medium-1 hide-for-large-up">&nbsp;</div>
-    <div class="columns large-6 medium-5 small-12">
-      <div class="article-media pull-left">
+    <div class="columns medium-6 small-12">
+      <div class="article-media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/vViI2Io_TeM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
-    <div class="columns large-6 medium-5 small-12">
-      <div class="article-media pull-right">
+    <div class="columns medium-6 small-12">
+      <div class="article-media">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/cbF358ml5dk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
-    <div class="columns medium-1 hide-for-large-up">&nbsp;</div>
   </div>
   <br/>
   <p class="text-center">More videos on our <a href="https://www.youtube.com/c/BlackPepperSwing">YouTube channel</a></p>

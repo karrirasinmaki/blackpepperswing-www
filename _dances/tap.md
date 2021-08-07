@@ -5,7 +5,7 @@ title: Tap Dancing
 portal_q: Tap
 ---
 
-<a href="https://youtu.be/fNKRm6H-qOU" target="_blank">
+<a href="https://youtu.be/fNKRm6H-qOU" target="_blank" class="article-media">
 	<video playsinline autoplay muted loop>
 		<source alt="{{ site.title }}" src="{{ site.urlvid }}tap.webm" type="video/webm" />
 	</video>
