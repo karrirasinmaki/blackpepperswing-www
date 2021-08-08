@@ -28,10 +28,13 @@
     "firebase-tools": "^7.1.0",
     "gulp": "^4.0.0",
     "gulp-image-resize": "^0.13.0",
-    "gulp-imagemin": "^7.0.0",
+    "gulp-imagemin": "^7.1.0",
     "gulp-plumber": "^1.2.1",
     "gulp-util": "^3.0.8",
     "run-sequence": "^2.1.0",
     "watch": "^1.0.2"
+  },
+  "dependencies": {
+    "mozjpeg": "^7.1.0"
   }
 }

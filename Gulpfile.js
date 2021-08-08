@@ -102,8 +102,10 @@ function optimizeImages() {
   return gulp.src(['_original_images/**/*', 'images/**/*'])
     .pipe(plumber())
     .pipe(imagemin([
-      imagemin.jpegtran({ progressive: true })
-    ]).on('error', (e) => {
+      imagemin.mozjpeg({ quality: 72, progressive: true })
+    ], {
+      verbose: true
+    }).on('error', (e) => {
       console.warn(e)
     }))
     .pipe(gulp.dest('images'));
@@ -128,6 +130,7 @@ gulp.task('resize_images_large', () => resizeImagesLarge());
 gulp.task('resize_images_medium', () => resizeImagesMedium());
 gulp.task('resize_images_small', () => resizeImagesSmall());
 gulp.task('resize_images_cover', () => resizeImagesCover());
+gulp.task('optimize_images', () => optimizeImages());
 
 gulp.task('resize_images', gulp.series(
   gulp.parallel(
@@ -155,21 +158,19 @@ gulp.task('install', (done) => {
   doExec('bundle install --jobs=4 --retry=3 --path ./vendor/bundle', done);
 });
 
-gulp.task('images', gulp.series('resize_images', optimizeImages, (done) => {
+gulp.task('images', gulp.series('resize_images', (done) => {
   done();
 }));
 
 gulp.task('build-jekyll', (done) => {
-  doExec(buildJekyllCmd('production'), done);
+  return doExec(buildJekyllCmd('production'), done);
 });
 
 gulp.task('build', gulp.series('images', 'build-jekyll', (done) => {
   done();
 }));
 
-gulp.task('build-lightweight', (done) => {
-  gulp.series('build-jekyll', done);
-});
+gulp.task('build-lightweight', gulp.series('build-jekyll'));
 
 gulp.task('build-dev', gulp.parallel('images', (done) => {
   doExec(buildJekyllCmd('development'), done);
