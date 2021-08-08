@@ -129,14 +129,15 @@ gulp.task('resize_images_medium', () => resizeImagesMedium());
 gulp.task('resize_images_small', () => resizeImagesSmall());
 gulp.task('resize_images_cover', () => resizeImagesCover());
 
-gulp.task('resize_images', gulp.parallel(
-  'resize_images_thumb',
-  'resize_images_large',
-  'resize_images_medium',
-  'resize_images_small',
-  'resize_images_cover', (done) => {
-    done();
-  }));
+gulp.task('resize_images', gulp.series(
+  gulp.parallel(
+    'resize_images_thumb',
+    'resize_images_large',
+    'resize_images_medium',
+    'resize_images_small',
+    'resize_images_cover'
+  )
+));
 
 gulp.task('default', (done) => {
   console.log(`
@@ -166,9 +167,9 @@ gulp.task('build', gulp.series('images', 'build-jekyll', (done) => {
   done();
 }));
 
-gulp.task('build-lightweight', gulp.series('build-jekyll', (done) => {
-  done();
-}));
+gulp.task('build-lightweight', (done) => {
+  gulp.series('build-jekyll', done);
+});
 
 gulp.task('build-dev', gulp.parallel('images', (done) => {
   doExec(buildJekyllCmd('development'), done);

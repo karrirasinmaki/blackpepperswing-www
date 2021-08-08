@@ -17,6 +17,12 @@ container_name=bps-www
 
 force_run=0
 
+if [ "$1" = "image" ]; then
+  image_name=$2
+  container_name="$2-container"
+  shift 2
+fi
+
 if [ "$1" = "build" ]; then
   docker build -t $image_name .
   exit
@@ -26,12 +32,6 @@ if [ "$1" = "remove" ]; then
   docker rm $container_name
   docker rmi $image_name
   exit
-fi
-
-if [ "$1" = "image" ]; then
-  image_name=$2
-  container_name="$2-container"
-  shift 2
 fi
 
 if [ ! "$(docker ps -a | grep "$container_name$")" ]; then

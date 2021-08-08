@@ -36,19 +36,18 @@ No time for weekly classes or you feel you need more personal instruction? You c
 
 Private classes can be demanding, which is why we can do them for 30min, 45min, or 60min. You can either choose to do the classes with only one or two teachers.
 
-**Private classes are on sale till the end of the 2020!**
-Buy/book your private class today to claim the discount. The appointment can be scheduled for a later date.
+All private classes include the studio rental!
 
 **For 1-4 people** with one/two teacher(s)  
-~~75€/115€~~ 60€/100€ for single session (1 hour) [buy here](https://holvi.com/shop/blackpepperswing/section/private-classes/)  
-~~260€/420€~~ 200€/360€ for 4 sessions (1 hour / session) [buy here](https://holvi.com/shop/blackpepperswing/section/private-classes/)  
+75€/115€ for a single session (1 hour) [buy here](https://holvi.com/shop/blackpepperswing/section/private-classes/)  
+260€/420€ for 4 sessions (1 hour / session) [buy here](https://holvi.com/shop/blackpepperswing/section/private-classes/)  
 
 **For 5-8 people** with one/two teacher(s)  
-~~105€/165€~~ 90€/150€ for single session (1 hour)  
-~~380€/620€~~ 320€/560€ for 4 sessions (1 hour / session)  
+105€/165€ for a single session (1 hour)  
+380€/620€ for 4 sessions (1 hour / session)  
 
 **Wedding dance**  
-250€-350€ (incl. choreography and 2-3 teaching session)  
+250€-350€ (incl. choreography and 2-3 teaching sessions)  
 
 *Don't hesitate to contact us!* {{ site.email }}
 
