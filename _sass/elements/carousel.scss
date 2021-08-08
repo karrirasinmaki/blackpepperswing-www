@@ -18,10 +18,16 @@
 
 .slick-prev,
 .slick-next {
-	background: white;
-	border-radius: 100%;
+	z-index: 1;
+}
+.slick-prev {
+	left: 0;
+}
+.slick-next {
+	right: 0;
 }
 
-.slick-slide {
-	margin: 0.8em;
+
+.slick-padded .slick-slide {
+	margin: 1.7em;
 }

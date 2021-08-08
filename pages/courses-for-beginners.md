@@ -11,7 +11,7 @@ permalink: "/courses-for-beginners/"
 ---
 
 <style>
-#navigation { position: relative; z-index: 2 }
+#navigation { position: relative; }
 </style>
 
 <div class="f-topbar-fixed" style="position: absolute; left:0; top:0px; width:100%; height:100%;">

@@ -1,3 +1,5 @@
+<div class="width-medium align-center">
+
 <h3>{{ entry.title }}</h3>
 {% if entry.show_short %}
   {% assign read_more_id = "read-more-" | append: entry.slug %}
@@ -14,3 +16,5 @@
 <label for="{{ read_more_id }}" class="more-button text-center">More</label>
 </div>
 {% endif %}
+
+</div>

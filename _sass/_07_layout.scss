@@ -19,6 +19,19 @@
 */
 
 
+/* Adjustments: Responsive font size
+------------------------------------------------------------------- */
+
+@media #{$small-only} {
+  // html,
+  // body { font-size: $base-font-size * 0.8; }
+  h1, .font-size-h1   { font-size: $font-size-h1 * 0.67; letter-spacing: -0.2pt; }
+  h2, .font-size-h2   { font-size: $font-size-h2 * 0.70; letter-spacing: -0.2pt; }
+  h3, .font-size-h3   { font-size: $font-size-h3 * 0.74; letter-spacing: -0.2pt; }
+  h4, .font-size-h4   { font-size: $font-size-h4 * 0.79; letter-spacing: -0.2pt; }
+  h5, .font-size-h5   { font-size: $font-size-h5 * 0.82; letter-spacing: -0.2pt; }
+}
+
 
 /* Adjustments: Video Layout (format: video-full)
 ------------------------------------------------------------------- */
@@ -159,6 +172,7 @@ article.video {
     // width: 108.76%;
     // height: 114.76%;
 
+    border: 0;
     position: absolute;
     left: 0;
     width: 100%;
@@ -548,6 +562,7 @@ article.video {
 .b20 { margin-bottom: 20px !important; }
 .b30 { margin-bottom: 30px !important; }
 .b60 { margin-bottom: 60px !important; }
+.b90 { margin-bottom: 90px !important; }
 
 .l15 { margin-left: 15px !important; }
 .r15 { margin-right: 15px !important; }

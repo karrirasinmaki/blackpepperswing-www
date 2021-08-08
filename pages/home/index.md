@@ -19,7 +19,7 @@ slider1:
 - image_url: bps-class-tanja-karri-ressu-2018-by-alessandroituarte.jpg
 
 slider2:
-- image_url: tuesday-night-hop-shimsham.jpg
+- image_url: helswingi-2018-group-hug.jpg
 - image_url: helswingi-2018-maria-kir.jpg
 - image_url: helswingi-2018-class-high-five.jpg
 ---
@@ -28,25 +28,28 @@ slider2:
   <div class="show-for-medium-up medium-4 columns bg color-main"></div>
   <div class="show-for-small-only small-12 columns bg color-contrast"></div>
   <div class="row width-max align-items-center">
-    <div class="medium-2 columns show-for-medium-up">&nbsp;</div>
-    <div class="medium-4 small-12 columns aside">
+    <div class="medium-1 columns show-for-medium-up">&nbsp;</div>
+    <div class="medium-5 small-12 columns aside t30 b30 pr5">
       <div class="show-for-small-only small-6 columns bg color-main"></div>
-      <div class="t30"></div>
-      <div class="vertical frame-container shadow-pop">
-        <div class="cover-media frame portrait show-for-medium-up">
+
+      <div class="show-for-medium-up t50"></div>
+
+      <div class="vertical frame-container shadow-pop" style="background: black;">
+        <div class="cover-media frame square show-for-medium-up">
           <iframe src="https://www.youtube.com/embed/nt2lpQdxVkY?rel=0&amp;controls=0&amp;disablekb=1&amp;playsinline=1&amp;showinfo=0&amp;version=3&amp;loop=1&amp;playlist=nt2lpQdxVkY&amp;autoplay=1&amp;enablejsapi=1"></iframe>
         </div>
         <div class="cover-media frame square show-for-small-only">
           <iframe src="https://www.youtube.com/embed/nt2lpQdxVkY?rel=0&amp;controls=0&amp;disablekb=1&amp;playsinline=1&amp;showinfo=0&amp;version=3&amp;loop=1&amp;playlist=nt2lpQdxVkY&amp;autoplay=1&amp;enablejsapi=1"></iframe>
         </div>
       </div>
-      <div class="b60 show-for-medium-up"></div>
+      <div class="b90 show-for-medium-up"></div>
     </div>
-    <div class="medium-6 small-12 columns end">
-      <div class="show-for-small-only t30"></div>
-      <div class="show-for-medium-up t70"></div>
-      <div class="medium-12 columns b60">
-      {% include_relative intro.md %}
+
+    <div class="medium-6 small-12 columns end t30 b30">
+      <div class="medium-12 columns">
+        <div class="show-for-medium-up t50"></div>
+        {% include_relative intro.md %}
+        <div class="b90 show-for-medium-up"></div>
       </div>
     </div>
   </div>
@@ -55,14 +58,14 @@ slider2:
 <div class="show-for-medium-up t-90"></div>
 <hr class="decor skew-left" />
 
-<section class="row b30 align-items-start">
-  <div class="large-6 medium-10 medium-centered columns aside">
+<section class="row b30 align-items-end">
+  <div class="large-6 medium-10 medium-centered columns aside pr20">
     <div class="frame landscape shadow-pop">
       <img src="{{ 'helswingi-2018-group-picture-tommi.jpg' | imgurl,size:'medium' }}" />
     </div>
     <div class="show-for-medium-up b30"></div>
   </div>
-  <div class="large-6 medium-8 medium-centered columns end t10">
+  <div class="large-6 medium-8 medium-centered columns end t20">
     <div class="show-for-large-up t90"></div>
     <h2 class="t10">Swing is <b>back</b></h2>
     <p>Spreading swing dancing in modern society means inspiring people to connect with jazz music, themselves and each other. We offer engaging, precise and fun teaching from the first course on. And we make sure your dance time is not limited to the lessons.</p>
@@ -71,9 +74,9 @@ slider2:
 </section>
 
 <section class="row width-max">
-  <div class="medium-12 columns">
+  <div class="medium-12 columns slick-padded">
   {% assign dances = site.dances | sort: "order" %}
-  {% include carousel.html slidesToShow=3 centerMode="true" adaptiveHeight="true" arrows="true" dots="false" collection=dances template="dance-excerpt.html" %}
+  {% include carousel.html slidesToShow=3 centerMode="true" initialSlide=1 adaptiveHeight="true" arrows="true" dots="true" collection=dances template="dance-excerpt.html" %}
   </div>
 </section>
 
@@ -81,22 +84,22 @@ slider2:
 
 <hr class="decor skew-x underlay" />
 
-<section class="row b30 t-50">
+<section class="row b30 t-30">
   <div class="show-for-medium-up medium-6 columns aside">
     <!-- TODO: fetch from slider2 -->
     <div class="frame square cover shadow-pop">
-      <img src="{{ 'tuesday-night-hop-shimsham.jpg' | imgurl,size:'medium' }}" />
+      <img src="{{ page.slider2[0].image_url | imgurl,size:'medium' }}" />
     </div>
     <br />
     <div class="row">
       <div class="medium-6 columns">
         <div class="frame portrait cover">
-          <img src="{{ 'helswingi-2018-maria-kir.jpg' | imgurl,size:'medium' }}" />
+          <img src="{{ page.slider2[1].image_url | imgurl,size:'medium' }}" />
         </div>
       </div>
       <div class="medium-6 columns">
         <div class="frame portrait cover">
-          <img src="{{ 'helswingi-2018-class-high-five.jpg' | imgurl,size:'medium' }}" />
+          <img src="{{ page.slider2[2].image_url | imgurl,size:'medium' }}" />
         </div>
       </div>
     </div>
@@ -127,6 +130,10 @@ slider2:
     <a href="/services/#private-classes" class="button secondary">Private classes</a>
 
     <h3 class="t30">Courses from beginners to advanced</h3>
+    <div class="frame ultrawide article-media">
+      <img src="{{ 'tanja-kay-saiffa-beginners.jpeg' | imgurl,size:'medium' }}" />
+    </div>
+    <br/>
     <p>Lindy Hop Beginners' courses aim to teach you the very basics of swing dancing. You will learn how to move yourself and with your partner to swinging jazz tunes. We will work on basic patterns, rhythms and fundamentals of partner connection.</p>
     <p>We have <a href="/courses-for-beginners/">beginners' courses</a> on Lindy Hop, Solo Jazz & Charleston, and Tap Dancing. No previous experience required!</p>
     <p>For those who are already dancing, we have a variety of classes of different styles and topics. Check out <a href="https://blackpepperswing.freshdesk.com/en/support/solutions/articles/42000082224-which-courses-should-i-pick-" target="_blank">this article</a> to find out which courses and levels would be the best for you.</p>

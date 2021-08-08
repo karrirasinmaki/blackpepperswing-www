@@ -21,11 +21,13 @@
 	}
 
 	// Aspect ratios flipped: 16/9 -> 9/16
+	&.ultrawide { padding-top: (1/2.35)*100%; }
 	&.landscape { padding-top: (9/16)*100%; }
 	&.square { padding-top: (1/1)*100%; }
 	&.portrait { padding-top: (3/2)*100%; }
 
 	&-container {
+		&.ultrawide { max-width: (2.35/1)*100%; }
 		&.landscape { max-width: (16/9)*100%; }
 		&.square { max-width: (1/1)*100%; }
 		&.portrait { max-width: (2/3)*100%; }
@@ -40,6 +42,12 @@
 		}
 		&-right img {
 			object-position: right;
+		}
+		&-top img {
+			object-position: top;
+		}
+		&-bottom img {
+			object-position: bottom;
 		}
 	}
 }
