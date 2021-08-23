@@ -30,6 +30,10 @@ permalink: "/events/"
 {% include grid.html cols=1 collection=events template='post-snippet.html' %}
 {% if events.size == 0 %}
   There are currently no weekly swing dance events.
+
+  But we have weekly swing dance classes from Monday to Friday.  
+  Check out the course schedule here:  
+  [{{site.url}}/courses](/courses)
 {% endif %}
 
 <div class="t60 b60">&nbsp;</div>

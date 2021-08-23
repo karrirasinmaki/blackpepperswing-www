@@ -17,5 +17,15 @@ Do you have ideas for courses? Feedback? Or you look for a performance at your e
 {{ site.email }}  
 {{ site.tel }}
 
-{% assign facebook = site.data.socialmedia | where: "name","Facebook" | first %}
-[You can find us on Facebook]({{ facebook.url }})
+
+### Find us on social media
+
+<div class="t15">
+  <ul class="inline-list social-icons" style="display: inline-block;">
+    {% for social_item in site.data.socialmedia %}
+    {% if social_item.visible != false %}
+    <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</div>

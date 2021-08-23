@@ -11,10 +11,11 @@ Autumn season starts August 23rd. Registration is now open!
 **Start dancing with these courses**  
 No previous experience whatsoever needed.
 <ul>
-<li><a href="https://portal.blackpepperswing.com/courses/7l5b08b7rgjrok34m78afh2ioi" class="">Lindy Hop Beginners</a></li>
-<li><a href="https://portal.blackpepperswing.com/courses/4lg842htpavf4l2a0adh8liaag/tap-beginners" class="">Tap Dance Beginners</a></li>
+<li><a href="https://portal.blackpepperswing.com/courses/4hb07ksvb4kcc7i89mrrpjqjpq/lindy-hop-beginners'-weekend-course" class="">Lindy Hop Beginners Weekend (Sept 25-26)</a></li>
 <li><a href="https://portal.blackpepperswing.com/courses/3avqrlpnkoe8luqqqp8gt8pse4" class="">Solo Jazz & Charleston Beginners (Monday)</a></li>
 <li><a href="https://portal.blackpepperswing.com/courses/40oph7anh7678rd7a2bbc0a56c" class="">Solo Jazz & Charleston Beginners (Tuesday)</a></li>
+<li><a href="https://portal.blackpepperswing.com/courses/4lg842htpavf4l2a0adh8liaag/tap-beginners" class="">Tap Dance Beginners</a></li>
+<li><a href="https://portal.blackpepperswing.com/courses/7l5b08b7rgjrok34m78afh2ioi" class="">Lindy Hop Beginners</a></li>
 </ul>
 
 **Already dancing?**  
