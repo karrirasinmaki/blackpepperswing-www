@@ -37,7 +37,8 @@ You may choose to open the curtains and watch people passing by along Bulevardi,
 
 ### Pricing
 
-<br/>
+#### Students of Black Pepper Swing
+
 **1-3 people**  
 10€ per session (up to 1.5 hours)  
 \+ 5€ for every extra 30 min  
@@ -48,10 +49,20 @@ You may choose to open the curtains and watch people passing by along Bulevardi,
 
 *Prices include value added taxes.*
 
+<br/>
+
+
+#### Single, non-commercial reservations
+
+25€ per hour (including VAT 24%)
+
+*If you want an invoice for organisation, look out the commercial pricing below.*
+
+<br/>
+
 
 #### Looking for a place to run classes, workshops, video/photo shootings, etc.?
 
-<br/>
 **Pricing for any commercial use:**  
 35€ per hour + VAT 24%
 
@@ -60,6 +71,8 @@ Recurrent or full weekend reservations?
 
 {{ site.email }}  
 {{ site.tel }}
+
+<br/>
 
 
 ## Reservations
