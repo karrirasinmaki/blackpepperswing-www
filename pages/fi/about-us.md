@@ -3,8 +3,8 @@ lang: fi
 
 title: Meistä
 subheadline: Meidän tarina - Black Pepper Swing
-description: In 2020 we will celebrate our 3 year anniversary. So what is Black Pepper Swing all about?
-teaser: In 2020 we will celebrate our 3 year anniversary. So what is BPS all about?
+description: In 2022 we will celebrate our 5 year anniversary. So what is Black Pepper Swing all about?
+teaser: In 2022 we will celebrate our 5 year anniversary. So what is BPS all about?
 
 image:
   src: group-over-a-drink.jpg

@@ -1,8 +1,8 @@
 ---
 title: About Us
 subheadline: The story of Black Pepper Swing
-description: In 2020 we will celebrate our 3 year anniversary. So what is Black Pepper Swing all about?
-teaser: In 2020 we will celebrate our 3 year anniversary. So what is BPS all about?
+description: In 2022 we will celebrate our 5 year anniversary. So what is Black Pepper Swing all about?
+teaser: In 2022 we will celebrate our 5 year anniversary. So what is BPS all about?
 
 image:
   src: group-over-a-drink.jpg
@@ -26,7 +26,7 @@ We founded BPS out of the deep desire to build a diverse, open-minded community 
 
 **What do we teach?**
 
-Currently we are 8 wonderful teachers, who actively teach classes of Lindy hop, Solo Jazz and Tap dancing. The taught material is a solid mixture of historical Lindy hop, popular modern interpretations and our own concepts and movements. To make sure students can cope well at international workshops, we orient our curriculum and levels according to renowned international schools.
+Currently we are 10 wonderful teachers, who actively teach classes of Lindy hop, Solo Jazz, Tap dancing, and Boogie Woogie. The taught material is a solid mixture of historical Lindy Hop and swing dancing, popular modern interpretations and our own concepts and movements. To make sure students can cope well at international workshops, we orient our curriculum and levels according to renowned international schools.
 
 After teaching many hundreds of classes we have learnt to develop level-appropriate material, break down movements and concepts understandably and help with individual problems. 
 

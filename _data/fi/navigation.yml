@@ -18,47 +18,47 @@
 #   url: "/jyvaskyla/"
 #   side: right
 
-- title: "What is Lindy Hop?"
+- title: "Lindy Hop?"
   url: "/lindyhop/"
   side: right
 
-- title: "Studio Rental"
+- title: "Vuokraa tanssisali"
   url: "/studio-rental/"
   side: right
 
-- title: "About Us"
+- title: "Meistä"
   url: "/about-us/"
   side: right
   dropdown:
-  - title: "Our Story"
+  - title: "Meidän tarina"
     url: "/about-us/"
-  - title: "Services"
+  - title: "Palvelut"
     url: "/services/"
-  - title: "Teachers"
+  - title: "Opettajat"
     url: "/teachers/"
   - title: "Info"
     url: "/info/"
 
-- title: "Courses"
+- title: "Kurssit"
   url: "/courses/"
   side: right
   dropdown:
-  - title: "Courses"
+  - title: "Kurssit"
     url: "/courses/"
-  - title: "Beginners"
+  - title: "Alkeiskurssit"
     url: "/courses-for-beginners/"
   - title: "Roadmap"
     url: "/roadmap/"
 
-- title: "Events"
+- title: "Tapahtumat"
   url: "/events/"
   side: right
 
-- title: "Contact"
+- title: "Ota yhteyttä"
   url: "/contact/"
   side: right
 
-- title: "News"
+- title: "Uutiset"
   url: "/news/"
   side: right
 
@@ -67,7 +67,7 @@
   type: "divider"
   side: right
 
-- title: "Shop"
+- title: "Kauppa"
   url: "https://holvi.com/shop/blackpepperswing/"
   side: right
 
