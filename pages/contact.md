@@ -15,7 +15,9 @@ Do you have ideas for courses? Feedback? Or you look for a performance at your e
 
 {{ site.title }}  
 {{ site.email }}  
-{{ site.tel }}
+{{ site.tel }}  
+
+Address: {{ site.address }}  
 
 
 ### Find us on social media

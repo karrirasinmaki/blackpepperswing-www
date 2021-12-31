@@ -1,11 +1,11 @@
 ---
 title: Studio rental
-meta_description: Studio rental at Bulevardi 31, Helsinki
+meta_description: Studio rental at Karjalankatu 2, Helsinki
 
 image:
   src2: bulevardi31/bps-studio-bulevardi31-bw-empty.jpg
   src: bulevardi31/bps-studio-bulevardi31-bw-from-back-corner.jpeg
-  caption: BPS Studio at Bulevardi 31
+  caption: Old BPS Studio at Bulevardi 31
 
 sitemap:
   priority: 0.8
@@ -27,7 +27,13 @@ gallery:
 
 ## Save your neighbours' nerves and come monkey around at our studio!
 
-*The studio is located in the heart of Helsinki at Bulevardi 31.*
+**We are moving!**
+
+Our new studio is under renovation and will be available for rental at the latest from February on.
+
+We will have two separate ~100m² dance/practice studios, plus a kitchen and hang out space.
+
+---
 
 Whether you are looking for a place to practice tapping, dancing, popping, locking, playing, singing, trumpeting, handstanding or anything else, our studio gives you the space and acoustics to do it.
 
@@ -47,14 +53,17 @@ You may choose to open the curtains and watch people passing by along Bulevardi,
 20€ per session (up to 1.5 hours)  
 \+ 10€ for every extra 30 min  
 
-*Prices include value added taxes.*
+**More than 10 people**  
+25€ per hour  
+
+*Prices are for one studio room and include value added taxes.*
 
 <br/>
 
 
 #### Single, non-commercial reservations
 
-25€ per hour (including VAT 24%)
+25€ per hour, one studio room (including VAT 24%)
 
 *If you want an invoice for organisation, look out the commercial pricing below.*
 
@@ -64,9 +73,9 @@ You may choose to open the curtains and watch people passing by along Bulevardi,
 #### Looking for a place to run classes, workshops, video/photo shootings, etc.?
 
 **Pricing for any commercial use:**  
-35€ per hour + VAT 24%
+35€ per hour, one studio room + VAT 24%
 
-Recurrent or full weekend reservations?  
+Recurrent or full weekend reservations? Do you want to rent the whole space just for you?  
 *Contact us for individual offers.*
 
 {{ site.email }}  
