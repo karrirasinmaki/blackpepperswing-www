@@ -23,11 +23,5 @@ Address: {{ site.address }}
 ### Find us on social media
 
 <div class="t15">
-  <ul class="inline-list social-icons" style="display: inline-block;">
-    {% for social_item in site.data.socialmedia %}
-    {% if social_item.visible != false %}
-    <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
-    {% endif %}
-    {% endfor %}
-  </ul>
+  {% include some-row.html %}
 </div>

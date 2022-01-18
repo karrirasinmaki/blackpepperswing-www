@@ -76,7 +76,7 @@ pagination:
     after: 2
 
 autopages:
-  enabled: true
+  enabled: false
   categories:
     title: ":cat"
     permalink: /posts/categories/:cat/
@@ -95,9 +95,9 @@ autopages:
       case: false       # Whether to replace all uppercase letters with their lowercase counterparts
 
 
-# Theme works best with Kramdown (using the table of contents function)
+# Theme works best with Kramdown (using the table of conteNTS Function)
 markdown: kramdown
-permalink: /:title/:year-:month-:day/
+permalink: /posts/:slugified_categories/:slug/
 highlight: rouge
 excerpt_separator: "<!--more-->"
 include: ['.htaccess']
@@ -188,8 +188,9 @@ defaults:
       type: "posts"
     values:
       layout: page
-      show_meta: true
-      comments: true
+      show_meta:
+        nav: false
+      comments: false
       author: blackpepperswing
       archive_url: "/blog/archive/"
   -

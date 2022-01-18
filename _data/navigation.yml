@@ -43,12 +43,14 @@
   url: "/courses/"
   side: right
   dropdown:
-  - title: "Courses"
+  - title: "Schedule"
     url: "/courses/"
   - title: "Beginners"
     url: "/courses-for-beginners/"
   - title: "Roadmap"
     url: "/roadmap/"
+  - title: "Punch cards"
+    url: "/punch-cards/"
 
 - title: "Events"
   url: "/events/"
