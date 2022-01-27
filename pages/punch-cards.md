@@ -2,7 +2,7 @@
 layout: post
 
 meta_title: 10-class punch card
-meta_description: Punch cards and drop-in classes. All weekly classes available with the 10-class card!
+meta_description: Punch cards and drop-in classes | With a 10 class punch card you can attend our weekly classes flexibly according to your own schedule on a drop-in basis.
 
 title: "&nbsp;"
 
@@ -18,13 +18,13 @@ sitemap:
 permalink: "/punch-cards/"
 ---
 
-[1]: https://blackpepperswing.com/
+[1]: https://holvi.com/shop/blackpepperswing/product/1ce630f2adcbab35275d593185d8f2f9/
 
 ## Get dancing with a 10-class-card!
 
 Few things in Swing dancing come as ten counts, our serial cards are one of those rarities!
 
-With a 10 class punch card you can attend our weekly classes flexibly according to your own schedule on a drop-in basis.
+With a 10 class punch card you can attend our [weekly classes](/courses){:target="_blank"} flexibly according to your own schedule on a drop-in basis.
 
 We definitely recommend taking complete courses when you can commit, but, however, we understand that for some people spontaneous dance evenings are more suitable, and that in the current climate it can be difficult to commit - hence the newcomer's ten-class card!
 
@@ -84,4 +84,11 @@ If you want to pay for the card with vouchers, or BPS Credit, please [contact us
   As a general rule, we do not issue refunds for 10 cards, nor do we issue refunds for course fees. Only in the case of long-term illness (with a doctor's certificate) can we issue a refund for unused times. However, each case will be examined on a case-by-case basis, so please contact us.
 
 
+### Available now
+
+10-class cards are now available!
+
 [Buy a 10-class card][1]{:class="button"}
+
+Please read our terms and conditions before the purchase:  
+[https://portal.blackpepperswing.com/help/terms](https://portal.blackpepperswing.com/help/terms){:target="_blank"}

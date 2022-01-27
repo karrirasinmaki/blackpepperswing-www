@@ -105,21 +105,22 @@ include: ['.htaccess']
 exclude:
     - .sass-cache/
     - .jekyll-cache/
+    - .bundle
+    - bundler
+    - docker
+    - .git
+    - .gitignore
     - gemfiles/
     - Gemfile
     - Gemfile.lock
+    - Gulpfile.js
     - node_modules/
-    - .git
-    - .gitignore
+    - _original_images
+    - INSTALL.md
     - LICENSE
     - README.md
-    - INSTALL.md
-    - Gulpfile.js
-    - _original_images
-    - vendor
-    - .bundle
-    - bundler
     - tags
+    - vendor
 
 
 # The language setting is used in /includes/header.html for html-settings
@@ -127,7 +128,7 @@ language: "en"
 
 languages: ["en", "fi"]
 default_lang: "en"
-exclude_from_localization: ["assets", "images"]
+exclude_from_localization: ["assets", "images", "videos", "_sass"]
 parallel_localization: true
 lang_from_path: true
 

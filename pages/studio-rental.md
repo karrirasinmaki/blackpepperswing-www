@@ -93,7 +93,9 @@ Call or send us a message to make a booking!
 {{ site.email }}  
 {{ site.tel }}
 
+<div class="article-media">
 <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FHelsinki&amp;src=Y18xODhkc2NiYTlmdmc4aHVuanZqaHI5bGxwZGE1YzRna2M5bTYyb3JiZTFpbjBzMzVlOXBuZXFiZWNzbjY2cnJkQHJlc291cmNlLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23E67C73&amp;showTitle=1&amp;showNav=1&amp;showDate=1&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=0&amp;mode=WEEK" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+</div>
 
 ## Address
 
@@ -103,7 +105,9 @@ The building is old Metropolia building called "Uusi Kemia". There are also free
 
 We'll send you the door codes to access the studio upon booking.
 
+<div class="article-media">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1985.0663616143022!2d24.92990171622243!3d60.16308025093489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4692099b3da0c877%3A0xf0139aa7e442f51a!2sBlack%20Pepper%20Swing!5e0!3m2!1sen!2sfi!4v1609857249859!5m2!1sen!2sfi" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
 
 ## Photos
 

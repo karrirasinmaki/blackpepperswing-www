@@ -19,18 +19,6 @@
         /____/                                 /____/                          
 
 {% endcomment %}
-      {% comment %}
-      Language selector disabled
-      <ul class="right language-selector">
-        <li class="type-divider"><a href="#">|</a></li>
-        <li class="has-dropdown">
-          <a href="">{{ site.active_lang }}</a>
-          <ul class="dropdown">
-            {% include lang-selector.html %}
-          </ul>
-        </li>
-      </ul>
-      {% endcomment %}
       <ul class="right">
         {% for link in site.data.navigation %}
 
@@ -88,6 +76,19 @@
 
 {% endcomment %}
       <ul class="left">
+
+        {% if site.languages.size > 1 %}
+        <ul class="right language-selector">
+          <li class="type-divider"><a href="#">|</a></li>
+          <li class="has-dropdown">
+            <a href="">{{ site.active_lang | upcase }}</a>
+            <ul class="dropdown">
+              {% include lang-selector.html %}
+            </ul>
+          </li>
+        </ul>
+        {% endif %}
+
         {% for link in site.data.navigation %}
 
               {% if link.url contains 'http' %}

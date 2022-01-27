@@ -18,11 +18,11 @@ sitemap:
 permalink: "/punch-cards/"
 ---
 
-[1]: https://blackpepperswing.com/
+[1]: https://holvi.com/shop/blackpepperswing/product/1ce630f2adcbab35275d593185d8f2f9/
 
 ## Nyt saatavilla - 10-kortti!
 
-Kymppikortilla voit osallistua kaikille meidän viikkotunneille joustavasti omien aikataulujesi mukaan drop-in periaatteella.
+Kymppikortilla voit osallistua kaikille meidän [viikkotunneille](/courses){:target="_blank"} joustavasti omien aikataulujesi mukaan drop-in periaatteella.
 
 Tämä kortti on kaikille niille, jotka haluavat käydä tunneilla silloin tällöin ilman sitoutumista tiettyyn kurssiin tai päivään. Suosimme edelleen kokonaisille [kursseille ilmoittautumista](/courses), sillä sitoutumalla saat itsellesi extra motivaatiota tulla tanssimaan viikoittain ja kehittymään ryhmän mukana. Ymmärrämme kuitenkin että joillekin spontaanit tanssi-illat sopivat paremmin, ja että nykyisessä tilanteessa voi olla hankala sitoutua - siksi uutena tulokkaana kymppikortti!
 
@@ -81,4 +81,11 @@ Virike- ja etuseteleillä, tai BPS Crediteillä maksaessasi [ota yhteyttä meihi
   Emme lähtökohtaisesti myönnä palautuksia 10-korteille, kuten emme myöskään kurssimaksuille. Ainoastaan pitkäaikaisen sairastumisen johdosta (lääkärintodistuksella) voimme myöntää palautuksen käyttämättä jääneistä kerroista. Jokainen tapaus tarkastellaan kuitenkin tapauskohtaisesti, eli ole yhteydessä meihin.
 
 
+### Saatavilla nyt
+
+Kymppikortit ovat saatavilla nyt!
+
 [Osta 10-kortti täältä][1]{:class="button"}
+
+Luethan ehdot ennen ostoa (englanniksi):  
+[https://portal.blackpepperswing.com/help/terms](https://portal.blackpepperswing.com/help/terms){:target="_blank"}

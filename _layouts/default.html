@@ -5,11 +5,24 @@ layout: compress
 <html class="no-js" lang="{% if site.language == nil %}en{% else %}{{ site.language }}{% endif %}">
 <head>
 	{% include _head.html %}
+<style>
+.top-announc-fi {
+	background: black;
+	color: white;
+	padding: 16px 0.1em 0.1em 0.1em;
+	text-align: center;
+}
+</style>
 </head>
 <body id="top-of-page" class="{{ layout.format }}">
 	{% unless page.skip_boilerplate %}
 	{% include _navigation.html %}
 	{% endunless %}
+
+	{% if site.active_lang == "fi" %}
+	<div class="top-bar"></div>
+	<div class="top-announc-fi">Olemme parhaillaan kääntämässä sivustoamme suomeksi, joten osa sisällöstä näkyy yhä englanniksi. Tällä hetkellä vasta murto-osa sivuista on käännetty.</div>
+	{% endif %}
 
 	{{ content }}
 
