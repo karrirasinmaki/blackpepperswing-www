@@ -33,7 +33,8 @@ No previous experience whatsoever needed.
     <a href="/about-us" class="secondary">About our school</a> / 
     <a href="/contact" class="secondary">Contact us</a> / 
     <a href="https://library.blackpepperswing.com/" target="_blank" class="secondary">Online library</a> / 
-    <a href="/courses-for-beginners" class="secondary">Beginners courses</a> 
+    <a href="/courses-for-beginners" class="secondary">Beginners courses</a> / 
+    <a href="/punch-cards" class="secondary">Punch cards & drop-in</a>
   </small>
 </p>
 

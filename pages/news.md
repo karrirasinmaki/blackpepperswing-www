@@ -8,10 +8,26 @@ image:
   caption: Pälsi Sakari | Helsinkikuvia.fi
   caption_url: https://www.helsinkikuvia.fi/
 
+header:
+  short: true
+
 sitemap:
   priority: 0.95
 permalink: /news/
 ---
+
+## Latest
+
+{% for tag in site.tags %}
+{% if tag[0] == "featured" %}
+  {% for entry in site.posts %}
+  {% include post-snippet.html %}
+  {% endfor %}
+{% endif %}
+{% endfor %}
+
+More latest news on <a href="https://portal.blackpepperswing.com/home" target="_blank">Portal</a>.
+
 
 ## Newsletters
 
@@ -23,6 +39,7 @@ permalink: /news/
 //-->
 </style>
 <script language="javascript" src="//blackpepperswing.us16.list-manage.com/generate-js/?u=afde0a77ccfe7b464547ee2c6&fid=8065&show=10" type="text/javascript"></script>
+
 
 ## Facebook feed
 

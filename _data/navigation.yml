@@ -26,6 +26,10 @@
   url: "/studio-rental/"
   side: right
 
+- title: "Register"
+  url: "/courses"
+  side: right
+
 - title: "About Us"
   url: "/about-us/"
   side: right
@@ -69,17 +73,15 @@
   type: "divider"
   side: right
 
-- title: "Shop"
-  url: "https://holvi.com/shop/blackpepperswing/"
+- title: "More"
   side: right
-
-- title: "Library"
-  url: "https://library.blackpepperswing.com/"
-  side: right
-
-- title: "Portal"
-  url: "https://portal.blackpepperswing.com/"
-  side: right
+  dropdown:
+  - title: "Shop"
+    url: "https://holvi.com/shop/blackpepperswing/"
+  - title: "Library"
+    url: "https://library.blackpepperswing.com/"
+  - title: "Portal"
+    url: "https://portal.blackpepperswing.com/"
 
 # 
 # - title: "Info"

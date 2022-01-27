@@ -2,7 +2,7 @@
 layout: post
 
 meta_title: 10-class punch card
-meta_description: Punch cards and drop-in classes
+meta_description: Punch cards and drop-in classes. All weekly classes available with the 10-class card!
 
 title: "&nbsp;"
 

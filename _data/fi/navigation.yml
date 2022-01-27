@@ -26,6 +26,10 @@
   url: "/studio-rental/"
   side: right
 
+- title: "Ilmoittaudu"
+  url: "/courses"
+  side: right
+
 - title: "Meistä"
   url: "/about-us/"
   side: right
@@ -43,12 +47,14 @@
   url: "/courses/"
   side: right
   dropdown:
-  - title: "Kurssit"
+  - title: "Aikataulu"
     url: "/courses/"
   - title: "Alkeiskurssit"
     url: "/courses-for-beginners/"
   - title: "Roadmap"
     url: "/roadmap/"
+  - title: "10-kortti"
+    url: "/punch-cards/"
 
 - title: "Tapahtumat"
   url: "/events/"
@@ -67,17 +73,16 @@
   type: "divider"
   side: right
 
-- title: "Kauppa"
-  url: "https://holvi.com/shop/blackpepperswing/"
-  side: right
 
-- title: "Library"
-  url: "https://library.blackpepperswing.com/"
+- title: "Lisää"
   side: right
-
-- title: "Portal"
-  url: "https://portal.blackpepperswing.com/"
-  side: right
+  dropdown:
+  - title: "Kauppa"
+    url: "https://holvi.com/shop/blackpepperswing/"
+  - title: "Kirjasto"
+    url: "https://library.blackpepperswing.com/"
+  - title: "Portaali"
+    url: "https://portal.blackpepperswing.com/"
 
 # 
 # - title: "Info"

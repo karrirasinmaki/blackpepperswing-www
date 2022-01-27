@@ -1,6 +1,8 @@
 ---
 layout: post
 
+tags: featured
+
 title: Start swing dancing with these courses!
 subtitle: New to (swing) dancing?
 teaser: We have beginners courses every day from Monday to Friday. Starting is easy!
