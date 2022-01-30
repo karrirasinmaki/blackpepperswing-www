@@ -6,7 +6,7 @@
 </div>
 
 <div class="medium-10 xlarge-8" markdown="1">
-Spring/winter season starts January 24th.  
+Spring/winter season starts February 7th.  
 Registration is now open!
 
 **Start dancing with these courses**  
