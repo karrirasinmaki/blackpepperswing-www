@@ -66,18 +66,18 @@ Virike- ja etuseteleillä, tai BPS Crediteillä maksaessasi [ota yhteyttä meihi
 
 ### Kysymyksiä
 
-* **Voinko maksaa 10-kortin etu- ja virikeseteleillä?**
+* **Voinko maksaa 10-kortin etu- ja virikeseteleillä?**  
   Kortin voi ostaa myös Smartum, Edenred, ePassi ja EazyBreak seteleillä ja saldolla. Ole tällöin [yhteydessä meihin](/contact)! Maksun voi jakaa myös osiin, esim. puolet virikeseteleillä, puolet käteisellä.
 
-* **Kuinka kauan 10-kortti on voimassa?**
+* **Kuinka kauan 10-kortti on voimassa?**  
   Keväällä 2022 ostetut 10-kortit ovat voimassa 14. elokuuta saakka.  
   Syyslukukauden kortit tulevat myyntiin myöhemmin.
 
-* **Onko kortti henkilökohtainen?**
+* **Onko kortti henkilökohtainen?**  
   Ei ole (huom. poikkeus), eli voit jakaa kortin kenen hyvänsä kanssa! Pidä siis huolta kortistasi.
   Huom: etu- ja virikeseteleillä, sekä BPS Crediteillä ostetut kortit ovat henkilökohtaisia näihin liittyvien säännösten takia.
 
-* **En pysty/ehdi käyttää korttia ennen kesää, voiko kortin palauttaa?**
+* **En pysty/ehdi käyttää korttia ennen syksyä, voiko kortin palauttaa?**  
   Emme lähtökohtaisesti myönnä palautuksia 10-korteille, kuten emme myöskään kurssimaksuille. Ainoastaan pitkäaikaisen sairastumisen johdosta (lääkärintodistuksella) voimme myöntää palautuksen käyttämättä jääneistä kerroista. Jokainen tapaus tarkastellaan kuitenkin tapauskohtaisesti, eli ole yhteydessä meihin.
 
 
