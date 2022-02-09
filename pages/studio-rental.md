@@ -27,19 +27,24 @@ gallery:
 
 ## Save your neighbours' nerves and come monkey around at our studio!
 
-**We are moving!**
+We have moved to the new location - Karjalankatu 2!
 
-Our new studio is under renovation and will be available for rental at the latest from February on.
+We have two separate ~100m² dance/practice studios, plus a kitchen and a hang-out space. Both studios are now open for practice!
 
-We will have two separate ~100m² dance/practice studios, plus a kitchen and hang out space.
+The renovation is still a bit in progress as we are fixing the acoustics, sound system, and interior design in place. Also, one of our studios will have a brand new floor installed later on in the spring.
 
 ---
 
-Whether you are looking for a place to practice tapping, dancing, popping, locking, playing, singing, trumpeting, handstanding or anything else, our studio gives you the space and acoustics to do it.
+Whether you are looking for a place to practice tapping, dancing, popping, locking, playing, singing, trumpeting, handstanding, or anything else, our studio gives you the space and acoustics to do it.
 
-The floor is a good old sprung wooden floor which is kind to your joints. You can dance in tap shoes, hard-soled shoes, high heels, and indoor rubber shoes, just make sure them soles are clean.
+The floor is a good old sprung wooden floor which is kind to your joints. You can dance in tap shoes, hard-soled shoes, high heels, and indoor rubber shoes, just make sure their soles are clean.
 
-You may choose to open the curtains and watch people passing by along Bulevardi, or close yourself in the darkness. Curtains are high-quality molton fabric so it’ll absorb both light and sounds. Mirror wall, PA sound system, video projector with Chromecast, refrigerator-freezer, chalkboard and kitchen utensils are there for your use.
+We have two studios with a bit different equipment from each other. A beautiful landscape over Helsinki opens up from both of the studios.
+
+The Front studio is still under construction but serves those who are in a need of dance quite well. This studio will have a nice living room vibe in it once we have hung some curtains, a few mirrors, and random stuff on a wall - as well as maxing out the coziness factor. We will also install a brand new floor later on in the spring here. The Front studio is also a pathway into the other parts of the studio, so some traffic may occur here.
+
+The Back studio is more like a traditional dance room with a nice wide mirror wall and great PA system. Once we have fixed the acoustics to the top we can call it ready-ready. Here we have two sides full of windows which fill up the room with light. But if you choose so, you can close yourself in the darkness with the curtains. Curtains are high-quality Molton fabric so they’ll absorb both light and sounds. The Back studio offers a bit more privacy too since there will be no one trespassing.
+
 
 ### Pricing
 
@@ -63,9 +68,15 @@ You may choose to open the curtains and watch people passing by along Bulevardi,
 
 #### Single, non-commercial reservations
 
-25€ per hour, one studio room (including VAT 24%)
+One studio room, 25€ per hour
 
-*If you want an invoice for organisation, look out the commercial pricing below.*
+*Prices include value added taxes and are for non-commercial use only. If you want an invoice for organisation, look out the commercial pricing below.*
+
+Throwing a party? You can rent the whole space just for you and your friends!  
+*Contact us for individual offers.*
+
+{{ site.email }}  
+{{ site.tel }}
 
 <br/>
 
@@ -73,7 +84,7 @@ You may choose to open the curtains and watch people passing by along Bulevardi,
 #### Looking for a place to run classes, workshops, video/photo shootings, etc.?
 
 **Pricing for any commercial use:**  
-35€ per hour, one studio room + VAT 24%
+One studio room, 35€ per hour + VAT 24%
 
 Recurrent or full weekend reservations? Do you want to rent the whole space just for you?  
 *Contact us for individual offers.*
@@ -88,22 +99,28 @@ Recurrent or full weekend reservations? Do you want to rent the whole space just
 
 You can see the studio calendar below. Send us a message to reserve your time slot(s). You can pay with MobilePay, benefit vouchers, cash, or wire transfer.
 
+We have two studios available and you can see both their color-coded reservations on the calendar below.  
+<span style="color:#A79B8E;">■  Front room</span><br/>
+<span style="color:#009688;">■  Back room</span>
+
 Call or send us a message to make a booking!
 
 {{ site.email }}  
 {{ site.tel }}
 
 <div class="article-media">
-<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FHelsinki&amp;src=Y18xODhkc2NiYTlmdmc4aHVuanZqaHI5bGxwZGE1YzRna2M5bTYyb3JiZTFpbjBzMzVlOXBuZXFiZWNzbjY2cnJkQHJlc291cmNlLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23E67C73&amp;showTitle=1&amp;showNav=1&amp;showDate=1&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=0&amp;mode=WEEK" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FHelsinki&mode=WEEK&showPrint=0&title=BPS%20Studios%20%2F%20Reservations&src=Y18xODg2Y3VrZzRuOTRnZzVpZzEyNjVrNWdwdjNqMkByZXNvdXJjZS5jYWxlbmRhci5nb29nbGUuY29t&src=Y18xODhjbjcwZWhxanRnaGxqZ2JjZDRmZWdhcDE1OEByZXNvdXJjZS5jYWxlbmRhci5nb29nbGUuY29t&color=%23009688&color=%23A79B8E" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<span style="color:#A79B8E;">■  Front room</span><br/>
+<span style="color:#009688;">■  Back room</span>
 </div>
 
 ## Address
 
-The studio is located at Bulevardi 31, 00180 Helsinki. On the opposite side of the street are Sinebrychoff Art Museum and "Koffin puisto". You may find yummy restaurants nearby in Punavuori or Hietalahti Market Hall for example.
+There are 3 free parking slots in the yard of the building (2h with the parking disc). The rest of the slots are reserved for tenants. More parking slots can be found by the street.
 
-The building is old Metropolia building called "Uusi Kemia". There are also free parking slots on the school yard. You can enter either from Bulevardi or Lönnrotinkatu.
+The entrance is thru the main entrance from Karjalankatu. There should be Black Pepper Swing signs at the door. Look out for a glass door that says "Pääsisäänkäynti" or "A-, B-, C- portaat".
 
-We'll send you the door codes to access the studio upon booking.
+We'll give you the access details to the studio upon booking.
 
 <div class="article-media">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1985.0663616143022!2d24.92990171622243!3d60.16308025093489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4692099b3da0c877%3A0xf0139aa7e442f51a!2sBlack%20Pepper%20Swing!5e0!3m2!1sen!2sfi!4v1609857249859!5m2!1sen!2sfi" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
