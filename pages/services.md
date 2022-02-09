@@ -63,12 +63,25 @@ We accept payments with card, MobilePay, cash or employee benefit vouchers. [Rea
 
 Courses and weekly classes are our default learning environment. By attending weekly classes you keep your progress steady and get a little bit better all the time. You get support from peers and teachers and can influence course content. We encourage all students to get more dance time e.g. by attending social dance events or weekend workshops.
 
-Do you want an extra boost? [Consider taking a private class with us.](#private-classes)
+Do you want an extra boost?  
+[Consider taking a private class with us.](#private-classes)
+
+{% assign course_price = 250 %}
+{% assign course_price_second = 250 | times: 0.75 %}
+{% assign course_price_student = 250 | times: 0.8 %}
+{% assign course_len = 16 %}
+{% assign dropin_price = 18 %}
+{% assign ten_class_price = 174 %}
+{% assign ten_class_price_second = 138 %}
+{% assign ten_class_price_student = 154 %}
 
 **Weekly classes**  
-250€ for 16 weeks  
-<14€ per week with one course  
-18€ for single drop-in class  
+{{ course_price }}€ for {{ course_len }} weeks  
+< {{ course_price | divided_by: course_len | ceil }}€ per week with one course  
+{{ dropin_price }}€ for single drop-in class  
+
+10-class punch cards now available!  
+[Read more about punch cards here.](/punch-cards)
 
 **Discounts**, only one applied  
 -20% for students and unemployed  
@@ -79,11 +92,11 @@ Do you want an extra boost? [Consider taking a private class with us.](#private-
 Workshop prices and discounts are defined per workshop.
 
 **Pricing examples**, weekly courses  
-250.00€ - 1 course, 16 weeks  
-437.50€ - 2 courses, 16 weeks  
+{{ course_price }}€ - 1 course, {{ course_len }} weeks  
+{{ course_price | plus: course_price_second }}€ - 2 courses, {{ course_len }} weeks  
 
-200.00€ - 1 course, 16 weeks (student)  
-387.50€ - 2 courses, 2 x 16 weeks (student)  
+{{ course_price_student }}€ - 1 course, {{ course_len }} weeks (student)  
+{{ course_price_student | plus: course_price_second }}€ - 2 courses, 2 x {{ course_len }} weeks (student)  
 
 ---
 
