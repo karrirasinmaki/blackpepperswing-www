@@ -1,16 +1,17 @@
 ---
-archived: true
+archived: false
 order: 11
 repeats: weekly
 
 meta_title: Tuesday Night Hop
 subtitle: Helsinki
-teaser: Weekly swing social dance. Every Tuesday, On the Rocks, Helsinki, 19.00 - 22.00.
-date_start: 2019-09-03
+teaser: Weekly swing social dance in Helsinki. Every Tuesday, 19.00 - 22.00.
+date_start: 2022-02-22
 day: Tuesdays
 time: 19:00 - 22:00
 price: Free entrance
-address: On the Rocks, Mikonkatu 15, 00100 Helsinki
+old_address: On the Rocks, Mikonkatu 15, 00100 Helsinki
+address: Groovy Käpylä, Mäkelänkatu 87, 00610 Helsinki, Finland
 header:
   hide_text: true
 links:
@@ -21,18 +22,26 @@ image:
   caption_url: https://www.flickr.com/photos/alirezar88
 ---
 
-_3rd party organizer. Event organized by Tuesday Night Hop & Minna Marttila._
+_3rd party organizer. Event organized by Tuesday Night Hop._
 
-Tuesday Night Hop is a weekly event in Helsinki dedicated to swing music.
+Tuesday Night Hop is back!
 
-Djs play danceable swing music including the classic songs by Count Basie, Duke Ellington and Louis Armstrong. Spicing it up with some gypsy swing, rhythm'n'blues and new orleans jazz. And not forgetting the modern crowd favorites like Candy Jacket Jazz Band, Hot Sugar Band and Glenn Crytzer.
+The weekly social dance event for vernacular jazz dances (Lindy Hop, Balboa, Collegiate Shag, Charleston, Blues, etc.) starts at 7pm and dancing continues until 10pm.
 
-All music lovers, beginner dancers, non dancers and swing dance veterans are welcomed to enjoy Tuesday Nigth Hop.
+Tuesday Night Hop is a weekly event in Helsinki dedicated to swing music and dance.
 
-_Free entrance (except during the [Live nights](#live-nights))_
+DJs play danceable swing music including the classic songs by Count Basie and Duke Ellington. Spicing it up with some gypsy swing, rhythm'n'blues and new orleans jazz. And not forgetting the modern crowd favorites like Hot Sugar Band.
 
-Tuesday Night Hop Facebook page: [https://www.facebook.com/tuesdaynighthop/](https://www.facebook.com/tuesdaynighthop/)
+All music lovers, beginner dancers, non dancers and swing dance veterans are welcomed to enjoy Tuesday Night Hop.
 
+_Free entrance (except during the Live nights)_
+
+Check out more information on TNH Facebook page.
+
+Tuesday Night Hop Facebook page:  
+[https://www.facebook.com/tuesdaynighthop/](https://www.facebook.com/tuesdaynighthop/)
+
+{% comment %}
 ### Live nights
 
 Once a month we enjoy live music and on those evenings we start already **at 18 with a taster class** in eg. lindy hop or another swing dance. Tickets for live nights can be bought at the door or from Tiketti.
@@ -43,6 +52,8 @@ All live nights of this spring:
 - Feb 25th
 - Mar 24th
 - Apr 21st
+
+{% endcomment %}
 
 ### What is Lindy hop?
 
