@@ -6,21 +6,22 @@
 </div>
 
 <div class="medium-10 xlarge-8" markdown="1">
-Spring/winter season starts February 7th.  
-Registration is now open!
+Looking for swing dance courses?  
+You can join all our classes even during the season!  
 
 **Start dancing with these courses**  
 No previous experience whatsoever needed.
 <ul>
+<li><b>NEW!</b> <a href="https://portal.blackpepperswing.com/courses/6quljsnsq4evllaq8irc0l1jad/lindy-hop-beginners">Lindy Hop Beginners Monday</a> (starting April 25th)</li>
 <li><a href="https://portal.blackpepperswing.com/courses/22l6qma5aoiihu5g7bjsk7modm">Solo Jazz & Charleston Beginners Tuesday</a> / <a href="https://portal.blackpepperswing.com/courses/2jdd9gm0r3n9mrgq9hs6rtj7f8">Thursday</a></li>
-<li><a href="https://portal.blackpepperswing.com/courses/57p242v41en96e0gqs0rpkkkat">Lindy Hop Beginners Monday</a> / <a href="https://portal.blackpepperswing.com/courses/52mq51odmhnic5lava4rmb7ona">Wednesday</a></li>
-<li><a href="https://portal.blackpepperswing.com/courses/1iltencvpli6optml0gl0eedj7">Tap Dance Beginners Wednesday</a></li>
-<li><a href="https://portal.blackpepperswing.com/courses/4vsekklf1gph2cp7n5ajb0aqhd">Boogie Woogie Beginners Friday</a></li>
 <li><a href="https://portal.blackpepperswing.com/courses/6nkn82to76js9mrc5qglta0sdr">Electro Swing Friday</a></li>
 </ul>
 
 **Already dancing?**  
 <a href="{{ site.baseurl }}/courses" class="">Check out the course schedule</a> and declutter your calendar accordingly. If you are unsure what levels/courses to pick, check out <a href="https://blackpepperswing.freshdesk.com/en/support/solutions/articles/42000082224-which-courses-should-i-pick-" target="_blank">this article here</a>.
+
+**Single classes and drop-in?**  
+<a href="/punch-cards">Buy 10-class punch cards here</a>
 
 </div>
 
