@@ -143,6 +143,10 @@ We'll give you the access details to the studio upon booking.
 - French press
 - Water kettle
 - Fridge-freezer
+- Knifes and cutting board
+- Utensils
+- Glasses and mugs
+- A few plates
 
 **Common equipment available on request**  
 - Bluetooth speaker (JBL Extreme)
