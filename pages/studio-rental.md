@@ -31,19 +31,17 @@ We have moved to the new location - Karjalankatu 2!
 
 We have two separate ~100m² dance/practice studios, plus a kitchen and a hang-out space. Both studios are now open for practice!
 
-The renovation is still a bit in progress as we are fixing the acoustics, sound system, and interior design in place. Also, one of our studios will have a brand new floor installed later on in the spring.
-
 ---
 
-Whether you are looking for a place to practice tapping, dancing, popping, locking, playing, singing, trumpeting, handstanding, or anything else, our studio gives you the space and acoustics to do it.
+Whether you are looking for a place to practice tapping, dancing, popping, locking, playing, singing, trumpeting, handstanding, or anything else, our studios give you the space and acoustics to do it.
 
-The floor is a good old sprung wooden floor which is kind to your joints. You can dance in tap shoes, hard-soled shoes, high heels, and indoor rubber shoes, just make sure their soles are clean.
+We have two studio rooms with a bit different equipment from each other. A beautiful landscape over Helsinki opens up from both of the studios.
 
-We have two studios with a bit different equipment from each other. A beautiful landscape over Helsinki opens up from both of the studios.
+Both studios have a good old sprung wooden floor which is kind to your joints. The front room has a brand new floor and hence we ask all the tappers to use the back room for their practices. Otherwise you can dance in any kind of shoes - hard-soled shoes, high heels, and indoor rubber shoes - just make sure their soles are clean.
 
-The Front studio is still under construction but serves those who are in a need of dance quite well. This studio will have a nice living room vibe in it once we have hung some curtains, a few mirrors, and random stuff on a wall - as well as maxing out the coziness factor. We will also install a brand new floor later on in the spring here. The Front studio is also a pathway into the other parts of the studio, so some traffic may occur here.
+**The front room** is our social dance floor with a brand new dance parquet. There is a great PA system with active speakers as well as cozy sofa area waiting for you. This studio will have a nice living room vibe in it once we have hung some curtains, a few mirrors, and random stuff on a wall - as well as maxing out the coziness factor. The front room is also a pathway into the other parts of the studio, so some traffic may occur here.
 
-The Back studio is more like a traditional dance room with a nice wide mirror wall and great PA system. Once we have fixed the acoustics to the top we can call it ready-ready. Here we have two sides full of windows which fill up the room with light. But if you choose so, you can close yourself in the darkness with the curtains. Curtains are high-quality Molton fabric so they’ll absorb both light and sounds. The Back studio offers a bit more privacy too since there will be no one trespassing.
+**The back room** is more like a traditional dance room with a nice wide mirror wall and great PA system. Once we have fixed the acoustics to the top we can call it ready-ready. Here we have two sides full of windows which fill up the room with light. But if you choose so, you can close yourself in the darkness with the curtains. Curtains are high-quality Molton fabric so they’ll absorb both light and sounds. The back room offers a bit more privacy too since there will be no one trespassing.
 
 
 ### Pricing
@@ -125,6 +123,35 @@ We'll give you the access details to the studio upon booking.
 <div class="article-media">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1985.0663616143022!2d24.92990171622243!3d60.16308025093489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4692099b3da0c877%3A0xf0139aa7e442f51a!2sBlack%20Pepper%20Swing!5e0!3m2!1sen!2sfi!4v1609857249859!5m2!1sen!2sfi" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 </div>
+
+## Equipment
+
+**Front room**  
+- Dance parquet, a brand new wooden sprung dance floor (unfortunately no tap shoes here)
+- PA system with mixer and active speakers
+- Sofa group
+- Fans
+
+**Back room**  
+- Dance floor, wooden sprung floor (even tap shoes are ok!)
+- PA system with mixer and passive speakers
+- Mirror wall
+- Fans
+
+**Kitchen**
+- Mocca Master
+- French press
+- Water kettle
+- Fridge-freezer
+
+**Common equipment available on request**  
+- Bluetooth speaker (JBL Extreme)
+- Video projector
+- Upright piano
+- Acoustic guitar
+- Microphone
+- Seminar chairs (x14)
+
 
 ## Photos
 
