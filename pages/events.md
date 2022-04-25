@@ -18,6 +18,11 @@ permalink: "/events/"
 {% assign events = site.events | where_exp: 'item', 'item.archived != true' | where: 'repeats', 'false' | sort: 'title' | sort: 'date' | sort: 'date_start' | reverse %}
 {% include grid.html cols=1 collection=events template='post-snippet.html' %}
 
+### Latest courses and workshops
+
+{% include portal-events.html %}
+
+
 <br>
 <div class="text-center">
   <a href="{{ site.url }}/events/all/">Show all previous events</a>
