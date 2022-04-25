@@ -42,7 +42,7 @@
               .replace(/--IMG--/g, event.meta.image_src)
               .replace(/--SUBHEADER--/g, new Date(event.start_date).toLocaleDateString('FI') + ' - ' + new Date(event.last_date).toLocaleDateString('FI') + ', ' + event.meta.duration)
               .replace(/--HEADER--/g, event.name)
-              .replace(/--EXCERPT--/g, event.meta.description)
+              .replace(/--EXCERPT--/g, event.meta.description);
             eventsWrapper.append(el);
           }
         });
