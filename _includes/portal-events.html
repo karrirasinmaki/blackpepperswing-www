@@ -19,11 +19,18 @@
     </div>
   </div>
 </template>
+<template id="template-portal-no-events" style="display:none;">
+  <div class="text-center">
+    <br/>
+    <p>No upcoming courses found... But!<br/>You can join our ongoing courses.</p>
+    <p><a href="/courses">Check out all our courses here</a></p>
+  </div>
+</template>
 
 <div class="row cols_s-1 cols_m-1 cols-1 cols-left-2">
   <div class="columns small-12 medium-12 large-12">
     <div id="portal-events">
-      <p class="text-center">Loading...</p>
+      <p class="text-center"><br/>Loading...</p>
     </div>
   </div>
 </div>
@@ -33,12 +40,17 @@
       function renderPortalEvents() {
         var template = $('#template-portal-event-snippet');
         var eventsWrapper = $('#portal-events');
+        // Load events
         $.getJSON('https://us-central1-custportal-3000.cloudfunctions.net/api/data/events', function(events) {
           eventsWrapper.html('');
           events = events.sort(function(a,b) {return a.start_date < b.start_date && 1 || -1});
+          if (events.length === 0) {
+            eventsWrapper.append($('#template-portal-no-events').html());
+            return;
+          }
+          // Loop thru single events and render row item
           for (var i = 0, l = events.length; i<l; ++i) {
             var event = events[i];
-            console.log(event);
             var el = template.html()
               .replace(/--URL--/g, 'https://portal.blackpepperswing.com/courses/' + event.id)
               .replace(/--IMG--/g, event.meta.image_src)
@@ -49,12 +61,15 @@
           }
         });
       }
+      // Wait for jQuery to load
+      var at = 100;
       var a = setInterval( function() {
         if ( typeof window.jQuery === 'undefined' ) {
+          at = Math.min(1000, at*2);
           return;
         }
         clearInterval( a );
         renderPortalEvents();
-      }, 500 );
+      }, at );
     })();
   </script>
