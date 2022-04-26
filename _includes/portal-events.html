@@ -40,7 +40,7 @@
       function renderPortalEvents() {
         var template = $('#template-portal-event-snippet');
         var eventsWrapper = $('#portal-events');
-        // Load events
+        /* Load events */
         $.getJSON('https://us-central1-custportal-3000.cloudfunctions.net/api/data/events', function(events) {
           eventsWrapper.html('');
           events = events.sort(function(a,b) {return a.start_date < b.start_date && 1 || -1});
@@ -48,7 +48,7 @@
             eventsWrapper.append($('#template-portal-no-events').html());
             return;
           }
-          // Loop thru single events and render row item
+          /* Loop thru single events and render row item */
           for (var i = 0, l = events.length; i<l; ++i) {
             var event = events[i];
             var el = template.html()
@@ -61,7 +61,7 @@
           }
         });
       }
-      // Wait for jQuery to load
+      /* Wait for jQuery to load */
       var at = 100;
       var a = setInterval( function() {
         if ( typeof window.jQuery === 'undefined' ) {
