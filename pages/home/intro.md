@@ -12,8 +12,8 @@ You can join all our classes even during the season!
 **Start dancing with these courses**  
 No previous experience whatsoever needed.
 <ul>
-<li><b>NEW!</b> <a href="https://portal.blackpepperswing.com/courses/48kpbqkr52if2dajg35i91vekj/solo-jazz-&-charleston-beginners-weekend">Solo Jazz & Charleston Beginners Weekend</a></li>
-<li><a href="https://portal.blackpepperswing.com/courses/6quljsnsq4evllaq8irc0l1jad/lindy-hop-beginners">Lindy Hop Beginners Monday</a> (started April 25th)</li>
+<li><b>NEW!</b> <a href="https://portal.blackpepperswing.com/courses/48kpbqkr52if2dajg35i91vekj/solo-jazz-&-charleston-beginners-weekend">Solo Jazz & Charleston Beginners Weekend</a> (May 14-15)</li>
+<li><a href="https://portal.blackpepperswing.com/courses/6quljsnsq4evllaq8irc0l1jad/lindy-hop-beginners">Lindy Hop Beginners Monday</a> (started April 25)</li>
 <li><a href="/courses-for-beginners">Check out all the beginners' courses here</a></li>
 </ul>
 
