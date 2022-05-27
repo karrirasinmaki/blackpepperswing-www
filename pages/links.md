@@ -1,7 +1,16 @@
 ---
-layout: default
-
 title: Links
+subheadline: Black Pepper Swing
+meta_description: Useful links and shortcuts.
+
+image:
+  src: harbour-sorkka.jpg
+  caption: Heinonen Eino (1950) | Helsinkikuvia.fi
+  caption_url: https://www.helsinkikuvia.fi/
+
+header:
+  short: true
+
 sitemap:
   priority: 0.2
 permalink: "/links/"
@@ -9,7 +18,7 @@ permalink: "/links/"
 
 <div class="text-center t30" style="max-width: 420px; margin: 0 auto;">
   <ul class="social-icons side-nav">
-    <li><a href="/courses">Courses</a></li>
+    <li><a href="/courses">Courses and workshops</a></li>
     <li><a href="/courses-for-beginners/">Beginners' Classes</a></li>
     <li class="divider b60"></li>
     <li><a href="https://library.blackpepperswing.com/">Library</a></li>
