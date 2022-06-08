@@ -81,7 +81,7 @@ Table of contents:
 - [Reservations](#reservation)
 - [Address](#address)
 - [Equipment](#equipment)
-- [General info](#general)
+- [General info](#general-info)
 - [Photos](#photos)
 
 
