@@ -107,7 +107,7 @@ slider2:
   <div class="medium-6 columns end">
     <div class="show-for-small-only width-medium align-center">
       <h2 class="color-contrast">How to<br/><span class="l15"></span> join the fun?</h2>
-      <div class="carousel frame-container square shadow-pop">
+      <div class="slick-carousel frame-container square shadow-pop">
         {% for img in page.slider2 %}
         <div>
           <div class="frame square cover">

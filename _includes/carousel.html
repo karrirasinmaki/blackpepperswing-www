@@ -12,7 +12,7 @@
 }
 {% endcapture %}
 
-<div class="carousel" data-slick='{{ data_slick | strip_newlines | strip }}'>
+<div class="slick-carousel" data-slick='{{ data_slick | strip_newlines | strip }}'>
   {% assign old_entry = entry %}
   {% for entry in include.collection limit:include.entries %}
   <div class="item">

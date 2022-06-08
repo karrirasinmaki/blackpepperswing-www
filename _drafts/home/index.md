@@ -32,7 +32,7 @@ slider2:
     <div class="medium-4 columns aside">
       <div class="show-for-small-only small-6 columns bg color-main"></div>
       <div class="t70"></div>
-      <div class="carousel vertical width-medium frame-container portrait shadow-pop">
+      <div class="slick-carousel vertical width-medium frame-container portrait shadow-pop">
         {% for img in page.slider1 %}
         <div>
           <div class="frame portrait cover">
@@ -101,7 +101,7 @@ slider2:
   <div class="medium-6 columns end">
     <h2 class="color-contrast">How to<br/><span class="l15"></span> join the fun?</h2>
     <div class="show-for-small-only">
-      <div class="carousel width-medium frame-container square shadow-pop">
+      <div class="slick-carousel width-medium frame-container square shadow-pop">
         {% for img in page.slider2 %}
         <div>
           <div class="frame square cover">
