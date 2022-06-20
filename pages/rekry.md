@@ -1,21 +1,26 @@
 ---
 title: We are hiring!
-subheadline: Check out open positions and join our team
-description: 
-teaser: In 2022 we will celebrate our 5 year anniversary. So what is BPS all about?
+subheadline: Check out the open positions and join our team
+description: We are looking for new team members - check out our open positions!
 
 image:
   src: helswingi-2018-karri-applause.jpg
-  caption: Photo by Eric Bobrie 2018
+  caption: Photo by Eric Bobrie | Helswingi 2018
+  caption_url: https://www.ebobrie.com/helswingi-2018
+  position: center 8%
+
+header:
+  short: true
+  shadow_opacity: 0.45
 
 sitemap:
   priority: 0.9
 permalink: "/rekry/"
 ---
 
-Black Pepper Swing was founded in 2017 and the very first courses started during that autumn simultaneously in Helsinki, Tampere, and Jyväskylä. It was a wild start for a new dance school founded by two very young but passionate swing dancers. Since then we have focused more on our current hometown (Helsinki), the scene here has grown bigger, and we have gained thousands of kilometers worth of experience.
+Black Pepper Swing was founded in 2017 and the very first courses started during that autumn simultaneously in Helsinki, Tampere, and Jyväskylä. It was a wild start for a new dance school founded by two very young but passionate swing dancers. Since then we have focused more on our current hometown (Helsinki), the scene here has grown bigger, and we have gained thousands of kilometers worth of experience. ([Read our full story here...](/about-us))
 
-Now we need help!
+Now we need your help!
 
 We want to share the hands-on experience of this incredible ride with more people. We have a great team of teachers (12 teachers this spring!) but only two of us are doing the day-to-day work behind the scenes (of which only one is full-time). It’s now time to invite new people in writing the next 5 years of Black Pepper Swing!
 
@@ -26,13 +31,13 @@ Check out the open positions and details below.
 
 ## Open positions
 
-1. **Core team member** \
+1. [**Core team member**](#core-team-member) \
 Entrepreneur-minded people to join our core team
-2. **Assistant** \
+2. [**Assistant**](#other-positions) \
 Assistant to help us with day-to-day operations
-3. **Digital media and marketing junior** \
+3. [**Digital media and marketing junior**](#other-positions) \
 Marketing student/junior with digital media skills (trainee-like position)
-4. **Dance teacher** \
+4. [**Dance teacher**](#other-positions) \
 Skilled, experienced, and passionate dance teachers
 
 We are looking for people that’d fill any of these open positions in any combination.
@@ -44,7 +49,7 @@ Join our core team to shape and build the future of our dance school.
 
 Have you dreamt of running a dance school? Or ever wondered what it is like to do a B2C business? Or maybe you have a wide variety of skills that you’d like to put to use?
 
-We are looking for entrepreneur-minded people that can handle multiple different types of tasks from email support to video editing and digital marketing to studio renovation. You should have more patience with repetitive and mandatory tasks than we, comfortably take and especially give feedback, and work and learn by yourself well.
+We are looking for entrepreneur-minded people that can handle multiple different types of tasks from customer support to video editing and digital marketing to studio renovation. You should have more patience with repetitive and mandatory tasks than we, comfortably take and especially give feedback, and work and learn by yourself well.
 
 That being said, numbers and success are not driving factors for us. We value trying out new ideas, being brave and expressive, and remembering to have a heartful time while doing so.
 
@@ -153,15 +158,3 @@ Interested? Send us an email with your dance and teaching history/background and
 </div>
   </dd>
 </dl>
-
-
----
-
-Links:  
-[Contact]({{ site.url }}/contact) |
-[Courses]({{ site.url }}/courses) |
-[Services]({{ site.url }}/services) |
-[News]({{ site.url }}/news)  
-[What is Lindy Hop?]({{ site.url }}/lindyhop) |
-[Lindy Roadmap]({{ site.url }}/roadmap)  
-[Courses for beginners]({{ site.url }}/courses-for-beginners)

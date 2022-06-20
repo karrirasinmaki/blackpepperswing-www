@@ -27,6 +27,12 @@
 - name: "&nbsp;"
   type: "divider"
 
+- name: "We are hiring"
+  url: "/rekry/"
+
+- name: "&nbsp;"
+  type: "divider"
+
 - name: "Contact Us"
   url: "/contact/"
 
