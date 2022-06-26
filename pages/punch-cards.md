@@ -73,8 +73,9 @@ If you want to pay for the card with vouchers, or BPS Credit, please [contact us
   You can also split the payment, e.g. half with vouchers, half with another payment method..
 
 * **For how long is the 10-time-card valid?**  
-  10-cards purchased in spring 2022 are valid until the 14th of August.  
-  Cards for the autumn semester will go on sale later.
+  Season winter-spring 2022 10-cards are valid until the 14th of August.  
+  Season autumn 2022 10-cards are valid until the 31st of December.  
+  Cards for the new season will go on sale upon registration opens.
 
 * **Is the card personal?**  
   No (note the exception), you are allowed to share the card! So take care of your card.  

@@ -6,19 +6,24 @@
 </div>
 
 <div class="medium-10 xlarge-8" markdown="1">
+**Autumn season starts 22nd of August**  
+Registration is now open!  
+[Check out the courses and register here](/courses)
+<!--
 Looking for swing dance courses?  
-You can join all our classes even during the season!  
+You https://kiertonet.fi/kaikki?page=1&alue=&haku=riveria&piilota_paattyneet=0&vain_varmat_kaupat=0&pos=1649can join all our classes even during the season!  
+-->
 
 **Start dancing with these courses**  
 No previous experience whatsoever needed.
-<ul>
-<li><b>NEW!</b> <a href="https://portal.blackpepperswing.com/courses/48kpbqkr52if2dajg35i91vekj/solo-jazz-&-charleston-beginners-weekend">Solo Jazz & Charleston Beginners Weekend</a> (May 14-15)</li>
-<li><a href="https://portal.blackpepperswing.com/courses/6quljsnsq4evllaq8irc0l1jad/lindy-hop-beginners">Lindy Hop Beginners Monday</a> (started April 25)</li>
-<li><a href="/courses-for-beginners">Check out all the beginners' courses here</a></li>
-</ul>
+
+- [Tap Dance Beginners on Wednesdays](https://portal.blackpepperswing.com/courses/6nj38spfklv880t9qs692k6oed)
+- [Lindy Hop Beginners on Thursdays](https://portal.blackpepperswing.com/courses/4cpvbqp6gn5elri6gppnqp6j46)
+- [Solo Jazz & Charleston Beginners on Thursdays](https://portal.blackpepperswing.com/courses/3qvjeeqoqkcf5vc5sn0q7sont8)
+- [Check out all the beginners' courses here](/courses-for-beginners)
 
 **Already dancing?**  
-<a href="{{ site.baseurl }}/courses" class="">Check out the course schedule</a> and declutter your calendar accordingly. If you are unsure what levels/courses to pick, check out <a href="https://blackpepperswing.freshdesk.com/en/support/solutions/articles/42000082224-which-courses-should-i-pick-" target="_blank">this article here</a>.
+<a href="{{ site.baseurl }}/courses" class="">Check out the course schedule</a> and declutter your calendar accordingly. If you are unsure what levels/courses to pick, check out <a href="https://blackpepperswing.freshdesk.com/en/support/solutions/articles/42000082224-which-courses-should-i-pick-" target="_blank">this article here</a>. If you had a break and wish to start dancing again, check out the [Lindy Fresh-start on Mondays](https://portal.blackpepperswing.com/courses/0klpivh8e57m96ru4uv5s8e7r8)!
 
 **Single classes and drop-in?**  
 <a href="/punch-cards">Buy 10-class punch cards here</a>

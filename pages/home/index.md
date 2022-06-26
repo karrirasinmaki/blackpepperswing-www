@@ -69,7 +69,7 @@ slider2:
     <div class="show-for-large-up t90"></div>
     <h2 class="t10">Swing is <b>back</b></h2>
     <p>Spreading swing dancing in modern society means inspiring people to connect with jazz music, themselves and each other. We offer engaging, precise and fun teaching from the first course on. And we make sure your dance time is not limited to the lessons.</p>
-    <p>Lindy hop, Shag and Balboa, Solo Jazz and Tap Dancing - for dancers of different levels and with different aims. Get started or get better. <a href="{{ site.baseurl }}/courses" class="">Check which courses would suit you.</a></p>
+    <p>Lindy hop, Balboa, Shag, Boogie Woogie, Solo Jazz and Tap Dancing - for dancers of different levels and with different aims. Get started or get better. <a href="{{ site.baseurl }}/courses" class="">Check which courses would suit you.</a></p>
   </div>
 </section>
 
