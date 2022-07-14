@@ -33,7 +33,7 @@ We definitely recommend taking complete courses when you can commit, but, howeve
 
 If you can commit to a regular schedule, sign up for regular classes [HERE](/courses).
 
-The card is valid until the 15th of August and you can use it for all our weekly classes until that date. You can also share the card with family members or friends, for example.
+The card is valid until the end of the season and you can use it for all our weekly classes until that date. You can also share the card with family members or friends, for example.
 
 ### Prices
 

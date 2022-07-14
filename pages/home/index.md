@@ -2,7 +2,7 @@
 layout: frontpage
 
 meta_title: Black Pepper Swing
-meta_description: We are a swing dance school based in Helsinki, Tampere and Jyväskylä, founded and run through passion for authentic swing dances. We teach, organize, social dance, perform and keep the dance floor busy.
+meta_description: We are a swing dance school based in Helsinki, founded and run through passion for authentic swing dances. We teach, organize, social dance, perform and keep the dance floor busy.
 
 title: "Black Pepper Swing"
 subheadline: "SWING TAP LINDY HOP CHARLESTON"
@@ -72,6 +72,10 @@ slider2:
     <p>Lindy hop, Balboa, Shag, Boogie Woogie, Solo Jazz and Tap Dancing - for dancers of different levels and with different aims. Get started or get better. <a href="{{ site.baseurl }}/courses" class="">Check which courses would suit you.</a></p>
   </div>
 </section>
+
+<article>
+ {% include_relative season-info.md %}
+</article>
 
 <section class="row width-max">
   <div class="medium-12 columns slick-padded">

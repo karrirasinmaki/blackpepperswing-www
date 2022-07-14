@@ -28,7 +28,7 @@ Tämä kortti on kaikille niille, jotka haluavat käydä tunneilla silloin täll
 
 [Osta 10-kortti][1]{:class="button"}
 
-Kortti on voimassa kesän loppuun (elokuun 15. päivään) asti ja käyt sillä kaikilla meidän talven, kevään ja tulevilla kesän viikkotunneilla. Voit myös jakaa kortin esim. perheenjäsenten tai kavereiden kesken.
+Kortti on voimassa kauden loppuun asti ja käyt sillä kaikilla meidän viikkotunneilla. Voit myös jakaa kortin esim. perheenjäsenten tai kavereiden kesken.
 
 10-kortit ovat saatavilla [täältä][1].  
 Kursseille voit ilmoittautua [täältä](/courses).
