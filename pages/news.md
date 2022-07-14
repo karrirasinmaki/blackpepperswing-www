@@ -26,7 +26,11 @@ permalink: /news/
 {% endif %}
 {% endfor %}
 
-More latest news on <a href="https://portal.blackpepperswing.com/home" target="_blank">Portal</a>.
+<br/>
+
+<div class="text-center">
+  More latest news on <a href="https://portal.blackpepperswing.com/home" target="_blank">Portal</a>.
+</div>
 
 
 ## Newsletters

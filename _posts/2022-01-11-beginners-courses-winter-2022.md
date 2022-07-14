@@ -44,11 +44,11 @@ Here are samples of Solo Jazz (first video), and Lindy Hop (second video).
 
 You can start with any beginners' course, really. But...
 
-...if you want to learn how to partner dance, take [Lindy Hop](https://portal.blackpepperswing.com/courses/52mq51odmhnic5lava4rmb7ona/lindy-hop-beginners) or [Boogie Woogie](https://portal.blackpepperswing.com/courses/4vsekklf1gph2cp7n5ajb0aqhd/boogie-woogie-beginners).
+...if you want to learn how to partner dance, take [Lindy Hop](https://portal.blackpepperswing.com/courses?q=lindy%20hop%20beginners).
 
-...if you prefer flying solo or want to enrichen your body language take [Solo Jazz](https://portal.blackpepperswing.com/courses/22l6qma5aoiihu5g7bjsk7modm/solo-jazz-&-charleston-beginners) or [Electro Swing](https://portal.blackpepperswing.com/courses/6nkn82to76js9mrc5qglta0sdr/electro-swing).
+...if you prefer flying solo or want to enrichen your body language take [Solo Jazz](https://portal.blackpepperswing.com/courses?q=solo%20jazz).
 
-...if you like rhythms or love Gene Kelly, [Tap Dancing](https://portal.blackpepperswing.com/courses/1iltencvpli6optml0gl0eedj7/tap-beginners) would be your thing.
+...if you like rhythms or love Gene Kelly, [Tap Dancing](https://portal.blackpepperswing.com/courses?q=tap%20beginners) would be your thing.
 
 And of course, if you can't decide, you can take two courses for example.
 
