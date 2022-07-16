@@ -7,7 +7,7 @@ meta_description: We are a swing dance school based in Helsinki, founded and run
 title: "Black Pepper Swing"
 subheadline: "SWING TAP LINDY HOP CHARLESTON"
 
-permalink: /index.html
+permalink: /
 
 slider1:
 - image_url: helswingi-2018-karri-ulla.jpg

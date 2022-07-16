@@ -26,11 +26,11 @@
 	{% if site.alexa_verify_id %}<meta name="alexaVerifyID" content="{{ site.alexa_verify_id }}" />{% endif %}
 
 	<!-- Facebook Optimization -->
-	<meta property="og:locale" content="{% if site.og_locale == nil %}en_EN{% else %}{{ site.og_locale }}{% endif %}" />
+	<meta property="og:locale" content="{{ site.active_lang }}" />
 	{% if site.og_type %}<meta property="og:type" content="website" />{% endif %}
 	<meta property="og:title" content="{{ title_tag }}" />
 	<meta property="og:description" content="{{ og_description | strip_html | escape }}" />
-	<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}/{{ page.url }}" />
+	<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{% unless site.active_lang == site.default_lang %}/{{ site.active_lang }}{% endunless %}{{ page.url }}" />
 	{% if site.title %}<meta property="og:site_name" content="{{ site.title }}" />{% endif %}
 	{% if page.image.thumb %}<meta property="og:image" content="{{ site.urlimg }}{{ page.image.thumb }}" />
 	{% elsif page.image.src %}<meta property="og:image" content="{{ site.urlimg }}thumb/{{ page.image.src }}" />{% endif %}

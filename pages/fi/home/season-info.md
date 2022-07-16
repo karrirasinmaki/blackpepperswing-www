@@ -26,7 +26,7 @@ Tässä listattuna muutama alkeiskurssi. Mitään aiempaa kokemusta ei tarvita!
 - [Tap Dance Beginners on Wednesdays](https://portal.blackpepperswing.com/courses/6nj38spfklv880t9qs692k6oed)
 - [Lindy Hop Beginners on Thursdays](https://portal.blackpepperswing.com/courses/4cpvbqp6gn5elri6gppnqp6j46)
 - [Solo Jazz & Charleston Beginners on Thursdays](https://portal.blackpepperswing.com/courses/3qvjeeqoqkcf5vc5sn0q7sont8)
-- [Check out all the beginners' courses here](/courses-for-beginners)
+- [Katso kaikki alkeiskurssit täältä](/courses-for-beginners)
 
 **Jos olet jo tanssinut aiemmin...**  
 <a href="{{ site.baseurl }}/courses" class="">Tsekkaa läpi kurssiaikataulu</a> ja suunnittele tanssisyksysi. Jos et ole varma tasostasi tai kaipaat apua kurssien valintaan, niin kurkkaa <a href="https://blackpepperswing.freshdesk.com/en/support/solutions/articles/42000082224-which-courses-should-i-pick-" target="_blank">tämä artikkeli</a> (englanniksi). Meillä on myös spessukurssi koronataukoa pitäneille, nimittäin [Lindy Fresh-start on Mondays](https://portal.blackpepperswing.com/courses/0klpivh8e57m96ru4uv5s8e7r8)!

@@ -7,7 +7,10 @@ meta_description: Helsinkiläinen swing-tanssikoulu, joka keskittyy intohimoises
 title: "Black Pepper Swing"
 subheadline: "SWING TAP LINDY HOP CHARLESTON"
 
-permalink: /index.html
+permalink: /
+
+image:
+  src: helswingi-2018-group-hug.jpg
 
 slider1:
 - image_url: helswingi-2018-karri-ulla.jpg
@@ -51,7 +54,9 @@ secondary_ctas:
   url: https://library.blackpepperswing.com/
 - title: Aloittelijoiden kurssit
   url: /courses-for-beginners
-- title: Kertakortit
+- title: Yksityistunnit
+  url: https://holvi.com/shop/blackpepperswing/section/private-classes/
+- title: Kerta- ja 10-kortit
   url: /punch-cards
 
 featured_ctas:
