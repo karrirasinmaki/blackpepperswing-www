@@ -22,6 +22,17 @@ slider2:
 - image_url: helswingi-2018-group-hug.jpg
 - image_url: helswingi-2018-maria-kir.jpg
 - image_url: helswingi-2018-class-high-five.jpg
+
+featured_ctas:
+- title: Studio rental
+  url: /studio-rental
+  img: alppitalo/bps-alppitalo-front-studio-01.jpg
+- title: Studio rental
+  url: /studio-rental
+  img: alppitalo/bps-alppitalo-front-studio-01.jpg
+- title: Studio rental
+  url: /studio-rental
+  img: alppitalo/bps-alppitalo-front-studio-01.jpg
 ---
 
 <section class="hero-showcase row container width-max height-max align-items-center">
@@ -56,6 +67,38 @@ slider2:
 </section>
 
 <div class="show-for-medium-up t-90"></div>
+
+<section class="row width-max bg-color color-main">
+  <div class="medium-1 columns show-for-medium-up">&nbsp;</div>
+  <section class="medium-10 columns end">
+    <div class="row t50 b30">
+      <div class="medium-4 columns">
+        <div class="frame landscape cover">
+          <img src="{{ 'alppitalo/bps-alppitalo-front-studio-01.jpg' | imgurl,size:'small' }}" />
+        </div>
+        <a href="/courses" class="button expand">Studio rental</a>
+      </div>
+      <div class="medium-4 columns">
+        <div class="frame landscape cover">
+          <img src="https://firebasestorage.googleapis.com/v0/b/custportal-3000.appspot.com/o/media%2Fbps-autumn-2022.jpg?alt=media&token=19fae595-876a-41d2-8386-8ce1fc1752b7" />
+        </div>
+        <a href="/courses" class="button expand">Courses & Registration</a>
+      </div>
+      <div class="medium-4 columns">
+        <div class="frame landscape cover">
+          <img src="{{ 'helswingi-cover-2022-web.jpg' | imgurl,size:'small' }}" />
+        </div>
+        <a href="/courses" class="button expand">Events & Workshops</a>
+      </div>
+    </div>
+  </section>
+</section>
+
+<div class="t30"></div>
+{% include_relative season-info.md %}
+<div class="t50"></div>
+
+<div class="show-for-medium-up"></div>
 <hr class="decor skew-left" />
 
 <section class="row b30 align-items-end">
@@ -72,10 +115,6 @@ slider2:
     <p>Lindy hop, Balboa, Shag, Boogie Woogie, Solo Jazz and Tap Dancing - for dancers of different levels and with different aims. Get started or get better. <a href="{{ site.baseurl }}/courses" class="">Check which courses would suit you.</a></p>
   </div>
 </section>
-
-<article>
- {% include_relative season-info.md %}
-</article>
 
 <section class="row width-max">
   <div class="medium-12 columns slick-padded">

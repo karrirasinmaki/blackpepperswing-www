@@ -45,7 +45,9 @@
 	position: absolute;
 	top: 0;
 	height: 100%;
+}
 
+.columns.bg, .columns.bg-color, .row.bg-color {
 	&.color-bg {
 		background-color: $color-bg;
 	}
