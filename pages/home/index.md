@@ -27,12 +27,12 @@ featured_ctas:
 - title: Studio rental
   url: /studio-rental
   img: alppitalo/bps-alppitalo-front-studio-01.jpg
-- title: Studio rental
-  url: /studio-rental
-  img: alppitalo/bps-alppitalo-front-studio-01.jpg
-- title: Studio rental
-  url: /studio-rental
-  img: alppitalo/bps-alppitalo-front-studio-01.jpg
+- title: Courses & Registration
+  url: /courses
+  img: https://firebasestorage.googleapis.com/v0/b/custportal-3000.appspot.com/o/media%2Fbps-autumn-2022.jpg?alt=media&token=19fae595-876a-41d2-8386-8ce1fc1752b7
+- title: Events & Workshops
+  url: /events
+  img: helswingi-cover-2022-web.jpg
 ---
 
 <section class="hero-showcase row container width-max height-max align-items-center">
@@ -72,24 +72,16 @@ featured_ctas:
   <div class="medium-1 columns show-for-medium-up">&nbsp;</div>
   <section class="medium-10 columns end">
     <div class="row t50 b30">
+      {% for cta in page.featured_ctas %}
       <div class="medium-4 columns">
-        <div class="frame landscape cover">
-          <img src="{{ 'alppitalo/bps-alppitalo-front-studio-01.jpg' | imgurl,size:'small' }}" />
-        </div>
-        <a href="/courses" class="button expand">Studio rental</a>
+        <a href="{{ cta.url }}">
+          <div class="frame landscape cover">
+            <img src="{{ cta.img | imgurl,size:'small' }}" />
+          </div>
+        </a>
+        <a href="{{ cta.url }}" class="button expand">{{ cta.title }}</a>
       </div>
-      <div class="medium-4 columns">
-        <div class="frame landscape cover">
-          <img src="https://firebasestorage.googleapis.com/v0/b/custportal-3000.appspot.com/o/media%2Fbps-autumn-2022.jpg?alt=media&token=19fae595-876a-41d2-8386-8ce1fc1752b7" />
-        </div>
-        <a href="/courses" class="button expand">Courses & Registration</a>
-      </div>
-      <div class="medium-4 columns">
-        <div class="frame landscape cover">
-          <img src="{{ 'helswingi-cover-2022-web.jpg' | imgurl,size:'small' }}" />
-        </div>
-        <a href="/courses" class="button expand">Events & Workshops</a>
-      </div>
+      {% endfor %}
     </div>
   </section>
 </section>
