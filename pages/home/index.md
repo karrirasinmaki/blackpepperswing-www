@@ -23,6 +23,26 @@ slider2:
 - image_url: helswingi-2018-maria-kir.jpg
 - image_url: helswingi-2018-class-high-five.jpg
 
+main_ctas:
+- title: Courses & Registration
+  url: /courses
+  type: main
+- title: Studio rental
+  url: /studio-rental
+  type: secondary
+
+secondary_ctas:
+- title: About our school
+  url: /about-us
+- title: Contact us
+  url: /contact
+- title: Online library
+  url: https://library.blackpepperswing.com/
+- title: Beginners courses
+  url: /courses-for-beginners
+- title: Punch cards & drop-in
+  url: /punch-cards
+
 featured_ctas:
 - title: Studio rental
   url: /studio-rental
@@ -35,56 +55,13 @@ featured_ctas:
   img: helswingi-cover-2022-web.jpg
 ---
 
-<section class="hero-showcase row container width-max height-max align-items-center">
-  <div class="show-for-medium-up medium-4 columns bg color-main"></div>
-  <div class="show-for-small-only small-12 columns bg color-contrast"></div>
-  <div class="row width-max align-items-center">
-    <div class="medium-1 columns show-for-medium-up">&nbsp;</div>
-    <div class="medium-5 small-12 columns aside t30 b30 pr5">
-      <div class="show-for-small-only small-6 columns bg color-main"></div>
+{% capture intro %}
+**Hello there!**
 
-      <div class="show-for-medium-up t50"></div>
+We are a swing dance school in Helsinki. We have weekly classes, workshops, and events. You can also rent our dance studios for your own practice or have a private class with us.
+{% endcapture %}
 
-      <div class="vertical frame-container shadow-pop" style="background: black;">
-        <div class="cover-media frame square show-for-medium-up">
-          <iframe src="https://www.youtube.com/embed/nt2lpQdxVkY?rel=0&amp;controls=0&amp;disablekb=1&amp;playsinline=1&amp;showinfo=0&amp;version=3&amp;loop=1&amp;playlist=nt2lpQdxVkY&amp;autoplay=1&amp;enablejsapi=1"></iframe>
-        </div>
-        <div class="cover-media frame square show-for-small-only">
-          <iframe src="https://www.youtube.com/embed/nt2lpQdxVkY?rel=0&amp;controls=0&amp;disablekb=1&amp;playsinline=1&amp;showinfo=0&amp;version=3&amp;loop=1&amp;playlist=nt2lpQdxVkY&amp;autoplay=1&amp;enablejsapi=1"></iframe>
-        </div>
-      </div>
-      <div class="b90 show-for-medium-up"></div>
-    </div>
-
-    <div class="medium-6 small-12 columns end t30 b30">
-      <div class="medium-12 columns">
-        <div class="show-for-medium-up t50"></div>
-        {% include_relative intro.md %}
-        <div class="b90 show-for-medium-up"></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<div class="show-for-medium-up t-90"></div>
-
-<section class="row width-max bg-color color-main">
-  <div class="medium-1 columns show-for-medium-up">&nbsp;</div>
-  <section class="medium-10 columns end">
-    <div class="row t50 b30">
-      {% for cta in page.featured_ctas %}
-      <div class="medium-4 columns">
-        <a href="{{ cta.url }}">
-          <div class="frame landscape cover">
-            <img src="{{ cta.img | imgurl,size:'small' }}" />
-          </div>
-        </a>
-        <a href="{{ cta.url }}" class="button expand">{{ cta.title }}</a>
-      </div>
-      {% endfor %}
-    </div>
-  </section>
-</section>
+{% include index_blocks/block-hero.html %}
 
 <div class="t30"></div>
 {% include_relative season-info.md %}
@@ -102,7 +79,8 @@ featured_ctas:
   </div>
   <div class="large-6 medium-8 medium-centered columns end t20">
     <div class="show-for-large-up t90"></div>
-    <h2 class="t10">Swing is <b>back</b></h2>
+    <div class="t10"></div>
+    <h2>Swing is <b>back</b></h2>
     <p>Spreading swing dancing in modern society means inspiring people to connect with jazz music, themselves and each other. We offer engaging, precise and fun teaching from the first course on. And we make sure your dance time is not limited to the lessons.</p>
     <p>Lindy hop, Balboa, Shag, Boogie Woogie, Solo Jazz and Tap Dancing - for dancers of different levels and with different aims. Get started or get better. <a href="{{ site.baseurl }}/courses" class="">Check which courses would suit you.</a></p>
   </div>
@@ -176,36 +154,8 @@ featured_ctas:
   </div>
 </section>
 
-<section class="b30">
-  <h2 class="text-center">Inspiration</h2>
-  <div class="row">
-    <div class="columns medium-6 small-12">
-      <div class="article-media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/vViI2Io_TeM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    </div>
-    <div class="columns medium-6 small-12">
-      <div class="article-media">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/cbF358ml5dk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    </div>
-  </div>
-  <br/>
-  <p class="text-center">More videos on our <a href="https://www.youtube.com/c/BlackPepperSwing">YouTube channel</a></p>
-</section>
-
-{% comment %}
-<section class="row b30">
-  <div class="medium-12 columns">
-    <h2 class="text-center">Upcoming events</h2>
-
-    {% assign events = site.events | sort: "date_end" | reverse %}
-    {% include grid.html cols=2 entries=2 collection=events template='post-snippet.html' %}
-    <div class="text-center t50">
-      <a href="{{ site.baseurl }}/events"><big>{{ site.data.language.show_all_events }}</big></a>
-    </div>
-  </div>
-</section>
-{% endcomment %}
+{% include index_blocks/block-inspiration.html %}
 
 {% include index_blocks/block-testimonials.html %}
+
+{% include index_blocks/block-events.html %}

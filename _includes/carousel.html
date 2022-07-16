@@ -1,18 +1,8 @@
 {% comment %}
 {% endcomment %}
 
-{% capture data_slick %}
-{
-  "slidesToShow": {{include.slidesToShow | default: 1}},
-  "centerMode": {{include.centerMode | default: false}},
-  "initialSlide": {{include.initialSlide | default: 0}},
-  "arrows": {{include.arrows | default: false}},
-  "dots": {{include.dots | default: true}},
-  "adaptiveHeight": {{include.adaptiveHeight | default: false}}
-}
-{% endcapture %}
 
-<div class="slick-carousel" data-slick='{{ data_slick | strip_newlines | strip }}'>
+<div class="slick-carousel" {% include slick-data %}>
   {% assign old_entry = entry %}
   {% for entry in include.collection limit:include.entries %}
   <div class="item">

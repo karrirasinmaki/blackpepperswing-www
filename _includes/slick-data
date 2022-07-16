@@ -1,0 +1,12 @@
+{% capture data_slick %}
+{
+  "slidesToShow": {{include.slidesToShow | default: 1}},
+  "centerMode": {{include.centerMode | default: false}},
+  "initialSlide": {{include.initialSlide | default: 0}},
+  "arrows": {{include.arrows | default: false}},
+  "dots": {{include.dots | default: true}},
+  "adaptiveHeight": {{include.adaptiveHeight | default: false}},
+	"variableWidth": {{include.variableWidth | default: false}}
+}
+{% endcapture %}
+data-slick='{{ data_slick | strip_newlines | strip }}'

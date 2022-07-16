@@ -9,23 +9,20 @@
 
 &nbsp;
 
-**Hello there!**
-
-We are a swing dance school in Helsinki. We have weekly classes, workshops, and events. You can also rent our dance studios for your own practice or have a private class with us.
+{{ intro }}
 
 </div>
 
 <div class="button-group t30">
-  <a href="/courses" class="button">Courses & Registration</a>
-  <a href="/studio-rental" class="button secondary">Studio rental</a>
+  {% for cta in page.main_ctas %}
+    <a href="{{ cta.url }}" class="button {{ cta.type }}">{{ cta.title }}</a>
+  {% endfor %}
 </div>
 <p class="t-15">
   <small>
-    <a href="/about-us" class="secondary">About our school</a> / 
-    <a href="/contact" class="secondary">Contact us</a> / 
-    <a href="https://library.blackpepperswing.com/" target="_blank" class="secondary">Online library</a> / 
-    <a href="/courses-for-beginners" class="secondary">Beginners courses</a> / 
-    <a href="/punch-cards" class="secondary">Punch cards & drop-in</a>
+    {% for cta in page.secondary_ctas %}
+      <a href="{{ cta.url }}" class="secondary">{{ cta.title }}</a>{% unless forloop.last %} / {% endunless %}
+    {% endfor %}
   </small>
 </p>
 
@@ -43,3 +40,4 @@ We are a swing dance school in Helsinki. We have weekly classes, workshops, and 
     {% endfor %}
   </ul>
 </div>
+
