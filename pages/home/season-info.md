@@ -56,9 +56,10 @@ No previous experience whatsoever needed.
   <div class="medium-4 columns">
     <ul class="pricing-table">
       <li class="title">Course registration</li>
-      <li class="price">198-264€</li>
+      <li class="price">105-264€</li>
       <li class="description">The best way to learn - join one or more of our weekly classes as a regular student for steady, progressive learning.</li>
-      <li class="bullet-item">16 weeks of classes</li>
+      <li class="bullet-item">16 weeks of classes (starting from 198€)</li>
+      <li class="bullet-item">8 weeks of classes (starting from 105€)</li>
       <li class="bullet-item">Secure your spot on the course</li>
       <li class="bullet-item">Any additional course comes with a -25% discount</li>
       <li class="cta-button"><a class="button" href="/courses">Register for courses</a></li>
@@ -80,13 +81,16 @@ No previous experience whatsoever needed.
 
 <section class="row">
   <div class="medium-8 medium-centered small-12 columns" markdown="1">
-Course registration for the Autumn season is open! Autumn classes start on week 34 (22nd of August).
+Course registration for the Autumn season is open!  
+Autumn classes start on week 34 (22nd of August).
 
 Most of the courses contains 16 weeks of classes plus possible break weeks. Starting right from the beginning of the season is recommended, but it's also possible to join any of the groups during the season.
 
 We recommend registering for full courses, which allows you to progressivily grow with the group.
 
-It's also possible to register for half of the course (8 weeks), or single classes with 10-class punch card.
+For 16-week courses, it's also possible to register for half of the course (8 weeks).
+
+Also, you can join single classes with 10-class punch card.
 
 [Read more about course registrations here...](https://blackpepperswing.freshdesk.com/support/solutions/articles/42000096170-course-registration)
 </div>

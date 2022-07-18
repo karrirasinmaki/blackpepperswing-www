@@ -56,9 +56,10 @@ Tässä listattuna muutama alkeiskurssi. Mitään aiempaa kokemusta ei tarvita!
   <div class="medium-4 columns">
     <ul class="pricing-table">
       <li class="title">Kurssi-ilmo</li>
-      <li class="price">198-264€</li>
+      <li class="price">105-264€</li>
       <li class="description">Ehdottomasti paras tapa treenata - viikottaiset tunnit saman ryhmän kanssa takaa varman kehityksen. Ilmoittaudu yhdelle tai useammalle viikkokurssille.</li>
-      <li class="bullet-item">16 viikkoa per kurssi</li>
+      <li class="bullet-item">16 viikkotuntia per kurssi (alk. 198€)</li>
+      <li class="bullet-item">8 viikkotuntia, puolikas kurssi (alk. 105€)</li>
       <li class="bullet-item">Varmista paikkasi haluamillesi kursseille</li>
       <li class="bullet-item">Lisäkursseista -25% alennus</li>
       <li class="cta-button"><a class="button" href="/courses">Ilmoittaudu kursseille tästä</a></li>
@@ -80,9 +81,14 @@ Tässä listattuna muutama alkeiskurssi. Mitään aiempaa kokemusta ei tarvita!
 
 <section class="row">
   <div class="medium-8 medium-centered small-12 columns" markdown="1">
-Kurssi-ilmoittautuminen (course registration) syyskaudelle on nyt auki! Syksyn tunnit alkaa viikolla 34 (22.9.).
+Kurssi-ilmoittautuminen (course registration) syyskaudelle on nyt auki!  
+Syksyn tunnit alkaa viikolla 34 (22.9.).
 
 Suurin osa kursseista on 16 viikon kursseja, sisältäen 16 opetuskertaa ja mahdolliset taukoviikot. Suosittelemme käymään kursseilla koko kauden, mutta myös kesken kauden voi liittyä mukaan, tai ilmoittautua lyhyemmälle pätkälle.
+
+16 viikon kursseille voit ilmoittautua myös puolikkaalle kaudelle, eli 8 viikoksi.
+
+Yksittäisille tunneille voit ilmoittautua 10-kortilla.
 
 Tunnit ovat lähtökohtaisesti englanniksi, ellei kaikki osallistujat (ja opettajat) puhu suomea.
 
