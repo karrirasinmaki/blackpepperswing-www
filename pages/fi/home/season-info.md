@@ -23,6 +23,7 @@ Ilmoittautuminen on nyt auki!
 **Jos olet vasta aloittamassa tanssimaan...**  
 Tässä listattuna muutama alkeiskurssi. Mitään aiempaa kokemusta ei tarvita!
 
+- [Lindy Hop Beginners Weekend Syyskuu 10-11](/events/2022-helswingi-beginners)
 - [Tap Dance Beginners on Wednesdays](https://portal.blackpepperswing.com/courses/6nj38spfklv880t9qs692k6oed)
 - [Lindy Hop Beginners on Thursdays](https://portal.blackpepperswing.com/courses/4cpvbqp6gn5elri6gppnqp6j46)
 - [Solo Jazz & Charleston Beginners on Thursdays](https://portal.blackpepperswing.com/courses/3qvjeeqoqkcf5vc5sn0q7sont8)

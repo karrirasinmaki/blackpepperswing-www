@@ -23,6 +23,7 @@ Registration is now open!
 **Start dancing with these courses**  
 No previous experience whatsoever needed.
 
+- [Lindy Hop Beginners Weekend Sept 10-11](/events/2022-helswingi-beginners)
 - [Tap Dance Beginners on Wednesdays](https://portal.blackpepperswing.com/courses/6nj38spfklv880t9qs692k6oed)
 - [Lindy Hop Beginners on Thursdays](https://portal.blackpepperswing.com/courses/4cpvbqp6gn5elri6gppnqp6j46)
 - [Solo Jazz & Charleston Beginners on Thursdays](https://portal.blackpepperswing.com/courses/3qvjeeqoqkcf5vc5sn0q7sont8)
@@ -91,6 +92,8 @@ We recommend registering for full courses, which allows you to progressivily gro
 For 16-week courses, it's also possible to register for half of the course (8 weeks).
 
 Also, you can join single classes with 10-class punch card.
+
+All our classes are in English unless otherwise mentioned.
 
 [Read more about course registrations here...](https://blackpepperswing.freshdesk.com/support/solutions/articles/42000096170-course-registration)
 </div>

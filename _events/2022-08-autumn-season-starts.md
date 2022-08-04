@@ -15,7 +15,7 @@ address: Helsinki, Finland
 header:
   hide_text: true
 image:
-  src: https://scontent.fqlf1-2.fna.fbcdn.net/v/t39.30808-6/289827005_1482814088797961_4404430482856626420_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e3f864&_nc_ohc=nue8PQ7lmoQAX8_B506&_nc_ht=scontent.fqlf1-2.fna&oh=00_AT_Nf3a8lGBcclfp0zo3dStqYoo77e1K14gS9t2QQKmAQQ&oe=62D57E56
+  src: https://scontent.fqlf1-2.fna.fbcdn.net/v/t39.30808-6/289827005_1482814088797961_4404430482856626420_n.png?stp=dst-jpg&_nc_cat=103&ccb=1-7&_nc_sid=19026a&_nc_ohc=fj1Zlzo4yqoAX-hKnbZ&_nc_ht=scontent.fqlf1-2.fna&oh=00_AT_bj-fCnbOUq2PRREvOr3OlEtqRR0LrkGk81fWtY426cA&oe=62F12DD6
 
 redirect_to: "https://portal.blackpepperswing.com/home"
 ---
