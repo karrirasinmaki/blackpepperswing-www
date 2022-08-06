@@ -15,7 +15,7 @@ permalink: "/events/"
 
 ## Special events, workshops and festivals
 
-{% assign events = site.events | where_exp: 'item', 'item.archived != true' | where: 'repeats', 'false' | sort: 'title' | sort: 'date' | sort: 'date_start' | reverse %}
+{% assign events = site.events | where_exp: 'item', 'item.archived != true' | where: 'repeats', 'false' | sort: 'title' | sort: 'date' | sort: 'date_start' %}
 {% include grid.html cols=1 collection=events template='post-snippet.html' %}
 
 
