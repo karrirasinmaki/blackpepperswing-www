@@ -18,8 +18,11 @@ permalink: "/links/"
 
 <div class="text-center t30" style="max-width: 420px; margin: 0 auto;">
   <ul class="social-icons side-nav">
+    <li><a href="{% link _events/2022-helswingi-beginners.md %}">Helswingi Beginners | Sept 10-11</a></li>
+    <li class="divider b60"></li>
     <li><a href="/courses">Courses and workshops</a></li>
     <li><a href="/courses-for-beginners/">Beginners' Classes</a></li>
+    <li><a href="https://www.helswingi.fi/">Helswingi festival</a></li>
     <li class="divider b60"></li>
     <li><a href="https://library.blackpepperswing.com/">Library</a></li>
     <li><a href="https://www.youtube.com/playlist?list=PLXuPJeS8W-KoF6CIHZan0xlxfD0hO4iYQ">Colorized clips</a></li>

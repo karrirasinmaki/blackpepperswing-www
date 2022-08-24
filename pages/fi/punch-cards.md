@@ -1,4 +1,5 @@
 ---
+lang: fi
 layout: post
 
 meta_title: 10-kortti
