@@ -58,11 +58,15 @@ featured_ctas:
 {% capture intro %}
 **Hello there!**
 
-We are a swing dance school in Helsinki. We have weekly classes, workshops, and events. You can also rent our dance studios for your own practice or have a private class with us.
+We are a swing dance school in Helsinki. We have [weekly classes](/courses), [workshops](/events), and [events](/events). You can also [rent our dance studios](/studio-rental) for your own practice or [have a private class](/services/#private-classes) with us.
+
+**New beginners courses start Oct 24th!**  
+No previous experience nor partner needed. [Read more](#season-info)
 {% endcapture %}
 
 {% include index_blocks/block-hero.html %}
 
+<a id="season-info" />
 <div class="t30"></div>
 {% include_relative season-info.md %}
 <div class="t50"></div>

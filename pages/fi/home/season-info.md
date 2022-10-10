@@ -15,7 +15,7 @@
 
 ## **Syksy** 2022
 
-**Syyskausi starttaa 22.9.**  
+**Syyskauden uudet alkeet starttaa 24.10.**  
 
 Ilmoittautuminen on nyt auki!  
 [Katso kurssisivut ja rekisteröidy pian](/courses)
@@ -23,17 +23,24 @@ Ilmoittautuminen on nyt auki!
 **Jos olet vasta aloittamassa tanssimaan...**  
 Tässä listattuna muutama alkeiskurssi. Mitään aiempaa kokemusta ei tarvita!
 
-- [Lindy Hop Beginners Weekend Syyskuu 10-11](/events/2022-helswingi-beginners)
+- [Lindy Hop Beginners on Mondays](https://portal.blackpepperswing.com/courses/49e0skbpn13rqerkdt5ugg9egg)
 - [Tap Dance Beginners on Wednesdays](https://portal.blackpepperswing.com/courses/6nj38spfklv880t9qs692k6oed)
-- [Lindy Hop Beginners on Thursdays](https://portal.blackpepperswing.com/courses/4cpvbqp6gn5elri6gppnqp6j46)
-- [Solo Jazz & Charleston Beginners on Thursdays](https://portal.blackpepperswing.com/courses/3qvjeeqoqkcf5vc5sn0q7sont8)
 - [Katso kaikki alkeiskurssit täältä](/courses-for-beginners)
 
 **Jos olet jo tanssinut aiemmin...**  
-<a href="{{ site.baseurl }}/courses" class="">Tsekkaa läpi kurssiaikataulu</a> ja suunnittele tanssisyksysi. Jos et ole varma tasostasi tai kaipaat apua kurssien valintaan, niin kurkkaa <a href="https://blackpepperswing.freshdesk.com/en/support/solutions/articles/42000082224-which-courses-should-i-pick-" target="_blank">tämä artikkeli</a> (englanniksi). Meillä on myös spessukurssi koronataukoa pitäneille, nimittäin [Lindy Fresh-start on Mondays](https://portal.blackpepperswing.com/courses/0klpivh8e57m96ru4uv5s8e7r8)!
+<a href="{{ site.baseurl }}/courses" class="">Tsekkaa läpi kurssiaikataulu</a> ja suunnittele tanssisyksysi. Jos et ole varma tasostasi tai kaipaat apua kurssien valintaan, niin kurkkaa <a href="https://blackpepperswing.freshdesk.com/en/support/solutions/articles/42000082224-which-courses-should-i-pick-" target="_blank">tämä artikkeli</a> (englanniksi).
+
+Ps. Voit liittyä kursseille missä vaiheessa kautta tahansa - ja maksat vain jäljellä olevista kursseista! Ilmoittaudu suoraan [Portaalissa](/portal), tai [laita meille viestiä](/contact).
 
 </article>
 </div>
+</section>
+
+<section class="row">
+  <div class="medium-12 columns">
+    <h2 class="text-center">Alkavat kurssit ja workshopit</h2>
+    {% include portal-events.html %}
+  </div>
 </section>
 
 <section class="row">

@@ -74,13 +74,17 @@ featured_ctas:
 {% capture intro %}
 **Hei vaan!**
 
-Olemme inspiroiva ja intohimoinen swing-tanssikoulu Helsingissä. Löydät meiltä viikkokurssit, workshopit, ja erinäiset svengaavat tapahtumat. Voit myös vuokrata tanssisali käyttöösi, tai kenties ottaa muutaman yksityistunnin kanssamme.
+Olemme inspiroiva ja intohimoinen swing-tanssikoulu Helsingissä. Löydät meiltä [viikkokurssit](/courses), [workshopit](/events), ja erinäiset svengaavat [tapahtumat](/events). Voit myös [vuokrata tanssisalin](/studio-rental) käyttöösi, tai kenties ottaa muutaman [yksityistunnin](/services/#private-classes) kanssamme.
+
+**Uudet alkeet starttaa 24.10.!**  
+Ei aiempaa kokemusta eikä tanssiparia tarvita. [Lue lisää](#season-info)
 
 Nähdään tanssilattialla!
 {% endcapture %}
 
 {% include index_blocks/block-hero.html %}
 
+<a id="season-info" />
 <div class="t30"></div>
 {% include_relative season-info.md %}
 <div class="t50"></div>

@@ -15,7 +15,7 @@
 
 ## **Autumn** 2022
 
-**Autumn season starts 22nd of August**  
+**New beginners courses start 24th of October**  
 
 Registration is now open!  
 [Check out the courses and register here](/courses)
@@ -23,17 +23,24 @@ Registration is now open!
 **Start dancing with these courses**  
 No previous experience whatsoever needed.
 
-- [Lindy Hop Beginners Weekend Sept 10-11](/events/2022-helswingi-beginners)
+- [Lindy Hop Beginners on Mondays](https://portal.blackpepperswing.com/courses/49e0skbpn13rqerkdt5ugg9egg)
 - [Tap Dance Beginners on Wednesdays](https://portal.blackpepperswing.com/courses/6nj38spfklv880t9qs692k6oed)
-- [Lindy Hop Beginners on Thursdays](https://portal.blackpepperswing.com/courses/4cpvbqp6gn5elri6gppnqp6j46)
-- [Solo Jazz & Charleston Beginners on Thursdays](https://portal.blackpepperswing.com/courses/3qvjeeqoqkcf5vc5sn0q7sont8)
 - [Check out all the beginners' courses here](/courses-for-beginners)
 
 **Already dancing?**  
-<a href="{{ site.baseurl }}/courses" class="">Check out the course schedule</a> and declutter your calendar accordingly. If you are unsure what levels/courses to pick, check out <a href="https://blackpepperswing.freshdesk.com/en/support/solutions/articles/42000082224-which-courses-should-i-pick-" target="_blank">this article here</a>. If you had a break and wish to start dancing again, check out the [Lindy Fresh-start on Mondays](https://portal.blackpepperswing.com/courses/0klpivh8e57m96ru4uv5s8e7r8)!
+<a href="{{ site.baseurl }}/courses" class="">Check out the course schedule</a> and declutter your calendar accordingly. If you are unsure what levels/courses to pick, check out <a href="https://blackpepperswing.freshdesk.com/en/support/solutions/articles/42000082224-which-courses-should-i-pick-" target="_blank">this article here</a>.
+
+Ps. You can join all our courses at any point during the season! (And you'll of course pay only for the remaining of the classes.) Register at [Portal](/portal) or [contact us](/contact)!
 
 </article>
 </div>
+</section>
+
+<section class="row">
+  <div class="medium-12 columns">
+    <h2 class="text-center">Upcoming courses and workshops</h2>
+    {% include portal-events.html %}
+  </div>
 </section>
 
 <section class="row">
