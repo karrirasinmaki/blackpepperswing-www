@@ -1,0 +1,80 @@
+{% assign wrapper_id = "wrapper-portal-" | append: include.event %}
+
+<div id="{{ wrapper_id }}">
+  <template class="template-portal-event-snippet" style="display:none;">
+    <div class="row">
+      <div class="medium-4 columns t10">
+        <a href="--URL--" target="_blank">
+          <img src="--IMG--">
+        </a>
+      </div>
+      <div class="medium-8 columns">
+        <a href="--URL--" target="_blank">
+          <h3 class="t10">
+            <small class="subheader">--SUBHEADER--</small><br>
+            --HEADER--
+          </h3>
+        </a>
+        <p>--EXCERPT--</p>
+        <p>
+          <a href="--URL--" target="_blank">Read More&nbsp;›</a>
+        </p>
+      </div>
+    </div>
+  </template>
+  <template class="template-portal-no-events" style="display:none;">
+    <div class="text-center">
+      <br/>
+      <p>Hmm, we couldn't find the specific course. But you can...</p>
+      <p><a href="/courses">Check out all our courses here</a></p>
+    </div>
+  </template>
+
+  <div class="row cols_s-1 cols_m-1 cols-1 cols-left-2">
+    <div class="columns small-12 medium-12 large-12">
+      <div class="portal-events">
+        <p class="text-center"><br/>Loading...</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+  (function() {
+    function renderPortalEvents() {
+      var template = $('#{{ wrapper_id }} .template-portal-event-snippet');
+      var eventsWrapper = $('#{{ wrapper_id }} .portal-events');
+      /* Load events */
+      $.getJSON('https://us-central1-custportal-3000.cloudfunctions.net/api/data/events/{{include.event}}', function(events) {
+        eventsWrapper.html('');
+        events = [events];
+        if (events.length === 0) {
+          eventsWrapper.append($('#{{ wrapper_id }} .template-portal-no-events').html());
+          return;
+        }
+        /* Loop thru single events and render row item */
+        for (var i = 0, l = events.length; i<l; ++i) {
+          var event = events[i];
+          var el = template.html()
+            .replace(/--URL--/g, 'https://portal.blackpepperswing.com/courses/' + event.id)
+            .replace(/--IMG--/g, event.meta.image_src)
+            .replace(/--SUBHEADER--/g, new Date(event.start_date).toLocaleDateString('FI') + ' - ' + new Date(event.last_date).toLocaleDateString('FI') + ', ' + event.meta.duration)
+            .replace(/--HEADER--/g, event.name)
+            .replace(/--EXCERPT--/g, event.meta.description);
+          eventsWrapper.append(el);
+        }
+      });
+    }
+    /* Wait for jQuery to load */
+    var at = 100;
+    var a = setInterval( function() {
+      if ( typeof window.jQuery === 'undefined' ) {
+        at = Math.min(1000, at*2);
+        return;
+      }
+      clearInterval( a );
+      renderPortalEvents();
+    }, at );
+  })();
+</script>

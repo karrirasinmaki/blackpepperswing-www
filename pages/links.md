@@ -18,7 +18,7 @@ permalink: "/links/"
 
 <div class="text-center t30" style="max-width: 420px; margin: 0 auto;">
   <ul class="social-icons side-nav">
-    <li><a href="{% link _events/2022-helswingi-beginners.md %}">Helswingi Beginners | Sept 10-11</a></li>
+    <li><a href="{% link _posts/2022-10-14-tap-vs-lindy-beginners-2022.md %}">Beginners courses (starting Oct 24th)</a></li>
     <li class="divider b60"></li>
     <li><a href="/courses">Courses and workshops</a></li>
     <li><a href="/courses-for-beginners/">Beginners' Classes</a></li>
