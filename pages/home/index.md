@@ -60,8 +60,8 @@ featured_ctas:
 
 We are a swing dance school in Helsinki. We have [weekly classes](/courses), [workshops](/events), and [events](/events). You can also [rent our dance studios](/studio-rental) for your own practice or [have a private class](/services/#private-classes) with us.
 
-**New beginners courses start Oct 24th!**  
-No previous experience nor partner needed. [Read more](#season-info)
+**New: Beginners' weekend course Nov 26-27!**  
+No previous experience nor partner needed. [Read more](https://portal.blackpepperswing.com/courses/2p9gjt5onldd44mkbhoeis9qe8/lindy-hop-beginners'-weekend-course)
 {% endcapture %}
 
 {% include index_blocks/block-hero.html %}

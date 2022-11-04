@@ -5,6 +5,8 @@ const { exec, spawn1 } = require('child_process');
 const runSequence = require('run-sequence');
 const plumber = require('gulp-plumber');
 
+let HOST = "0.0.0.0";
+
 const spawn = (function() {
     var childProcess = require("child_process");
     var oldSpawn = childProcess.spawn;
@@ -120,7 +122,7 @@ function buildJekyllCmd(env) {
     buildline = buildline + ',_config_firebase.yml';
   }
   else if (env === 'local') {
-    buildline = buildline.replace('jekyll build', 'jekyll serve') + ',_config_dev.yml --host 0.0.0.0 --watch --trace --livereload --livereload-port 9005 --incremental';
+    buildline = buildline.replace('jekyll build', 'jekyll serve') + ',_config_dev.yml --host '+HOST+' --watch --trace --livereload --livereload-port 9005 --incremental';
   }
   return buildline;
 }
