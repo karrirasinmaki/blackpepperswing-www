@@ -10,7 +10,8 @@ fields:
 - name: page_sections
   type: blocks
   label: Page sections
-  template_types: []
+  template_types:
+  - text-field
   config:
     min: 
     max: 
