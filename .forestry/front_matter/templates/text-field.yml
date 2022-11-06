@@ -1,6 +1,7 @@
 ---
 label: Text field
 hide_body: true
+display_field: headline
 fields:
 - name: headline
   type: text
