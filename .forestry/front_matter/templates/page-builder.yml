@@ -14,3 +14,5 @@ fields:
   config:
     min: 
     max: 
+pages:
+- pages/testataan-page-builderia.md
