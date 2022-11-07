@@ -78,7 +78,6 @@ Olemme inspiroiva ja intohimoinen swing-tanssikoulu Helsingissä. Löydät meilt
 
 **Uutta: Lindy Hop alkeisviikonloppu, 26-27 marraskuuta!**  
 Ei aiempaa kokemusta eikä tanssiparia tarvita. Lähdetään nollasta liikkeelle. [Lue lisää](https://portal.blackpepperswing.com/courses/2p9gjt5onldd44mkbhoeis9qe8/lindy-hop-beginners'-weekend-course)
-{% endcapture %}
 
 Nähdään tanssilattialla!
 {% endcapture %}
