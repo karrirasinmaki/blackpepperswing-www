@@ -32,4 +32,5 @@ fields:
   - simple-footer
   - 4-column-footer
 pages:
-- index.md
+- pages/testataan-page-builderia.md
+- playground/test1.md
