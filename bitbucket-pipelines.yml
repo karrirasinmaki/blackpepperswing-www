@@ -1,0 +1,24 @@
+image: timbru31/ruby-node:2.7-alpine
+
+pipelines:
+  custom:
+    build-deploy:
+      - step:
+          name: Build and deploy to Firebase
+          deployment: production
+          script:
+            - echo "Building..."
+            - echo "Setup Docker"
+            - ./docker/setup-required.sh
+            - echo "Build"
+            - npm run build
+            - echo "Deploying..."
+            - cd app
+            - pipe: atlassian/firebase-deploy:1.1.0
+              variables:
+                KEY_FILE: '$KEY_FILE'
+                PROJECT_ID: 'blackpepperswing'
+                EXTRA_ARGS: '--only hosting'
+definitions:
+  caches:
+    bundler: vendor/bundle

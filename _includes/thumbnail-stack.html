@@ -1,0 +1,18 @@
+{% comment %}
+params:
+  thumbnail - main thumbnail
+  alternative_thumbnails - alternative thumbnails,
+    visible when moving mouse over element
+{% endcomment %}
+
+
+<div class="thumbnail-stack">
+  <img class="thumbnail" src="{{ include.thumbnail }}">
+  <div class="alternative-thumbnails">
+    {% for thumb in include.alternative_thumbnails %}
+    <span class="thumbnail-seeker"></span>
+    <img src="{{ thumb }}">
+    {% endfor %}
+  </div>
+</div>
+

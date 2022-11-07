@@ -1,6 +1,6 @@
 plugins:
   - jekyll-polyglot
-  - jekyll-paginate
+  - jekyll-paginate-v2
 
 # ASCII-Font › http://patorjk.com/software/taag/#p=display&f=Slant&t=Phlow
 #
@@ -21,31 +21,29 @@ slogan: "Hopping around swamps and lakes since 2017"
 
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: "Authentic swing dances in Helsinki, Tampere and Jyväskylä"
+description: "Authentic swing dances in Helsinki"
 
 # Main author of the website
 # See > authors.yml
 author: blackpepperswing
 
 # Contact info
+name: "Black Pepper Swing"
 email: info@blackpepperswing.com
 tel: "+358 84 154 1724"
-address: "Mäkelänrinne 5 A 81, 00550 Helsinki, Finland"
+address: "c/o Black Pepper Swing, Karjalankatu 2 (4th floor), 00520 Helsinki, Finland"
 vat_number: FI28578381
 legal_name: Osuuskunta Swing Kollektiivi / Coop Swing Collective
 invoice_address: info@blackpepperswing.com
+
+# When serving on a local machine, the default time zone is set by your operating system. But when served on a remote host/server, the default time zone depends on the server's setting or location.
+timezone: Finland/Helsinki
 
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
 url: 'https://blackpepperswing.com'
 baseurl: ''
-urlimg: 'https://blackpepperswing.com/images/'
-urlassets: 'https://blackpepperswing.com/assets/'
-
-# This is for the editing function in _/includes/improve_content
-# Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content:
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash at the end.
@@ -54,49 +52,85 @@ improve_content:
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
 urlimg: 'https://blackpepperswing.com/images/'
+urlvid: 'https://blackpepperswing.com/videos/'
+urlassets: 'https://blackpepperswing.com/assets/'
+
+# This is for the editing function in _/includes/improve_content
+# Leave it empty if your site is not on GitHub/GitHub Pages
+improve_content:
 
 
 # Logo size is 600x80 pixels
 logo: "logo.png"
 webfonts: true
+mediaplayer: false
 
-# Paginates all X entries
-paginate: 5
+###
+# Pagination and autopages
+pagination:
+  enabled: true
+  per_page: 15
+  permalink: /page/:num/
+  trail: 
+    before: 2
+    after: 2
+
+autopages:
+  enabled: false
+  categories:
+    title: ":cat"
+    permalink: /posts/categories/:cat/
+    layouts: 
+      - 'autopage.html'
+    slugify:
+      mode: 'default'   # :cat is slugified. Modes: default, raw, pretty, ascii, latin
+      case: false       # Whether to replace all uppercase letters with their lowercase counterparts
+  tags:
+    title: ":tag"
+    permalink: /posts/tags/:tag/
+    layouts: 
+      - 'autopage.html'
+    slugify:
+      mode: 'default'   # :cat is slugified. Modes: default, raw, pretty, ascii, latin
+      case: false       # Whether to replace all uppercase letters with their lowercase counterparts
 
 
-# Pagination path › Important for blog page in /blog/ to work
-paginate_path: "blog/page:num"
-
-# Theme works best with Kramdown (using the table of contents function)
+# Theme works best with Kramdown (using the table of conteNTS Function)
 markdown: kramdown
-permalink: /:title/:year-:month-:day/
+permalink: /posts/:slugified_categories/:slug/
 highlight: rouge
 excerpt_separator: "<!--more-->"
 include: ['.htaccess']
 # Exclude these files from your production _site
 exclude:
-    - .sass-cache
+    - .sass-cache/
+    - .jekyll-cache/
+    - .bundle
+    - bundler
+    - docker
     - .git
     - .gitignore
+    - gemfiles/
     - Gemfile
     - Gemfile.lock
+    - Gulpfile.js
+    - node_modules/
+    - _original_images
+    - INSTALL.md
     - LICENSE
     - README.md
-    - INSTALL.md
-    - Gulpfile.js
-    - node_modules
-    - _images
+    - tags
     - vendor
-    - .bundle
 
 
 # The language setting is used in /includes/header.html for html-settings
 language: "en"
 
-languages: ["en"]
+languages: ["en", "fi"]
 default_lang: "en"
-exclude_from_localization: ["assets", "images"]
+exclude_from_localization: ["assets", "images", "videos", "_sass"]
 parallel_localization: true
+lang_from_path: true
 
 date_format: "%d %B %Y"
 
@@ -155,9 +189,11 @@ defaults:
       type: "posts"
     values:
       layout: page
-      show_meta: true
-      comments: true
+      show_meta:
+        nav: false
+      comments: false
       author: blackpepperswing
+      archive_url: "/blog/archive/"
   -
     scope:
       path: ""
@@ -230,7 +266,6 @@ defaults:
       author: blackpepperswing
 
 
-
 #       _   __            _             __  _
 #      / | / /___ __   __(_)___ _____ _/ /_(_)___  ____
 #     /  |/ / __ `/ | / / / __ `/ __ `/ __/ / __ \/ __ \
@@ -241,6 +276,7 @@ defaults:
 #  Open _data/navigation.yml to adjust the left and right topbar navigation
 #
 
+google_apikey: "AIzaSyB2bRfM1u1JlLyXzkvWU4bLXdkH0v0DXoI"
 
 
 #     _____ __________
@@ -265,14 +301,7 @@ defaults:
 
 favicon-32x32:                          "favicon-32x32.png"
 touch-icon-192x192:                     "touch-icon-192x192.png"
-apple-touch-icon-180x180-precomposed:   "apple-touch-icon-180x180-precomposed.png"
-apple-touch-icon-152x152-precomposed:   "apple-touch-icon-152x152-precomposed.png"
-apple-touch-icon-144x144-precomposed:   "apple-touch-icon-144x144-precomposed.png"
-apple-touch-icon-120x120-precomposed:   "apple-touch-icon-120x120-precomposed.png"
-apple-touch-icon-114x114-precomposed:   "apple-touch-icon-114x114-precomposed.png"
-apple-touch-icon-76x76-precomposed:     "apple-touch-icon-76x76-precomposed.png"
-apple-touch-icon-72x72-precomposed:     "apple-touch-icon-72x72-precomposed.png"
-apple-touch-icon-precomposed:           "apple-touch-icon-precomposed.png"
+apple-touch-icon-180x180:               "apple-touch-icon-180x180.png"
 msapplication_tileimage:                "msapplication_tileimage.png"               # Size 144x144
 msapplication_tilecolor:                "#fabb00"
 
@@ -327,6 +356,7 @@ facebook_app_id: 335589810224955
 sass:
     sass_dir: _sass
     style: :compressed
+    sourcemap: 'never'
 
 
 #       ___                __      __  _

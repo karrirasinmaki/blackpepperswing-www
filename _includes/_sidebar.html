@@ -1,6 +1,11 @@
-<aside>
-	<div class="panel radius">
-		<p>
-		</p>
-	</div>
-</aside>
+{% if page.sidebar %}
+
+<div class="sidebar">
+	<aside>
+		{% if page.sidebar.nav %}
+		{% include nav_list.html nav=page.sidebar.nav %}
+		{% endif %}
+	</aside>
+</div>
+
+{% endif %}

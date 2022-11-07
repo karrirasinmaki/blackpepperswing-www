@@ -6,25 +6,50 @@
 *   If you set »published: false« in front matter of a collection page 
 *   the page gots filtered out via unless
 *
-*   Example: {% include grid cols=3 collection=site.teachers template='teacher-snippet.html' %}
+*   Example: {% include grid cols=3 cols_m=3 cols_s=1 entries=6 collection=site.teachers template='teacher-snippet.html' %}
 *   
 {% endcomment %}
 
+{% assign old_entry = entry %}
+
+{% assign classlist = "columns" %}
+{% assign rowclasslist = "row" %}
+
+{% assign colcount = include.cols_s | default: 1 %}
+{% assign colclass = 12 | divided_by: colcount %}
+{% assign classlist = classlist | append: " small-" | append: colclass %}
+{% assign rowclasslist = rowclasslist | append: " cols_s-" | append: colcount %}
+
+{% assign colcount = include.cols_m | default: include.cols | default: 3 %}
+{% assign colclass = 12 | divided_by: colcount %}
+{% assign classlist = classlist | append: " medium-" | append: colclass %}
+{% assign rowclasslist = rowclasslist | append: " cols_m-" | append: colcount %}
+
 {% assign colcount = include.cols | default: 3 %}
 {% assign colclass = 12 | divided_by: colcount %}
+{% assign classlist = classlist | append: " large-" | append: colclass %}
+{% assign rowclasslist = rowclasslist | append: " cols-" | append: colcount %}
 
-<div class="row">
+{% assign rowclasslist_extra = "" %}
+
+<div>
 	{% assign i = 0 %}
+	{% assign old_entry = entry %}
 	{% for entry in include.collection limit:include.entries %}
 		{% unless entry.published == false %}
 			{% assign i_modulo = i | modulo: colcount %}
-			{% if i > 1 and i_modulo == 0 %}
-				</div><div class="row">
+			{% if i == 0 or i > 1 and i_modulo == 0 %}
+				{% assign colsleft = include.collection.size | minus: i %}
+				{% assign rowclasslist_extra = "cols-left-" | append: colsleft %}
+				</div><div class="{{ rowclasslist }} {{ rowclasslist_extra }}">
 			{% endif %}
-			<div class="large-{{ colclass }} columns">
+			<div class="{{ classlist }}">
 				{% include {{include.template}} %}
 			</div>
 			{% assign i = i | plus: 1 %}
 		{% endunless %}
 	{% endfor %}
+	{% assign entry = old_entry %}
 </div>
+
+{% assign entry = old_entry %}

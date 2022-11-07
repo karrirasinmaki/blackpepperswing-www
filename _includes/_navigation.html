@@ -1,5 +1,5 @@
-
-<div id="navigation" class="fixed sticky">
+<div id="navigation-bg" class="fixed"><div class="top-bar"></div></div>
+<div id="navigation" class="fixed -sticky">
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
@@ -27,7 +27,7 @@
               {% elsif link.url == '#' %}
                 {% assign domain = '' %}
               {% else %}
-                {% assign domain = site.url %}
+                {% assign domain = site.url + site.baseurl %}
               {% endif %}
 
           {% comment %}   If there are links for right side begin   {% endcomment %}
@@ -35,25 +35,27 @@
             {% comment %}   If right side WITHOUT dropdown menu do   {% endcomment %}
             {% if link.dropdown == nil %}
               <li class="divider"></li>
-              <li{% if link.url == page.url %} class="active"{% endif %}><a href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a></li>
+              <li class="{% if link.url == page.url %}active{% endif %} type-{{ link.type | default:'normal' }}"><a href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a></li>
 
             {% comment %}   If right side WITH dropdown menu do   {% endcomment %}
             {% else %}
 
               <li class="divider"></li>
               <li class="has-dropdown{% if link.url == page.url %} active{% endif %}">
-                <a href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a>
+                <a href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a>
 
                   <ul class="dropdown">
                     {% for dropdown_link in link.dropdown %}
 
                       {% if dropdown_link.url contains 'http' %}
                         {% assign domain = '' %}
-                        {% else %}
-                        {% assign domain = site.url %}
+                      {% elsif dropdown_link.url == '#' %}
+                        {% assign domain = '' %}
+                      {% else %}
+                        {% assign domain = site.url + site.baseurl %}
                       {% endif %}
 
-                      <li><a href="{{ domain }}{{ site.baseurl }}{{ dropdown_link.url }}"{% if dropdown_link.url contains 'http' %} target="_blank"{% endif %}>{{ dropdown_link.title | escape }}</a></li>
+                      <li><a href="{{ domain }}{{ dropdown_link.url }}"{% if dropdown_link.url contains 'http' %} target="_blank"{% endif %}>{{ dropdown_link.title | escape }}</a></li>
                     {% endfor %}
                   </ul>
                   
@@ -62,13 +64,6 @@
           {% endif %}
         {% endfor %}
         {% comment %}   First loop finished 1   {% endcomment %}
-      </ul>
-      <ul class="right language-selector">
-        {% if site.languages.size > 1 %}
-          {% for tongue in site.languages %}
-          <li><a class="{% if tongue == site.active_lang %}active{% endif %}" href="{% if tongue == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}">{{ tongue }}</a></li>
-          {% endfor %}
-        {% endif %}
       </ul>
 {% comment %}
 
@@ -81,6 +76,19 @@
 
 {% endcomment %}
       <ul class="left">
+
+        {% if site.languages.size > 1 %}
+        <ul class="right language-selector">
+          <li class="type-divider"><a href="#">|</a></li>
+          <li class="has-dropdown">
+            <a href="">{{ site.active_lang | upcase }}</a>
+            <ul class="dropdown">
+              {% include lang-selector.html %}
+            </ul>
+          </li>
+        </ul>
+        {% endif %}
+
         {% for link in site.data.navigation %}
 
               {% if link.url contains 'http' %}
@@ -88,7 +96,7 @@
               {% elsif link.url == '#' %}
                 {% assign domain = '' %}
               {% else %}
-                {% assign domain = site.url %}
+                {% assign domain = site.url + site.baseurl %}
               {% endif %}
 
           {% comment %}   If there are links for left side begin   {% endcomment %}
@@ -96,25 +104,27 @@
 
             {% comment %}   If left side WITHOUT dropdown menu do   {% endcomment %}
             {% if link.dropdown == nil %}
-              <li{% if link.url == page.url %} class="active"{% endif %}><a href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a></li>
+              <li{% if link.url == page.url %} class="active"{% endif %}><a href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a></li>
               <li class="divider"></li>
 
             {% comment %}   If left side WITH dropdown menu do   {% endcomment %}
             {% else %}
 
               <li class="has-dropdown{% if link.url == page.url %} active{% endif %}">
-                <a href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a>
+                <a href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a>
 
                   <ul class="dropdown">
                     {% for dropdown_link in link.dropdown %}
 
                       {% if dropdown_link.url contains 'http' %}
                         {% assign domain = '' %}
-                        {% else %}
-                        {% assign domain = site.url %}
+                      {% elsif dropdown_link.url == '#' %}
+                        {% assign domain = '' %}
+                      {% else %}
+                        {% assign domain = site.url + site.baseurl %}
                       {% endif %}
 
-                      <li><a href="{{ domain }}{{ site.baseurl }}{{ dropdown_link.url }}"{% if dropdown_link.url contains 'http' %} target="_blank"{% endif %}>{{ dropdown_link.title | escape }}</a></li>
+                      <li><a href="{{ domain }}{{ dropdown_link.url }}"{% if dropdown_link.url contains 'http' %} target="_blank"{% endif %}>{{ dropdown_link.title | escape }}</a></li>
                     {% endfor %}
                   </ul>
                   

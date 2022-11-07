@@ -16,18 +16,22 @@
   }
 
   function resizeIframe(iframe) {
+    var ratioxW = 9/16;
+    var ratioxH = 16/9;
     var videoDiv = iframe.parentElement;
     var containerHeight = videoDiv.clientHeight;
     var containerWidth = videoDiv.clientWidth;
-    var iframeHeight = (9/16) * containerWidth;
+    var iframeHeight = containerHeight; //(9/16) * containerWidth;
     var iframeWidth = containerWidth;
     var iframeTop = 0;
-    var iframeLeft = (containerWidth - iframeWidth) / 2;
-    if (containerHeight > containerWidth) {
-      iframeHeight = containerHeight;
-      iframeWidth = (16/9) * containerHeight;
+    var iframeLeft = 0;
+    if (iframeHeight > iframeWidth * ratioxW) {
+      iframeWidth = iframeHeight * ratioxH;
+      iframeLeft = (containerWidth - iframeWidth) / 2;
+    }
+    else if (iframeWidth > iframeHeight * ratioxH) {
+      iframeHeight = iframeWidth * ratioxW;
       iframeTop = (containerHeight - iframeHeight) / 2;
-      iframeLeft = 0;
     }
     iframe.setAttribute("height", iframeHeight);
     iframe.setAttribute("width", iframeWidth);

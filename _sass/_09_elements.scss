@@ -12,7 +12,11 @@
 - Frontpage Widget
 - img em
 - Gif Reveal
+- Thumbnail stack
+- Simple carousel (in progress)
 - Article media
+- Flex video
+- Topbar overrides
 
 */
 
@@ -20,11 +24,16 @@
 /* Floating head
 ------------------------------------------------------------------- */
 
-#floating-head {
+.floating-head {
+  z-index: 70;
   position: fixed;
   right: 0;
   bottom: 0;
-  padding: 0em 1em;
+  margin: 0em 1em;
+  @media #{$small-only} {
+    position: relative;
+  }
+
   .speech-bubble, .head {
     transition: 0.4s ease transform;
     transform-origin: right center;
@@ -46,8 +55,13 @@
   }
   .speech-bubble {
     position: relative;
-    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 5.4em;
     box-shadow: 2px 1px 2px black;
+    @media #{$small-only} {
+      padding: 0.8em;
+    }
     &::after {
       left: 100%;
       top: 50%;
@@ -61,16 +75,54 @@
       border-width: 10px;
       margin-top: -10px;
     }
-    @media #{$small-only} {
-      display: none;
-    }
   }
   .head {
-    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -2.1em;
     width: 4.2em;
     height: 4.2em;
+    border-radius: 100%;
     box-shadow: 2px 1px 2px black;
   }
+}
+
+
+/* "Read more" element
+------------------------------------------------------------------- */
+
+.read-more-wrapper {
+
+  .more-trigger {
+    display: none;
+  }
+
+  .more-button {
+    margin-top: -0.6em;
+    transform: translateY(0em);
+    transition: 0.2s transform;
+  }
+  .more-trigger:checked~.more-button {
+    display: none;
+  }
+
+  .more-content {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 6em;
+    overflow: hidden;
+  }
+  .more-content-tall {
+    max-height: 21em;
+  }
+  .more-trigger:not(:checked)+.more-content {
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(0.7, #000), to(rgba(0,0,0,0)));
+  }
+  .more-trigger:checked+.more-content {
+    max-height: 9999em;
+  }
+
 }
 
 
@@ -118,17 +170,6 @@
   font-family: $font-family-sans-serif;
   text-shadow: 0px 1px 1px rgba(0,0,0,0.9);
 } 
-  .alert-box p {
-    margin-bottom: 0;
-  } 
-  .alert-box a {
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
-    color: #fff;
-    border-bottom: 1px dotted #fff;
-  }
-  .alert-box a:hover {
-    border-bottom: 1px solid #fff;
-  }
   .alert-box.terminal {
     background: $grey-12; 
     color: #fff; 
@@ -175,12 +216,17 @@ button, .button         { letter-spacing: 1px; }
 /* Accordion
 ------------------------------------------------------------------- */
 
-dl.accordion  { border-top: 1px solid $grey-2;  }
-.accordion dd   { border-bottom: 1px solid $grey-2;  }
-dd.accordion-navigation span { padding-right: 12px; }
-dd.accordion-navigation span:before { content: "\F107" }
-dd.accordion-navigation.active span:before { content: "\F105" }
-dd.accordion-navigation.active span:before { content: "\F105" }
+dl.accordion { border-top: 1px solid $grey-2; }
+.accordion dd { border-bottom: 1px solid $grey-2; }
+.accordion-navigation > a {
+  position: relative;
+}
+.accordion-navigation > a:before {
+  content: "▾";
+  position: absolute;
+  right: 12px;
+}
+.accordion-navigation.active > a:before { content: "▴"; }
 
 
 
@@ -232,22 +278,91 @@ img + em {
   }
 }
 
+/* Thumbnail stack
+------------------------------------------------------------------- */
+
+.thumbnail-stack {
+  position: relative;
+  img { width: 100%; }
+
+  > .alternative-thumbnails {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    .thumbnail-seeker {
+      z-index: 2;
+      width: 100%;
+      height: 100%;
+    }
+    .thumbnail-seeker:hover + img { opacity: 1; }
+    img {
+      z-index: 1;
+      position: absolute;
+      left: 0;
+      top: 0;
+      opacity: 0;
+      transition: 0.2s opacity;
+    }
+  }
+}
+
+/* Simple carousel
+------------------------------------------------------------------- */
+
+.simple-carousel {
+  overflow: scroll-x;
+  .carousel-content {
+    .item {
+      margin: 1em 0;
+    }
+  }
+}
+
 /* Article media
 ------------------------------------------------------------------- */
 
+div.article-media {
+  @media #{$medium-up} {
+    margin-left: -2%;
+    width: 104%;
+  }
+}
+
 .article-media {
+  overflow: hidden;
   iframe, img, video {
     width: 100%;
     max-width: 100%;
   }
   @media #{$medium-up} {
-    margin-left: -4%;
-    width: 104%;
 
-    &.small-left {
+    &.pull-left {
       float: left;
       margin-left: -29%;
       margin-right: 2%;
+      width: 129%;
+      .fb-post, .fb-video {
+        float: right;
+      }
+    }
+    &.pull-right {
+      float: right;
+      margin-right: -29%;
+      margin-left: 2%;
+      width: 129%;
+      .fb-post, .fb-video {
+        float: left;
+      }
+    }
+    &.small-left {
+      float: left;
+      margin-left: -29%;
+      margin-right: 5%;
       width: 64%;
       .fb-post, .fb-video {
         float: right;
@@ -256,7 +371,7 @@ img + em {
     &.small-right {
       float: right;
       margin-right: -29%;
-      margin-left: 2%;
+      margin-left: 5%;
       width: 64%;
       .fb-post, .fb-video {
         float: left;
@@ -269,3 +384,81 @@ img + em {
     }
   }
 }
+
+/* Flex video
+------------------------------------------------------------------- */
+
+.flex-video-youtube {
+  @include flex-video-container();
+
+  // hiding yt topbar - fallback if rem not supported
+  padding-top: 130px; // fallback
+  margin-top: 26px;
+  margin-bottom: -65px + 26px;
+
+  // hiding yt topbar
+  padding-top: 8rem; // YouTube player top bar height
+  margin-top: 1.6rem;
+  margin-bottom: -4rem + 1.6rem;
+
+  iframe {
+    top: -4rem;
+  }
+}
+
+/* Topbar overrides
+------------------------------------------------------------------- */
+
+body.f-topbar-fixed {
+  padding-top: 0 !important;
+}
+
+#navigation {
+  z-index: 83;
+}
+
+#navigation-bg {
+  z-index: 81;
+  background: $topbar-background;
+}
+
+#navigation, #navigation-bg {
+  padding: 6px;
+}
+
+.top-bar {
+  &.expanded {
+    background: $topbar-menu-bg-mobile;
+  }
+  .top-bar-section > ul > li {
+    margin: 0 $topbar-link-margin;
+    > a {
+      border-radius: 6px / 12px;
+    }
+  }
+  li.type-divider {
+    pointer-events: none;
+  }
+  &:not(.expanded) {
+    li.has-dropdown {
+      a {
+        z-index: 99;
+        position: relative;
+      }
+      .dropdown {
+        z-index: 98;
+        border-radius: 5px;
+        background: $topbar-dropdown-link-bg;
+        $dropdown-padding-x: $topbar-link-padding;
+        $dropdown-padding-top: $topbar-height*0.1;
+        top: -$dropdown-padding-top;
+        left: -$dropdown-padding-x/2;
+        right: -$dropdown-padding-x/2;
+        padding: $topbar-height*1.2 $dropdown-padding-x/2 0 $dropdown-padding-x/2;
+      }
+    }
+  }
+}
+
+
+

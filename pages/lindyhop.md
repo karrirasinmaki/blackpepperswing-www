@@ -1,6 +1,6 @@
 ---
-meta_title: What is Lindy Hop?
-meta_description: Lindy hop, also called Jitterbug, is known as the ”original” afro-american swing dance. Rhytmic and joyful couple dance, danced to fast and slow jazz music as it was played e.g. by Duke Ellington, Count Basie or Benny Goodman.
+title: What is Lindy Hop?
+description: Lindy hop, also called Jitterbug, is known as the ”original” afro-american swing dance. Rhytmic and joyful couple dance, danced to fast and slow jazz music as it was played e.g. by Duke Ellington, Count Basie or Benny Goodman.
 
 header:
   shadow_opacity: 0
@@ -8,12 +8,16 @@ header:
 iframe:
   src: https://www.youtube.com/embed/hrAMDTchIxY?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;enablejsapi=1
 
+sitemap:
+  priority: 1
 permalink: "/lindyhop/"
 ---
 
 # What is Lindy hop...
 
 Lindy hop is often referred to as swing dancing. That’s pretty logical because we Lindy hoppers lindy hop on swing music. Swing music was the prevailing popular music style in 1920-40’s America. Young folks of those days would go out and swing out all night long in crowded ballrooms. They called their dance “the Lindy”. And “the Lindy” was already a game changer back then: It brought black and white Americans alike to the same dance floors. Up to this day Lindy hop keeps changing people's lives. 
+
+<!--more-->
 
 # ...and why you should do it, too
 
@@ -38,7 +42,7 @@ The band will be playing again at In the Mood -tanssiaiset Valkoisessa salissa 1
 We all have had those empty evenings when we just scroll the whole night through cat clips and wonder what went wrong in our life. Well, actually, Lindy hop might help you to have less of those evenings. Just fill in with a couple of Lindy classes and socials per week and you might soon find your calendar flooded with all kind of dance or dance-people-related activities. 
 
 <div class="article-media small-right">
-  <div class="fb-post" data-href="https://www.facebook.com/photo.php?fbid=10154177589213621&amp;set=g.199294950203088&amp;type=1&amp;theater&amp;ifg=1" data-width="400" data-show-text="false"><blockquote cite="https://www.facebook.com/photo.php?fbid=10154177589213621&amp;set=gm.901321743333735&amp;type=3" class="fb-xfbml-parse-ignore">Posted by <a href="#" role="button">Minna Marttila</a> on&nbsp;<a href="https://www.facebook.com/photo.php?fbid=10154177589213621&amp;set=gm.901321743333735&amp;type=3">Wednesday, 12 October 2016</a></blockquote></div>
+  <div class="fb-post" data-href="https://www.facebook.com/tuesdaynighthop/photos/a.273298410050618/326920944688364/?type=3" data-width="500" data-show-text="false"><blockquote cite="https://developers.facebook.com/tuesdaynighthop/photos/a.273298410050618/326920944688364/?type=3" class="fb-xfbml-parse-ignore">Posted by <a href="https://www.facebook.com/tuesdaynighthop/">Tuesday Night Hop</a> on&nbsp;<a href="https://developers.facebook.com/tuesdaynighthop/photos/a.273298410050618/326920944688364/?type=3">Wednesday, 24 April 2019</a></blockquote></div>
 </div>
 
 
@@ -95,4 +99,4 @@ We live in a digitalized world. Work, school and a big part of our social life h
 ## Sign up for Beginners courses
 No partner or previous dance experience required
 
-<a class="button" href="https://portal.blackpepperswing.com/courses?tab=overview&q=beginners" target="_blank">Show all beginners' courses</a>
+<a class="button" href="{{ site.url }}/courses-for-beginners">Show all beginners' courses</a>

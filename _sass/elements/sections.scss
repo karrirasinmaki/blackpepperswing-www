@@ -1,0 +1,68 @@
+.hero-showcase {
+}
+
+.row.container {
+	position: relative;
+}
+
+.row.align-items {
+	&-start {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-start;
+	}
+	&-end {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-end;
+	}
+	&-center {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+}
+
+.row.height-max {
+	min-height: 100%;
+	min-height: 100vh;
+}
+
+.row.width-max {
+	min-width: 100%;
+	overflow: hidden;
+}
+
+.width-medium {
+	width: 100%;
+	max-width: 400px;
+	&.align-center {
+		margin: 0 auto;
+	}
+}
+
+.columns.bg {
+	position: absolute;
+	top: 0;
+	height: 100%;
+}
+
+.columns.bg, .columns.bg-color, .row.bg-color {
+	&.color-bg {
+		background-color: $color-bg;
+	}
+	&.color-main {
+		background-color: $color-main;
+	}
+	&.color-contrast {
+		background-color: $color-contrast;
+	}
+	&.color-accent {
+		background-color: $color-accent;
+	}
+}
+
+.columns.aside > * {
+	margin: 0 auto;
+}
+

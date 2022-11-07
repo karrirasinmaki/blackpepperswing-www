@@ -2,37 +2,61 @@
 layout: default
 format: video
 ---
-<div class="row">
-	<div class="small-12 columns">
-		<article itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
-			<div class="flex-video">
-				{{ page.iframe}}
+
+{% include videoparams %}
+
+<article class="video" itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+	<div class="container-video">
+		<div class="row">
+			<div class="small-12 columns">
+				<div id="embed-video-container" class="flex-video-youtube">
+					{% if page.iframe %}
+						{{ page.iframe}}
+					{% else %}
+						<iframe id="embed-video-player" width="560" height="315" src="{{ embedlUrl }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					{% endif %}
+					<meta itemprop="thumbnail" content="{{ thumbnailUrl }}" />
+					<meta itemprop="contentUrl" content="{{ contentUrl }}" />
+					<meta itemprop="embedUrl" content="{{ embedlUrl }}" />
+				</div>
 			</div>
-
-			<div class="row">
-				<div class="medium-offset-2 medium-8 end columns">
-					<header>
-						{% if page.subheadline %}<p class="subheadline t30">{{ page.subheadline }}</p>{% endif %}
-						<h1 itemprop="name">{{ page.title }}</h1>
-					</header>
-
-					{% if page.video.thumbnailUrl %}<meta itemprop="thumbnailUrl" content="{{ page.video.thumbnailUrl }}" />{% endif %}
-					{% if page.video.contentURL %}<meta itemprop="contentURL" content="{{ page.video.contentURL }}" />{% endif %}
-					{% if page.video.embedURL %}<meta itemprop="embedURL" content="{{ page.video.embedURL }}" />{% endif %}
-
-					{% if page.teaser %}
-					<p class="teaser" itemprop="description">
-						{{ page.teaser }}
-					</p>
-					{% endif %}
-
-					{{ content }}
-					{% if page.show_meta == true %}
+		</div>
+	</div>
+	<div class="container-video-header">
+		<div class="row">
+			<div class="medium-offset-2 medium-8 end columns">
+				<header>
+					{% if page.subheadline %}<p class="subheadline t30">{{ page.subheadline }}</p>{% endif %}
+					<h1 itemprop="name">{{ page.title }}</h1>
+				</header>
+				{% if page.show_meta %}
 					{% include _meta_information.html %}
-					{% endif %}
-				</div><!-- /.medium-8.columns -->
-			</div><!-- /.row -->
-		</article>
+				{% endif %}
+				<p class="teaser" itemprop="description">
+					{{ page.teaser }}
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="medium-offset-2 medium-8 end columns">
+			{{ content }}
+		</div><!-- /.medium-8.columns -->
+	</div><!-- /.row -->
+</article>
 
-	</div><!-- /.small-12.columns -->
-</div><!-- /.row -->
+<script>
+	function getEmbedVideoInfo(info) {
+		console.log(info)
+		// + 4rem extra for youtube top bar
+		var videoContainer = document.querySelector("#embed-video-container")
+		var video = videoContainer.querySelector("iframe")
+		videoContainer.style.paddingBottom = (info.height / info.width)*100 + '%'
+	}
+	(function() {
+		var jsonpCall = document.createElement('script')
+		jsonpCall.src = 'https://noembed.com/embed?url={{ contentUrl | cgi_escape }}&callback=getEmbedVideoInfo'
+		jsonpCall.setAttribute('async', true)
+		document.querySelector('body').appendChild(jsonpCall)
+	})()
+</script>

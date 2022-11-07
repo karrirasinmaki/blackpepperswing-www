@@ -1,0 +1,95 @@
+#
+#   Navigation to the left › side: left
+#
+
+#
+#   Navigation to the right › side: right
+#
+
+# - title: "Helsinki"
+#   url: "/helsinki/"
+#   side: right
+# 
+# - title: "Tampere"
+#   url: "/tampere/"
+#   side: right
+# 
+# - title: "Jyväskylä"
+#   url: "/jyvaskyla/"
+#   side: right
+
+- title: "Lindy Hop?"
+  url: "/lindyhop/"
+  side: right
+
+- title: "Vuokraa tanssisali"
+  url: "/studio-rental/"
+  side: right
+
+- title: "Ilmoittaudu"
+  url: "/courses"
+  side: right
+
+- title: "Meistä"
+  url: "/about-us/"
+  side: right
+  dropdown:
+  - title: "Meidän tarina"
+    url: "/about-us/"
+  - title: "Palvelut"
+    url: "/services/"
+  - title: "Opettajat"
+    url: "/teachers/"
+  - title: "Info"
+    url: "/info/"
+
+- title: "Kurssit"
+  url: "/courses/"
+  side: right
+  dropdown:
+  - title: "Aikataulu"
+    url: "/courses/"
+  - title: "Alkeiskurssit"
+    url: "/courses-for-beginners/"
+  - title: "Roadmap"
+    url: "/roadmap/"
+  - title: "10-kortti"
+    url: "/punch-cards/"
+
+- title: "Tapahtumat"
+  url: "/events/"
+  side: right
+
+- title: "Ota yhteyttä"
+  url: "/contact/"
+  side: right
+
+- title: "Uutiset"
+  url: "/news/"
+  side: right
+
+- title: "|"
+  url: "#"
+  type: "divider"
+  side: right
+
+
+- title: "Lisää"
+  side: right
+  dropdown:
+  - title: "Kauppa"
+    url: "https://holvi.com/shop/blackpepperswing/"
+  - title: "Kirjasto"
+    url: "https://library.blackpepperswing.com/"
+  - title: "Portaali"
+    url: "https://portal.blackpepperswing.com/"
+
+# 
+# - title: "Info"
+#   url: "/info/"
+#   side: right
+# 
+# - title: Blog
+#   url: "/blog/"
+#   side: right
+#

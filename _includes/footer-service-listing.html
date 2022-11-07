@@ -10,7 +10,11 @@
   {% for service_item in include.collection %}
     {% if service_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = site.baseurl %}{% endif %}
     <li {% if service_item.class %}class="{{ service_item.class }}" {% endif %}>
-      <a href="{{ domain }}{{ service_item.url }}" {% if service_item.url contains 'http' %}target="_blank" {% endif %} title="{{ service_item.title }}">{{ service_item.name }}</a>
+      {% if service_item.url %}
+      <a href="{{ domain }}{{ service_item.url }}" {% if service_item.url contains 'http' %}target="_blank" {% endif %} title="{% if service_item.title %}{{ service_item.title }}{% else %}{{ service_item.name }}{% endif %}">{{ service_item.name }}</a>
+      {% else %}
+        <span>{{ service_item.name }}</span>
+      {% endif %}
     </li>
   {% endfor %}
 </ul>

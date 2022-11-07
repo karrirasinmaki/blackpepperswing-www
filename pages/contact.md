@@ -6,6 +6,8 @@ image:
   caption: Artist Unknown | Helsinkikuvia.fi
   caption_url: https://www.helsinkikuvia.fi/
 
+sitemap:
+  priority: 0.96
 permalink: "/contact/"
 ---
 
@@ -13,7 +15,13 @@ Do you have ideas for courses? Feedback? Or you look for a performance at your e
 
 {{ site.title }}  
 {{ site.email }}  
-{{ site.tel }}
+{{ site.tel }}  
 
-{% assign facebook = site.data.socialmedia | where: "name","Facebook" | first %}
-[You can find us on Facebook]({{ facebook.url }})
+Address: {{ site.address }}  
+
+
+### Find us on social media
+
+<div class="t15">
+  {% include some-row.html %}
+</div>

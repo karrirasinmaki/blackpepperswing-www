@@ -1,6 +1,6 @@
 ---
 name: "Sara Mallinen"
-dances: Collegiate Shag
+dances: Lindy Hop
 bio: ""
 ---
 

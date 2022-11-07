@@ -1,25 +1,41 @@
 const gulp = require('gulp');
 const imageResize = require('gulp-image-resize');
 const imagemin = require('gulp-imagemin');
-const { exec } = require('child_process');
+const { exec, spawn1 } = require('child_process');
 const runSequence = require('run-sequence');
+const plumber = require('gulp-plumber');
 
-function doExec(buildline) {
-  console.log(buildline);
-  return exec(buildline, (err, stdout, stderr) => {
-    if (err) {
-      // node couldn't execute the command
-      console.log('Error', err);
-      return;
+let HOST = "0.0.0.0";
+
+const spawn = (function() {
+    var childProcess = require("child_process");
+    var oldSpawn = childProcess.spawn;
+    function mySpawn() {
+        console.log('spawn called');
+        console.log(arguments);
+        var result = oldSpawn.apply(this, arguments);
+        return result;
     }
-    // the *entire* stdout and stderr (buffered)
-    console.log(`stdout: ${stdout}`);
-    console.log(`stderr: ${stderr}`);
-  });
+    return mySpawn;
+})();
+
+function doExec(buildline, done=null) {
+  console.log(buildline);
+  let cmd = buildline.split(' ');
+  let child = spawn(cmd.shift(), cmd);
+  child.stdout.on('data', (data) => console.log(data.toString()));
+  child.stderr.on('data', (data) => console.log(data.toString()));
+  if (done) {
+    child.on('exit', () => {
+      done();
+    });
+  }
+  return child
 }
 
 function resizeImagesThumb() {
-  return gulp.src('_images/**/*')
+  return gulp.src('_original_images/**/*')
+    .pipe(plumber())
     .pipe(imageResize({
       width : 300,
       height : 300,
@@ -32,7 +48,8 @@ function resizeImagesThumb() {
 }
 
 function resizeImagesCover() {
-  return gulp.src('_images/**/*')
+  return gulp.src('_original_images/**/*')
+    .pipe(plumber())
     .pipe(imageResize({
       width : 1440,
       height : 716,
@@ -45,7 +62,8 @@ function resizeImagesCover() {
 }
 
 function resizeImagesLarge() {
-  return gulp.src('_images/**/*')
+  return gulp.src('_original_images/**/*')
+    .pipe(plumber())
     .pipe(imageResize({
       width : 1366,
       crop : false,
@@ -56,15 +74,46 @@ function resizeImagesLarge() {
     .pipe(gulp.dest('images/large'));
 }
 
+function resizeImagesMedium() {
+  return gulp.src('_original_images/**/*')
+    .pipe(plumber())
+    .pipe(imageResize({
+      width : 620,
+      crop : false,
+      upscale : false,
+      quality: 0.85,
+      imageMagick: true
+    }))
+    .pipe(gulp.dest('images/medium'));
+}
+
+function resizeImagesSmall() {
+  return gulp.src('_original_images/**/*')
+    .pipe(plumber())
+    .pipe(imageResize({
+      width : 320,
+      crop : false,
+      upscale : false,
+      quality: 0.75,
+      imageMagick: true
+    }))
+    .pipe(gulp.dest('images/small'));
+}
+
 function optimizeImages() {
-  return gulp.src(['_images/**/*', 'images/**/*'])
+  return gulp.src(['_original_images/**/*', 'images/**/*'])
+    .pipe(plumber())
     .pipe(imagemin([
-      imagemin.jpegtran({ progressive: true })
-    ]))
+      imagemin.mozjpeg({ quality: 72, progressive: true })
+    ], {
+      verbose: true
+    }).on('error', (e) => {
+      console.warn(e)
+    }))
     .pipe(gulp.dest('images'));
 }
 
-function buildJekyll(env) {
+function buildJekyllCmd(env) {
   var buildline = 'bundle exec jekyll build --config _config.yml';
   if (env === 'production') {
     buildline = 'JEKYLL_ENV=production ' + buildline;
@@ -73,52 +122,62 @@ function buildJekyll(env) {
     buildline = buildline + ',_config_firebase.yml';
   }
   else if (env === 'local') {
-    buildline = buildline.replace('jekyll build', 'jekyll serve') + ',_config_dev.yml --watch';
+    buildline = buildline.replace('jekyll build', 'jekyll serve') + ',_config_dev.yml --host '+HOST+' --watch --trace --livereload --livereload-port 9005 --incremental';
   }
-  return doExec(buildline);
+  return buildline;
 }
 
 gulp.task('resize_images_thumb', () => resizeImagesThumb());
 gulp.task('resize_images_large', () => resizeImagesLarge());
+gulp.task('resize_images_medium', () => resizeImagesMedium());
+gulp.task('resize_images_small', () => resizeImagesSmall());
 gulp.task('resize_images_cover', () => resizeImagesCover());
-
-gulp.task('resize_images', ['resize_images_thumb', 'resize_images_large', 'resize_images_cover'], () => {});
 gulp.task('optimize_images', () => optimizeImages());
 
-gulp.task('default', () => {
+gulp.task('resize_images', gulp.series(
+  gulp.parallel(
+    'resize_images_thumb',
+    'resize_images_large',
+    'resize_images_medium',
+    'resize_images_small',
+    'resize_images_cover'
+  )
+));
+
+gulp.task('default', (done) => {
   console.log(`
   install - install bundle
   images - build images
   build - build all
   build-lightweight - lightweight build (no image procesing)
   build-dev - build all for dev
+  serve - serve localhost
   `);
+  done();
 });
 
-gulp.task('install', () => {
-  doExec('bundle install --jobs=4 --retry=3 --path ./vendor/bundle');
+gulp.task('install', (done) => {
+  doExec('bundle install --jobs=4 --retry=3 --path ./vendor/bundle', done);
 });
 
-gulp.task('images', (cb) => {
-  runSequence('resize_images', 'optimize_images', cb);
+gulp.task('images', gulp.series('resize_images', (done) => {
+  done();
+}));
+
+gulp.task('build-jekyll', (done) => {
+  return doExec(buildJekyllCmd('production'), done);
 });
 
-gulp.task('build-jekyll', () => {
-  buildJekyll('production');
-});
+gulp.task('build', gulp.series('images', 'build-jekyll', (done) => {
+  done();
+}));
 
-gulp.task('build', (cb) => {
-  runSequence('images', 'build-jekyll', cb);
-});
+gulp.task('build-lightweight', gulp.series('build-jekyll'));
 
-gulp.task('build-lightweight', (cb) => {
-  runSequence('build-jekyll', cb);
-});
+gulp.task('build-dev', gulp.parallel('images', (done) => {
+  doExec(buildJekyllCmd('development'), done);
+}));
 
-gulp.task('build-dev', ['images'], () => {
-  buildJekyll('development');
-});
-
-gulp.task('serve', () => {
-  buildJekyll('local');
+gulp.task('serve', (done) => {
+  doExec(buildJekyllCmd('local'), done);
 });

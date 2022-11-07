@@ -1,0 +1,37 @@
+{% comment %}
+# Custom scripts
+{% endcomment %}
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  $('.slick-carousel').each(function(index) {
+    var el = $(this);
+    var isVertical = el.hasClass("vertical");
+    el.slick({
+      arrows: false,
+      dots: true,
+      vertical: isVertical,
+      verticalSwiping: isVertical,
+      swipeToSlide: true,
+      adaptiveHeight: false,
+      responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2
+            }
+          },
+          {
+            breakpoint: 640,
+            settings: {
+              slidesToShow: 1
+            }
+          }
+        ]
+    });
+  });
+});
+</script>

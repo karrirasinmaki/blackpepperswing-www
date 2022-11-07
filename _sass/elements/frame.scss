@@ -1,0 +1,53 @@
+.frame {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+
+	border-radius: $global-radius;
+
+	> * {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		max-width: 100%;
+		height: auto;
+		margin: auto;
+	}
+	&.cover > * {
+		height: 100%;
+		object-fit: cover;
+	}
+
+	// Aspect ratios flipped: 16/9 -> 9/16
+	&.ultrawide { padding-top: (1/2.35)*100%; }
+	&.landscape { padding-top: (9/16)*100%; }
+	&.square { padding-top: (1/1)*100%; }
+	&.portrait { padding-top: (3/2)*100%; }
+
+	&-container {
+		&.ultrawide { max-width: (2.35/1)*100%; }
+		&.landscape { max-width: (16/9)*100%; }
+		&.square { max-width: (1/1)*100%; }
+		&.portrait { max-width: (2/3)*100%; }
+	}
+
+	&.align {
+		&-left img {
+			object-position: left;
+		}
+		&-center img {
+			object-position: center;
+		}
+		&-right img {
+			object-position: right;
+		}
+		&-top img {
+			object-position: top;
+		}
+		&-bottom img {
+			object-position: bottom;
+		}
+	}
+}

@@ -1,6 +1,40 @@
 - menu_name: ""
 
-- name: "Terms of Service"
-  url: "/info/tos/"
-  title: "Terms of Service"
+- name: "About Us"
+  url: "/about-us/"
 
+- name: "Legal Info"
+  url: "/info/"
+
+- name: "Terms and Privacy"
+  url: "/info/tos/"
+
+- name: "&nbsp;"
+  type: "divider"
+
+- name: "Gift Cards"
+  url: "https://holvi.com/shop/blackpepperswing/section/gift-cards/"
+
+- name: "Private Classes"
+  url: "/services#private-classes"
+
+- name: "Beginners' Courses"
+  url: "/courses-for-beginners/"
+
+- name: "Online Library"
+  url: "https://library.blackpepperswing.com/"
+
+- name: "&nbsp;"
+  type: "divider"
+
+- name: "We are hiring"
+  url: "/rekry/"
+
+- name: "&nbsp;"
+  type: "divider"
+
+- name: "Contact Us"
+  url: "/contact/"
+
+- name: "Services & Pricing"
+  url: "/services/"

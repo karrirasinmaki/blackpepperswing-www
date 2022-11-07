@@ -8,24 +8,39 @@ image:
   caption: Ahola Harri | Helsinkikuvia.fi
   caption_url: https://www.helsinkikuvia.fi/
 
+sitemap:
+  priority: 0.98
 permalink: "/events/"
 ---
 
 ## Special events, workshops and festivals
 
-{% assign events = site.events | where_exp: 'item', 'item.archived != true' | where: 'repeats', 'false' | sort: 'title' | sort: 'date' | sort: 'date_start' | reverse %}
+{% assign events = site.events | where_exp: 'item', 'item.archived != true' | where: 'repeats', 'false' | sort: 'title' | sort: 'date' | sort: 'date_start' %}
 {% include grid.html cols=1 collection=events template='post-snippet.html' %}
+
+
+### Weekly events
+
+{% assign events = site.events | where_exp: 'item', 'item.archived != true' | where: 'repeats', 'weekly' | sort: 'title' | sort: 'order' %}
+{% include grid.html cols=1 collection=events template='post-snippet.html' %}
+{% if events.size == 0 %}
+  There are currently no weekly swing dance events.
+
+  But we have weekly swing dance classes from Monday to Friday.  
+  Check out the course schedule here:  
+  [{{site.url}}/courses](/courses)
+{% endif %}
+
+
+### Upcoming courses and workshops
+
+{% include portal-events.html %}
+
 
 <br>
 <div class="text-center">
   <a href="{{ site.url }}/events/all/">Show all previous events</a>
 </div>
-
-
-## Weekly events
-
-{% assign events = site.events | where_exp: 'item', 'item.archived != true' | where: 'repeats', 'weekly' | sort: 'title' | sort: 'order' %}
-{% include grid.html cols=1 collection=events template='post-snippet.html' %}
 
 <div class="t60 b60">&nbsp;</div>
 

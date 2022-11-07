@@ -1,13 +1,14 @@
 {
   "checksum": {
-    "previous": "c5cdc0a58b7277d1f320a4ad50aa8ae2ad47fa6ed879c164db1cfb75439bd1d9",
-    "current": "c5cdc0a58b7277d1f320a4ad50aa8ae2ad47fa6ed879c164db1cfb75439bd1d9"
+    "previous": "30799fd97a2d3686d17dadffb9521c2cdb748e3c7cd13b115ab1ce266ba78e7d",
+    "current": "30799fd97a2d3686d17dadffb9521c2cdb748e3c7cd13b115ab1ce266ba78e7d"
   },
   "fonts": [
     "./iconfont.ttf",
     "./iconfont.svg",
     "./iconfont.woff",
-    "./iconfont.eot"
+    "./iconfont.eot",
+    "./iconfont.woff2"
   ],
   "glyphs": {
     "archive": {
@@ -174,6 +175,10 @@
       "codepoint": 61735,
       "source": "svg-files-for-custom-font/soundcloud.svg"
     },
+    "spotify": {
+      "codepoint": 61750,
+      "source": "svg-files-for-custom-font/spotify.svg"
+    },
     "star": {
       "codepoint": 61736,
       "source": "svg-files-for-custom-font/star.svg"
@@ -230,8 +235,10 @@
   "options": {
     "autowidth": false,
     "config": "fontcustom.yml",
+    "copyright": "",
+    "css3": false,
     "css_selector": ".icon-{{glyph}}",
-    "debug": false,
+    "debug": true,
     "font_ascent": 448,
     "font_descent": 64,
     "font_design_size": 20,

@@ -22,16 +22,42 @@
   url: "/lindyhop/"
   side: right
 
+- title: "Studio Rental"
+  url: "/studio-rental/"
+  side: right
+
+- title: "Register"
+  url: "/courses"
+  side: right
+
+- title: "About Us"
+  url: "/about-us/"
+  side: right
+  dropdown:
+  - title: "Our Story"
+    url: "/about-us/"
+  - title: "Services"
+    url: "/services/"
+  - title: "Teachers"
+    url: "/teachers/"
+  - title: "Info"
+    url: "/info/"
+
 - title: "Courses"
   url: "/courses/"
   side: right
+  dropdown:
+  - title: "Schedule"
+    url: "/courses/"
+  - title: "Beginners"
+    url: "/courses-for-beginners/"
+  - title: "Roadmap"
+    url: "/roadmap/"
+  - title: "Punch cards"
+    url: "/punch-cards/"
 
 - title: "Events"
   url: "/events/"
-  side: right
-
-- title: "Teachers"
-  url: "/teachers/"
   side: right
 
 - title: "Contact"
@@ -42,13 +68,20 @@
   url: "/news/"
   side: right
 
-- title: "Shop"
-  url: "https://holvi.com/shop/blackpepperswing/"
+- title: "|"
+  url: "#"
+  type: "divider"
   side: right
 
-- title: "Portal"
-  url: "https://portal.blackpepperswing.com/"
+- title: "More"
   side: right
+  dropdown:
+  - title: "Shop"
+    url: "https://holvi.com/shop/blackpepperswing/"
+  - title: "Library"
+    url: "https://library.blackpepperswing.com/"
+  - title: "Portal"
+    url: "https://portal.blackpepperswing.com/"
 
 # 
 # - title: "Info"

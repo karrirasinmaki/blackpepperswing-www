@@ -1,5 +1,17 @@
 {
   "projects": {
     "default": "blackpepperswing"
+  },
+  "targets": {
+    "blackpepperswing": {
+      "hosting": {
+        "production": [
+          "blackpepperswing"
+        ],
+        "staging": [
+          "blackpepperswing-dev"
+        ]
+      }
+    }
   }
 }

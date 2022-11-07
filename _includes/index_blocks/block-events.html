@@ -1,0 +1,11 @@
+<section class="row b30">
+  <div class="medium-12 columns">
+    <h2 class="text-center">{{ site.data.language.upcoming_events }}</h2>
+
+    {% assign events = site.events | where_exp: 'item', 'item.archived != true' | where: 'repeats', 'false' | sort: 'title' | sort: 'date' | sort: 'date_start' %}
+    {% include grid.html cols=2 entries=2 collection=events template='post-snippet.html' %}
+    <div class="text-center t50">
+      <a href="{{ site.baseurl }}/events"><big>{{ site.data.language.show_all_events }}</big></a>
+    </div>
+  </div>
+</section>

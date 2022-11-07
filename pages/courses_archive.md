@@ -8,6 +8,8 @@ permalink: "/course-archive/"
 
 Archive of Black Pepper Swing courses. See the current courses at [Courses page]({{ site.url }}/courses/).
 
+Currently this archive is showing courses only prior March 2019.
+
 {% assign courses = site.archive_courses | sort: 'name' | sort: 'city' | sort: 'date_start' | sort: 'type' | reverse %}
 {% include itemlist-jsonld.html items=courses %}
 

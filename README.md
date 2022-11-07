@@ -10,15 +10,11 @@ To get to know *Feeling Responsive* check out all the features explained in the 
 
 And what license is *Feeling Responsive* released under? [This one][2].
 
-### Feeling Responsive is heavily customizable.
-
-1. Language-Support :)
-2. Optimized for speed and it's responsive.
-3. Built on Foundation Framework.
-4. Six different Headers.
-5. Customizable navigation, footer,...
-
 **[More ›][3]**
+
+## Other dependencies
+
+- Foundation (probably v5)
 
 
 

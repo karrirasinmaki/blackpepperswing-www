@@ -1,3 +1,22 @@
+//
+// keyframes mixin
+//
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content; 
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-o-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  } 
+}
+
+
 // Foundation by ZURB
 // foundation.zurb.com
 // Licensed under MIT Open Source
@@ -248,6 +267,8 @@ $column-gutter: rem-calc(30) !default;
 
 // d. Media Query Ranges
 // - - - - - - - - - - - - - - - - - - - - - - - - -
+
+$include-xl-html-grid-classes: true;
 
 $small-range: (0em, 40em);
 $medium-range: (40.063em, 64em);
