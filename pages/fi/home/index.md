@@ -1,4 +1,5 @@
 ---
+lang: fi
 layout: frontpage
 
 meta_title: Black Pepper Swing

@@ -129,7 +129,7 @@ language: "en"
 
 languages: ["en", "fi"]
 default_lang: "en"
-exclude_from_localization: ["assets", "images", "videos", "_sass"]
+exclude_from_localization: ["assets", "images", "videos", "_sass", "_original_images", "_images", "uploads", "node_modules", "vendor"]
 parallel_localization: true
 lang_from_path: true
 
