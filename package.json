@@ -7,11 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "gulp": "node_modules/gulp/bin/gulp.js",
     "clean": "rm -rf node_modules package-lock.json vendor .bundle",
-    "theme:build": "gem build jekyll-theme-black-pepper-swing.gemspec"
+    "theme:build": "gem build jekyll-theme-black-pepper-swing.gemspec",
+    "build": "npm run gulp build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/karrirasinmaki/feeling-responsive.git"
+    "url": "git+https://github.com/karrirasinmaki/blackpepperswing-www.git"
   },
   "keywords": [
     "jekyll",
@@ -21,9 +22,9 @@
   "author": "Karri Rasinmäki (Intraktio Ltd)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/karrirasinmaki/feeling-responsive/issues"
+    "url": "https://github.com/karrirasinmaki/blackpepperswing-www/issues"
   },
-  "homepage": "https://github.com/karrirasinmaki/feeling-responsive#readme",
+  "homepage": "https://github.com/karrirasinmaki/blackpepperswing-www#readme",
   "devDependencies": {
     "firebase-tools": "^7.1.0",
     "gulp": "^4.0.0",

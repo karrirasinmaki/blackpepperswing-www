@@ -3,7 +3,7 @@ name: Build and deploy Jekyll site to Firebase hosting
 on:
   push:
     branches:
-      - forestry
+      - forestry-never
 
 jobs:
   github-pages:
