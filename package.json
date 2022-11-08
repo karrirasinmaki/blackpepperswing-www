@@ -28,6 +28,7 @@
   "devDependencies": {
     "firebase-tools": "^7.1.0",
     "gulp": "^4.0.0",
+    "gulp-changed": "^4.0.3",
     "gulp-image-resize": "^0.13.0",
     "gulp-imagemin": "^7.1.0",
     "gulp-plumber": "^1.2.1",

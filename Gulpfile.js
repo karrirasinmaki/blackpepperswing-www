@@ -4,6 +4,7 @@ const imagemin = require('gulp-imagemin');
 const { exec, spawn1 } = require('child_process');
 const runSequence = require('run-sequence');
 const plumber = require('gulp-plumber');
+const changed = require('gulp-changed');
 
 let HOST = "0.0.0.0";
 
@@ -34,8 +35,10 @@ function doExec(buildline, done=null) {
 }
 
 function resizeImagesThumb() {
+  let dest = 'images/thumb';
   return gulp.src('_original_images/**/*')
     .pipe(plumber())
+    .pipe(changed(dest))
     .pipe(imageResize({
       width : 300,
       height : 300,
@@ -44,12 +47,14 @@ function resizeImagesThumb() {
       quality: 0.85,
       imageMagick: true
     }))
-    .pipe(gulp.dest('images/thumb'));
+    .pipe(gulp.dest(dest));
 }
 
 function resizeImagesCover() {
+  let dest = 'images/cover';
   return gulp.src('_original_images/**/*')
     .pipe(plumber())
+    .pipe(changed(dest))
     .pipe(imageResize({
       width : 1440,
       height : 716,
@@ -58,12 +63,14 @@ function resizeImagesCover() {
       quality: 0.85,
       imageMagick: true
     }))
-    .pipe(gulp.dest('images/cover'));
+    .pipe(gulp.dest(dest));
 }
 
 function resizeImagesLarge() {
+  let dest = 'images/large';
   return gulp.src('_original_images/**/*')
     .pipe(plumber())
+    .pipe(changed(dest))
     .pipe(imageResize({
       width : 1366,
       crop : false,
@@ -71,12 +78,14 @@ function resizeImagesLarge() {
       quality: 0.85,
       imageMagick: true
     }))
-    .pipe(gulp.dest('images/large'));
+    .pipe(gulp.dest(dest));
 }
 
 function resizeImagesMedium() {
+  let dest = 'images/medium';
   return gulp.src('_original_images/**/*')
     .pipe(plumber())
+    .pipe(changed(dest))
     .pipe(imageResize({
       width : 620,
       crop : false,
@@ -84,12 +93,14 @@ function resizeImagesMedium() {
       quality: 0.85,
       imageMagick: true
     }))
-    .pipe(gulp.dest('images/medium'));
+    .pipe(gulp.dest(dest));
 }
 
 function resizeImagesSmall() {
+  let dest = 'images/small';
   return gulp.src('_original_images/**/*')
     .pipe(plumber())
+    .pipe(changed(dest))
     .pipe(imageResize({
       width : 320,
       crop : false,
@@ -97,12 +108,14 @@ function resizeImagesSmall() {
       quality: 0.75,
       imageMagick: true
     }))
-    .pipe(gulp.dest('images/small'));
+    .pipe(gulp.dest(dest));
 }
 
 function optimizeImages() {
+  let dest = 'images';
   return gulp.src(['_original_images/**/*', 'images/**/*'])
     .pipe(plumber())
+    .pipe(changed(dest))
     .pipe(imagemin([
       imagemin.mozjpeg({ quality: 72, progressive: true })
     ], {
@@ -110,7 +123,7 @@ function optimizeImages() {
     }).on('error', (e) => {
       console.warn(e)
     }))
-    .pipe(gulp.dest('images'));
+    .pipe(gulp.dest(dest));
 }
 
 function buildJekyllCmd(env) {
