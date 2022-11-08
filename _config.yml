@@ -65,6 +65,7 @@ logo: "logo.png"
 webfonts: true
 mediaplayer: false
 
+
 ###
 # Pagination and autopages
 pagination:
