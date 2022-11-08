@@ -1,6 +1,6 @@
 ---
 name: Olga Korchun
-dances: Lindy Hop, Solo Jazz
+dances: Lindy Hop, Solo Jazz & Charleston
 bio: ''
 title: ''
 
