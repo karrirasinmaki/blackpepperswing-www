@@ -8,7 +8,7 @@
     "gulp": "node_modules/gulp/bin/gulp.js",
     "clean": "rm -rf node_modules package-lock.json vendor .bundle",
     "theme:build": "gem build jekyll-theme-black-pepper-swing.gemspec",
-    "build": "npm run gulp build-images && JEKYLL_ENV=production bundle exec jekyll build --config _config.yml"
+    "build": "npm run gulp images && JEKYLL_ENV=production bundle exec jekyll build --config _config.yml"
   },
   "repository": {
     "type": "git",
