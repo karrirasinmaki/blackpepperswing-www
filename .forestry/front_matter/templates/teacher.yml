@@ -30,3 +30,5 @@ fields:
   - type: text
     name: caption
     label: caption
+pages:
+- _teachers/mariapuustinen.md
