@@ -7,7 +7,17 @@ jobs:
   build_and_preview:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '2.7' # Not needed with a .ruby-version file
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+      - uses: actions/cache@v3
+        with: # cache built images
+          path: images
+          key: ${{ runner.os }}-images-${{ hashFiles('**/_original_images/*') }}
+          restore-keys: |
+            ${{ runner.os }}-images-
       - run: npm ci && npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
