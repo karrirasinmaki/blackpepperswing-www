@@ -5,7 +5,7 @@ name: Deploy to Firebase Hosting on merge
 'on':
   push:
     branches:
-      - forestry
+      - master
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
@@ -15,6 +15,12 @@ jobs:
         with:
           ruby-version: '2.7' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+      - uses: actions/cache@v3
+        with: # cache built images
+          path: images
+          key: ${{ runner.os }}-images-${{ hashFiles('**/_original_images/*') }}
+          restore-keys: |
+            ${{ runner.os }}-images-
       - run: npm ci && npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
