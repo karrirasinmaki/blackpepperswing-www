@@ -1,25 +1,24 @@
 ---
-order: 1
-name: "Karri Rasinmäki"
-dances: Lindy Hop, Slow Lindy, Solo Jazz & Charleston
-bio: ""
-
+order: "1"
+name: Karri Rasinmäki
+dances: Lindy Hop, Slow Lindy, Boogie Woogie, Solo Jazz & Charleston
+bio: ''
 layout: page
 title: Karri Rasinmäki
-
 gallery:
 - image_url: karri/karri-ball-heel-slide.jpg
-  caption: "Teaching Black Pepper Swing class. Photo by Alessandro Ituarte (www.alessandroituarte.com)."
+  caption: Teaching Black Pepper Swing class. Photo by Alessandro Ituarte (www.alessandroituarte.com).
 - image_url: karri/karri-balboa-helswingi-2018.jpg
-  caption: "Helswingi 2018. Photo by Eric Bobrie (www.ebobrie.com)."
+  caption: Helswingi 2018. Photo by Eric Bobrie (www.ebobrie.com).
 - image_url: karri/karri-slow-helswingi-2018.jpg
-  caption: "Helswingi 2018. Photo by Eric Bobrie (www.ebobrie.com)."
+  caption: Helswingi 2018. Photo by Eric Bobrie (www.ebobrie.com).
 - image_url: karri/karri-portrait.jpg
-  caption: "Portrait. Photo by Jyri Rasinmäki (www.instagram.com/rasinmaki)."
+  caption: Portrait. Photo by Jyri Rasinmäki (www.instagram.com/rasinmaki).
 - image_url: tanja-karri-polaroid.png
-  caption: "Tanja & Karri, teaching Black Pepper Swing class, autumn 2018. Photo by Adrian Ehrlich (adrianehrlich.com)."
----
+  caption: Tanja & Karri, teaching Black Pepper Swing class, autumn 2018. Photo by
+    Adrian Ehrlich (adrianehrlich.com).
 
+---
 Karri is a locally grown swing dancer from Helsinki, Finland. He entered into the world of dance through Boogie Woogie. Shortly after, other swing dances came along from which Lindy Hop and Blues / Slow Swing made the biggest impact so far. The passion for swing dancing and teaching has led Karri to became a founding member of dance school Black Pepper Swing with Tanja Wingerter.
 
 [Read the story of Black Pepper Swing here.]({{ site.url }}/about-us)
