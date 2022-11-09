@@ -1,16 +1,14 @@
 ---
 layout: post
-
 tags: featured
-
 title: To Tap or to Lindy - that's a question!
 subtitle: Upcoming beginners courses
-teaser: New beginners' courses are starting October 24th (Lindy) and 26th (Tap). Thinking of starting to dance? Start here!
-
+teaser: New beginners' courses are starting October 24th (Lindy) and 26th (Tap). Thinking
+  of starting to dance? Start here!
 image:
   src: tiiti-ninni-bps-alppitalo-01.jpg
----
 
+---
 <div style="max-width: 320px; text-align: center; margin: 2em auto; margin-bottom: 2em;">
   <a class="button" href="#signup">Sign up for beginners' courses</a>
 </div>
