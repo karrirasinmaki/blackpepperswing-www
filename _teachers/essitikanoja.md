@@ -1,6 +1,6 @@
 ---
-name: "Essi Tikanoja"
-dances: Lindy Hop, Tap
-bio: ""
----
+name: Essi Tikanoja
+dances: Tap, Lindy Hop
+bio: ''
 
+---
