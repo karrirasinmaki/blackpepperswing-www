@@ -1,5 +1,10 @@
 ---
-name: "Maria Puustinen"
-bio: ""
----
+name: Maria Puustinen
+bio: ''
+dances: Lindy Hop
+order: 
+layout: ''
+title: ''
+gallery: []
 
+---

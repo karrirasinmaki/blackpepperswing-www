@@ -1,6 +1,6 @@
 ---
-name: "Sara Mallinen"
-dances: Lindy Hop
-bio: ""
----
+name: Sara Mallinen
+dances: ''
+bio: ''
 
+---

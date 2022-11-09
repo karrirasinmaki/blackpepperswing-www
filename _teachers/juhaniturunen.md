@@ -1,6 +1,6 @@
 ---
-name: "Juhani Turunen"
-dances: Lindy Hop
-bio: ""
----
+name: Juhani Turunen
+dances: ''
+bio: ''
 
+---

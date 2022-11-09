@@ -1,0 +1,34 @@
+---
+label: Teacher
+hide_body: false
+fields:
+- type: number
+  name: order
+  label: order
+- type: text
+  name: name
+  label: name
+- type: text
+  name: dances
+  label: dances
+- type: text
+  name: bio
+  label: bio
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: field_group_list
+  name: gallery
+  label: gallery
+  fields:
+  - type: file
+    name: image_url
+    label: image_url
+  - type: text
+    name: caption
+    label: caption
+pages:
+- _teachers/mariapuustinen.md
