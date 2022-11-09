@@ -1,8 +1,7 @@
 ---
-name: Essi Tikanoja
-dances: Tap, Lindy Hop
+name: Hannaleena Markkanen
+dances: Tap
 bio: ''
-title: hannaleenamarkkanen
-published: false
+title: Hannaleena Markkanen
 
 ---
