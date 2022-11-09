@@ -1,8 +1,7 @@
 ---
-name: Tiiti Valonen
+name: Ninni Lankinen
 dances: Lindy Hop
 bio: ''
-title: ninnilankinen
-published: false
+title: Ninni Lankinen
 
 ---
