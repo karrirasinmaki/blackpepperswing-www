@@ -18,11 +18,12 @@ jobs:
           key: ${{ runner.os }}-images-${{ hashFiles('**/_original_images/*') }}
           restore-keys: |
             ${{ runner.os }}-images-
-      - run: npm ci && npm run build
+      - run: npm ci && npm run build-staging
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_BLACKPEPPERSWING }}'
+          channelId: dev
           projectId: blackpepperswing
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
