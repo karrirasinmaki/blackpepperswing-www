@@ -16,7 +16,6 @@ links:
   facebook: https://www.facebook.com/events/867955227908736
 image:
   src: "/images/end-of-year-party-2022.png"
-published: false
 
 ---
 Someone turned off the lights outside, so let’s turn on the lights inside and celebrate the end of the year swinging out together. The dance floor will be hot, and glögi will flow. If you feel inclined, feel free to bring a plate to share.
