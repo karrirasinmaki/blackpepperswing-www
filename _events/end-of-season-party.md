@@ -15,7 +15,7 @@ header:
 links:
   facebook: https://www.facebook.com/events/867955227908736
 image:
-  src: ''
+  src: "/images/end-of-year-party-2022.png"
 published: false
 
 ---
