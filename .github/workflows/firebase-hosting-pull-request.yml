@@ -23,7 +23,8 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_BLACKPEPPERSWING }}'
-          channelId: dev
+          target: staging
+          channeld: live
           projectId: blackpepperswing
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
