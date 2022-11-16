@@ -69,8 +69,8 @@ If you want to pay for the card with vouchers, or BPS Credit, please [contact us
 ### Questions
 
 * **Can I pay for my 10-time-card with vouchers?**  
-  The card can also be purchased with Smartum, Edenred, ePassport and EazyBreak vouchers and balances. In this case, please [contact us](/contact)!  
-  You can also split the payment, e.g. half with vouchers, half with another payment method..
+  The card can also be purchased with Smartum, Edenred, ePassi and EazyBreak vouchers and balances. In this case, please [contact us](/contact)!  
+  You can also split the payment, e.g. half with vouchers, half with another payment method.
 
 * **For how long is the 10-time-card valid?**  
   Season winter-spring 2022 10-cards are valid until the 14th of August.  

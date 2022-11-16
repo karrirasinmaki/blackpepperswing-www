@@ -1,5 +1,5 @@
 ---
-layout: page-fullwidth
+layout: page-wide
 
 title: Services & Pricing
 subheadline: Courses, private classes and teaching services
