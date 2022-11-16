@@ -1,0 +1,65 @@
+options:
+  - title: Dance passes
+    name: dance_passes
+
+###
+# PRICING
+#
+pricing:
+  - title: Tanssipassi (dance pass)
+    price: 110-170€ / kk
+    read_more: /dance-passes
+    description: Kaikki tunnit yhdellä passilla ja selkeällä könttämaksulla.
+  - title: Kurssi-ilmoittautuminen
+    price: 112-288€
+    description: Varaa paikka kurssille, säännölliset tunnit tuo vakautta ja tasaisen kehityksen. Voit usein valita 8 ja 16 viikon jakson väliltä. Lisäkurssit -25%, opiskelijat ja työttömät -20%.
+  - title: 10-kortti
+    price: 148-188€
+    read_more: /punch-cards
+    description: 10 kertakäyntiä millä tahansa tunneilla. Kortin voi myös jakaa useamman henkilön kesken.
+  - title: Yksittäis- ja kokeilutunnit
+    price: 20€
+    description: Kertakäynnillä pääset mukaan kokeilemaan tuntejamme ilman sitoutumista.
+  - title: Valmennus ja yksityistunnit
+    price: 65-75€
+    description: 'Kahdenkeskinen valmennus opettajan kanssa. Vertaa kuntosalin personal trainer, mutta tanssille.'
+    read_more: "https://holvi.com/shop/blackpepperswing/section/private-classes/"
+
+###
+# DANCE PASSES
+#
+dance_passes:
+  - title: Year-around
+    subtitle: DANCE PASS
+    price: 110€ / kk
+    cta: https://buy.stripe.com/14k8ymdWX9Eo9Ne9AA
+    cta_title: Osta koko vuoden paketti kaupanpäällisineen
+    description: Tanssi koko vuosi yhdellä maksulla. Sisältää kaupanpäällisiä. Laskutetaan vuosittain.
+    ribbon: Suosittelemme!
+    perks:
+      - Osallistu kaikille viikottaisille tunneille ja aktiviteeteille
+      - Tanssi niin paljon kuin sielu sietää!
+      - LISÄKSI! Yksilövalmennuskerta kunkin kauden alussa (yht. 3x vuodessa)
+      - LISÄKSI! Yllätyslahjoja
+      - LISÄKSI! BPS t-paita kaupanpäälliseksi
+  - title: Season
+    subtitle: DANCE PASS
+    price: 150€ / kk
+    cta: https://buy.stripe.com/00g5ma5qreYIgbCcMO
+    cta_title: Osta kauden talvi-kevät 2023 kaikki kurssit
+    description: Koko kauden täydeltä tanssia yhdellä maksulla. Laskutetaan kerran ja on voimassa kauden loppuun.
+    perks:
+      - Osallistu kaikille viikottaisille tunneille ja aktiviteeteille
+      - Tanssi niin paljon kuin sielu sietää!
+      - LISÄKSI! Yksilövalmennuskerta kauden alussa
+  - title: Monthly
+    subtitle: DANCE PASS
+    price: 170€ / kk
+    cta: https://buy.stripe.com/bIY01Q06717SbVmeUV
+    cta_title: Tilaa kuukausipassi
+    description: Rajaton määrä tanssia yhdellä kuukausimaksulla. Laskutetaan kuukausittain, tilauksen voi perua milloin vain.
+    perks:
+      - Osallistu kaikille viikottaisille tunneille ja aktiviteeteille
+      - Tanssi niin paljon kuin sielu sietää!
+      - Hyvä valinta esim. kaupungissa vieraileville
+

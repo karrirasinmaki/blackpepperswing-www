@@ -8,13 +8,13 @@ options:
 pricing:
   - title: Dance pass
     price: 110-170€ / month
-    read_more: /dance-pass
+    read_more: /dance-passes
     description: All the classes with one pass, single payment.
   - title: Course registration
     price: 112-288€
     description: Secure your spot on the course and commit to steady, progressive learning. Registration options usually very between 8 and 16 weeks of classes. Additional courses come with a -25% discount. Students and unemployed -20%.
   - title: 10-class punch card
-    price: 138-174€
+    price: 148-188€
     read_more: /punch-cards
     description: 10x access to all our regular classes. Can be shared with multiple people.
   - title: Try-out / drop-in class

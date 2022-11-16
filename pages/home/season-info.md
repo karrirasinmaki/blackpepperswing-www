@@ -15,14 +15,12 @@
 
 ## **Winter-Spring** 2023
 
-Registration opens this Friday (Nov 18th)!  
-[Check out the courses and register here](/courses)
+Registration opens this Friday (Nov 18th) at 10:00!  
+[Check out the courses here](/courses)
 
 **Start dancing with these courses**  
 No previous experience whatsoever needed.
 
-- [Lindy Hop Beginners on Mondays](https://portal.blackpepperswing.com/courses/49e0skbpn13rqerkdt5ugg9egg)
-- [Tap Dance Beginners on Wednesdays](https://portal.blackpepperswing.com/courses/6nj38spfklv880t9qs692k6oed)
 - [Check out all the beginners' courses here](/courses-for-beginners)
 
 **Already dancing?**  
