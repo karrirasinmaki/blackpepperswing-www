@@ -53,6 +53,8 @@
     url: "/courses-for-beginners/"
   - title: "Roadmap"
     url: "/roadmap/"
+  - title: "Dance pass"
+    url: "/dance-passes/"
   - title: "Punch cards"
     url: "/punch-cards/"
 

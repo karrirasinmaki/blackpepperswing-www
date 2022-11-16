@@ -32,6 +32,8 @@ dance_passes:
   - title: Year-around
     subtitle: DANCE PASS
     price: 110€ / month
+    cta: https://buy.stripe.com/14k8ymdWX9Eo9Ne9AA
+    cta_title: Buy one full year with perks
     description: Dance the whole year with one single payment. Comes with benefits. Billed annually.
     ribbon: We recommend
     perks:
@@ -43,6 +45,8 @@ dance_passes:
   - title: Season
     subtitle: DANCE PASS
     price: 150€ / month
+    cta: https://buy.stripe.com/00g5ma5qreYIgbCcMO
+    cta_title: Buy season winter-spring 2023
     description: The whole season full of dancing with one single payment. Billed once and valid until the end of the season.
     perks:
       - "Attend all our weekly classes and activities"
@@ -51,6 +55,8 @@ dance_passes:
   - title: Monthly
     subtitle: DANCE PASS
     price: 170€ / month
+    cta: https://buy.stripe.com/bIY01Q06717SbVmeUV
+    cta_title: Subsribe to monthly pass
     description: Unlimited dancing with monthly subscription, cancel anytime. Billed monthly.
     perks:
       - "Attend all our weekly classes and activities"

@@ -19,7 +19,7 @@ sitemap:
 permalink: /dance-passes/
 ---
 
-[1]: https://holvi.com/shop/blackpepperswing/product/1ce630f2adcbab35275d593185d8f2f9/
+[1]: #dance-passes
 
 <section class="medium-8 medium-centered columns" markdown="1">
 
@@ -72,6 +72,7 @@ If you want to do more than one course/class per week, then we absolutely recomm
     <li>BPS t-shirt with the latest new design</li>
     <li>Christmas gift at the end of the year (starting 2023)</li>
   </ul>
+  <br />
 </section>
 
 <section class="medium-8 medium-centered columns" markdown="1">
@@ -80,8 +81,8 @@ If you want to do more than one course/class per week, then we absolutely recomm
 
 1. **Buy a Dance Pass**  
   [Buy your Dance Pass here][1]  
-  Dance Passes are available at [BPS Portal][1].  
-  The pass will be stored under your Portal account.
+  If you choose year-around or monthly pass you can start dancing right away! The pass is valid right after the purchase.  
+  With season pass, pass is only valid for the season you bought it for.
 
 2. **Secure your place in the course**  
   We recommend you register for the courses you intend to take regularly. Priority is given for all the Dance Pass holders during first 2 weeks of the registration.  
@@ -89,7 +90,8 @@ If you want to do more than one course/class per week, then we absolutely recomm
   Note: If you attend a partnered dance class without a partner, you must book a place in advance! That is unless you can do both roles. This is so that we can maintain the role balance.
 
 3. **Arrive to class and show your pass to the teacher**  
-  Please show your pass to teacher of the class upon arrival.
+  Please show your pass to teacher of the class upon arrival.  
+  (We'll create the digital passes by the next season. Before that, please show your purchase receipt.)
 
 **BONUS:** If your purchase included complimentary coaching session(s), book those for each season separately by sending us an email at {{ site.email }}.
 

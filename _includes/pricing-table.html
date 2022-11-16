@@ -8,7 +8,9 @@
       {% for perk in item.perks %}
       <li class="bullet-item">{{ perk }}</li>
       {% endfor %}
-      <li class="cta-button"><a class="button" href="/punch-cards">Buy</a></li>
+      {% if item.cta %}
+      <li class="cta-button"><a class="button" href="{{ item.cta }}">{{ item.cta_title }}</a></li>
+      {% endif %}
       {% if item.ribbon %}
       <div class="ribbon"><div class="ribbon-inner"><small>{{ item.ribbon }}</small></div></div>
       {% endif %}
