@@ -15,7 +15,7 @@ apk update && apk add \
 
 # required build stuff
 apk update && apk add \
-  build-base autoconf automake
+  build-base autoconf automake libtool
 
 
 # required tools
