@@ -160,7 +160,11 @@ Starting at 240€ + travel expenses + VAT
 *For a practice session, birthday party, social gatherings, running your own lessons...*
 
 Prices start from:  
-Students of BPS {{ products.studio_rental.bps_students }}€/h
+{{ products.studio_rental.bps_students }}€/h for students of BPS   
+{{ products.studio_rental.non_commercial }}€/h for non-commercial use   
+{{ products.studio_rental.commercial }}€/h for commercial use   
+
+[See detailed pricing and more info about studio rental here...](/studio-rental)
 
 *Ask for more!* {{ site.email }}
 

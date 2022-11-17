@@ -55,6 +55,21 @@ gallery_bulevardi31:
   caption: "School yard of former Metropolia building. Free parking slots available."
 - image_url: bulevardi31/bulevardi-snow.jpg
   caption: "Our building seen from Bulevardi."
+
+table_of_contents:
+- title: Pricing
+  url: "#pricing"
+- title: Reservations
+  url: "#reservation"
+- title: Address
+  url: "#address"
+- title: Equipment
+  url: "#equipment"
+- title: General info
+  url: "#general-info"
+- title: Photos
+  url: "#photos"
+
 ---
 
 
@@ -65,6 +80,13 @@ We have moved to the new location - Karjalankatu 2!
 We have two separate ~100m² dance/practice studios, plus a kitchen and a hang-out space. Both studios are now open for practice!
 
 ---
+
+<nav>
+{% for item in page.table_of_contents %}
+{% if forloop.index > 1 %}| {% endif %}<a href="{{ item.url }}">{{ item.title }}</a>
+{% endfor %}
+</nav>
+<br />
 
 Whether you are looking for a place to practice tapping, dancing, popping, locking, playing, singing, trumpeting, handstanding, or anything else, our studios give you the space and acoustics to do it.
 
@@ -77,13 +99,8 @@ Both studios have a good old sprung wooden floor which is kind to your joints. T
 **The back room** is more like a traditional dance room with a nice wide mirror wall and great PA system. Once we have fixed the acoustics to the top we can call it ready-ready. Here we have two sides full of windows which fill up the room with light. But if you choose so, you can close yourself in the darkness with the curtains. Curtains are high-quality Molton fabric so they’ll absorb both light and sounds. The back room offers a bit more privacy too since there will be no one trespassing.
 
 Table of contents:  
-- [Pricing](#pricing)
-- [Reservations](#reservation)
-- [Address](#address)
-- [Equipment](#equipment)
-- [General info](#general-info)
-- [Photos](#photos)
-
+{% for item in page.table_of_contents %}- [{{ item.title }}]({{ item.url }})
+{% endfor %}
 
 ### Pricing
 
