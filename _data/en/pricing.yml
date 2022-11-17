@@ -2,6 +2,24 @@ options:
   - title: Dance passes
     name: dance_passes
 
+products:
+  dance_pass:
+    monthly: 170
+    season_month: 150
+    season: 600
+    yearly_month: 110
+    yearly: 1320
+  course:
+    price_per_class: 18
+    length_weeks: 16
+  drop_in: 20
+  10_class_card:
+    regular: 188
+  studio_rental:
+    bps_students: 10
+    non_commercial: 25
+    commercial: 35
+
 ###
 # PRICING
 #
@@ -24,6 +42,10 @@ pricing:
     price: 65-75€
     description: 'One-to-one practice sessions with your teacher. Think this as a "Dance Personal Trainer".'
     read_more: "https://holvi.com/shop/blackpepperswing/section/private-classes/"
+  - title: Studio rental
+    price: from 10€/h
+    description: Rent our dance studio to your own practice sessions, birthday party, or yoga lessons.
+    read_more: /studio-rental
 
 ###
 # DANCE PASSES

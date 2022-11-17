@@ -23,8 +23,18 @@ Menu
  | <a href="#courses-and-weekly-classes">Courses and weekly classes</a>
  | <a href="#teaching-services">Teaching services</a>
  | <a href="#corporate-events">Corporate events</a>
+ | <a href="#studio-rental">Studio rental</a>
 </nav>
 </div>
+
+<section class="row">
+<div class="columns medium-10">
+<h2>Pricing table</h2>
+{% include pricing-list.html items=site.data.pricing.pricing %}
+
+<p>More detailed pricing with examples are found below.</p>
+</div>
+</section>
 
 <div class="row cols-2">
 <div class="columns large-6" markdown="1">
@@ -66,27 +76,38 @@ Courses and weekly classes are our default learning environment. By attending we
 Do you want an extra boost?  
 [Consider taking a private class with us.](#private-classes)
 
-{% assign course_price = 250 %}
-{% assign course_price_second = 250 | times: 0.75 %}
-{% assign course_price_student = 250 | times: 0.8 %}
-{% assign course_len = 16 %}
-{% assign dropin_price = 18 %}
-{% assign ten_class_price = 174 %}
-{% assign ten_class_price_second = 138 %}
-{% assign ten_class_price_student = 154 %}
+{% assign products = site.data.pricing.products %}
+{% assign course_len = products.course.length_weeks %}
+{% assign course_price = products.course.price_per_class | times: course_len %}
+{% assign course_price_second = course_price | times: 0.75 %}
+{% assign course_price_student = course_price | times: 0.8 %}
+{% assign dropin_price = products.drop_in %}
+{% assign ten_class_price = products.10_class_card.regular %}
+{% assign class_price = products.course.price_per_class %}
+{% assign class_price_second = products.course.price_per_class | times: 0.75 %}
 
-**Weekly classes**  
+**Weekly classes**, with course payment  
 {{ course_price }}€ for {{ course_len }} weeks  
-< {{ course_price | divided_by: course_len | ceil }}€ per week with one course  
-{{ dropin_price }}€ for single drop-in class  
-
-10-class punch cards now available!  
-[Read more about punch cards here.](/punch-cards)
+{{ class_price }}€ per class with one course  
+{{ class_price | plus: class_price_second | divided_by: 2 }}€ per class with two courses  
+{{ class_price | plus: class_price_second | plus: class_price_second | divided_by: 3 }}€ per class with three courses
 
 **Discounts**, only one applied  
 -20% for students and unemployed  
 -25% for every additional course during the same term  
 [Read detailed discount terms here.](https://blackpepperswing.freshdesk.com/en/support/solutions/articles/42000053082-terms-of-trade)
+
+**Weekly classes**, with drop-in and dance passes  
+{{ dropin_price }}€ for single drop-in class  
+
+10-class punch card {{ ten_class_price }}€ ({{ ten_class_price | divided_by: 10.0 | round: 2 }}€ per class)  
+[Read more about punch cards here...](/punch-cards)
+
+[Dance Pass](/dance-passes) starting from {{ products.dance_pass.yearly_month }}€/month  
+Includes all the weekly classes and activities  
+{{ products.dance_pass.yearly_month | divided_by: 4 | divided_by: 2 }}€ per class with two courses  
+{{ products.dance_pass.yearly_month | divided_by: 4 | divided_by: 3 }}€ per class with three courses  
+[Read more about dance passes here...](/dance-passes)
 
 **Workshops**  
 Workshop prices and discounts are defined per workshop.
@@ -131,6 +152,15 @@ A fun and engaging Lindy Hop or authentic swing dance experience. Dancing is one
 
 **Teaching session** with two teachers  
 Starting at 240€ + travel expenses + VAT
+
+*Ask for more!* {{ site.email }}
+
+
+## Studio rental
+*For a practice session, birthday party, social gatherings, running your own lessons...*
+
+Prices start from:  
+Students of BPS {{ products.studio_rental.bps_students }}€/h
 
 *Ask for more!* {{ site.email }}
 
