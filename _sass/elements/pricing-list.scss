@@ -1,0 +1,35 @@
+.pricing-list {
+
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 2em;
+
+	li {
+		display: block;
+	}
+
+	.list-item {
+		display: flex;
+		align-items: center;
+
+		.title {
+			max-width: 80%;
+		}
+
+		.separator {
+			flex-grow: 1;
+			border-bottom-style: dotted;
+			border-bottom-width: 2px;
+			height: 0;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+
+	}
+
+	.description {
+		font-size: 0.9em;
+		max-width: 600px;
+	}
+
+}

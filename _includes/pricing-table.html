@@ -1,0 +1,21 @@
+<div class="row">
+  {% for item in include.items %}
+  <div class="medium-4 columns">
+    <ul class="pricing-table">
+      <li class="title"><b>{{ item.title }}</b><br/><small>{{ item.subtitle }}</small></li>
+      <li class="price">{{ item.price }}</li>
+      <li class="description">{{ item.description }}</li>
+      {% for perk in item.perks %}
+      <li class="bullet-item">{{ perk }}</li>
+      {% endfor %}
+      {% if item.cta %}
+      <li class="cta-button"><a class="button" href="{{ item.cta }}">{{ item.cta_title }}</a></li>
+      {% endif %}
+      {% if item.ribbon %}
+      <div class="ribbon"><div class="ribbon-inner"><small>{{ item.ribbon }}</small></div></div>
+      {% endif %}
+    </ul>
+  </div>
+  {% endfor %}
+</div>
+

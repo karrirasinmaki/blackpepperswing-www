@@ -36,11 +36,7 @@ Kursseille voit ilmoittautua [täältä](/courses).
 
 ### Hinnasto
 
-Normaalihinta: 174€  
-Opiskelijat ja työttömät: 154€  
-Kursseille ilmoittautuneille: 138€  
-
-Tilaa kortti verkkokaupastamme:  
+Katso hinnasto ja tilaa kortti verkkokaupastamme:  
 [www.blackpepperswing.com/shop][1]
 
 Virike- ja etuseteleillä, tai BPS Crediteillä maksaessasi [ota yhteyttä meihin](/contact).

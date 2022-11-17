@@ -64,7 +64,15 @@ We are a swing dance school in Helsinki. We have [weekly classes](/courses), [wo
 No previous experience nor partner needed. [Read more](https://portal.blackpepperswing.com/courses/2p9gjt5onldd44mkbhoeis9qe8/lindy-hop-beginners'-weekend-course)
 {% endcapture %}
 
+{% capture intro_after %}
+<div class="text-center">
+<h2 style="margin: 0; font-weight: bold;"><a href="#season-info" style="color: inherit;">↓ s e a s o n&nbsp; &nbsp;i n f o ↓</a></h2>
+<p><small>New season starting in January. Check out the courses and season info below.</small></p>
+</div>
+{% endcapture %}
+
 {% include index_blocks/block-hero.html %}
+
 
 <a id="season-info" />
 <div class="t30"></div>

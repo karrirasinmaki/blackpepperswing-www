@@ -37,11 +37,7 @@ The card is valid until the end of the season and you can use it for all our wee
 
 ### Prices
 
-Regular price: 174€  
-Students and unemployed: 154€  
-For those enrolled in a course: 138€  
-
-Buy a card in our online shop:  
+Check out the prices and buy a card on our online shop:  
 [www.blackpepperswing.com/shop][1]
 
 If you want to pay for the card with vouchers, or BPS Credit, please [contact us](/contact).
@@ -69,8 +65,8 @@ If you want to pay for the card with vouchers, or BPS Credit, please [contact us
 ### Questions
 
 * **Can I pay for my 10-time-card with vouchers?**  
-  The card can also be purchased with Smartum, Edenred, ePassport and EazyBreak vouchers and balances. In this case, please [contact us](/contact)!  
-  You can also split the payment, e.g. half with vouchers, half with another payment method..
+  The card can also be purchased with Smartum, Edenred, ePassi and EazyBreak vouchers and balances. In this case, please [contact us](/contact)!  
+  You can also split the payment, e.g. half with vouchers, half with another payment method.
 
 * **For how long is the 10-time-card valid?**  
   Season winter-spring 2022 10-cards are valid until the 14th of August.  

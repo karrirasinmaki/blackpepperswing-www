@@ -1,0 +1,65 @@
+options:
+  - title: Dance passes
+    name: dance_passes
+
+###
+# PRICING
+#
+pricing:
+  - title: Dance pass
+    price: 110-170€ / month
+    read_more: /dance-passes
+    description: All the classes with one pass, single payment.
+  - title: Course registration
+    price: 112-288€
+    description: Secure your spot on the course and commit to steady, progressive learning. Registration options usually very between 8 and 16 weeks of classes. Additional courses come with a -25% discount. Students and unemployed -20%.
+  - title: 10-class punch card
+    price: 148-188€
+    read_more: /punch-cards
+    description: 10x access to all our regular classes. Can be shared with multiple people.
+  - title: Try-out / drop-in class
+    price: 20€
+    description: Single classes are good if you are just visiting the city or want to try out certain courses before registration.
+  - title: Coaching & private classes
+    price: 65-75€
+    description: 'One-to-one practice sessions with your teacher. Think this as a "Dance Personal Trainer".'
+    read_more: "https://holvi.com/shop/blackpepperswing/section/private-classes/"
+
+###
+# DANCE PASSES
+#
+dance_passes:
+  - title: Year-around
+    subtitle: DANCE PASS
+    price: 110€ / month
+    cta: https://buy.stripe.com/14k8ymdWX9Eo9Ne9AA
+    cta_title: Buy one full year with perks
+    description: Dance the whole year with one single payment. Comes with benefits. Billed annually.
+    ribbon: We recommend
+    perks:
+      - "Attend all our weekly classes and activities"
+      - "Dance as much as you like"
+      - "PLUS: Complimentary coaching session at the beginning of each season (3x per year)"
+      - "PLUS: Surprise gifts"
+      - "PLUS: Free BPS t-shirt"
+  - title: Season
+    subtitle: DANCE PASS
+    price: 150€ / month
+    cta: https://buy.stripe.com/00g5ma5qreYIgbCcMO
+    cta_title: Buy season winter-spring 2023
+    description: The whole season full of dancing with one single payment. Billed once and valid until the end of the season.
+    perks:
+      - "Attend all our weekly classes and activities"
+      - "Dance as much as you like"
+      - "PLUS: Complimentary coaching session at the beginning of the season"
+  - title: Monthly
+    subtitle: DANCE PASS
+    price: 170€ / month
+    cta: https://buy.stripe.com/bIY01Q06717SbVmeUV
+    cta_title: Subsribe to monthly pass
+    description: Unlimited dancing with monthly subscription, cancel anytime. Billed monthly.
+    perks:
+      - "Attend all our weekly classes and activities"
+      - "Dance as much as you like"
+      - "Flexible option if you are visiting the town etc."
+
