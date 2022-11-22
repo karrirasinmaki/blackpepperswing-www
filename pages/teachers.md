@@ -1,5 +1,5 @@
 ---
-layout: page-fullwidth
+layout: page-wide
 
 meta_title: Teachers
 meta_description: Skilled. Precise. Engaging. And a bit special.

@@ -8,4 +8,5 @@ vendor/
 Gemfile.lock
 *.gem
 .jekyll-metadata/
+.jekyll-metadata
 .jekyll-cache/

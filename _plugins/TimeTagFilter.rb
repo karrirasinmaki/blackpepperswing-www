@@ -5,6 +5,8 @@ module Jekyll
     def time_tag(input, opts={})
        if input.is_a? Date
           d = input
+       elsif input.is_a? Time
+          d = input
        else
           d = input ? DateTime.parse(input) : DateTime.new()
        end

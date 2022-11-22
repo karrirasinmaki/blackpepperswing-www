@@ -1,0 +1,11 @@
+.list-fit-content {
+	li { width: fit-content; }
+}
+
+.list-center {
+	li { margin: 0 auto; }
+}
+
+.list-checkmarks {
+	list-style-type: "✓";
+}

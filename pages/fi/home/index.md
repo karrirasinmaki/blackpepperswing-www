@@ -83,6 +83,13 @@ Ei aiempaa kokemusta eikä tanssiparia tarvita. Lähdetään nollasta liikkeelle
 Nähdään tanssilattialla!
 {% endcapture %}
 
+{% capture intro_after %}
+<div class="text-center">
+<h2 style="margin: 0; font-weight: bold;"><a href="#season-info" style="color: inherit;">↓ u u s i&nbsp; &nbsp;k a u s i ↓</a></h2>
+<p><small>Uusi kausi starttaa tammikuussa. Kurkkaa infoa tulevasta kaudesta alempaa.</small></p>
+</div>
+{% endcapture %}
+
 {% include index_blocks/block-hero.html %}
 
 <a id="season-info" />
