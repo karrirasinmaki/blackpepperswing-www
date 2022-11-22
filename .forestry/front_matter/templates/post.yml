@@ -68,9 +68,6 @@ fields:
     name: caption_url
     label: caption_url
 - type: text
-  name: style
-  label: style
-- type: text
   name: iframe
   label: iframe
 - type: field_group
@@ -86,9 +83,6 @@ fields:
   - type: text
     name: thumbnailUrl
     label: thumbnailUrl
-- type: text
-  name: sidebar
-  label: sidebar
 - type: boolean
   name: comments
   label: comments
@@ -107,6 +101,3 @@ fields:
 - type: text
   name: permalink
   label: permalink
-- type: boolean
-  name: tawkto
-  label: tawkto
