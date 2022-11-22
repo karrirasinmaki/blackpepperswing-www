@@ -1,37 +1,21 @@
 ---
 layout: post
-subheadline: From 1900s to today
+subtitle: From 1900s to today
 title: A (Not-So) Brief History of Swing Dance
-teaser: ''
+teaser: Let's take a look on history of swing dancing! Starting from the birth, throught the revival, all the way to the present day.
 categories:
 - articles
 tags:
 - history
 header:
-  image_fullwidth: ''
-  image: ''
-  pattern: ''
-  color: ''
-  background-color: ''
-  title: ''
-  caption: ''
-  caption_url: ''
+  short: true
 image:
+  src: 1941-savoy-ballroom-interior-edited-welcometothesavoy.jpg
   title: ''
-  homepage: ''
-  thumb: ''
   caption: ''
   caption_url: ''
-iframe: ''
-video:
-  embedURL: ''
-  contentURL: ''
-  thumbnailUrl: ''
-comments: true
-breadcrumb: false
-show_meta: true
-meta_title: ''
-meta_description: ''
+comments: false
+show_meta: false
 
 ---
 Let’s start with a fun fact that in the very beginning of “swing dancing” this term wasn’t as widely used as it is nowadays. According to [Harri Heinila’s research of the term in newspapers and magazines](https://authenticjazzdance.wordpress.com/2016/01/07/swing-dance-or-jazz-dance-a-few-words-about-the-use-of-the-terms/) at the NY Public Library database, between 1920 and 1943 “swing dance” or “swing dancing” appears in the search only over 500 times. And jumping forward to the XXI century, between 2000 and 2015 – almost 14,000 results.
@@ -64,8 +48,6 @@ Names you should know: The first generation of lindy hop leaders – Shorty Geor
 
 _Finnish swing history class: Finland was no exception of jazz and swing fever. As New York stayed being the centre of swing movement, though radio songs, films and vinyl records, the concept of “roaring 20s” was spreading around the world. As the prohibition law was in power, the restaurants and bars were serving alcohol in coffee cups to trick the officers. Jazz music was played by Finnish and German musicians with their own twist and interpretation, until in 1926 the orchestra from “Andania”ship arrived in Helsinki with a group of Finnish jazz musicians who made a career in the USA._
 
-**![](/images/tumblr_m5hfpijtcf1qb8vpuo1_1280_frankie_flip_life.jpg)**
-
 **1935 – Creation of the first air step**
 
 The first air step (or aerial as we call it now) was created by Frankie Manning and inspired by Big Bea and Shorty George’s move – standing back-to-back with arms locked and Bea lifting George off the ground on her back.
@@ -78,6 +60,8 @@ And that is the story of the first lindy air-step.
 
 (For the dancing nerds, [here’s](https://www.youtube.com/watch?v=MpZk94w6kwc&ab_channel=skimvision) the video where Frankie Manning shares a story about how he and his partner created the first aerial.)
 
+**![](/images/tumblr_m5hfpijtcf1qb8vpuo1_1280_frankie_flip_life.jpg)**
+
 **1930-40s**
 
 Already in the late 20s, Herbert “Whitey” White started to gather a group of talented dancers around him in the Savoy Ballroom. To name a few names you might have heard – Frankie Manning, Norma Miller, AI Minns, Leon James, Ruthie Reingold, and Harry Rosenberg.
@@ -86,7 +70,7 @@ Whitey was dedicated to promoting the dance, and under his guidance the troupes 
 
 By 1936 Whitey’s dancers had officially got their names heard and talent recognised. Swing dancing was at its peak during these years, developed and finessed by young dancers who were practising day and night making a name for themselves. They had a residency gig at a high-end Cotton Club and were featured in several films, for example, “[A Day at the Races](https://www.youtube.com/watch?v=egopcBsOPIU&ab_channel=BlackPepperSwing)”, “[Hellzapoppin’](https://www.youtube.com/watch?v=qzc7vY9VTnk&ab_channel=BlackPepperSwing)”, and “[Keep Punching](https://www.youtube.com/watch?v=H1K5M5xluZs&ab_channel=BlackPepperSwing)”.
 
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qzc7vY9VTnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qzc7vY9VTnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The troupes were disbanded in 1942 when the male members were drafted to World War II.
 
@@ -123,6 +107,8 @@ A habit of traveling for dancing is something that almost every swing dancer has
 And of course, we can’t miss Herräng – the most famous swing dance camp in Europe. The camp was first organised in 1982 weeks in a small sleepy village in Sweden (Herräng) and has evolved from 1 week and 25 participants to 5 weeks and 750 participants per week (according to Wikipedia, but this number sounds about right).
 
 Classes, workshops, festivals, and exchanges are creating a space of inspiration and improvisation for dancers of all levels, lifting the moods of mundane, sparkling joy in our hearts, and resulting sores on our feet. And that is exactly what we want, right?
+
+---
 
 Do you want to be a part of swing dance history? Join the movement – sign up for [classes](https://blackpepperswing.com/courses/), beginners’ weekends, or just stop by a party to dance your feet away. Check out our [website](https://blackpepperswing.com/) for more information and [our Facebook page](https://www.facebook.com/blackpepperswing) for the events!
 

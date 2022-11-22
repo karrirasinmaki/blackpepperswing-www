@@ -111,6 +111,18 @@ function resizeImagesSmall() {
     .pipe(gulp.dest(dest));
 }
 
+function resizeImagesDefault() {
+  let dest = 'images';
+  return gulp.src('_original_images/**/*')
+    .pipe(plumber())
+    .pipe(changed(dest))
+    .pipe(imageResize({
+      quality: 0.92,
+      imageMagick: true
+    }))
+    .pipe(gulp.dest(dest));
+}
+
 function optimizeImages() {
   let dest = 'images';
   return gulp.src(['_original_images/**/*', 'images/**/*'])
@@ -145,6 +157,7 @@ gulp.task('resize_images_large', () => resizeImagesLarge());
 gulp.task('resize_images_medium', () => resizeImagesMedium());
 gulp.task('resize_images_small', () => resizeImagesSmall());
 gulp.task('resize_images_cover', () => resizeImagesCover());
+gulp.task('resize_images_default', () => resizeImagesDefault());
 gulp.task('optimize_images', () => optimizeImages());
 
 gulp.task('resize_images', gulp.series(
@@ -153,7 +166,8 @@ gulp.task('resize_images', gulp.series(
     'resize_images_large',
     'resize_images_medium',
     'resize_images_small',
-    'resize_images_cover'
+    'resize_images_cover',
+    'resize_images_default',
   )
 ));
 

@@ -1,7 +1,7 @@
 ---
-meta_description: Combined new archive from BPS newsletter and Facebook feed.
+meta_description: Blog posts and news
 
-title: News
+title: News & Articles
 
 image:
   src: newspaper-seller.jpg
