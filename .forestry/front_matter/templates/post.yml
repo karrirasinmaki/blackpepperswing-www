@@ -101,3 +101,5 @@ fields:
 - type: text
   name: permalink
   label: permalink
+pages:
+- _posts/a-not-so-brief-history-of-swing-dance.md
