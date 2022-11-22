@@ -1,0 +1,112 @@
+---
+label: Post
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: subheadline
+  label: subheadline
+- type: text
+  name: title
+  label: title
+- type: text
+  name: teaser
+  label: teaser
+- type: list
+  name: categories
+  label: categories
+- type: list
+  name: tags
+  label: tags
+- type: field_group
+  name: header
+  label: header
+  fields:
+  - type: text
+    name: image_fullwidth
+    label: image_fullwidth
+  - type: text
+    name: image
+    label: image
+  - type: text
+    name: pattern
+    label: pattern
+  - type: text
+    name: color
+    label: color
+  - type: text
+    name: background-color
+    label: background-color
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: caption
+    label: caption
+  - type: text
+    name: caption_url
+    label: caption_url
+- type: field_group
+  name: image
+  label: image
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: homepage
+    label: homepage
+  - type: text
+    name: thumb
+    label: thumb
+  - type: text
+    name: caption
+    label: caption
+  - type: text
+    name: caption_url
+    label: caption_url
+- type: text
+  name: style
+  label: style
+- type: text
+  name: iframe
+  label: iframe
+- type: field_group
+  name: video
+  label: video
+  fields:
+  - type: text
+    name: embedURL
+    label: embedURL
+  - type: text
+    name: contentURL
+    label: contentURL
+  - type: text
+    name: thumbnailUrl
+    label: thumbnailUrl
+- type: text
+  name: sidebar
+  label: sidebar
+- type: boolean
+  name: comments
+  label: comments
+- type: boolean
+  name: breadcrumb
+  label: breadcrumb
+- type: boolean
+  name: show_meta
+  label: show_meta
+- type: text
+  name: meta_title
+  label: meta_title
+- type: text
+  name: meta_description
+  label: meta_description
+- type: text
+  name: permalink
+  label: permalink
+- type: boolean
+  name: tawkto
+  label: tawkto
