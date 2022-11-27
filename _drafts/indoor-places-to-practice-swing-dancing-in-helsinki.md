@@ -50,6 +50,8 @@ Without further ado –
 
 ### Indoor spaces for dance practice.
 
+![Töölön Kisahalli / 1938](/images/toolon-kisahalli-1938-39ef1eab-9c34-4ffe-be32-9bf41f3cf330.jpg)
+
 #### 1 Töölön Kisahalli
 
 Also often called [Kisis](https://www.hel.fi/helsinki/en/administration/participate/contact/search-address/toimipistekuvaus?id=45925). A very inspirational place. While you are practising, you are surrounded by athletes and dancers from different backgrounds, each of them doing their own thing.
@@ -63,6 +65,8 @@ The sports hall was first built as Messuhalli (Exhibition Hall) and the great Lo
 **Pros**: Cheap per visit, has dancing rooms (some are with mirrors), good floors.
 
 **Cons**: You might not get lucky with getting a suitable room – this place is popular among dancers, and rooms are claimed on a first come, first get basis.
+
+![](/images/alppitalo/bps-alppitalo-front-studio-04.jpg)
 
 #### 2 Black Pepper Studio
 
