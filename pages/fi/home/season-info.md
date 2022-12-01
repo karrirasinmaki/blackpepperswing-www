@@ -15,12 +15,16 @@
 
 ## **Talvi-Kevät** 2023
 
-Ilmoittautuminen aukeaa perjantaina (18.11.) klo 10:00!  
+Ilmoittautuminen on nyt auki!  
 [Katso kurssisivut täältä](/courses)
 
 **Jos olet vasta aloittamassa tanssimaan...**  
 Tässä listattuna muutama alkeiskurssi. Mitään aiempaa kokemusta ei tarvita!
 
+- [Lindy Hop Beginners](https://portal.blackpepperswing.com/courses/1b8c0u71adc7qpnmv4hi0bh42b/lindy-hop-beginners)
+- [Tap (Steppi) Beginners](https://portal.blackpepperswing.com/courses/4puhck2t8pk3dqv386tpj5jq5u/tap-beginners)
+- [Solo Jazz & Charleston Beginners](https://portal.blackpepperswing.com/courses/2tkef5j84go1mkftl2cl85e45o/solo-jazz-&-charleston-beginners)
+- [Solo Jazz & Charleston Open-level](https://portal.blackpepperswing.com/courses/1h6l7a05783hbjqtt3d0j6cn0i/solo-jazz-&-charleston-(open-level))
 - [Katso kaikki alkeiskurssit täältä](/courses-for-beginners)
 
 **Jos olet jo tanssinut aiemmin...**  
@@ -99,6 +103,8 @@ Yksittäisille tunneille voit ilmoittautua 10-kortilla.
 Tunnit ovat lähtökohtaisesti englanniksi, ellei kaikki osallistujat (ja opettajat) puhu suomea.
 
 [Lue lisää kurssi-ilmoittautumisesta täältä...](https://blackpepperswing.freshdesk.com/support/solutions/articles/42000096170-course-registration) (englanniksi)
+
+<a href="/courses" class="button">Ilmoittaudu kursseille täältä</a>
 </div>
 </section>
 
@@ -106,6 +112,11 @@ Tunnit ovat lähtökohtaisesti englanniksi, ellei kaikki osallistujat (ja opetta
 <section class="row">
   <div class="medium-12 columns">
     <h2 class="text-center">Tulevat kurssit ja workshopit</h2>
-    {% include portal-events.html %}
+    <div class="fade-bottom" style="max-height: 380px; overflow: hidden;">
+      {% include portal-events.html limit=2 randomize=true %}
+    </div>
+    <p style="z-index:10; padding: 10px;" class="show-more text-center">
+      <a href="/courses">Näytä lisää...</a>
+    </p>
   </div>
 </section>

@@ -15,12 +15,16 @@
 
 ## **Winter-Spring** 2023
 
-Registration opens this Friday (Nov 18th) at 10:00!  
+Registration for courses is now open!  
 [Check out the courses here](/courses)
 
 **Start dancing with these courses**  
 No previous experience whatsoever needed.
 
+- [Lindy Hop Beginners](https://portal.blackpepperswing.com/courses/1b8c0u71adc7qpnmv4hi0bh42b/lindy-hop-beginners)
+- [Tap Dance Beginners](https://portal.blackpepperswing.com/courses/4puhck2t8pk3dqv386tpj5jq5u/tap-beginners)
+- [Solo Jazz & Charleston Beginners](https://portal.blackpepperswing.com/courses/2tkef5j84go1mkftl2cl85e45o/solo-jazz-&-charleston-beginners)
+- [Solo Jazz & Charleston Open-level](https://portal.blackpepperswing.com/courses/1h6l7a05783hbjqtt3d0j6cn0i/solo-jazz-&-charleston-(open-level))
 - [Check out all the beginners' courses here](/courses-for-beginners)
 
 **Already dancing?**  
@@ -99,6 +103,8 @@ Also, you can join single classes with a [10-class punch card](/punch-cards) or 
 All our classes are in English unless otherwise mentioned.
 
 [Read more about course registrations here...](https://blackpepperswing.freshdesk.com/support/solutions/articles/42000096170-course-registration)
+
+<a href="/courses" class="button">Register for courses here</a>
 </div>
 </section>
 
@@ -106,6 +112,11 @@ All our classes are in English unless otherwise mentioned.
 <section class="row">
   <div class="medium-12 columns">
     <h2 class="text-center">Upcoming courses and workshops</h2>
-    {% include portal-events.html %}
+    <div class="fade-bottom" style="max-height: 380px; overflow: hidden;">
+      {% include portal-events.html limit=2 randomize=true %}
+    </div>
+    <p style="z-index:10; padding: 10px;" class="show-more text-center">
+      <a href="/courses">Show more...</a>
+    </p>
   </div>
 </section>

@@ -5,13 +5,13 @@ format: page-fullwidth
 <article itemscope itemtype="http://schema.org/Article">
 	{% include _masthead.html %}
 
-	{% if page.sidebar %}
-	<div class="medium-2 columns {% if page.sidebar.position == "right" %} medium-push-10{% endif %}">
-		{% include _sidebar.html %}
-	</div>
-	{% endif %}
-
 	<div class="row t30">
+		{% if page.sidebar %}
+		<div class="medium-2 columns {% if page.sidebar.position == "right" %} medium-push-10{% endif %}">
+			{% include _sidebar.html %}
+		</div>
+		{% endif %}
+
 		<div class="medium-10 columns{% if page.sidebar == nil %} medium-offset-1 end{% elsif page.sidebar.position == "right" %} medium-pull-2{% endif %}">
 			{% if page.teaser %}
 			<p class="teaser" itemprop="description">

@@ -21,7 +21,7 @@ permalink: /dance-passes/
 
 [1]: #dance-passes
 
-<section class="medium-8 medium-centered columns" markdown="1">
+<section class="medium-12 medium-centered columns width-reader" markdown="1">
 
 ## Freedom of dancing
 
@@ -51,9 +51,9 @@ If you want to do more than one course/class per week, then we absolutely recomm
 
 </section>
 
-<section class="medium-8 medium-centered columns"></section>
+<section class="medium-12 medium-centered columns"></section>
 
-<section>
+<section class="medium-12 medium-centered columns">
   <br />
   {% include pricing-table.html items=site.data.pricing.dance_passes %}
 </section>
@@ -75,7 +75,7 @@ If you want to do more than one course/class per week, then we absolutely recomm
   <br />
 </section>
 
-<section class="medium-8 medium-centered columns" markdown="1">
+<section class="medium-12 medium-centered columns width-reader" markdown="1">
 
 ### How to get dancing with the Dance Pass
 

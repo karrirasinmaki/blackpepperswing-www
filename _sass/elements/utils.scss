@@ -1,0 +1,24 @@
+h1, h2, h3, h4, h5, h6 {
+	&.text-lines-2 {
+		height: 2em * $header-line-height;
+	}
+	&.text-lines-3 {
+		height: 3em * $header-line-height;
+	}
+}
+
+.text-lines-1 {
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 100%;
+}
+
+.extra-small {
+	font-size: $small-font-size * 0.72;
+}
+
+.fade-bottom {
+	-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(0.7, #000), to(rgba(0,0,0,0)));
+}

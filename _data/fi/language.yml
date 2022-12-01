@@ -1,3 +1,11 @@
+monday: "maanantai"
+tuesday: "tiistai"
+wednesday: "keskiviikko"
+thursday: "torstai"
+friday: "perjantai"
+saturday: "lauantai"
+sunday: "sunnuntai"
+
 info_website: "Tietoa"
 archive: "Arkisto"
 blog_archive: "Blogiarkisto"

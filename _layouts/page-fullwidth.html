@@ -5,13 +5,13 @@ format: page-fullwidth
 <article itemscope itemtype="http://schema.org/Article">
 	{% include _masthead.html %}
 
-	{% if page.sidebar %}
-	<div class="medium-12 columns {% if page.sidebar.position == "right" %} medium-push-10{% endif %}">
-		{% include _sidebar.html %}
-	</div>
-	{% endif %}
-
 	<div class="row t30">
+		{% if page.sidebar %}
+		<div class="medium-12 columns">
+			{% include _sidebar.html %}
+		</div>
+		{% endif %}
+
 		<div class="medium-12 columns">
 			{% if page.teaser %}
 			<p class="teaser" itemprop="description">

@@ -1,0 +1,25 @@
+.splide {
+	&__pagination {
+		display: block !important;
+		display: flex !important;
+
+		&__page {
+			background: $slick-dot-color !important;
+			opacity: $slick-opacity-not-active;
+			&:hover, &:focus {
+				opacity: $slick-opacity-on-hover;
+			}
+			&.is-active {
+				background: $slick-dot-color-active !important;
+				opacity: $slick-opacity-default;
+				transform: none !important;
+			}
+		}
+	}
+	&__arrow {
+		background: $slick-dot-color-active !important;
+		&:disabled {
+			background: $slick-dot-color !important;
+		}
+	}
+}

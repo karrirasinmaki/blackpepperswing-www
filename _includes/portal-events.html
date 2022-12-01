@@ -48,8 +48,11 @@
             eventsWrapper.append($('#template-portal-no-events').html());
             return;
           }
+          if ({{include.randomize}}) {
+            events.sort(function(a,b) {return Math.random() > 0.5 && 1 || -1});
+          }
           /* Loop thru single events and render row item */
-          for (var i = 0, l = events.length; i<l; ++i) {
+          for (var i = 0, l = events.length; i<Math.min(l, {{include.limit}}); ++i) {
             var event = events[i];
             var el = template.html()
               .replace(/--URL--/g, 'https://portal.blackpepperswing.com/courses/' + event.id)
