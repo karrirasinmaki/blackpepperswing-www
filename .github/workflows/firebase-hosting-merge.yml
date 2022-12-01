@@ -21,7 +21,6 @@ jobs:
           key: ${{ runner.os }}-images-${{ hashFiles('**/_original_images/*') }}
           restore-keys: |
             ${{ runner.os }}-images-
-      - run: echo "Images:" && ls images
       - run: npm ci && npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
