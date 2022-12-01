@@ -69,6 +69,7 @@ If you want to do more than one course/class per week, then we absolutely recomm
   <p>All this plus with the year-around plan:</p>
   <ul class="list-checkmarks list-center list-fit-content">
     <li>Total of 3x coaching sessions, one per season</li>
+    <li>10x bookings to one of our studio rooms</li>
     <li>BPS t-shirt with the latest new design</li>
     <li>Christmas gift at the end of the year (starting 2023)</li>
   </ul>

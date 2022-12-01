@@ -103,6 +103,7 @@ All our classes are in English unless otherwise mentioned.
         .replace(/--PRICE--/g, event.meta.price)
         .replace(/--DATE_START--/g, new Date(event.start_date).toLocaleDateString('FI'))
         .replace(/--DATE_END--/g, new Date(event.last_date).toLocaleDateString('FI'))
+        ;
     }
     function renderPortalEvents() {
       var template = $('#template-portal-event-snippet');

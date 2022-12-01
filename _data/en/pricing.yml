@@ -62,7 +62,14 @@ dance_passes:
       - "Attend all our weekly classes and activities"
       - "Dance as much as you like"
       - "PLUS: Complimentary coaching session at the beginning of each season (3x per year)"
+      - "PLUS: Free 10x card for BPS studio bookings"
       - "PLUS: Free BPS t-shirt"
+    perks_values:
+      - "Normal price is 288€/course"
+      - "Unlimited course registrations or just drop-in"
+      - "3x 30-60 min sessions with over 200€ total value"
+      - "Normal price is 10x10€ = 100€"
+      - "Normal price is 25-35€"
   - title: Season
     subtitle: DANCE PASS
     price: 150€ / month
@@ -73,6 +80,7 @@ dance_passes:
       - "Attend all our weekly classes and activities"
       - "Dance as much as you like"
       - "PLUS: Complimentary coaching session at the beginning of the season"
+      - "PLUS: Free 5x card for BPS studio bookings"
   - title: Monthly
     subtitle: DANCE PASS
     price: 170€ / month
