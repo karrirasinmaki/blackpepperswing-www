@@ -2,7 +2,7 @@
 layout: page-fullwidth
 
 meta_title: Dance Passes
-meta_description: Single payment, all the classes
+meta_description: Total freedom of dancing. One pass, one payment, all the classes.
 
 title: "&nbsp;"
 
