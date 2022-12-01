@@ -30,7 +30,15 @@ subnav:
   </nav>
 </section>
 
-<section class="width-reader align-center" markdown="1">
+<section class="row align-items-end">
+  <div class="large-5 medium-10 medium-centered columns aside pr20 t50">
+    <div class="shadow-pop">
+      <a href="/courses/portal">
+        <img src="{{ site.urlimg }}/medium/lukkari-winter-spring-2023.png" />
+      </a>
+    </div>
+  </div>
+<section class="large-7 medium-8 medium-centered columns end" markdown="1">
 
 ### Courses / Season Winter-Spring 2023
 
@@ -43,6 +51,7 @@ Classes start on week 3 (16th of January, 2023).
 All our classes are in English unless otherwise mentioned.
 
 [Read more about the upcoming dance season...](/#season-info)
+</section>
 </section>
 
 <template id="template-portal-event-snippet" style="display:none;">
