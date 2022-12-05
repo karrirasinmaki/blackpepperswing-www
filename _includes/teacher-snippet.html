@@ -1,12 +1,17 @@
 {% comment %}
 <a href="{{ site.url }}{{ entry.url }}">
 	<h3>{{ entry.name }}</h3>
-	{% if entry.image?.url %}<img src="{{ site.urlimg }}thumb/{{ entry.image.src }}">{% endif %}
+	{% if entry.image?.url %}<img src="{{ site.urlimg }}thumb/{{ entry.image.url }}">{% endif %}
 </a>
 {% endcomment %}
 
-
 <h3>{{ entry.name }}</h3>
+
+{% if entry.image.url %}
+<figure class="frame ultrawide cover align-center">
+	<img style="object-position: {{ entry.image.align | default: 'center center' }};" src="{{ site.urlimg }}thumb/{{ entry.image.url }}">
+</figure>
+{% endif %}
 
 <p class="subheader">
 {% if entry.dances %}
@@ -29,8 +34,6 @@ Teaches {{ teaching_dances | split: ';' | uniq | array_to_sentence_string: 'a
 No current courses.
 {% endif %}
 </p>
-
 {% endcomment %}
 
-{% if entry.image?.url %}<img src="{{ site.urlimg }}thumb/{{ entry.image.src }}">{% endif %}
 <p>{{ entry.bio | truncate: 160 }}</p>

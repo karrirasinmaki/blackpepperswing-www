@@ -55,7 +55,7 @@
 	height: 100%;
 }
 
-.columns.bg, .columns.bg-color, .row.bg-color {
+.columns.bg, .columns.bg-color, .row.bg-color, body {
 	&.color-bg {
 		background-color: $color-bg;
 	}

@@ -1,6 +1,9 @@
 ---
 name: Juhani Turunen
-dances: ''
+dances: 'Lindy Hop'
 bio: ''
+
+image:
+  url: teachers/black/juhani_1600px.jpg
 
 ---

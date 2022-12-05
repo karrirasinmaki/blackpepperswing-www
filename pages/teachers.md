@@ -21,6 +21,7 @@ permalink: /teachers/
 </div></div>
 
 {% assign teachersByName = site.teachers | sort: "name"" %}
+{% assign teachersByName = site.teachers | sort: "order"" %}
 {% assign current_teachers = teachersByName | where_exp:"item","item.dances > ''" %}
 {% assign past_teachers = teachersByName | where_exp:"item","item.dances == Nil" %}
 

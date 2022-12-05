@@ -147,7 +147,7 @@ function buildJekyllCmd(env) {
     buildline = buildline + ',_config_firebase.yml';
   }
   else if (env === 'local') {
-    buildline = 'JEKYLL_ENV=production ' + buildline.replace('jekyll build', 'jekyll serve') + ',_config_dev.yml --host '+HOST+' --watch --trace --livereload --livereload-port 9005 --incremental';
+    buildline = buildline.replace('jekyll build', 'jekyll serve') + ',_config_dev.yml --host '+HOST+' --watch --trace --livereload --livereload-port 9005 --incremental';
   }
   return buildline;
 }

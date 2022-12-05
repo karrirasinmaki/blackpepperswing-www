@@ -1,10 +1,14 @@
 ---
-order: "1"
 name: Karri Rasinmäki
 dances: Lindy Hop, Slow Lindy, Boogie Woogie, Solo Jazz & Charleston
 bio: ''
 layout: page
 title: Karri Rasinmäki
+
+image:
+  url: teachers/black/karri_1600px.jpg
+  align: "center 42%"
+
 gallery:
 - image_url: karri/karri-ball-heel-slide.jpg
   caption: Teaching Black Pepper Swing class. Photo by Alessandro Ituarte (www.alessandroituarte.com).
