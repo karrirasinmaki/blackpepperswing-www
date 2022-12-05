@@ -1,8 +1,8 @@
 ---
 layout: post
-subtitle: From 1900s to today
+subtitle: With pros, cons, prices and addresses
 title: Indoor Places to Practice Swing Dancing in Helsinki
-teaser: 'Indoor Places to Practice Swing Dancing in Helsinki: Tested by BPS Community'
+teaser: 'List of Indoor Places to Practice Swing Dancing in Helsinki: Tested by BPS Community'
 categories:
 - articles
 tags:
@@ -19,7 +19,7 @@ header:
   caption: ''
   caption_url: ''
 image:
-  src: 1941-savoy-ballroom-interior-edited-welcometothesavoy.jpg
+  src: alppitalo/ebobrie/20220910_114137.jpg
   title: ''
   caption: ''
   caption_url: ''
@@ -92,7 +92,7 @@ A place where the magic happens, known among dancers as the home for jazz and bl
 
 **Price**: Weekdays before 4 pm – 12,5 EUR per hour, evenings and weekends – 25 EUR per hour.
 
-**Address**: [https://goo.gl/maps/y11bRS2saECwiS3X7](https://goo.gl/maps/y11bRS2saECwiS3X7 "https://goo.gl/maps/y11bRS2saECwiS3X7") or Sörnäisten rantatie 33, 00500 Helsinki
+**Address**: Sörnäisten rantatie 33, 00500 Helsinki ([open in Google Maps](https://goo.gl/maps/y11bRS2saECwiS3X7))
 
 **Pros**: Jazz factory has a special offer for non-commercial use (aka practising) – 10 EUR per hour with a minimum of 10 hours booked.
 
@@ -141,6 +141,8 @@ Check out our [Online Library](https://library.blackpepperswing.com/) for inspir
 As promised, here are some tips from Black Pepper Swing community.
 
 We talked to the dancers with one question – “Where are you practising?”. Many of them mentioned one or two places from the list, but we also got a few comments that give you alternative choices.
+
+![Ali dancing at Helswingi 2022](/images/ali-frida-helswingi-2022-ebobrie-cropped.jpg)
 
 #### Social floor
 
