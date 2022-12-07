@@ -2,12 +2,16 @@
 {% endcomment %}
 
 
-<div class="slick-carousel" {% include slick-data %}>
-  {% assign old_entry = entry %}
-  {% for entry in include.collection limit:include.entries %}
-  <div class="item">
-    {% include {{include.template}} %}
+<div class="splide carousel-cards" {% include splide-data %}>
+  <div class="splide__track">
+    <div class="splide__list">
+      {% assign old_entry = entry %}
+      {% for entry in include.collection limit:include.entries %}
+      <div class="splide__slide slide">
+        {% include {{include.template}} %}
+      </div>
+      {% endfor %}
+      {% assign entry = old_entry %}
+    </div>
   </div>
-  {% endfor %}
-  {% assign entry = old_entry %}
 </div>

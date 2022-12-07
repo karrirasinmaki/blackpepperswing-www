@@ -1,0 +1,8 @@
+{% capture data_splide %}
+{
+  "autoWidth": {{include.autoWidth | default: true}},
+  "arrows": {{include.arrows | default: false}},
+  "pagination": {{include.pagination | default: true}}
+}
+{% endcapture %}
+data-splide='{{ data_splide | strip_newlines | strip }}'

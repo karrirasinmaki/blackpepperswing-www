@@ -42,3 +42,26 @@ $(document).ready(function(){
   });
 });
 </script>
+
+<script>
+$(document).ready(function(){
+  $('.splide').each(function(index) {
+    var el = $(this);
+    var isVertical = el.hasClass("vertical");
+    new Splide(el[0], {
+      arrows: false,
+      pagination: true,
+      direction: isVertical ? 'ttb' : 'ltr',
+      autoWidth: true,
+      breakpoints: {
+        920: {
+          perPage: 2,
+        },
+        540: {
+          perPage: 1,
+        },
+      }
+    }).mount();
+  });
+});
+</script>
