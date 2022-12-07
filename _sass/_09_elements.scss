@@ -378,6 +378,18 @@ div.article-media {
       }
     }
 
+    &.size-xsmall {
+      width: 34%;
+    }
+    &.float-left {
+      float: left;
+      margin-right: 5%;
+    }
+    &.float-right {
+      float: right;
+      margin-left: 3%;
+    }
+
     &.small-left + .small-right,
     &.small-right + .small-left {
       width: 74%;

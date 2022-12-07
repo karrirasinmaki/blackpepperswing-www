@@ -1,0 +1,80 @@
+/* Article media
+------------------------------------------------------------------- */
+
+div.article-media {
+  @media #{$medium-up} {
+    margin-left: -2%;
+    width: 104%;
+  }
+}
+
+.article-media {
+  overflow: hidden;
+  iframe, img, video {
+    width: 100%;
+    max-width: 100%;
+  }
+  @media #{$medium-up} {
+
+    &.pull-left {
+      float: left;
+      margin-left: -29%;
+      margin-right: 2%;
+      width: 129%;
+      .fb-post, .fb-video {
+        float: right;
+      }
+    }
+    &.pull-right {
+      float: right;
+      margin-right: -29%;
+      margin-left: 2%;
+      width: 129%;
+      .fb-post, .fb-video {
+        float: left;
+      }
+    }
+    &.small-left {
+      float: left;
+      margin-left: -29%;
+      margin-right: 5%;
+      width: 64%;
+      .fb-post, .fb-video {
+        float: right;
+      }
+    }
+    &.small-right {
+      float: right;
+      margin-right: -29%;
+      margin-left: 5%;
+      width: 64%;
+      .fb-post, .fb-video {
+        float: left;
+      }
+    }
+    &.xsmall-left {
+      float: left;
+      margin-left: -29%;
+      margin-right: 5%;
+      width: 34%;
+      .fb-post, .fb-video {
+        float: right;
+      }
+    }
+    &.xsmall-right {
+      float: right;
+      margin-right: -29%;
+      margin-left: 5%;
+      width: 34%;
+      .fb-post, .fb-video {
+        float: left;
+      }
+    }
+
+    &.small-left + .small-right,
+    &.small-right + .small-left {
+      width: 74%;
+    }
+  }
+}
+

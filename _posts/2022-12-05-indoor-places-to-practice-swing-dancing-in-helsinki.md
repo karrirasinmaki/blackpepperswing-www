@@ -10,32 +10,9 @@ tags:
 - practice
 header:
   short: true
-  image_fullwidth: ''
-  image: ''
-  pattern: ''
-  color: ''
-  background-color: ''
-  title: ''
-  caption: ''
-  caption_url: ''
 image:
   src: alppitalo/ebobrie/20220910_114137.jpg
-  title: ''
-  caption: ''
-  caption_url: ''
-  homepage: ''
-  thumb: ''
-comments: false
 show_meta: false
-subheadline: ''
-meta_title: ''
-meta_description: ''
-iframe: ''
-video:
-  embedURL: ''
-  contentURL: ''
-  thumbnailUrl: ''
-breadcrumb: false
 
 ---
 Dancing courses are all fun, but they are only once a week for an hour. Are you that person, who comes to the class, learns new moves, and then forgets about them until the next class? Honestly, no shame in that – we all have our busy lives and schedules. Though, as they say, practice makes perfect (or something close to that), so at Black Pepper Swing we urge our students to revise the material also outside the classrooms.

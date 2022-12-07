@@ -192,7 +192,7 @@ defaults:
       layout: page
       show_meta:
         nav: false
-      comments: false
+      comments: true
       author: blackpepperswing
       archive_url: "/blog/archive/"
   -
@@ -344,7 +344,9 @@ facebook_app_id: 335589810224955
 #
 # used in _includes/comments
 
-# disqus_shortname: 
+disqus_shortname: blackpepperswing
+
+# commentboxio_projectid: 5645079939121152-proj
 
 
 #      _____

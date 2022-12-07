@@ -1,6 +1,6 @@
 ---
 layout: post
-subtitle: From 1900s to today
+subtitle: All you need to know
 title: How to Choose Shoes for Swing Dancing
 teaser: Everything you need to know when choosing shoes for swing dancing. Will old
   sneakers do? Leather vs rubbers soles, high heels or not? Answers to these and many
@@ -8,35 +8,13 @@ teaser: Everything you need to know when choosing shoes for swing dancing. Will 
 categories:
 - articles
 tags:
-- history
+- tips
+- shoes
 header:
   short: true
-  image_fullwidth: ''
-  image: ''
-  pattern: ''
-  color: ''
-  background-color: ''
-  title: ''
-  caption: ''
-  caption_url: ''
 image:
-  src: 1941-savoy-ballroom-interior-edited-welcometothesavoy.jpg
-  title: ''
-  caption: ''
-  caption_url: ''
-  homepage: ''
-  thumb: ''
-comments: false
+  src: alppitalo/harriet-autumn-2022/bps-alppitalo-shoe-box-petrol-wall.jpg
 show_meta: false
-subheadline: All you need to know
-meta_title: ''
-meta_description: ''
-iframe: ''
-video:
-  embedURL: ''
-  contentURL: ''
-  thumbnailUrl: ''
-breadcrumb: false
 
 ---
 When it comes to the practicalities of the swing dance, a question that’s on most beginners' minds is “What shoes do I wear?”. And not only beginners ask that, if we are being completely honest, so no need to be shy about it. All dancers find themselves from time to time in the search of new shoes, asking questions, opinions and considering options.
@@ -113,19 +91,21 @@ Another thing that matters is your mood, as well as the way you want to look and
 
 _“If I have my heels on, I present myself differently in a much more elegant and even almost mysterious way. And feel like I’m being special tonight. Though without my heels I’m still able to experience such emotions and present myself accordingly but heels always help me to achieve it easier.” –_ Shares Anna.
 
-As for Tanja, her preference for dancing in heels changed over time and now she’s mainly wearing flats.
+![](/images/tanja-in-sneakers-at-helswingi-2022.jpg){:.article-media .size-xsmall .float-left}
 
-![](/images/tanja-in-sneakers-at-helswingi-2022.jpg)
+As for Tanja, her preference for dancing in heels changed over time and now she’s mainly wearing flats.
 
 _“I discovered heels when I started taking balboa classes – I wanted to have shoes with a heel because that’s what I saw on my teacher. I found a pair of second-hand shoes with leather soles and a heel, and I fell in love with the slidey feel. They quickly became my favourite pair to dance anything in.”_
 
 _“I was dancing a lot in those days. The joints of my feet started hurting and dancing in heels became somewhat impossible for some time. So, I switched to lower heels and flat shoes - even back to sneakers. So now, I mainly pick between slidey and sticky shoes for the styles, because higher heels are no longer an option. Also, my dancing has become energetic and jumpy lately, and soft trainers feel the most comfortable for that_”
 
+<div class="clearfix"></div>
+
+![](/images/anna-in-diamant-shoes-competing-in-kharkiv-ukraine-boogie-woogieworld-championship-2021-cropped.jpg){:.article-media .small-right}
+
 ### How to Choose Heels w/ Anna Tyutyunyuk
 
 If you decide to buy a pair of nice dancing shoes with heels, here are a few tips from Boogie Woogie World Champion Anna Tyutyunyuk.
-
-![](/images/anna-in-diamant-shoes-competing-in-kharkiv-ukraine-boogie-woogieworld-championship-2021-cropped.jpg)
 
 Her first tip is to not listen to any advice from shop assistants, especially if they don’t have experience in your line of dancing, – and it’s rooted in an unfortunate story.
 
