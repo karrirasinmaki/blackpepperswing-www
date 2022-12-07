@@ -46,6 +46,7 @@ We went to our community to answer that question and asked what Black Pepper Swi
 We’ll start with **sneakers** aka rubber soles. Our Lindy Hop teacher and avid Jazz dancer **Kay Werndli** is often seen dancing precisely in them. Rumour has it, he’s only dancing in sneakers, but we know for sure that he also owns a pair of leather shoes and Keds with a suede sole.
 
 ![](/images/kay-is-dancing-in-adidas-stan-smiths.jpg)
+_Kay is dancing in Adidas Stan Smiths._
 
 But here are a few reasons why Kay prefers sneakers to dress shoes:
 
@@ -62,6 +63,7 @@ Maria’s favourite dance shoes are leather boots from Savoy Cats that feel more
 ## Adjusting Soles and Shoes Repair
 
 ![](/images/suutari-helsinkikuvia-4350d5eb-0d44-4101-96bd-c231cd4f71da.jpg)
+_"Suutari työssään" - Hakli, Kari (1973) - Helsinkikuvia.fi_
 
 It is important that your feet are supported properly as you dance, so what if you have a pair of perfect shoes but it doesn't give you that slide and “oomph” feeling you are looking for? The answer is simple – you just adjust the soles.
 
@@ -91,7 +93,10 @@ Another thing that matters is your mood, as well as the way you want to look and
 
 _“If I have my heels on, I present myself differently in a much more elegant and even almost mysterious way. And feel like I’m being special tonight. Though without my heels I’m still able to experience such emotions and present myself accordingly but heels always help me to achieve it easier.” –_ Shares Anna.
 
-![](/images/tanja-in-sneakers-at-helswingi-2022.jpg){:.article-media .size-xsmall .float-left}
+<div class="article-media size-xsmall float-left" markdown="1">
+![](/images/tanja-in-sneakers-at-helswingi-2022.jpg)
+<small>Tanja dancing in sneakers at Helswingi 2022.</small>
+</div>
 
 As for Tanja, her preference for dancing in heels changed over time and now she’s mainly wearing flats.
 
@@ -101,7 +106,10 @@ _“I was dancing a lot in those days. The joints of my feet started hurting and
 
 <div class="clearfix"></div>
 
-![](/images/anna-in-diamant-shoes-competing-in-kharkiv-ukraine-boogie-woogieworld-championship-2021-cropped.jpg){:.article-media .small-right}
+<div class="article-media small-right" markdown="1">
+![](/images/anna-in-diamant-shoes-competing-in-kharkiv-ukraine-boogie-woogieworld-championship-2021-cropped.jpg)
+<small>Anna in Diamant shoes competing in Kharkiv, Ukraine, Boogie Woogie World Championship 2021.</small>
+</div>
 
 ### How to Choose Heels w/ Anna Tyutyunyuk
 
