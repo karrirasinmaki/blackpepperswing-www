@@ -20,9 +20,22 @@ image:
 ---
 Someone turned off the lights outside, so let’s turn on the lights inside and celebrate the end of the year swinging out together. The dance floor will be hot, and glögi will flow. If you feel inclined, feel free to bring a plate to share.
 
+Party starts at 18:30 with Boogie Woogie taster class!
+
 Entrance fee: Free of charge for BPS students, others - humble fee of 5 euros.
 
-More information will be published soon!
+**OUR TREATS FOR YOU**
+
+- A Boogie Woogie Taster by Karri and Vuokko at 18:30 to 19:00  
+- Teachers and students performances  
+- Paparazzi with an instant photo camera  
+- A surprise announcement from Black Pepper Swing  
+- And much more!
+
+
+**YOU ARE INVITED**
+
+[Click here to open the invitation letter](https://us16.campaign-archive.com/?u=afde0a77ccfe7b464547ee2c6&id=9de8c0874b)
 
 **ADDRESS**
 

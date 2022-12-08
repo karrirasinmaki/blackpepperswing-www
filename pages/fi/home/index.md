@@ -77,8 +77,9 @@ featured_ctas:
 
 Olemme inspiroiva ja intohimoinen swing-tanssikoulu Helsingissä. Löydät meiltä [viikkokurssit](/courses), [workshopit](/events), ja erinäiset svengaavat [tapahtumat](/events). Voit myös [vuokrata tanssisalin](/studio-rental) käyttöösi, tai kenties ottaa muutaman [yksityistunnin](/services/#private-classes) kanssamme.
 
-**Uutta: Lindy Hop alkeisviikonloppu, 26-27 marraskuuta!**  
-Ei aiempaa kokemusta eikä tanssiparia tarvita. Lähdetään nollasta liikkeelle. [Lue lisää](https://portal.blackpepperswing.com/courses/2p9gjt5onldd44mkbhoeis9qe8/lindy-hop-beginners'-weekend-course)
+**Ilmoittautuminen on alkanut!**  
+Uusi kausi starttaa tammikuussa 2023 (vko 3 / 16.1.)  
+[Season info and registration](#season-info)
 
 Nähdään tanssilattialla!
 {% endcapture %}
