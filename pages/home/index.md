@@ -133,14 +133,17 @@ New season starts January 16th 2023
   <div class="medium-6 columns end">
     <div class="show-for-small-only width-medium align-center">
       <h2 class="color-contrast">How to<br/><span class="l15"></span> join the fun?</h2>
-      <div class="slick-carousel frame-container square shadow-pop">
+      <div class="frame-container square shadow-pop">
+        {% assign slides = '' | split: '' %}
         {% for img in page.slider2 %}
-        <div>
+          {% capture slide %}
           <div class="frame square cover">
             <img src="{{ img.image_url | imgurl,size:'medium' }}" style="object-position: {{ img.position | default: "center" }}" />
           </div>
-        </div>
+          {% endcapture %}
+          {% assign slides = slides | push: slide %}
         {% endfor %}
+        {% include carousel.html slidesToShow=3 centerMode="true" initialSlide=1 adaptiveHeight="true" arrows="false" dots="true" collection=slides template="spit-entry" %}
       </div>
     </div>
 

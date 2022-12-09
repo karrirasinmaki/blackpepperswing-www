@@ -136,13 +136,14 @@ Nähdään tanssilattialla!
 
 <section class="row width-max b30">
   <div class="medium-12 columns slick-padded">
-    <div class="slick-carousel" {% include slick-data slidesToShow=3 variableWidth=true %}>
-      {% for img in page.slider3 %}
-      <div class="item">
-          <img src="{{ img.image_url | imgurl,size:'medium' }}" style="object-position: {{ img.position | default: "center" }}; height: 320px; width: auto;" />
-      </div>
-      {% endfor %}
-    </div>
+  {% assign slides = '' | split: '' %}
+  {% for img in page.slider3 %}
+    {% capture slide %}
+      <img src="{{ img.image_url | imgurl,size:'medium' }}" style="object-position: {{ img.position | default: "center" }}; object-fit: cover; height: 320px; width: auto;" />
+    {% endcapture %}
+    {% assign slides = slides | push: slide %}
+  {% endfor %}
+  {% include carousel.html slidesToShow=3 centerMode="true" initialSlide=1 autoWidth="true" arrows="false" dots="true" collection=slides template="spit-entry" %}
   </div>
 </section>
 
