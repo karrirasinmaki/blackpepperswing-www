@@ -15,8 +15,12 @@ permalink: "/links/"
 ---
 <div class="text-center t30" style="max-width: 420px; margin: 0 auto;">
   <ul class="social-icons side-nav">
-    <li><a href="https://portal.blackpepperswing.com/courses/2p9gjt5onldd44mkbhoeis9qe8/lindy-hop-beginners'-weekend-course">Lindy Hop Beginners' Weekend (Nov 26-27)</a></li>
+    <li class="heading">Latest on blog</li>
+    <li><a href="/posts/articles/how-to-choose-shoes-for-swing-dancing/">How to Choose Shoes for Swing Dancing</a></li>
+    <li><a href="/posts/articles/a-not-so-brief-history-of-swing-dance/">A (Not-So) Brief History of Swing Dance</a></li>
     <li class="divider b60"></li>
+    <li class="heading">Season starts January 16th</li>
+    <li><a href="/#season-info">Read more about upcoming season</a></li>
     <li><a href="/courses">Courses and workshops</a></li>
     <li><a href="/courses-for-beginners/">Beginners' Classes</a></li>
     <li class="divider b60"></li>

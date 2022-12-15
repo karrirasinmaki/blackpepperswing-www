@@ -9,3 +9,11 @@
 .list-checkmarks {
 	list-style-type: "✓";
 }
+
+ul.side-nav {
+	li.heading {
+		border: 0;
+		color: inherit;
+		text-transform: none;
+	}
+}
