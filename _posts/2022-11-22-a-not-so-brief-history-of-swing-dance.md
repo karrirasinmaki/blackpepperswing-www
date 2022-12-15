@@ -14,7 +14,6 @@ image:
   title: ''
   caption: ''
   caption_url: ''
-comments: false
 show_meta: false
 
 ---
