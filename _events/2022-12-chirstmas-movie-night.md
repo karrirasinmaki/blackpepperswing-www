@@ -7,7 +7,7 @@ sitemap: true
 
 title: "Movie Night: White Christmas with Bing Crosby"
 subtitle: Helsinki | December 18th
-teaser: This time, we will enjoy an old classic of year 1954: White Christmas starring Bing Crosby and Danny Kaye...
+teaser: "This time, we will enjoy an old classic of year 1954: White Christmas starring Bing Crosby and Danny Kaye..."
 
 date_start: 2022-11-27
 time: 16:00 - 20:00
