@@ -4,9 +4,17 @@ const imagemin = require('gulp-imagemin');
 const { exec, spawn1 } = require('child_process');
 const runSequence = require('run-sequence');
 const plumber = require('gulp-plumber');
-const changed = require('gulp-changed');
+const gulpChanged = require('gulp-changed');
 
 let HOST = "0.0.0.0";
+
+const GULP_IMAGE_SOURCE = '_original_images/**/*.*'; // (jpe*g|gif|png|webp|bmp)
+
+function changed(dest) {
+  // fs.existsSync()
+  // return gulpChanged(dest, {hasChanged: gulpChanged.compareContents});
+  return gulpChanged(dest);
+}
 
 const spawn = (function() {
     var childProcess = require("child_process");
@@ -36,7 +44,7 @@ function doExec(buildline, done=null) {
 
 function resizeImagesThumb() {
   let dest = 'images/thumb';
-  return gulp.src('_original_images/**/*')
+  return gulp.src(GULP_IMAGE_SOURCE)
     .pipe(plumber())
     .pipe(changed(dest))
     .pipe(imageResize({
@@ -52,7 +60,7 @@ function resizeImagesThumb() {
 
 function resizeImagesCover() {
   let dest = 'images/cover';
-  return gulp.src('_original_images/**/*')
+  return gulp.src(GULP_IMAGE_SOURCE)
     .pipe(plumber())
     .pipe(changed(dest))
     .pipe(imageResize({
@@ -68,7 +76,7 @@ function resizeImagesCover() {
 
 function resizeImagesLarge() {
   let dest = 'images/large';
-  return gulp.src('_original_images/**/*')
+  return gulp.src(GULP_IMAGE_SOURCE)
     .pipe(plumber())
     .pipe(changed(dest))
     .pipe(imageResize({
@@ -83,7 +91,7 @@ function resizeImagesLarge() {
 
 function resizeImagesMedium() {
   let dest = 'images/medium';
-  return gulp.src('_original_images/**/*')
+  return gulp.src(GULP_IMAGE_SOURCE)
     .pipe(plumber())
     .pipe(changed(dest))
     .pipe(imageResize({
@@ -98,7 +106,7 @@ function resizeImagesMedium() {
 
 function resizeImagesSmall() {
   let dest = 'images/small';
-  return gulp.src('_original_images/**/*')
+  return gulp.src(GULP_IMAGE_SOURCE)
     .pipe(plumber())
     .pipe(changed(dest))
     .pipe(imageResize({
@@ -113,7 +121,7 @@ function resizeImagesSmall() {
 
 function resizeImagesDefault() {
   let dest = 'images';
-  return gulp.src('_original_images/**/*')
+  return gulp.src(GULP_IMAGE_SOURCE)
     .pipe(plumber())
     .pipe(changed(dest))
     .pipe(imageResize({
@@ -125,7 +133,7 @@ function resizeImagesDefault() {
 
 function optimizeImages() {
   let dest = 'images';
-  return gulp.src(['_original_images/**/*', 'images/**/*'])
+  return gulp.src([GULP_IMAGE_SOURCE, 'images/**/*'])
     .pipe(plumber())
     .pipe(changed(dest))
     .pipe(imagemin([
