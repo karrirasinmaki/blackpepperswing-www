@@ -22,6 +22,14 @@ permalink: /offers/smooth-as-butter-program/
 [booking]: https://book.stripe.com/8wMeWKaKL4k49Ne9AE
 [tel]: tel:{{site.tel | remove:' '}}
 
+<style>
+.toggle-content {
+  display: none;
+}
+.toggle-content:target {
+  display: block;
+}
+</style>
 
 <section class="medium-12 medium-centered columns width-reader" markdown="1">
 
@@ -29,7 +37,31 @@ permalink: /offers/smooth-as-butter-program/
 
 &nbsp;
 
-[Book your spot on the program here][booking]{:.button .small .round} &nbsp; [Call {{site.tel}}][tel]{:.button .tiny .round .secondary}
+<div class="toggle-content-aa row" id="book" markdown="1">
+  <div class="columns small-12 medium-6">
+    <figure class="article-media show-for-medium-up">
+      <div class="frame portrait cover shadow-pop">
+        <img src="{{ 'harriet-karri-photoshoot-by-mikhail-korchun/123_color.jpg' | imgurl,size:'thumb' }}" />
+      </div>
+    </figure>
+    <figure class="article-media show-for-small-only">
+      <div class="frame landscape cover shadow-pop">
+        <img src="{{ 'harriet-karri-photoshoot-by-mikhail-korchun/123_color.jpg' | imgurl,size:'thumb' }}" />
+      </div>
+    </figure>
+  </div>
+  <div class="columns small-12 medium-6">
+    <h2 class="t30">Book your spot</h2>
+    <p>Get smooth as butter on the dance floor / 8-week intensive program</p>
+    <p>Action-packed, fast-paced, 60-day journey into the smoothest and grooviest hepcat ever.</p> 
+    <p>Are you in? <b>Click the button below</b> to book your spot on the program!</p>
+    <a class="button radius expand" href="https://book.stripe.com/8wMeWKaKL4k49Ne9AE" target="_blank">Book now</a>
+    <div class="text-center">
+      <small>or</small><br/>
+      <a class="button tiny round secondary" href="tel:{{site.tel | remove:' '}}">Call {{site.tel}}</a>
+    </div>
+  </div>
+</div>
 
 ### A dive-deep journey into the authentic jazz/swing dance world.
 
@@ -82,7 +114,7 @@ To summarize, this program contains all the following plus more.
 
 **Personal coaching:**
 
-- Personal check-ins for extra support and to make sure you nail it  
+- Personal coach check-ins for extra support and to make sure you nail it  
 - Personalized dance plan for and after the program  
 
 **Plus extra perks including:**
