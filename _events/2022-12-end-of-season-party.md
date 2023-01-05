@@ -1,5 +1,5 @@
 ---
-archived: false
+archived: true
 repeats: false
 sitemap: true
 title: End of Season Party
