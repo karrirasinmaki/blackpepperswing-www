@@ -9,7 +9,8 @@
     "clean": "rm -rf node_modules package-lock.json vendor .bundle",
     "theme:build": "gem build jekyll-theme-black-pepper-swing.gemspec",
     "build": "npm run gulp images && JEKYLL_ENV=production bundle exec jekyll build --config _config.yml",
-    "build-staging": "npm run gulp images && JEKYLL_ENV=dev bundle exec jekyll build --config _config.yml,_config_staging.yml"
+    "build-staging": "npm run gulp images && JEKYLL_ENV=dev bundle exec jekyll build --config _config.yml,_config_staging.yml",
+    "deploy": "npm run build && firebase deploy --only hosting"
   },
   "repository": {
     "type": "git",

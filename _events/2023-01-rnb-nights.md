@@ -1,23 +1,22 @@
 ---
-archived: true
+archived: false
 repeats: false
 
 sitemap: true
 
 title: Friday R'n'B Nights
-subtitle: Helsinki | November 18th
-teaser: This is for all the Rhythm 'n blues lovers! Nov 18th, 7pm till midnight. “Friday R’n’B Nights” is a club night dedicated to music from 1930’s to 60’s - especially Rhythm ‘n blues, Soul classics, Jazz, Jump Blues, Early Rock ‘n Roll, Doo-Wop - and other groovy, rocking, soulful, swinging tunes.
+subtitle: Helsinki | January 27th
+teaser: This is for all the Rhythm 'n blues lovers! Jan 27th, 7pm till midnight. “Friday R’n’B Nights” is a club night dedicated to music from 1930’s to 60’s - especially Rhythm ‘n blues, Soul classics, Jazz, Jump Blues, Early Rock ‘n Roll, Doo-Wop - and other groovy, rocking, soulful, swinging tunes.
 
-date_start: 2022-11-18
-date_end: 2022-11-18
+date_start: 2023-01-27
 time: 19:00 - 24:00
 address: Black Pepper Swing, Karjalankatu 2 (4th floor), 00520 Helsinki, Finland
 header:
   hide_text: true
 links:
-  facebook: https://www.facebook.com/events/1510114706159556
+  facebook: https://www.facebook.com/events/855374452250694
 image:
-  src: rnb-nov18-2022.png
+  src: /events/rnb-nights-jan27-2023.jpg
 
 ---
 
