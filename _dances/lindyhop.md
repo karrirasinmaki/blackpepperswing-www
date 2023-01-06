@@ -1,14 +1,15 @@
 ---
 order: 0
+featured: true
 
 title: Lindy Hop
 portal_q: Lindy Hop
 ---
 
 <div class="article-media">
-	<a href="https://www.youtube.com/watch?v=H9ExBUKjqLo" target="_blank">
+	<a href="https://youtu.be/vViI2Io_TeM" target="_blank">
 		<video playsinline autoplay muted loop>
-			<source alt="{{ site.title }}" src="{{ site.urlvid }}lindyhop.webm" type="video/webm" />
+			<source alt="{{ site.title }}" src="{{ site.urlvid }}tanja-karri-lammassaari-2020-gif.mp4" type="video/webm" />
 		</video>
 	</a>
 </div>

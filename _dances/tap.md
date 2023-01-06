@@ -1,14 +1,15 @@
 ---
 order: 2
+featured: true
 
 title: Tap Dancing
 portal_q: Tap
 ---
 
 <div class="article-media">
-	<a href="https://youtu.be/fNKRm6H-qOU" target="_blank">
+	<a href="https://youtu.be/NrZq47AoyNk" target="_blank">
 		<video playsinline autoplay muted loop>
-			<source alt="{{ site.title }}" src="{{ site.urlvid }}tap.webm" type="video/webm" />
+			<source alt="{{ site.title }}" src="{{ site.urlvid }}bps-tappers-tnh-2019-gif.mp4" type="video/webm" />
 		</video>
 	</a>
 </div>

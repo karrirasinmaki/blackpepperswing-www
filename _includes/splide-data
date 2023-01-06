@@ -2,7 +2,8 @@
 {
   "autoWidth": {{include.autoWidth | default: true}},
   "arrows": {{include.arrows | default: false}},
-  "pagination": {{include.pagination | default: true}}
+  "pagination": {{include.pagination | default: true}},
+  "focus": {{include.focus | default: '"center"'}}
 }
 {% endcapture %}
 data-splide='{{ data_splide | strip_newlines | strip }}'

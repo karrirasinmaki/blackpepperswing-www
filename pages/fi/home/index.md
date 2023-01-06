@@ -61,9 +61,9 @@ secondary_ctas:
   url: /punch-cards
 
 featured_ctas:
-- title: Vuokraa tanssisali
-  url: /studio-rental
-  img: alppitalo/bps-alppitalo-front-studio-01.jpg
+- title: Uusi tanssija - aloita täältä
+  url: /start-dancing
+  img: helswingi-2018-andzej-essi.jpg
 - title: Kurssit ja ilmoittautuminen
   url: /courses
   img: https://firebasestorage.googleapis.com/v0/b/custportal-3000.appspot.com/o/media%2Fbps-autumn-2022.jpg?alt=media&token=19fae595-876a-41d2-8386-8ce1fc1752b7

@@ -44,9 +44,9 @@ secondary_ctas:
   url: /punch-cards
 
 featured_ctas:
-- title: Studio rental
-  url: /studio-rental
-  img: alppitalo/bps-alppitalo-front-studio-01.jpg
+- title: Are you new? Start here!
+  url: /start-dancing
+  img: helswingi-2018-andzej-essi.jpg
 - title: Courses & Registration
   url: /courses
   img: https://firebasestorage.googleapis.com/v0/b/custportal-3000.appspot.com/o/media%2Fbps-autumn-2022.jpg?alt=media&token=19fae595-876a-41d2-8386-8ce1fc1752b7
@@ -95,14 +95,14 @@ New season starts January 16th 2023
     <div class="t10"></div>
     <h2>Swing is <b>back</b></h2>
     <p>Spreading swing dancing in modern society means inspiring people to connect with jazz music, themselves and each other. We offer engaging, precise and fun teaching from the first course on. And we make sure your dance time is not limited to the lessons.</p>
-    <p>Lindy hop, Balboa, Shag, Boogie Woogie, Solo Jazz and Tap Dancing - for dancers of different levels and with different aims. Get started or get better. <a href="{{ site.baseurl }}/courses" class="">Check which courses would suit you.</a></p>
+    <p>Lindy hop, Charleston, Balboa, Shag, Boogie Woogie, Solo Jazz, and Tap Dancing - for dancers of different levels and with different aims. Get started or get better. <a href="{{ site.baseurl }}/courses" class="">Check which courses would suit you.</a></p>
   </div>
 </section>
 
 <section class="row width-max">
   <div class="medium-12 columns slick-padded">
-  {% assign dances = site.dances | sort: "order" %}
-  {% include carousel.html slidesToShow=3 centerMode="true" initialSlide=1 adaptiveHeight="true" arrows="true" dots="true" collection=dances template="dance-excerpt.html" %}
+  {% assign dances = site.dances | sort: "order" | where: "featured","true" %}
+  {% include carousel-slick.html slidesToShow=3 centerMode="true" initialSlide=0 adaptiveHeight="true" arrows="true" dots="true" collection=dances template="dance-excerpt.html" %}
   </div>
 </section>
 
