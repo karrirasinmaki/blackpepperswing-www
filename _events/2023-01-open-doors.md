@@ -5,7 +5,7 @@ repeats: false
 sitemap: true
 
 title: Open doors / Free tryout classes
-subtitle: Helsinki | August 10th
+subtitle: Helsinki | January 11th
 teaser: Come to the studio to hang out and dance. The program includes 3 free taster classes suitable for anyone - also without any prior dance experience.
 
 date_start: 2023-01-11
