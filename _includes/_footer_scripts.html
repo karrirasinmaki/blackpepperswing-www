@@ -1,6 +1,6 @@
-<script async src="{{ site.urlassets }}js/javascript.min.js"></script>
+<script src="{{ site.urlassets }}js/javascript.min.js"></script>
 <script src="https://www.youtube.com/player_api"></script>
-<script src="{{ site.urlassets }}js/video.js"></script>
+<script async src="{{ site.urlassets }}js/video.js"></script>
 
 
 {% unless site.webfonts == false %}
@@ -21,9 +21,10 @@
 
 {% comment %}
 # Foundation scripts
+# Addons to the original theme js bundle
 # Using CDN versions
+# Main script, already loaded // <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/foundation.min.js"></script>
 {% endcomment %}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/foundation.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/foundation.tab.min.js"></script>
 <script>
   $(document).foundation();
@@ -64,7 +65,6 @@ fjs.parentNode.insertBefore(js, fjs);
 
 {% if site.google_apikey %}
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key={{ site.google_apikey }}"></script>
-
 
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/google-maps-reviews.js"></script>
 <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/google-maps-reviews.css" />

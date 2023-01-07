@@ -66,10 +66,9 @@
   //    the player should play for six seconds and then stop.
   function onPlayerStateChange(event) {
     if(event.data == 0){
-      //event.target.a.classList.remove("ready");
-      event.target.a.classList.remove("ready");
+      event.target.getIframe().classList.remove("ready");
     } else if(event.data == 1) {
-      event.target.a.classList.add("ready");
+      event.target.getIframe().classList.add("ready");
     }
   }
 })();

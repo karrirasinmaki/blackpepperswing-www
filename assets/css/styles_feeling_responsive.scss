@@ -27,12 +27,10 @@
 @import "foundation-components/inline-lists";
 @import "foundation-components/keystrokes";
 @import "foundation-components/panels";
-@import "foundation-components/pricing-tables";
 @import "foundation-components/reveal";
 @import "foundation-components/side-nav";
 @import "foundation-components/sub-nav";
 @import "foundation-components/tables";
-@import "foundation-components/tabs";
 @import "foundation-components/thumbs";
 @import "foundation-components/top-bar";
 @import "foundation-components/type";
@@ -42,6 +40,17 @@
 @import "07_layout.scss";
 @import "foundation-components/grid";
 @import "09_elements.scss";
+
+@import "11_syntax-highlighting.scss";
+
+
+/**
+ * Custom and addon scripts
+ * Scripts that were not part of the original "Feeling responsive" theme.
+ */
+
+@import "foundation-components/pricing-tables";
+@import "foundation-components/tabs";
 
 @import "elements/utils.scss";
 @import "elements/nav_list.scss";
@@ -58,4 +67,3 @@
 @import "elements/pricing-list.scss";
 @import "elements/lists.scss";
 
-@import "11_syntax-highlighting.scss";
