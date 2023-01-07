@@ -22,3 +22,26 @@ h1, h2, h3, h4, h5, h6 {
 .fade-bottom {
 	-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(0.7, #000), to(rgba(0,0,0,0)));
 }
+
+.media-wait-ready {
+	.wait-image {
+		position: absolute;
+		left: 8%;
+		top: 8%;
+		width: 84%;
+		height: 84%;
+		background-size: cover;
+		opacity: 1;
+
+		-webkit-animation: jello-horizontal 1.4s infinite both;
+						animation: jello-horizontal 1.4s infinite both;
+	}
+
+	iframe {
+		opacity: 0;
+		transition: 0.5s all;
+	}
+	iframe.ready {
+		opacity: 1;
+	}
+}
