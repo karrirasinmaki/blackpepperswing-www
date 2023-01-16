@@ -17,6 +17,8 @@ permalink: "/lindyhop/"
 
 Lindy hop is often referred to as swing dancing. That’s pretty logical because we Lindy hoppers lindy hop on swing music. Swing music was the prevailing popular music style in 1920-40’s America. Young folks of those days would go out and swing out all night long in crowded ballrooms. They called their dance “the Lindy”. And “the Lindy” was already a game changer back then: It brought black and white Americans alike to the same dance floors. Up to this day Lindy hop keeps changing people's lives. 
 
+[Read more about the history here...]({% post_url 2022-11-22-a-not-so-brief-history-of-swing-dance %})
+
 <!--more-->
 
 # ...and why you should do it, too
@@ -97,6 +99,39 @@ We live in a digitalized world. Work, school and a big part of our social life h
 <div id="signup">&nbsp;</div>
 
 ## Sign up for Beginners courses
-No partner or previous dance experience required
 
-<a class="button" href="{{ site.url }}/courses-for-beginners">Show all beginners' courses</a>
+Pick any course that speaks to you, and we see you at the studio!
+
+No partner nor previous dance experience required.
+
+You can read more information from course pages below. Everything will become clear latest during the first class. If you [need help choosing](/start-dancing), we are happy to!
+
+{{ site.email }}  
+{{ site.tel }}  
+
+
+
+<template id="template-portal-event-snippet" style="display:none;">
+  <div class="splide__slide slide pl10 pr10">
+    {% include templates/portal-event-snippet.html %}
+  </div>
+</template>
+
+<template id="template-portal-no-events" style="display:none;">
+  <div>
+    <p>
+      No partner or previous dance experience required. Starting is easy, everything comes clear on your first class. <a href="{{ site.url }}/courses-for-beginners">Check out all our beginners' courses</a> and register at the course pages.
+    </p>
+    <a class="button" href="{{ site.url }}/courses">Courses & Registration</a>
+  </div>
+</template>
+
+<section id="portal-events-splide" class="splide carousel-cards">
+  <div class="splide__track">
+    <div id="portal-events" class="splide__list">
+      <p class="text-center"><br/>Loading...</p>
+    </div>
+  </div>
+</section>
+
+<script src="{{ site.url }}{{ site.baseurl }}/assets/js/courses-beginners.js"></script>

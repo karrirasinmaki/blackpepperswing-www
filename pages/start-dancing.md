@@ -70,6 +70,8 @@ You can also always call us or send us a message if you have any questions!
 
 Pick any course that speaks to you, and we see you at the studio!
 
+No partner nor previous dance experience required.
+
 You can read more information from course pages below. Everything will become clear latest during the first class. If you need help choosing, we are happy to!
 
 

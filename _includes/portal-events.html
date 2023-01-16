@@ -48,7 +48,7 @@
             eventsWrapper.append($('#template-portal-no-events').html());
             return;
           }
-          if ({{include.randomize}}) {
+          if ({{include.randomize | default:false}}) {
             events.sort(function(a,b) {return Math.random() > 0.5 && 1 || -1});
           }
           /* Loop thru single events and render row item */

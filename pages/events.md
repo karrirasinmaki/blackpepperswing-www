@@ -34,7 +34,16 @@ permalink: "/events/"
 
 ### Upcoming courses and workshops
 
-{% include portal-events.html %}
+<section class="row">
+  <div class="medium-12 columns">
+    <div class="fade-bottom" style="max-height: 380px; overflow: hidden;">
+      {% include portal-events.html limit=2 randomize=true %}
+    </div>
+    <p style="z-index:10; padding: 10px;" class="show-more text-center">
+      <a href="/courses">Show more...</a>
+    </p>
+  </div>
+</section>
 
 
 <br>

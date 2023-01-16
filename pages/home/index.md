@@ -27,8 +27,8 @@ main_ctas:
 - title: Courses & Registration
   url: /courses
   type: main
-- title: Studio rental
-  url: /studio-rental
+- title: Lindy Hop
+  url: /lindyhop
   type: secondary
 
 secondary_ctas:

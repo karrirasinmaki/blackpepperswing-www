@@ -42,8 +42,8 @@ main_ctas:
 - title: Kurssi-ilmoittautuminen
   url: /courses
   type: main
-- title: Vuokraa tanssisali
-  url: /studio-rental
+- title: Lindy Hop
+  url: /lindyhop
   type: secondary
 
 secondary_ctas:
