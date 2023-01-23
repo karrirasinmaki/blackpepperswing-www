@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: Practical info for course start
+title: Practical info for the course start
 subtitle: New at BPS? Read this!
 teaser: First time at Black Pepper Swing? We warmly welcome you! You can find all the necessary info you need on this page.
 
@@ -16,7 +16,7 @@ header:
 
 address: Karjalankatu 2, 00520 Helsinki, 4th floor
 
-permalink: "/start/info/"
+permalink: "/practical-info/"
 ---
 
 <h2>Hello!</h2>
