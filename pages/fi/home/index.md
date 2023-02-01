@@ -77,10 +77,6 @@ featured_ctas:
 
 Olemme inspiroiva ja intohimoinen swing-tanssikoulu Helsingissä. Löydät meiltä [viikkokurssit](/courses), [workshopit](/events), ja erinäiset svengaavat [tapahtumat](/events). Voit myös [vuokrata tanssisalin](/studio-rental) käyttöösi, tai kenties ottaa muutaman [yksityistunnin](/services/#private-classes) kanssamme.
 
-**Ilmoittautuminen on alkanut!**  
-Uusi kausi starttaa tammikuussa 2023 (vko 3 / 16.1.)  
-[Season info and registration](#season-info)
-
 Nähdään tanssilattialla!
 {% endcapture %}
 

@@ -16,11 +16,12 @@ permalink: "/links/"
 <div class="text-center t30" style="max-width: 420px; margin: 0 auto;">
   <ul class="social-icons side-nav">
     <li class="heading">Latest on blog</li>
+    <li><a href="/posts/articles/indoor-places-to-practice-swing-dancing-in-helsinki/">Indoor Places to Practice Swing Dancing in Helsinki</a></li>
     <li><a href="/posts/articles/how-to-choose-shoes-for-swing-dancing/">How to Choose Shoes for Swing Dancing</a></li>
     <li><a href="/posts/articles/a-not-so-brief-history-of-swing-dance/">A (Not-So) Brief History of Swing Dance</a></li>
     <li class="divider b60"></li>
-    <li class="heading">Season starts January 16th</li>
-    <li><a href="/#season-info">Read more about upcoming season</a></li>
+    <li class="heading">Dance with us</li>
+    <li><a href="/#season-info">Read more about the ongoing season</a></li>
     <li><a href="/courses">Courses and workshops</a></li>
     <li><a href="/courses-for-beginners/">Beginners' Classes</a></li>
     <li class="divider b60"></li>
