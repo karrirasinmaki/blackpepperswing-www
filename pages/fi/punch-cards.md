@@ -45,7 +45,7 @@ Virike- ja etuseteleillä, tai BPS Crediteillä maksaessasi [ota yhteyttä meihi
 ### Toimintaohjeet
 
 1. **Osta 10-kortti**  
-  [Osta 10-kortti täältä][1]  
+  [Osta 10-kortti täältä...][1]  
   10-kortit ovat myynnissä [verkkokaupassamme][1].  
   Kortti noudetaan studiolta vaikkapa ensimmäisen tunnin yhteydessä.  
   (Mahdolliset alennustodistukset esitetään noudon yhteydessä.)
@@ -67,9 +67,9 @@ Virike- ja etuseteleillä, tai BPS Crediteillä maksaessasi [ota yhteyttä meihi
   Kortin voi ostaa myös Smartum, Edenred, ePassi ja EazyBreak seteleillä ja saldolla. Ole tällöin [yhteydessä meihin](/contact)! Maksun voi jakaa myös osiin, esim. puolet virikeseteleillä, puolet käteisellä.
 
 * **Kuinka kauan 10-kortti on voimassa?**  
-  Talvi-kevät 2022 -lukukauden 10-kortit ovat voimassa 14. elokuuta saakka.  
-  Syyslukukauden 2022 10-kortit ovat voimassa 31. joulukuuta saakka.  
-  Seuraavan lukukauden kortit tulevat myyntiin samaan aikaan kun ilmoittautuminen aukeaa.
+  Kortti on voimassa kauden loppuun asti.  
+  Seuraavan lukukauden kortit tulevat myyntiin samaan aikaan kun ilmoittautuminen aukeaa.  
+  [Katso tarkka päivä ja osta 10-kortti täältä...][1]
 
 * **Onko kortti henkilökohtainen?**  
   Ei ole (huom. poikkeus), eli voit jakaa kortin kenen hyvänsä kanssa! Pidä siis huolta kortistasi.

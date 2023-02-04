@@ -46,7 +46,7 @@ If you want to pay for the card with vouchers, or BPS Credit, please [contact us
 ### How to get dancing with a 10-class-card
 
 1. **Buy a 10-class-card**  
-  [Buy a 10-class-card here][1]  
+  [Buy a 10-class-card here...][1]  
   10-cards are available for sale in our [online shop][1].  
   The card can be collected from the studio, for example when attending your first class.  
   (Discount cards have to be presented at the time of collection.)
@@ -69,9 +69,9 @@ If you want to pay for the card with vouchers, or BPS Credit, please [contact us
   You can also split the payment, e.g. half with vouchers, half with another payment method.
 
 * **For how long is the 10-time-card valid?**  
-  Season winter-spring 2022 10-cards are valid until the 14th of August.  
-  Season autumn 2022 10-cards are valid until the 31st of December.  
-  Cards for the new season will go on sale upon registration opens.
+  Punch cards are valid until the end of the season.  
+  Cards for the new season will go on sale upon registration opens.  
+  [Check out the exact date and buy here...][1]
 
 * **Is the card personal?**  
   No (note the exception), you are allowed to share the card! So take care of your card.  
