@@ -1,3 +1,28 @@
+/**
+ * Top bar and announcement bar
+ */
+.top-bar.filler {
+	margin-top: 12px;
+}
+.top-announcement-static {
+	padding: 0.1em 0.1em 0.1em 0.1em;
+	text-align: center;
+}
+
+.top-announcement-default {
+	@extend .top-announcement-static;
+	background: black;
+	color: white;
+}
+
+.top-announcement-archived {
+	@extend .top-announcement-static;
+	@extend .panel;
+	padding: 2em 0.2em;
+}
+
+
+
 .hero-showcase {
 }
 

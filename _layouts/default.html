@@ -5,23 +5,28 @@ layout: compress
 <html class="no-js" lang="{% if site.language == nil %}en{% else %}{{ site.language }}{% endif %}">
 <head>
 	{% include _head.html %}
-<style>
-.top-announc-fi {
-	background: black;
-	color: white;
-	padding: 16px 0.1em 0.1em 0.1em;
-	text-align: center;
-}
-</style>
 </head>
 <body id="top-of-page" class="{{ layout.format }}">
 	{% unless page.skip_boilerplate %}
 	{% include _navigation.html %}
 	{% endunless %}
 
+	<div class="top-bar filler"></div>
+
 	{% if site.active_lang == "fi" %}
-	<div class="top-bar"></div>
-	<div class="top-announc-fi">Olemme parhaillaan kääntämässä sivustoamme suomeksi, joten osa sisällöstä näkyy yhä englanniksi. Tällä hetkellä vasta murto-osa sivuista on käännetty.</div>
+	<div class="top-announcement-default">Olemme parhaillaan kääntämässä sivustoamme suomeksi, joten osa sisällöstä näkyy yhä englanniksi. Tällä hetkellä vasta murto-osa sivuista on käännetty.</div>
+	{% endif %}
+
+	{% if page.archived %}
+	<div class="top-announcement-archived">
+		{% if page.layout == "course" %}
+			<p>This page is archived. <b><a href="/courses">Please take a look at our current courses here</a></b>.</p>
+		{% elsif page.layout == "event" %}
+			<p>This page is archived. <b><a href="/events">Please take a look at our upcoming events here</a></b>.</p>
+		{% else %}
+			<p>This page is archived.</p>
+		{% endif %}
+	</div>
 	{% endif %}
 
 	{{ content }}

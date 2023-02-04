@@ -221,6 +221,7 @@ defaults:
       type: "archive_courses"
     values:
       layout: course
+      archived: true
       show_meta: false
       comments: false
       author: blackpepperswing
@@ -230,7 +231,7 @@ defaults:
       path: ""
       type: "parties"
     values:
-      layout: page
+      layout: event
       header: true
       show_meta: false
       comments: false

@@ -8,6 +8,13 @@ layout: page
 	<div class="fb-save" data-uri="{{ page.url | absolute_url }}" class="float-right"></div>
 </div>
 
+{% if page.archived %}
+<div class="top-announcement-archived t40 b40">
+	<p>This page/course is archived.</p>
+	<p><b><a href="/courses">Take a look at our current course schedule here</a></b>.</p>
+</div>
+{% endif %}
+
 {% include course-info-snippet.html show_additional_info=true %}
 
 {% if page.default_pricing %}
