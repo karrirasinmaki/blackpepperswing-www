@@ -4,7 +4,7 @@ repeats: false
 
 title: Helswingi 2022
 subtitle: Helsinki | Sept 9th - 11th
-teaser: Save the date for the new edition of Helswingi - September 25-27.
+teaser: Save the date for the new edition of Helswingi - September 9-11.
 date_start: 2022-09-09
 date_end: 2022-09-11
 address: Helsinki, Finland
