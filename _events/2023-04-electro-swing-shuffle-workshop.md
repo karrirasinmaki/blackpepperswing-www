@@ -43,7 +43,8 @@ Don't miss out on this opportunity to learn from the best and expand your dance 
 <table>
 <tbody>
 <tr>
-<td style="white-space: pre-wrap;">
+<td>
+<pre>
 SATURDAY 22.4.
 
 
@@ -56,8 +57,10 @@ SATURDAY 22.4.
 15:00 - 16:30  Shuffle (open)
 
 19:00 - 24:00  Party
+</pre>
 </td>
-<td style="white-space: pre-wrap; border-left: solid 1px #DDDDDD;">
+<td>
+<pre>
 SUNDAY 23.4.
 
 
@@ -69,6 +72,7 @@ SUNDAY 23.4.
   Choreography / ~2h teaching + 30 min breaks
 
 17:00 - 17:30  Filming choreo
+</pre>
 </td>
 </tr>
 </tbody>
