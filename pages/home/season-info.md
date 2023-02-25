@@ -21,10 +21,8 @@ Registration for courses is now open!
 **Start dancing with these courses**  
 No previous experience whatsoever needed.
 
-- [Lindy Hop Beginners (Fast-track)](https://portal.blackpepperswing.com/courses/4d0tgohra3k244488lvr145qjb/lindy-hop-beginners-(fast-track))
-- [Tap Dance Beginners](https://portal.blackpepperswing.com/courses/4puhck2t8pk3dqv386tpj5jq5u/tap-beginners)
-- [Solo Jazz & Charleston Beginners](https://portal.blackpepperswing.com/courses/2tkef5j84go1mkftl2cl85e45o/solo-jazz-&-charleston-beginners)
-- [Solo Jazz & Charleston Open-level](https://portal.blackpepperswing.com/courses/1h6l7a05783hbjqtt3d0j6cn0i/solo-jazz-&-charleston-(open-level))
+- [Lindy Hop Beginners / Starts March 21st!](https://portal.blackpepperswing.com/courses/25d1reegtdbho5fra1rvb2vt4o/lindy-hop-beginners)
+- [Solo Jazz & Charleston Beginners Weekend / March 4-5](https://portal.blackpepperswing.com/courses/4e3r5s3bbla44a1vlu2nghkp1t/solo-jazz-&-charleston-beginners-weekend-course)
 - [Check out all the beginners' courses here](/courses-for-beginners)
 
 **Already dancing?**  
