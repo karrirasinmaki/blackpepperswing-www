@@ -16,11 +16,14 @@ image:
   src: events/electro-swing-workshop-with-magda.jpg
 ---
 
-[1]: <#> "Click here to register for the workshop"
+[1]: <https://holvi.com/shop/blackpepperswing/section/classes-and-workshops/> "Click here to register for the workshop"
 
-[Register here][1]{: .button .expand .primary .disabled}
+[Register here][1]{: .button .expand .primary}
 
-Registration opens Monday 27th of Feb at 16:00!
+Registration / tickets sales opens Monday 27th of Feb at 16:00!
+
+Tickets will be available from 16:00 on:  
+[Click here to register / get the tickets...][1]
 
 
 ---
@@ -123,7 +126,7 @@ If you have been doing Electro Swing and/or Shuffle before, you are more than we
 
 Register for the workshop clicking the button below!
 
-[Register here][1]{: .button .expand .primary .disabled}
+[Register here][1]{: .button .expand .primary}
 
 ### Terms and conditions
 
