@@ -106,6 +106,9 @@ SUNDAY 23.4.
   Party entrance
 </pre>
 
+Tickets will be available from Monday 27th of Feb, 16:00 on:  
+[Get your tickets here...][1]
+
 
 ## Levels and requirements
 
@@ -123,6 +126,8 @@ If you have been doing Electro Swing and/or Shuffle before, you are more than we
 
 
 ## Registration
+
+Registration / tickets sales opens Monday 27th of Feb at 16:00!
 
 Register for the workshop clicking the button below!
 
