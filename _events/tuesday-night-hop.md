@@ -10,8 +10,8 @@ date_start: 2022-02-22
 day: Tuesdays
 time: 19:00 - 22:00
 price: Free entrance
-old_address: On the Rocks, Mikonkatu 15, 00100 Helsinki
-address: Groovy Käpylä, Mäkelänkatu 87, 00610 Helsinki, Finland
+address: On the Rocks, Mikonkatu 15, 00100 Helsinki
+alternative_ddress: Groovy Käpylä, Mäkelänkatu 87, 00610 Helsinki, Finland
 header:
   hide_text: true
 links:
@@ -24,8 +24,6 @@ image:
 
 _3rd party organizer. Event organized by Tuesday Night Hop._
 
-Tuesday Night Hop is back!
-
 The weekly social dance event for vernacular jazz dances (Lindy Hop, Balboa, Collegiate Shag, Charleston, Blues, etc.) starts at 7pm and dancing continues until 10pm.
 
 Tuesday Night Hop is a weekly event in Helsinki dedicated to swing music and dance.
@@ -36,10 +34,11 @@ All music lovers, beginner dancers, non dancers and swing dance veterans are wel
 
 _Free entrance (except during the Live nights)_
 
-Check out more information on TNH Facebook page.
+Check out more information and exceptions on TNH Facebook page.
 
 Tuesday Night Hop Facebook page:  
 [https://www.facebook.com/tuesdaynighthop/](https://www.facebook.com/tuesdaynighthop/)
+
 
 {% comment %}
 ### Live nights
