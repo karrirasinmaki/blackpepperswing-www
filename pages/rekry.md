@@ -18,11 +18,15 @@ sitemap:
 permalink: "/rekry/"
 ---
 
+Updated: 14 March 2023
+
 Black Pepper Swing was founded in 2017 and the very first courses started during that autumn simultaneously in Helsinki, Tampere, and Jyväskylä. It was a wild start for a new dance school founded by two very young but passionate swing dancers. Since then we have focused more on our current hometown (Helsinki), the scene here has grown bigger, and we have gained thousands of kilometers worth of experience. ([Read our full story here...](/about-us))
 
-Now we need your help!
+The next chapter is building a strong team that can serve exceptional service to our local dance community.
 
-We want to share the hands-on experience of this incredible ride with more people. We have a great team of teachers (12 teachers this spring!) but only two of us are doing the day-to-day work behind the scenes (of which only one is full-time). It’s now time to invite new people in writing the next 5 years of Black Pepper Swing!
+And for that - we need you.
+
+We want to share the hands-on experience of this incredible ride with more people. We have a great team of teachers (10 teachers this spring!) but only two of us are doing the day-to-day work behind the scenes (of which only one is full-time). It’s now time to invite new people in writing the next 5 years of Black Pepper Swing!
 
 So, yes - we are hiring!
 
@@ -31,67 +35,147 @@ Check out the open positions and details below.
 
 ## Open positions
 
-1. [**Core team member**](#core-team-member) \
-Entrepreneur-minded people to join our core team
-2. [**Assistant**](#other-positions) \
-Assistant to help us with day-to-day operations
-3. [**Digital media and marketing junior**](#other-positions) \
-Marketing student/junior with digital media skills (trainee-like position)
-4. [**Dance teacher**](#other-positions) \
-Skilled, experienced, and passionate dance teachers
+1. [**Assistentti**](#assistentti) \
+Pikkutarkka ja runiineista nauttiva assistentti johdon, myynnin, ja asiakaspalvelun tueksi.
+2. [**Dance teacher / coach**](#coach) \
+Skilled, experienced, and passionate dance teacher.
 
 We are looking for people that’d fill any of these open positions in any combination.
 
 
-## Core team member
+## Assistentti
 
-Join our core team to shape and build the future of our dance school.
+Myynti / Asiakaspalvelu / Ylläpito
 
-Have you dreamt of running a dance school? Or ever wondered what it is like to do a B2C business? Or maybe you have a wide variety of skills that you’d like to put to use?
+Haemme täsmällistä, suunnitelmallista, ja pikkutarkkaa assistenttia. Mikäli tykkäät rutiineista ja arvostat henkilökohtaista asiakaspalvelua, työ sopii sinulle!
 
-We are looking for entrepreneur-minded people that can handle multiple different types of tasks from customer support to video editing and digital marketing to studio renovation. You should have more patience with repetitive and mandatory tasks than we, comfortably take and especially give feedback, and work and learn by yourself well.
+Toimenkuvaan kuuluu laajasti erinäisiä työtehtäviä tanssistudion ylläpidosta ja sihteerin tehtävistä aina asiakaspalveluun ja myyntiin. Työ vaatii sekä intuitiivista että oma-aloitteista työskentelyä, mukautuvuutta ja ohjeiden noudattamista, sekä tarkkuutta ja pitkäjänteisyyttä. Soljuva kielenkäyttö ja luonteva edustavuus vaaditaan.
 
-That being said, numbers and success are not driving factors for us. We value trying out new ideas, being brave and expressive, and remembering to have a heartful time while doing so.
+Suurin osa työtehtävistä on rutiininomaisia ja toistuvia. Karkeasti tehtävät jakaantuu kolmeen osioon: pro-aktiiviseen asiakaspalveluun, asiakaspalvelulähtöiseen myyntiin, sekä tanssistudion ja www-sivujen ylläpitoon. Näiden lisäksi johdon assistentin työt, eli toimitusjohtajan avustaminen hänen päivittäisissä töissään.
 
-Skills we are looking for:
+Pääset aitiopaikalta seuraamaan ja osallistumaan pienyrityksen päivittäiseen ja monipuoliseen työhön. Tiimiimme kuuluu toimitusjohtaja-perustajajäsen, assistentti, sekä kymmenisen tanssinopettajaa ja taustalla vaikuttava toinen perustajajäsen. Työsi tulee aidosti aidosti ja merkittävästi vaikuttamaan yrityksen kasvuun sekä asiakaskokemukseen.
 
-* Good written and spoken English (Finnish is a plus but not mandatory)
-* Patience and consistency
-* Willing to take responsibility, proactive, and able to work with minimal supervision
-* Great self-learning capabilities
-* Customer support and warm touch in human relations
-* Decent multimedia skills (photo-/videography and -editing, graphics design, audio tools, live production)
-* Digital marketing and social media knowledge are a big plus
-* Web development and technological knowledge are a plus
-* Experience working on / running a small business is a plus
+Olemme 5-vuotias tanssikoulu, erikoistunut nimenomaan swing-tansseihin (lindy hop, charleston, steppi). Aktiivisia asiakkaita on noin 250, ja tanssionpettajia noin 10. Seuraavan 5 vuoden aikana tarkoitus on kasvaa poikkeuksellisen erinomaiseksi tanssipaikaksi, jossa asiakkaat viihtyvät pitkään, ja joka työllistää useita kokopäiväisiä tanssijoita.
 
-Work tasks include:
 
-* Course schedule and event planning
-* Customer support (via email, telephone, and on-site)
-* Dance studio maintenance
-* Content creation on the website and social media
-* Marketing and related tasks
-* Teaching (if you are a dance teacher)
+### Päämääräiset työtehtävät:
 
-We offer you:
+- Asiakaspalvelu  
+  Asiakaspalvelua seuraavia kanavia pitkin: puhelin, email, sms+pikaviestit, ja some.  
+  Lisäksi asiakaspalvelu- ja vastaanottotyötä tanssituntien ja tapahtumien aikana.
 
-* A small team where your input greatly influences the whole company
-* A share of the company and the possibility to influence your own salary
-* All our dance classes and events are available to you free of charge
-* Flexible work hours and remote work possibility
-* Normal paid holidays plus very flexible extra holidays and time-offs
+- Myynti  
+  Asiakaspalvelulähtöinen myynti luontevasti asiakaspalvelun lomassa.  
+  Lisäksi markkinoinnin avustavia tehtäviä.
 
-Our main goal is to find a person who could join our core team with a share of our company (co-op member). This way, we believe, the candidate would get enough responsibility and equality that motivates them to work in the company as it is their own. In this case, the salary would also be tied to the revenue generated.
 
-However, not all of us are willing to work entrepreneur-like. We can also consider hiring a person as a normal employee. In this case, the salary would be based on working hours (min. 24h per week).
+- Ylläpito  
+  Tanssistudion ylläpito: siisteys, järjestys, somistus, sekä pienet korjaustyöt.  
+  Tarvikevaraston ylläpito, ostokset.  
+  WWW-sivujen ylläpito ja sisältöpäivitykset.
 
-Interested? Don’t hesitate to book an interview with us! 
+- Lisäksi:  
+  Johdon assistentin työt  
+  Toimitusjohtajan avustaminen päivittäisissä töissä.  
+  Tehtäviin kuuluu, muun muassa, perinteiset sihteerin työt.
+
+### Tarjoamme:
+
+- Pieni tiimi missä työpanoksesi näkyy aidosti koko toiminnassa
+- Joustavat vapaat ja lomat, normaalien vuosilomien lisäksi
+- Vapaa pääsy kaikille meidän tanssikursseille ja tapahtumiin
+- Mahdollisuuden kevyeeseen työviikkoon (alkaen 15-25h / viikko)
+
+### Vaatimukset:
+
+- Sujuva kielitaito: suomi (natiivitaso) ja englanti (sujuva)
+- Ruotsin ja venäjän (sekä muiden kielten) osaamisesta plussaa
+- Vähintään B-luokan ajokortti, oma auto on iso plussa
+
+
+- Pikkutarkka ja täsmällinen, rutiineista nauttiva luonne
+- Suunnitelmallisuus ja pitkäjänteisyys
+- Kyky noudattaa ohjeita ja mukautua, sekä toisaalta toimia intuitiivisesti ja oma-aloitteisesti
+
+
+- Sujuvat IT-taidot sekä kyky omaksua uudet ohjelmat ja järjestelmät nopeasti
+- Graafisesta osaamisesta plussaa
+- Videoeditointi ja kuvankäsittelytaidoista plussaa
+- Copywriting, some, ja (digi)markkinointitaidoista plussaa
+
+
+### Oletko etsimämme henkilö?
+
+Tutustutaan paremmin ja sovitaan tapaaminen.
+
+Ota yhteyttä suoraan minuun!
 
 Karri Rasinmäki / Co-Founder  
 karri@blackpepperswing.com  
 {{ site.tel }}  
 
+
+
+
+<a name="coach"></a>
+## Dance teacher / coach
+
+We are looking for new talents joining our teachers’ team.
+
+As we are growing and developing, we are now looking especially for a dancer who’d like to make dance their main job. A person with high work-ethics who’d greatly enjoy teaching multiple group classes per week, as well as doing private and semi-private coaching sessions.
+
+If you can bring up great energy to the classes, light up people with your good mood, and deeply enjoy working with all kinds of people - this job is for you.
+
+We expect you to be an innovative and passionate professional who keeps developing themselves as a dancer and a teacher. Your technique should be bullet-proof, and your character and expression unique and inspiring. You should be able to break down concepts in clear bits and communicate with care and clarity.
+
+We are looking for deep-wisdom and mastery over general knowledge. That being said, the more dance styles you master, the better. But you should be an expert in at least two of these: Lindy Hop, Solo Jazz & Charleston, Tap, Balboa/Shag.
+
+### We offer you
+
+- Unique opportunity to make dance as your main and only job
+- Full-time dance job (~15h of dance and teaching per week)
+- Personal development in terms of coaching and classes
+- All our classes and events as a work benefit
+- Studio where you can hone your skills
+
+### We require
+
+- Mastery on (at least 2 of these): Lindy Hop, Solo Jazz & Charleston, Tap, Balboa/Shag
+- Fluent and clear communication skills in English (and Finnish)
+- Innovation in terms of dance and teaching
+- Inspiring and passionate soul
+- Excellent people skills
+- Flexibility and coachability
+
+### Work tasks
+
+- Dance teaching  
+  This will be your main job as full-time dance teacher.  
+  Group classes, semi-private groups, and private classes.
+
+- Shows and choreographies  
+  Part of your dance job is to make shows and choreographies - for your students as well as the whole teachers’ team. Of course you get to perform yourself as well!
+
+- Support and accountability  
+  As a dance teacher and coach, your job is to make sure everyone will hit their goals and exceed expectations. Part of your job is nurturing great coach-student relationships and offer support also outside the classroom.
+
+
+- Other related tasks  
+  The job includes other dance, coaching, and dance class related tasks, such as:  
+  Prepping the studio for classes, greeting and welcoming people, curating music playlists, dance videos and tutorials, and crafting educational materials.
+
+### Sounds like you?
+
+If this opportunity resonates with you, let’s chat!
+
+Please contact me directly:
+
+Karri Rasinmäki / Co-Founder  
+karri@blackpepperswing.com  
+{{ site.tel }}  
+
+
+{% comment %}
 
 ## Other positions
 
@@ -103,44 +187,6 @@ Interested? Call or send us a message and let's discuss more!
 {{ site.tel }}  
 
 <dl class="accordion" data-accordion>
-  <dd class="accordion-navigation">
-    <a href="#assistant">Assistant</a>
-<div id="assistant" class="content" markdown="1">
-### Assistant
-
-We are looking for an assistant to help us with day-to-day operations, such as dance studio maintenance, customer support, and social media / website updates.
-
-For this position, we are mainly looking for a part-time employee with no fixed hours.
-
-Depending on your skill set, work tasks would include:
-
-* Social media and website maintenance
-* Dance studio maintenance
-* Customer support (via email, telephone, and on-site)
-* Marketing and related tasks
-* Event organizing
-* Running errands
-* Photo- and videography
-* Graphics, and photo- and video editing
-
-Interested? Don’t hesitate to send us an email to tell us a little bit about what tasks you’d like to do.
-
-</div>
-  </dd>
-  <dd class="accordion-navigation">
-    <a href="#digital-media-and-marketing-junior">Digital media and marketing junior</a>
-<div id="digital-media-and-marketing-junior" class="content" markdown="1">
-### Digital media and marketing junior
-
-We are looking for a marketing student/junior with digital media skills who could take care of our digital and social media marketing.
-
-Your responsibility would be to develop marketing funnels (email, social media), run long and short-term ad campaigns, and maintain a consistent organic social media presence. You’d have free hands to try out different things, approaches, and what works and what not - within a certain budget and branding frames. You should be able to create (or outsource) all the content needed for the tasks.
-
-As it is a junior (or almost a trainee) position, we do not expect much of the results but a willingness to try out different approaches and learn from mistakes. We offer you the possibility to practice your skills in the real-life world.
-
-Interested? Call or send us a message to discuss more! 
-</div>
-  </dd>
   <dd class="accordion-navigation">
     <a href="#dance-teacher">Dance teacher</a>
 <div id="dance-teacher" class="content" markdown="1">
@@ -158,3 +204,5 @@ Interested? Send us an email with your dance and teaching history/background and
 </div>
   </dd>
 </dl>
+
+{% endcomment %}
