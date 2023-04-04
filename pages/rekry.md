@@ -18,7 +18,7 @@ sitemap:
 permalink: "/rekry/"
 ---
 
-Updated: 14 March 2023
+Updated: 04 April 2023
 
 Black Pepper Swing was founded in 2017 and the very first courses started during that autumn simultaneously in Helsinki, Tampere, and Jyväskylä. It was a wild start for a new dance school founded by two very young but passionate swing dancers. Since then we have focused more on our current hometown (Helsinki), the scene here has grown bigger, and we have gained thousands of kilometers worth of experience. ([Read our full story here...](/about-us))
 
@@ -120,21 +120,21 @@ karri@blackpepperswing.com
 <a name="coach"></a>
 ## Dance teacher / coach
 
-We are looking for new talents joining our teachers’ team.
+We are looking for new talents to join our teachers’ team.
 
-As we are growing and developing, we are now looking especially for a dancer who’d like to make dance their main job. A person with high work-ethics who’d greatly enjoy teaching multiple group classes per week, as well as doing private and semi-private coaching sessions.
+As we are growing and developing, we are now looking especially for a dancer (or two) who’d like to make dance their main job. A person with high work-ethics who’d greatly enjoy teaching multiple group classes per week, as well as doing private and semi-private coaching sessions.
 
 If you can bring up great energy to the classes, light up people with your good mood, and deeply enjoy working with all kinds of people - this job is for you.
 
 We expect you to be an innovative and passionate professional who keeps developing themselves as a dancer and a teacher. Your technique should be bullet-proof, and your character and expression unique and inspiring. You should be able to break down concepts in clear bits and communicate with care and clarity.
 
-We are looking for deep-wisdom and mastery over general knowledge. That being said, the more dance styles you master, the better. But you should be an expert in at least two of these: Lindy Hop, Solo Jazz & Charleston, Tap, Balboa/Shag.
+We are looking for deep-wisdom and mastery over general knowledge. That being said, the more dance styles you master, the better. You should be an expert in at least two of these: Lindy Hop, Solo Jazz & Charleston, Tap, Balboa/Shag.
 
 ### We offer you
 
-- Unique opportunity to make dance as your main and only job
-- Full-time dance job (~15h of dance and teaching per week)
-- Personal development in terms of coaching and classes
+- Unique opportunity to make dance as your main (and only) job
+- Full-time dance job (15+ hours of dance and teaching per week)
+- Personal development in terms of coaching and high standards
 - All our classes and events as a work benefit
 - Studio where you can hone your skills
 
@@ -157,12 +157,12 @@ We are looking for deep-wisdom and mastery over general knowledge. That being sa
   Part of your dance job is to make shows and choreographies - for your students as well as the whole teachers’ team. Of course you get to perform yourself as well!
 
 - Support and accountability  
-  As a dance teacher and coach, your job is to make sure everyone will hit their goals and exceed expectations. Part of your job is nurturing great coach-student relationships and offer support also outside the classroom.
+  As a dance teacher and coach, your job is to make sure everyone will hit their goals and exceed expectations. Part of your job is nurturing great coach-student relationships and to offer support also outside the classroom.
 
 
 - Other related tasks  
   The job includes other dance, coaching, and dance class related tasks, such as:  
-  Prepping the studio for classes, greeting and welcoming people, curating music playlists, dance videos and tutorials, and crafting educational materials.
+  Prepping the studio for classes, greeting and welcoming people, curating music playlists, producing dance videos and tutorials, and crafting educational materials.
 
 ### Sounds like you?
 
@@ -173,6 +173,21 @@ Please contact me directly:
 Karri Rasinmäki / Co-Founder  
 karri@blackpepperswing.com  
 {{ site.tel }}  
+
+&nbsp;
+&nbsp;
+
+### Not there yet?
+
+Hear about our teacher training program…
+
+Did your heart start to beat a slightly faster and got goosebumps reading the job description? If this job interests you, but you do not yet have the required skill sets - keep reading.
+
+We are always looking for new and rising talents. If dance is starting to take over your mind and life, and the idea of teaching is intriguing - let’s chat. You may very well be a fit to our teacher training program.
+
+The teacher training program is a highly personalized journey into becoming a BPS teacher. From the very start, it contains your own classes to teach, dance and teacher coaching, and weekly dance classes. In the program, we invest in you so you can have all the skills, knowledge, and mindset you need to be a full-scale BPS teacher.
+
+Please contact me directly and let’s talk more!
 
 
 {% comment %}
