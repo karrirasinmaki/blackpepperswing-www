@@ -20,12 +20,6 @@ image:
 
 [Register here][1]{: .button .expand .primary}
 
-Registration / tickets sales opens Monday 27th of Feb at 16:00!
-
-Tickets will be available from 16:00 on:  
-[Click here to register / get the tickets...][1]
-
-
 ---
 
 **Amazing Magdalena is coming to Helsinki!**
@@ -80,6 +74,23 @@ SUNDAY 23.4.
 </tr>
 </tbody>
 </table>
+
+### Classes
+
+Doors will open 20 mins prior the first class.
+
+Also, you can stay hanging out and practicing at the studio before, after, and in-between your classes. We have two rooms plus a kitchen (with fridge and microwave oven). Coffee and tea will be always available.
+
+### Saturday party
+
+On Saturday night we will have Electro Swing and Shuffle party at BPS, starting at 19:00.
+
+So, let's hang out, dance, and chat! The music will be gross-genre, focusing on best tunes for Electro Swing and Shuffle. Also, there will be a bar open for thirsty ones (with non-alc and low-alc drinks) but feel free to bring your own drinks and snacks as well.
+
+Plus! There will be a surprise number during the night - a duo showcase by Masi and Magdalena!
+
+The party is included in the workshop ticket. If you want to bring friends with you, entrance fee for others is 7€.
+
 
 
 ## Pricing
