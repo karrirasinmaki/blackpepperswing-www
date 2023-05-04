@@ -21,8 +21,9 @@ Ilmoittautuminen on nyt auki!
 **Jos olet vasta aloittamassa tanssimaan...**  
 Tässä listattuna muutama alkeiskurssi. Mitään aiempaa kokemusta ei tarvita!
 
-- [Lindy Hop Beginners / Alkaa 21.3.!](https://portal.blackpepperswing.com/courses/25d1reegtdbho5fra1rvb2vt4o/lindy-hop-beginners)
-- [Solo Jazz & Charleston Beginners Weekend / 4.-5.3.](https://portal.blackpepperswing.com/courses/4e3r5s3bbla44a1vlu2nghkp1t/solo-jazz-&-charleston-beginners-weekend-course)
+- [Lindy Hop Beginners / Alkaa 7. kesäkuuta!](https://portal.blackpepperswing.com/courses/0cfk1ok6uph7q135mfjg5ro4t7/lindy-hop-beginners)
+- [Lindy Hop Beginners' Weekend Course / May 13-14](https://portal.blackpepperswing.com/courses/2qipulm0iu9a380r51bbc28ddh/lindy-hop-beginners'-weekend-course)
+- [Tap Dance Beginners' Weekend Course / May 13-14](https://portal.blackpepperswing.com/courses/52thmm88op54ga4vu7ktq4vja2/tap-dance-beginners'-weekend-course)
 - [Katso kaikki alkeiskurssit täältä](/courses-for-beginners)
 
 **Jos olet jo tanssinut aiemmin...**  
