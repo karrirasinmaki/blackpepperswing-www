@@ -27,6 +27,22 @@ Let's gather together, enjoy the music and dancing, and celebrate the coming sum
 
 Welcome!
 
+**SCHEDULE**
+
+<pre>
+18:30   The Shim Sham taster class
+        A quick introduction to the classic choreography 
+        you probably have seen done in the Lindy Hop dance parties.
+19:00   Party starts
+        Sima will be available for the fastest ones.
+20:15   Showtime
+        First block of the performances
+21:30   Showtime
+        Second block of the performances
+
+The party will last up until midnight or maybe longer.
+</pre>
+
 
 **ADDRESS**
 

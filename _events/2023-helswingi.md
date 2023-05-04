@@ -27,6 +27,10 @@ Mark your calendars for September 15-17.
 [https://www.helswingi.fi](https://www.helswingi.fi)  
 [{{page.links.facebook}}]({{page.links.facebook}})
 
+Registration is already open!
+
+Go to [https://www.helswingi.fi/registration](www.helswingi.fi/registration) to register for the festival.
+
 ---
 
 ## Memories
