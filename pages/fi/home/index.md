@@ -128,7 +128,7 @@ Nähdään tanssilattialla!
 {% include index_blocks/block-events.html %}
 
 
-<h2 class="text-center">Kuvia</h2>
+<h2 class="text-center">Tervetuloa!</h2>
 
 <section class="row width-max b30">
   <div class="medium-12 columns slick-padded">

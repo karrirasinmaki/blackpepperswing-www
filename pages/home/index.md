@@ -23,6 +23,17 @@ slider2:
 - image_url: helswingi-2018-maria-kir.jpg
 - image_url: helswingi-2018-class-high-five.jpg
 
+slider3:
+- image_url: helswingi-2018-group-hug.jpg
+- image_url: helswingi-2018-maria-kir.jpg
+- image_url: teemu-olga-alppitalo-floorwarming.jpg
+- image_url: helswingi-2018-karri-ulla.jpg
+- image_url: tanja-karri-polaroid.png
+- image_url: helswingi-2018-class-high-five.jpg
+- image_url: karri/karri-ball-heel-slide.jpg
+- image_url: bps-class-tanja-karri-ressu-2018-by-alessandroituarte.jpg
+- image_url: adrian-maria-dancing.jpg
+
 main_ctas:
 - title: Courses & Registration
   url: /courses
@@ -168,3 +179,31 @@ We are a swing dance school in Helsinki. We have [weekly classes](/courses), [wo
 {% include index_blocks/block-testimonials.html %}
 
 {% include index_blocks/block-events.html %}
+
+
+<h2 class="text-center">Welcome to BPS!</h2>
+
+<section class="row width-max b30">
+  <div class="medium-12 columns slick-padded">
+    <div class="slick-carousel" {% include slick-data slidesToShow=3 variableWidth=true %}>
+      {% for img in page.slider3 %}
+      <div class="item">
+          <img src="{{ img.image_url | imgurl,size:'medium' }}" style="object-position: {{ img.position | default: "center" }}; height: 320px; width: auto;" />
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<div class="text-center">
+  <p>Follow us on social media:</p>
+  <div class="text-center t15">
+    <ul class="inline-list social-icons" style="display: inline-block;">
+      {% for social_item in site.data.socialmedia %}
+      {% if social_item.visible != false %}
+      <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>

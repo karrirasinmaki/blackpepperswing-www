@@ -1,5 +1,5 @@
 ---
-archived: false
+archived: true
 repeats: false
 
 title: Electro Swing + Shuffle Workshop

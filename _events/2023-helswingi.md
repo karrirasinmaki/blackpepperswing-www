@@ -13,7 +13,7 @@ header:
 links:
   facebook: https://www.facebook.com/events/193953456573159
 image:
-  src: events/helswingi-2023-save-the-date.jpg
+  src: helswingi/2023/Helswingi+cover+2023_1_web_w2680px.jpg
 ---
 
 <div>WITH GREAT DELIGHT WE CAN ANNOUNCE:</div>
