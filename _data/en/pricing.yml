@@ -10,11 +10,11 @@ products:
     yearly_month: 110
     yearly: 1320
   course:
-    price_per_class: 18
-    length_weeks: 16
-  drop_in: 20
+    price_per_class: 18.235
+    length_weeks: 17
+  drop_in: 22
   10_class_card:
-    regular: 188
+    regular: 200
   studio_rental:
     bps_students: 10
     non_commercial: 25
@@ -29,14 +29,14 @@ pricing:
     read_more: /dance-passes
     description: All the classes with one pass, single payment.
   - title: Course registration
-    price: 112-288€
-    description: Secure your spot on the course and commit to steady, progressive learning. Registration options usually very between 8 and 16 weeks of classes. Additional courses come with a -25% discount. Students and unemployed -20%.
+    price: 110-310€
+    description: Secure your spot on the course and commit to steady, progressive learning. Registration options usually very between 8 and 18 weeks of classes. Additional courses come with a -25% discount. Students and unemployed -20%.
   - title: 10-class punch card
-    price: 148-188€
+    price: 152-200€
     read_more: /punch-cards
     description: 10x access to all our regular classes. Can be shared with multiple people.
   - title: Try-out / drop-in class
-    price: 20€
+    price: 22€
     description: Single classes are good if you are just visiting the city or want to try out certain courses before registration.
   - title: Coaching & private classes
     price: 65-75€
@@ -46,6 +46,47 @@ pricing:
     price: from 10€/h
     description: Rent our dance studio to your own practice sessions, birthday party, or yoga lessons.
     read_more: /studio-rental
+
+###
+# FEATURED OPTIONS
+# Visible on front page
+#
+featured_options:
+  - title: All the classes
+    subtitle: DANCE PASS
+    price: 110-170€ / month
+    cta: /dance-passes
+    cta_title: Buy a dance pass
+    description: Dance as much as you like. All the classes with one single payment.
+    ribbon: ""
+    perks:
+      - All our weekly classes, dance as much as you like
+      - 1:1 coaching sessions with our teachers (season and yearly passes)
+      - If you want to dance a lot and are eager to grow, this is for you
+  - title: Single courses
+    subtitle: COURSE REGISTRATION
+    price: 55-73€ / month
+    cta: /register
+    cta_title: Register now
+    description: Commit to single course or two. This is the most popular option.
+    ribbon: Popular
+    perks:
+      - The most popular option
+      - Weekly classes with a familiar group
+      - Additional courses comes with -25% discount
+      - Replace missed classes visiting other groups
+      - Free retakes for Lindy Hop Beginners
+  - title: Add-ons, try-out, etc.
+    subtitle: ADDITIONAL OPTIONS
+    price: Varied pricing
+    cta: /services
+    cta_title: Check out all the options
+    description: We offer 10-class cards, studio rentals, and private classes.
+    perks:
+      - 10-class card is an optimal addition to visit other classes every once in a while
+      - Our studio is open for your private practice, solo or with friends
+      - With private classes & coaching you'll get an extra boost to your dancing
+
 
 ###
 # DANCE PASSES
@@ -74,7 +115,7 @@ dance_passes:
     subtitle: DANCE PASS
     price: 150€ / month
     cta: https://buy.stripe.com/00g5ma5qreYIgbCcMO
-    cta_title: Buy season winter-spring 2023
+    cta_title: Buy season Autumn 2023
     description: The whole season full of dancing with one single payment. Billed once and valid until the end of the season.
     perks:
       - "Attend all our weekly classes and activities"

@@ -2,7 +2,7 @@
   <div class="large-6 medium-10 medium-centered columns aside pr20">
     <div class="shadow-pop">
       <a href="/courses">
-        <img src="{{ site.urlimg }}/medium/lukkari-winter-spring-2023.png" />
+        <img src="{{ site.urlimg }}/medium/lukkari-2023-autumn.jpg" />
       </a>
     </div>
     <div class="button-group t30">
@@ -13,17 +13,17 @@
 <div class="large-6 medium-8 medium-centered columns end">
 <article markdown="1">
 
-## **Talvi-Kevät** 2023
+## **Syksy** 2023
 
-Ilmoittautuminen on nyt auki!  
-[Katso kurssisivut täältä](/courses)
+Ilmoittautuminen syksyn kursseille on nyt auki!  
+[Katso kurssisivut ja ilmoittaudu täältä ➥](/courses)
 
 **Jos olet vasta aloittamassa tanssimaan...**  
 Tässä listattuna muutama alkeiskurssi. Mitään aiempaa kokemusta ei tarvita!
 
-- [Lindy Hop Beginners / Alkaa 7. kesäkuuta!](https://portal.blackpepperswing.com/courses/0cfk1ok6uph7q135mfjg5ro4t7/lindy-hop-beginners)
-- [Lindy Hop Beginners' Weekend Course / May 13-14](https://portal.blackpepperswing.com/courses/2qipulm0iu9a380r51bbc28ddh/lindy-hop-beginners'-weekend-course)
-- [Tap Dance Beginners' Weekend Course / May 13-14](https://portal.blackpepperswing.com/courses/52thmm88op54ga4vu7ktq4vja2/tap-dance-beginners'-weekend-course)
+- Lindy Hop Beginners maanantaisin tai torstaisin
+- Solo Jazz & Charleston Beginnners torstaisin
+- Tap Dance Beginners keskiviikkoisin
 - [Katso kaikki alkeiskurssit täältä](/courses-for-beginners)
 
 **Jos olet jo tanssinut aiemmin...**  
@@ -39,9 +39,9 @@ Ps. Voit liittyä kursseille missä vaiheessa kautta tahansa - ja maksat vain j�
   <div class="medium-12 columns">
     <h2 class="text-center">Ilmoittautuminen</h2>
     <div class="medium-8 medium-centered small-12 columns" markdown="1">
-Meidän kursseille pääsee jorailemaan **Tanssipassilla**, **Kurssi-ilmolla**, tai **10-kortilla**.
+Meidän kursseille pääset jorailemaan **Tanssipassilla**, **Kurssi-ilmolla**, tai **10-kortilla**.
 
-Kurssi-ilmoittautuminen on aina ollut oppilaiden suosima tapa. Olemme kuitenkin lisänneet myös 10-kortit silloin tällöin tanssiville, sekä tanssipassit niille jotka haluaa tanssia paljon.
+Kurssi-ilmoittautuminen on aina ollut se suosituin tapa. Olemme kuitenkin lisänneet myös 10-kortit silloin tällöin tanssiville, sekä tanssipassit niille jotka haluaa tanssia paljon.
 
 Jos olet esim. käymässä Helsingissä, tai haluat kokeilla tuntejamme, onnistuu myös kertamaksulla osallistuminen.
 </div>
@@ -52,52 +52,46 @@ Jos olet esim. käymässä Helsingissä, tai haluat kokeilla tuntejamme, onnistu
 <section id="class-pass">
   <div class="row">
     <div class="medium-8 medium-centered small-12 columns text-center">
-      <h3>Tanssipassit</h3>
-      <p>Yhdellä maksulla kaikki tunnit käytössä</p>
+      <h3>Valitse näistä vaihtoehdoista</h3>
+      <p></p>
     </div>
   </div>
-  {% include pricing-table.html items=site.data.pricing.dance_passes %}
+  {% include pricing-table.html items=site.data.pricing.featured_options %}
 
   <section class="text-center">
-    <p>Tanssipassilla saat vapaan pääsyn:</p>
+    <p>Kuten saatat tietää, BPS:llä meillä on:</p>
     <ul class="list-checkmarks list-center list-fit-content">
-      <li>Kaikille viikkotunneille ja -aktiviteeteille</li>
-      <li>Kaikkiin social practice -sessioihin</li>
-      <li>Kaikkiin guided practice -sessioihin</li>
+      <li>Keskeinen sijainti Alppila/Pasila alueella</li>
+      <li>Opettajat jotka pistävät kaikkensa peliin</li>
+      <li>Syvä ymmärrys ja intohimo swing-tansseihin</li>
     </ul>
     <br />
     <p>
-      Lisäksi päälle tulee muita herkkuja kun otat passin vähintään koko kaudeksi<br />
-      <a href="/dance-passes">Lue lisää tanssipasseista täältä (englanniksi)</a>
+      Sen tietää kun tanssi puhuttelee, hyppää siis mukaan<br />
+      <a href="/courses">Tutustu meidän kursseihin täältä ➥</a>
     </p>
   </section>
 </section>
 
-
 <section class="row">
-  <div class="row medium-8 medium-centered small-12 columns text-center">
-    <h3>Muut vaihtoehdot</h3>
-    <p>Tule mukaan yksittäisille kursseille tai tunneille</p>
-  </div>
-  <div class="medium-8 medium-centered small-12 columns">
-    {% include pricing-list.html items=site.data.pricing.pricing %}
-  </div>
-</section>
-
-<section class="row">
-  <div class="row medium-8 medium-centered small-12 columns text-center">
-    <h3>Hyvä tietää</h3>
-    <p>Yleistä infoa kaudesta</p>
-  </div>
   <div class="medium-8 medium-centered small-12 columns" markdown="1">
-Ilmoittautuminen kauden talvi-kevät kursseille aukeaa 18. marraskuuta klo 10:00.  
-Tunnit pyörähtävät käyntiin viikolla 3 (16.1.2023).
 
-Suurin osa kursseista on 16 viikon kursseja, sisältäen 16 opetuskertaa ja mahdolliset taukoviikot. Suosittelemme käymään kursseilla koko kauden, mutta myös kesken kauden voi liittyä mukaan, tai ilmoittautua lyhyemmälle pätkälle.
+<figure class="article-media small-left">
+<div class="frame portrait cover shadow-pop">
+<img src="{{ 'helswingi/2022/helswingi-2022-goker-smile.jpg' | imgurl,size:'large' }}" />
+</div>
+</figure>
 
-16 viikon kursseille voit ilmoittautua myös puolikkaalle kaudelle, eli 8 viikoksi.
+### Hyvä tietää
 
-Yksittäisille tunneille voit ilmoittautua 10-kortilla.
+Yleistä infoa kaudesta
+
+Ilmoittautuminen syksyn kursseille on auki.  
+Tunnit pyörähtävät käyntiin viikolla 34 (21.8.2023).
+
+Suurin osa kursseista on 17 viikon kursseja, sisältäen 17 opetuskertaa ja mahdolliset taukoviikot. Suosittelemme käymään kursseilla koko kauden, mutta myös kesken kauden voi liittyä mukaan, tai ilmoittautua lyhyemmälle pätkälle.
+
+Lähes kaikille kursseille voit osallistua myös osaksi kautta. Katso ilmoittautumislomakkeelta tarkemmat vaihtoehdot tai [ota suoraan yhteyttä meihin](/contact).
 
 Tunnit ovat lähtökohtaisesti englanniksi, ellei kaikki osallistujat (ja opettajat) puhu suomea.
 

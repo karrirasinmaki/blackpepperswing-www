@@ -29,7 +29,7 @@ Menu
 
 <section class="row">
 <div class="columns medium-10">
-<h2>Pricing table</h2>
+<h2>Our services</h2>
 {% include pricing-list.html items=site.data.pricing.pricing %}
 
 <p>More detailed pricing with examples are found below.</p>
@@ -44,20 +44,18 @@ Menu
 
 No time for weekly classes or you feel you need more personal instruction? You can take private classes with one or two instructors at a time. Private classes can have many purposes: you might want to catch up on class material, finetune your dancing and correct habits, learn special skills or movements of your choice etc. In a private class you get plenty of feedback and homework.
 
-Private classes can be demanding, which is why we can do them for 30min, 45min, or 60min. You can either choose to do the classes with only one or two teachers.
+Private classes can be demanding, which is why we can do them for 30min, 45min, or 60min. You can either choose to do the classes with one or two teachers.
 
 All private classes include the studio rental!
 
-**For 1-4 people** with one/two teacher(s)  
-75€/115€ for a single session (1 hour) [buy here](https://holvi.com/shop/blackpepperswing/section/private-classes/)  
-260€/420€ for 4 sessions (1 hour / session) [buy here](https://holvi.com/shop/blackpepperswing/section/private-classes/)  
+**For 1-8 people** with one/two teacher(s)  
+95€/175€ for a single session (1 hour) [buy here](https://holvi.com/shop/blackpepperswing/section/private-classes/)  
+320€/580€ for 4 sessions (1 hour / session) [buy here](https://holvi.com/shop/blackpepperswing/section/private-classes/)  
 
-**For 5-8 people** with one/two teacher(s)  
-105€/165€ for a single session (1 hour)  
-380€/620€ for 4 sessions (1 hour / session)  
-
+{% comment %}
 **Wedding dance**  
 250€-350€ (incl. choreography and 2-3 teaching sessions)  
+{% endcomment %}
 
 *Don't hesitate to contact us!* {{ site.email }}
 
@@ -78,13 +76,13 @@ Do you want an extra boost?
 
 {% assign products = site.data.pricing.products %}
 {% assign course_len = products.course.length_weeks %}
-{% assign course_price = products.course.price_per_class | times: course_len %}
-{% assign course_price_second = course_price | times: 0.75 %}
-{% assign course_price_student = course_price | times: 0.8 %}
+{% assign course_price = products.course.price_per_class | times: course_len | round %}
+{% assign course_price_second = course_price | times: 0.75 | round: 2 %}
+{% assign course_price_student = course_price | times: 0.8 | round: 2 %}
 {% assign dropin_price = products.drop_in %}
 {% assign ten_class_price = products.10_class_card.regular %}
-{% assign class_price = products.course.price_per_class %}
-{% assign class_price_second = products.course.price_per_class | times: 0.75 %}
+{% assign class_price = products.course.price_per_class | round: 2 %}
+{% assign class_price_second = products.course.price_per_class | times: 0.75 | round: 2 %}
 
 **Weekly classes**, with course payment  
 {{ course_price }}€ for {{ course_len }} weeks  
@@ -132,13 +130,13 @@ We accept payments with card, MobilePay, cash or employee benefit vouchers. [Rea
 *For dance schools, associations, and festivals.*
 
 **Helsinki metropolitan area** with one/two teacher(s)  
-90€/160€ per hour + travel expenses outside AB-zone + VAT  
+95€/175€ per hour + travel expenses outside AB-zone + VAT  
 
 **Rest of Finland** with one/two teacher(s)  
-90€/160€ per hour + travel, food and accommodation expenses + VAT  
+95€/175€ per hour + travel, food and accommodation expenses + VAT  
 
 **Rest of the world** with one/two teacher(s)  
-Starting at 540€/1000€ for a weekend with 6 hours of teaching.
+Starting at 570€/1050€ for a weekend with 6 hours of teaching.
 
 At festivals or workshop weekends the price includes a social dance demonstration. We add VAT (unless reversed) as well as travel, food and accommodation expenses (unless provided by the organizer) to the final price.
 

@@ -11,19 +11,61 @@ pricing:
     read_more: /dance-passes
     description: Kaikki tunnit yhdellä passilla ja selkeällä könttämaksulla.
   - title: Kurssi-ilmoittautuminen
-    price: 112-288€
-    description: Varaa paikka kurssille, säännölliset tunnit tuo vakautta ja tasaisen kehityksen. Voit usein valita 8 ja 16 viikon jakson väliltä. Lisäkurssit -25%, opiskelijat ja työttömät -20%.
+    price: 110-310€
+    description: Varaa paikka kurssille, säännölliset tunnit tuo vakautta ja tasaisen kehityksen. Voit usein valita jakson pituuden 8 ja 18 viikon väliltä. Lisäkurssit -25%, opiskelijat ja työttömät -20%.
   - title: 10-kortti
     price: 148-188€
     read_more: /punch-cards
     description: 10 kertakäyntiä millä tahansa tunneilla. Kortin voi myös jakaa useamman henkilön kesken.
   - title: Yksittäis- ja kokeilutunnit
-    price: 20€
+    price: 22€
     description: Kertakäynnillä pääset mukaan kokeilemaan tuntejamme ilman sitoutumista.
   - title: Valmennus ja yksityistunnit
     price: 65-75€
     description: 'Kahdenkeskinen valmennus opettajan kanssa. Vertaa kuntosalin personal trainer, mutta tanssille.'
     read_more: "https://holvi.com/shop/blackpepperswing/section/private-classes/"
+
+###
+# FEATURED OPTIONS
+# Visible on front page
+#
+featured_options:
+  - title: Kaikki tunnit kk-maksulla
+    subtitle: TANSSIPASSI
+    price: 110-170€ / kk
+    cta: /dance-passes
+    cta_title: Osta tanssipassi
+    description: Tanssi niin paljon kuin sielu sietää! Kaikki tunnit yhdellä maksulla.
+    ribbon: ""
+    perks:
+      - Kaikki viikkotunnit, tanssi niin paljon kuin sielu sietää
+      - Henkilökohtaiset valmennukset meidän opejen kanssa (kausi- ja vuosipassi)
+      - Mikäli tanssit paljon ja olet kasvunälkäinen, tämä on kuin tehty sinulle
+  - title: Yksittäiset kurssit
+    subtitle: KURSSI-ILMO
+    price: 55-73€ / kk
+    cta: /register
+    cta_title: Ilmoittaudu nyt
+    description: Ota yksi tai kaksi kurssia valintasi mukaan. Suosituin vaihtoehto.
+    ribbon: Suosittu
+    perks:
+      - Suosituin vaihtoehto
+      - Viikottaiset tunnit saman ryhmän kanssa
+      - Lisäkurssit -25% alennuksella
+      - Korvaa missatut tunnit muiden ryhmien tunneilla
+      - Kertaa Lindy Hop alkeet ilmaiseksi
+  - title: Lisäpalvelut, kokeilutunnit, jne.
+    subtitle: LISÄVAIHTOEHDOT
+    price: Useita hintoja
+    cta: /services
+    cta_title: Tutustu kaikkiin vaihtoehtoihin
+    description: 10-kortit, studion vuokraukset sekä yksityistunnit
+    perks:
+      - 10-kortilla voit käydä tunneilla silloin tällöin, esim. viikkokurssin lisänä
+      - Voit varata studion omiin treeneihin, joko soolona tai kavereiden kesken
+      - Yksäreillä saat henkilökohtaista valmennusta ja taattua lisäboostia tanssiin
+
+
 
 ###
 # DANCE PASSES
@@ -45,7 +87,7 @@ dance_passes:
     subtitle: DANCE PASS
     price: 150€ / kk
     cta: https://buy.stripe.com/00g5ma5qreYIgbCcMO
-    cta_title: Osta kauden talvi-kevät 2023 kaikki kurssit
+    cta_title: Osta kauden syksy 2023 kaikki kurssit
     description: Koko kauden täydeltä tanssia yhdellä maksulla. Laskutetaan kerran ja on voimassa kauden loppuun.
     perks:
       - Osallistu kaikille viikottaisille tunneille ja aktiviteeteille

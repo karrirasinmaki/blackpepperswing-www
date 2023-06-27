@@ -12,7 +12,7 @@ sitemap:
 permalink: "/courses/"
 
 subnav:
-- title: Season Winter-Spring 2023
+- title: Season Autumn 2023
   url: /courses
 - title: For Beginners
   url: /courses-for-beginners
@@ -30,23 +30,23 @@ subnav:
   </nav>
 </section>
 
-<section class="row align-items-end">
+<section class="row align-items-center">
   <div class="large-5 medium-10 medium-centered columns aside pr20 t50">
     <div class="shadow-pop">
       <a href="/courses/portal">
-        <img src="{{ site.urlimg }}/medium/lukkari-winter-spring-2023.png" />
+        <img src="{{ site.urlimg }}/medium/lukkari-2023-autumn.jpg" />
       </a>
     </div>
   </div>
 <section class="large-7 medium-8 medium-centered columns end" markdown="1">
 
-### Courses / Season Winter-Spring 2023
+### Courses / Season Autumn 2023
 
 **New season, new courses!**
 
-You can find weekly courses for the upcoming dance season listed on this page.
+You can find our courses for the upcoming dance season listed on this page.
 
-Classes start on week 3 (16th of January, 2023).
+Classes start on week 34 (21st of August, 2023).
 
 All our classes are in English unless otherwise mentioned.
 

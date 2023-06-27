@@ -64,7 +64,7 @@ We are a swing dance school in Helsinki. We have [weekly classes](/courses), [wo
 {% capture intro_after %}
 <div class="text-center">
 <h2 style="margin: 0; font-weight: bold;"><a href="#season-info" style="color: inherit;">↓ s e a s o n&nbsp; &nbsp;i n f o ↓</a></h2>
-<p><small>New season starting in January. Check out the courses and season info below.</small></p>
+<p><small>New season starting in August. Check out the courses and season info below.</small></p>
 </div>
 {% endcapture %}
 
