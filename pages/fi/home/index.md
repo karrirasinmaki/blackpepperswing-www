@@ -83,7 +83,7 @@ Nähdään tanssilattialla!
 {% capture intro_after %}
 <div class="text-center">
 <h2 style="margin: 0; font-weight: bold;"><a href="#season-info" style="color: inherit;">↓ u u s i&nbsp; &nbsp;k a u s i ↓</a></h2>
-<p><small>Uusi kausi starttaa elokuussa. Kurkkaa infoa tulevasta kaudesta alempaa.</small></p>
+<p><small>Tervetuloa mukaan! Kurkkaa infoa tulevasta kaudesta alempaa.</small></p>
 </div>
 {% endcapture %}
 

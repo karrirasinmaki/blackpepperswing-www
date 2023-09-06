@@ -15,7 +15,7 @@
 
 ## **Autumn** 2023
 
-Registration for the autumn courses is now open!  
+Season is rolling. If you wish to join courses mid-season, [contact us](/contact)!
 [Check out the courses and register here ➥](/courses)
 
 **Start dancing with these courses**  

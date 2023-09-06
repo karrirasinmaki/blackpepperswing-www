@@ -15,7 +15,7 @@
 
 ## **Syksy** 2023
 
-Ilmoittautuminen syksyn kursseille on nyt auki!  
+Syyskausi on parhaillaan käynnissä. Mikäli mielit mukaan kursseille kesken kauden, [soita tai pistä viestiä](/contact)!
 [Katso kurssisivut ja ilmoittaudu täältä ➥](/courses)
 
 **Jos olet vasta aloittamassa tanssimaan...**  
