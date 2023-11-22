@@ -2,7 +2,7 @@
   <div class="large-6 medium-10 medium-centered columns aside pr20">
     <div class="shadow-pop">
       <a href="/courses">
-        <img src="{{ site.urlimg }}/medium/schedule-2024-ws-schedule.jpg" />
+        <img src="{{ site.urlimg }}/medium/lukkari-2023-autumn.jpg" />
       </a>
     </div>
     <div class="button-group t30">
@@ -13,20 +13,17 @@
 <div class="large-6 medium-8 medium-centered columns end">
 <article markdown="1">
 
-## **Winter-Spring** 2024
+## **Autumn** 2023
 
-18 weeks of dancing through the winter to early summer.
-
-Season starts on week 3 (January 15th).
-
-[Registration is now open at Portal!](/portal)
+Season is rolling. If you wish to join courses mid-season, [contact us](/contact)!
+[Check out the courses and register here ➥](/courses)
 
 **Start dancing with these courses**  
 No previous experience whatsoever needed.
 
-- Lindy Hop Beginners on Mondays and Thursdays
-- Solo Jazz & Charleston Beginnners on Thursdays
-- Tap Dance Beginners on Wednesdays
+- Lindy Hop Beginners Monday and Thursdays
+- Solo Jazz & Charleston Beginnners Thursdays
+- Tap Dance Beginners Wednesdays
 - [Check out all the beginners' courses here](/courses-for-beginners)
 
 **Already dancing?**  
@@ -86,10 +83,10 @@ If you are just visiting the city, or want to try out our classes, you can also 
 ### Good to know
 General info for the season
 
-Course registration for the upcoming season is now open.  
-Classes start on week 3 (15th of January, 2024).
+Course registration for the Autumn season is now open.  
+Classes start on week 34 (21st of August, 2023).
 
-Most of the courses contains 18 weeks of classes plus possible break weeks. Starting right from the beginning of the season is recommended, but it's also possible to join any of the groups during the season.
+Most of the courses contains 17 weeks of classes plus possible break weeks. Starting right from the beginning of the season is recommended, but it's also possible to join any of the groups during the season.
 
 We recommend registering for full courses, which allows you to progressivily grow with the group. Even if you have a [Dance Pass](/dance-passes), we recommend you to register for at least one course and taking it regularly.
 

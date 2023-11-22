@@ -21,6 +21,7 @@
     $.getJSON('https://us-central1-custportal-3000.cloudfunctions.net/api/data/events', function(events) {
       events = events.sort(function(a,b) {return (a.name < b.name) && 1 || -1});
       events = events.sort(function(a,b) {return (a.start_date > b.start_date) && 1 || -1});
+      events = events.filter(function(event) {return event.meta.group.indexOf(BPS_COURSES_FILTER_GROUP||"") !== -1});
       for (var day of ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']) {
         var hasEvents = false;
         var eventsWrapper = $('#portal-events-'+day);

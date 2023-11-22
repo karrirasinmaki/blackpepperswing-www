@@ -2,7 +2,7 @@
   <div class="large-6 medium-10 medium-centered columns aside pr20">
     <div class="shadow-pop">
       <a href="/courses">
-        <img src="{{ site.urlimg }}/medium/schedule-2024-ws-schedule.jpg" />
+        <img src="{{ site.urlimg }}/medium/lukkari-2023-autumn.jpg" />
       </a>
     </div>
     <div class="button-group t30">
@@ -13,10 +13,9 @@
 <div class="large-6 medium-8 medium-centered columns end">
 <article markdown="1">
 
-## **Talvi-Kevät** 2024
+## **Syksy** 2023
 
-18 viikkoa tanssia läpi koko talven aivan kesän kynnykselle saakka.
-
+Syyskausi on parhaillaan käynnissä. Mikäli mielit mukaan kursseille kesken kauden, [soita tai pistä viestiä](/contact)!
 [Katso kurssisivut ja ilmoittaudu täältä ➥](/courses)
 
 **Jos olet vasta aloittamassa tanssimaan...**  
@@ -29,6 +28,8 @@ Tässä listattuna muutama alkeiskurssi. Mitään aiempaa kokemusta ei tarvita!
 
 **Jos olet jo tanssinut aiemmin...**  
 <a href="{{ site.baseurl }}/courses" class="">Tsekkaa läpi kurssiaikataulu</a> ja suunnittele tanssisyksysi. Jos et ole varma tasostasi tai kaipaat apua kurssien valintaan, niin kurkkaa <a href="https://blackpepperswing.freshdesk.com/en/support/solutions/articles/42000082224-which-courses-should-i-pick-" target="_blank">tämä artikkeli</a> (englanniksi).
+
+Ps. Voit liittyä kursseille missä vaiheessa kautta tahansa - ja maksat vain jäljellä olevista kursseista! Ilmoittaudu suoraan [Portaalissa](/portal), tai [laita meille viestiä](/contact).
 
 </article>
 </div>
@@ -85,10 +86,10 @@ Jos olet esim. käymässä Helsingissä, tai haluat kokeilla tuntejamme, onnistu
 
 Yleistä infoa kaudesta
 
-Ilmoittautuminen tulevalle kaudelle on nyt auki.  
-Tunnit pyörähtävät käyntiin viikolla 3 (15.1.2024).
+Ilmoittautuminen syksyn kursseille on auki.  
+Tunnit pyörähtävät käyntiin viikolla 34 (21.8.2023).
 
-Suurin osa kursseista on 18 viikon kursseja, sisältäen 18 opetuskertaa ja mahdolliset taukoviikot. Suosittelemme käymään kursseilla koko kauden, mutta myös kesken kauden voi liittyä mukaan, tai ilmoittautua lyhyemmälle pätkälle.
+Suurin osa kursseista on 17 viikon kursseja, sisältäen 17 opetuskertaa ja mahdolliset taukoviikot. Suosittelemme käymään kursseilla koko kauden, mutta myös kesken kauden voi liittyä mukaan, tai ilmoittautua lyhyemmälle pätkälle.
 
 Lähes kaikille kursseille voit osallistua myös osaksi kautta. Katso ilmoittautumislomakkeelta tarkemmat vaihtoehdot tai [ota suoraan yhteyttä meihin](/contact).
 

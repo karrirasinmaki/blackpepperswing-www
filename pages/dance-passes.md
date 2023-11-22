@@ -8,7 +8,7 @@ title: "&nbsp;"
 
 image:
   src: helswingi-2022-adam-smile-bps.jpg
-  caption: Dance passes now available
+  caption: Dance passes, total freedom of dancing
   position: top center
 
 header:
@@ -32,7 +32,7 @@ permalink: /dance-passes/
 </div>
 </figure>
 
-**Get the total freedom of dancing with the newly launched dance passes!**
+**Experience the total freedom of dancing with Black Pepper Swing dance passes!**
 
 With the [Dance Pass][1] you can attend all our [weekly classes](/courses) and activities. All the classes are included, so take as many courses and classes as you like!
 
