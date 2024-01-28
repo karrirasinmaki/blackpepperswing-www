@@ -36,6 +36,8 @@ Footwear for most people are indoor shoes (sneakers etc.), but also socks or bar
 
 You can be mentally prepared to sweat, so bringing a water bottle and a spare shirt may be a good idea.
 
+(For tap dancers, we have a few random pairs of shoes to borrow, and you can even start with any hard-soled shoes. At some point, however, you’ll want to invest in a pair of tap shoes of your own.)
+
 
 <h3>Location</h3>
 The location is Alppitalo at Karjalankatu 2. There are Black Pepper Swing signs at the main entrance.
@@ -56,13 +58,13 @@ More parking spots can be found by the street (regular street parking, zone 2), 
 <h3>Dance studios</h3>
 Our studios are on the 4th floor. Follow the signs to find us.
 
-We have classes in two dance rooms and you'll be guided to the correct one upon arrival.
+We have classes in two dance rooms and you’ll be guided to the correct one upon arrival.
 
 Toilets and showers are located in the corridor of the 4th and 3rd floors, and we have one unisex toilet inside the studios.
 
-We also have a kitchen where you can hang out before/after and between classes. If you store something in the fridge, please mark your foods. Sometimes you may find beverages and snacks with affordable prices available.
+We also have a kitchen where you can hang out before, after, and in between classes. If you store something in the fridge, please mark your foods. There’s also a minibar and snack station in the kitchen where you can find beverages and snacks available.
 
-Next to the kitchen, there is a separate room where you can change your clothes.
+Changing rooms can be found next to the kitchen, in between the two dance room.
 
 You can also <a href="https://blackpepperswing.com/studio-rental/" target="_blank">rent the studio</a> for your own practice sessions.
 
@@ -70,9 +72,19 @@ You can also <a href="https://blackpepperswing.com/studio-rental/" target="_blan
 <h3>Payments</h3>
 You can pay your invoices via bank transfer using the reference number and details on the invoice.
 
-We also accept all major employee benefit vouchers! So, you can pay your invoices fully or partly with <a href="https://blackpepperswing.freshdesk.com/support/solutions/articles/42000069466-how-to-pay-with-smartum-" target="_blank">Smartum</a> / <a href="https://blackpepperswing.freshdesk.com/support/solutions/articles/42000067781-can-i-pay-by-smartum-edenred-epassi-eazybreak" target="_blank">Edenred</a> / <a href="https://blackpepperswing.freshdesk.com/support/solutions/articles/42000068457-how-to-pay-with-epassi-" target="_blank">ePassi</a> / <a href="https://blackpepperswing.freshdesk.com/support/solutions/articles/42000078250-how-to-pay-with-eazybreak-" target="_blank">Eazybreak</a>.
+We also accept all major employee benefit vouchers! So, you can pay your invoices fully or partly with <a href="https://blackpepperswing.freshdesk.com/support/solutions/articles/42000069466-how-to-pay-with-smartum-" target="_blank">Smartum</a> / <a href="https://blackpepperswing.freshdesk.com/support/solutions/articles/42000067781-can-i-pay-by-smartum-edenred-epassi-eazybreak" target="_blank">Edenred</a> / <a href="https://blackpepperswing.freshdesk.com/support/solutions/articles/42000068457-how-to-pay-with-epassi-" target="_blank">ePassi</a>.
 
 <a href="https://blackpepperswing.freshdesk.com/support/solutions/articles/42000068393-what-payment-methods-are-accepted-" target="_blank">More info about payment methods here...</a>
+
+
+<h3>If you miss a class</h3>
+If you miss a class, no worries! You can replace all the missed classes. During the ongoing season, visit any group of your level in any dance of your choice to make up for those missed classes.
+
+Even if you miss a few classes in a row, jump right back in when you can. As you replace those missed classes, you’ll be back in speed in no time.
+
+Over 50% start here with zero dance experience. When starting out it’s natural to feel overwhelmed from time to time. An intense day or a busy month may try to rob your focus or slow you down. As long as you hang tight and not fall completely off the wagon we are good!
+
+Keep coming to classes despite a busy life or lack of focus (it may even re-energize you). And if you miss a class or a few, bounce right back when you can. We are here to lift you back to the rhythm.
 
 
 <h3>Questions?</h3>
