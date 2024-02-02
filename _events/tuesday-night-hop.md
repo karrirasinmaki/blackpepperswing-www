@@ -11,7 +11,7 @@ day: Tuesdays
 time: 19:00 - 22:00
 price: Free entrance
 address: On the Rocks, Mikonkatu 15, 00100 Helsinki
-alternative_ddress: Groovy Käpylä, Mäkelänkatu 87, 00610 Helsinki, Finland
+alternative_address: Groovy Käpylä, Mäkelänkatu 87, 00610 Helsinki
 header:
   hide_text: true
 links:
@@ -34,7 +34,7 @@ All music lovers, beginner dancers, non dancers and swing dance veterans are wel
 
 _Free entrance (except during the Live nights)_
 
-Check out more information and exceptions on TNH Facebook page.
+Check out more information, address, and exceptions on TNH Facebook page.
 
 Tuesday Night Hop Facebook page:  
 [https://www.facebook.com/tuesdaynighthop/](https://www.facebook.com/tuesdaynighthop/)
