@@ -40,7 +40,9 @@ You can be mentally prepared to sweat, so bringing a water bottle and a spare sh
 
 
 <h3>Location</h3>
-The location is Alppitalo at Karjalankatu 2. There are Black Pepper Swing signs at the main entrance.
+The location is Alppitalo at Karjalankatu 2. Door code: {{ site.door_code }}
+
+There are Black Pepper Swing signs at the main entrance.
 
 If you get lost or can't get it, call +358 84 154 1724.
 

@@ -57,8 +57,8 @@ secondary_ctas:
   url: /courses-for-beginners
 - title: Yksityistunnit
   url: https://holvi.com/shop/blackpepperswing/section/private-classes/
-- title: Kerta- ja 10-kortit
-  url: /punch-cards
+- title: Käytännön infoa
+  url: /practical-info
 
 featured_ctas:
 - title: Uusi tanssija - aloita täältä

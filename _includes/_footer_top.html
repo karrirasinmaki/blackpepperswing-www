@@ -3,6 +3,11 @@
     <div class="small-12 medium-5 columns">
       <h5 class="shadow-black">{{ site.data.language.info_website }}</h5>
       <p class="shadow-black">
+        <b>{{ site.name }}</b><br>
+        {{ site.email }}<br>
+        {{ site.tel }}
+      </p>
+      <p class="shadow-black">
         {{ site.description }}
         <a href="{{ site.url }}{{ site.baseurl }}/about-us/">{{ site.data.language.more }}</a>
       </p>
@@ -12,10 +17,10 @@
     <div class="small-12 medium-6 columns">
       <h5>&nbsp;</h5>
       <p class="shadow-black">
-            <b>{{ site.name }}</b><br>
-            {{ site.email }}<br>
-            {{ site.tel }}
-        </p>
+        <b>Studio</b><br>
+        {{ site.address | split: ", " | join: "<br>" }}<br>
+        Door code: {{ site.door_code }}
+      </p>
     </div><!-- /.large-4.columns -->
 
   </div><!-- /.row -->

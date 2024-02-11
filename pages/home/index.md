@@ -51,8 +51,8 @@ secondary_ctas:
   url: https://library.blackpepperswing.com/
 - title: Beginners courses
   url: /courses-for-beginners
-- title: Punch cards & drop-in
-  url: /punch-cards
+- title: Practical info
+  url: /practical-info
 
 featured_ctas:
 - title: Are you new? Start here!
