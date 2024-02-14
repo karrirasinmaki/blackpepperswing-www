@@ -16,7 +16,7 @@ header:
 links:
   facebook: https://www.facebook.com/events/1057317192159871
 image:
-  src: "events/tacky-friends-day-feb-2024.jpg"
+  src: events/tacky-friends-day-feb-2024.jpg
 
 ---
 
