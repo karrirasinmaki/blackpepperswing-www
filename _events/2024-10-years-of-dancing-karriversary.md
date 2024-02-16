@@ -1,10 +1,11 @@
 ---
 archived: false
 repeats: false
+layout: page
 
-title: Midnight Sun Swing Festival 2024
-subtitle: Helsinki | June 14-16
-teaser: A summer swing dance festival in Helsinki during the brightest and longest days of the year. Registration opens 7th of February.
+title: 10 years of dancing masterclasses
+subtitle: Helsinki
+teaser: Stories and lessons from Karri's 10-year-long dance journey. Insightful and inspiring workshops and masterclasses packed with wisdom and knowledge.
 
 date_start: 2024-03-01
 date_end: 2024-12-31
@@ -12,6 +13,7 @@ address: Black Pepper Swing, Karjalankatu 2 (4th floor), 00520 Helsinki, Finland
 
 header:
   hide_text: true
+
 links:
   # facebook: https://www.facebook.com/events/1744524866061870/
 image:
@@ -79,3 +81,12 @@ And many more workshops and masterclasses will be coming up, including style and
 
 Each workshop will be a master class type of experience with deep knowledge for enthusiastic participants. My way of teaching relies heavily on experience-based learning. Seeking understanding over knowledge and a great amount of trial, error, and action.
 
+Welcome!
+
+## Register for the workshops
+
+<section class="row">
+  <div class="medium-12 columns">
+    {% include portal-events.html category="beginners" randomize=false %}
+  </div>
+</section>
