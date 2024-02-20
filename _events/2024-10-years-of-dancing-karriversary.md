@@ -18,9 +18,16 @@ links:
   # facebook: https://www.facebook.com/events/1744524866061870/
 image:
   src: events/karriversary/karriversary-banner.jpg
+
+permalink: /karriversary/
 ---
 
+[booking]: #register-for-the-workshops
+
 <section class="medium-12 medium-centered columns width-reader" markdown="1">
+
+[Check out the upcoming workshops here...][booking]
+
 
 ## 10 years of dancing
 by Karri Rasinmäki / Black Pepper Swing
@@ -65,17 +72,19 @@ This milestone celebration consists of a series of workshops and masterclasses. 
 
 Join these workshops and masterclasses to hear and experience all of this story!
 
+First masterclasses in March 1-2 ➣ [Register here][booking]{:.button .small .round}
+
 ### Schedule
 
 The first classes of this series takes place in the beginning of March. Check out the scheduled dates below.
 
 **Next workshops and masterclasses**
 
-- 28.2. - Solo Jazz Experience
 - 1.3. - Ultimate footwork workshop, part 1
 - 2.3. - Ultimate footwork workshop, part 2
+- 9.3. - Solo Jazz Experience
 - 20.4. - Flow and connection
-- 27. - 31.5. - All-time favorites
+- 27.5. - 31.5. - All-time favorites
 
 And many more workshops and masterclasses will be coming up, including style and swag, my favorite moves and combos, spatial and kinetic dancing, and more. Dates will be announced later.
 
@@ -87,6 +96,6 @@ Welcome!
 
 <section class="row">
   <div class="medium-12 columns">
-    {% include portal-events.html category="beginners" randomize=false %}
+    {% include portal-events.html category="karriversary" randomize=false %}
   </div>
 </section>
