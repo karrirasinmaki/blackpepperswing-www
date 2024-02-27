@@ -50,7 +50,17 @@
           eventsWrapper.html('');
           events = events.sort(function(a,b) {return a.start_date < b.start_date && 1 || -1});
           if (!!BPS_COURSES_FILTER_GROUP) {
-            events = events.filter(function(event) {return (""+event.meta.group).toLowerCase().indexOf((BPS_COURSES_FILTER_GROUP||"").toLowerCase()) !== -1});
+            events = events.filter(function(event) {
+              if ( (""+event.meta.group).toLowerCase().indexOf((BPS_COURSES_FILTER_GROUP||"").toLowerCase()) !== -1) {
+                return true;
+              }
+              if ( (""+event.meta.categories).toLowerCase().indexOf((BPS_COURSES_FILTER_GROUP||"").toLowerCase()) !== -1) {
+                return true;
+              }
+              else {
+                return false;
+              }
+            });
           }
           if (events.length === 0) {
             eventsWrapper.append($('#template-portal-no-events').html()).append(BPS_COURSES_FILTER_GROUP);
