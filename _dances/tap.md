@@ -40,7 +40,7 @@ Welcome to join Tap Dance classes at Black Pepper Swing!
 
 We offer tap classes in 3 different levels. And you can join our courses even during the season.
 
-We have to main seasons, Winter-Spring and Autumn. Seasons start in January and August/September. You can join our courses even mid-season!
+We have to main seasons, Winter-Spring and Autumn. Seasons start in January and August/September. You can join our courses even mid-season! You'll only pay for the remaining of the classes.
 
 **At BPS we mostly do the tap to swing/jazz music.** So if you are into that, our courses suit you better than well! We take inspiration from old school legends while keeping the dance and vibes new and fresh.
 
