@@ -1,5 +1,7 @@
-			{% if page.comments %}
+			{% if page.comments or include.enabled %}
+				{% if include.headline != false %}
 				<h3 id="comments" class="t60">{{ site.data.language.comments_headline }}</h3>
+				{% endif %}
 
 				{% if site.commentboxio_projectid %}
 				<div class="commentbox"></div>
