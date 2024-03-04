@@ -19,7 +19,7 @@ links:
 image:
   src: events/tacky-rock-march-2024.jpg
 
-redirect_to: https://www.facebook.com/events/1736651776857877
+redirect_to: https://portal.blackpepperswing.com/courses/2kil0uufiep36se46cdcogugsl
 
 ---
 
