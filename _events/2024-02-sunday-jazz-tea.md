@@ -1,7 +1,7 @@
 ---
 layout: redirect
 
-archived: false
+archived: true
 repeats: monthly
 
 title: Jazz & Tea

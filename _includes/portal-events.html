@@ -1,6 +1,10 @@
 {% assign category = include.category %}
+{% assign sort_by = include.sort_by %}
+{% assign sort_order = include.sort_order %}
 <script>
   var BPS_COURSES_FILTER_GROUP = "{{ category }}";
+  var BPS_COURSES_SORT_BY = "{{ sort_by }}".toLowerCase();
+  var BPS_COURSES_SORT_ORDER = "{{ sort_order }}".toLowerCase();
 </script>
 
 <template id="template-portal-event-snippet" style="display:none;">
@@ -48,7 +52,10 @@
         /* Load events */
         $.getJSON('https://us-central1-custportal-3000.cloudfunctions.net/api/data/events', function(events) {
           eventsWrapper.html('');
-          events = events.sort(function(a,b) {return a.start_date < b.start_date && 1 || -1});
+          /* sorting */
+          var sortbit = BPS_COURSES_SORT_ORDER === 'desc' ? 1 : -1;
+          events = events.sort(function(a,b) {return a.start_date < b.start_date && sortbit || -sortbit});
+          /* filtering */
           if (!!BPS_COURSES_FILTER_GROUP) {
             events = events.filter(function(event) {
               if ( (""+event.meta.group).toLowerCase().indexOf((BPS_COURSES_FILTER_GROUP||"").toLowerCase()) !== -1) {

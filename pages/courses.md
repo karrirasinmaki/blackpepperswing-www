@@ -12,7 +12,7 @@ sitemap:
 permalink: "/courses/"
 
 subnav:
-- title: Season Winter-Spring 2024
+- title: Season Summer 2024
   url: /courses
 - title: For Beginners
   url: /courses-for-beginners
@@ -32,27 +32,44 @@ subnav:
 
 <section class="row align-items-center">
   <div class="large-5 medium-10 medium-centered columns aside pr20 t50">
-    <div class="shadow-pop">
-      <a href="/courses/portal">
-        <img src="{{ site.urlimg }}/medium/schedule-2024-ws-schedule.jpg" />
-      </a>
+  <div class="article-media">
+    <div class="shadow-pop frame square cover align-center">
+      <img src="{{ site.urlimg }}/medium/alppilava-colorized.jpg" />
+    </div>
     </div>
   </div>
 <section class="large-7 medium-8 medium-centered columns end" markdown="1">
 
-### Courses / Season Winter-Spring 2024
+### Courses / Season Summer 2024
 
-**Dancing through the winter till early summer**
+**Dancing till Midsummer**
 
-You can find our courses for the upcoming dance season listed on this page.
+You can find our summer courses listed on this page.
 
-Classes start on week 3 (15th of January, 2024).
+Our summer season has a different topic each week. Classes are on Mondays and Wednesdays, 17:30-19:00 on both days.
+
+Week 22: Karriversary  
+Week 23: Floorcraft  
+Week 24: Rhythm lab  
+Week 25: Swivels and swing outs  
 
 All our classes are in English unless otherwise mentioned.
 
-[Read more about the upcoming dance season...](/#season-info)
+<!-- [Read more about the upcoming dance season...](/#season-info) -->
+
+Psst... There's also 3-week Lindy Hop Beginners' course during the same time. Check it out here: [Lindy Hop Beginners 3-week course / Starting May 27th](https://holvi.com/shop/blackpepperswing/product/9f600f0b53aa10d8575449e9318fc780/)
 </section>
 </section>
+
+<section class="row">
+  <div class="medium-12 columns">
+    <h2>Summer courses</h2>
+    {% include portal-events.html category="season-2024-summer" randomize=false sort_order="asc" %}
+  </div>
+</section>
+
+{% comment %}
+<!-- ORIGINAL COURSES PAGE, now disabled during summer
 
 <template id="template-portal-event-snippet" style="display:none;">
   <div class="splide__slide slide pl10 pr10">
@@ -90,3 +107,6 @@ All our classes are in English unless otherwise mentioned.
 var BPS_COURSES_FILTER_GROUP = "2024";
 </script>
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/courses.js"></script>
+
+-->
+{% endcomment %}

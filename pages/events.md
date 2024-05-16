@@ -35,7 +35,7 @@ permalink: "/events/"
 {% endif %}
 
 
-### Upcoming courses and workshops
+### Upcoming and ongoing courses
 
 <section class="row">
   <div class="medium-12 columns">

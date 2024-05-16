@@ -34,19 +34,19 @@
 	}
 
 	&.align {
-		&-left img {
+		&-left > * {
 			object-position: left;
 		}
-		&-center img {
+		&-center > * {
 			object-position: center;
 		}
-		&-right img {
+		&-right > * {
 			object-position: right;
 		}
-		&-top img {
+		&-top > * {
 			object-position: top;
 		}
-		&-bottom img {
+		&-bottom > * {
 			object-position: bottom;
 		}
 	}
