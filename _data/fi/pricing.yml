@@ -39,7 +39,7 @@ featured_options:
     ribbon: ""
     perks:
       - Kaikki viikkotunnit, tanssi niin paljon kuin sielu sietää
-      - Henkilökohtaiset valmennukset meidän opejen kanssa (kausi- ja vuosipassi)
+      - Henkilökohtaiset valmennukset meidän opejen kanssa pienryhmissä (kausi- ja vuosipassi)
       - Mikäli tanssit paljon ja olet kasvunälkäinen, tämä on kuin tehty sinulle
   - title: Yksittäiset kurssit
     subtitle: KURSSI-ILMO
@@ -73,7 +73,7 @@ featured_options:
 dance_passes:
   - title: Year-around
     subtitle: DANCE PASS
-    price: 110€ / kk
+    price: 1 320.00€ / vuosi
     cta: https://buy.stripe.com/14k8ymdWX9Eo9Ne9AA
     cta_title: Osta koko vuoden paketti kaupanpäällisineen
     description: Tanssi koko vuosi yhdellä maksulla. Sisältää kaupanpäällisiä. Laskutetaan vuosittain.
@@ -81,18 +81,20 @@ dance_passes:
     perks:
       - Osallistu kaikille viikottaisille tunneille ja aktiviteeteille
       - Tanssi niin paljon kuin sielu sietää!
-      - LISÄKSI! Yksilövalmennuskerta kunkin kauden alussa (yht. 3x vuodessa)
+      - LISÄKSI! Kuukausittaiset intensiivitreenit pienryhmässä (syksyn ja kevään kausien aikana)
+      - LISÄKSI! 10x kortti BPS studiovarauksiin
       - LISÄKSI! BPS t-paita kaupanpäälliseksi
   - title: Season
     subtitle: DANCE PASS
     price: 150€ / kk
     cta: https://buy.stripe.com/14k7ui1abdUE3oQ5kp
-    cta_title: Osta kauden talvi-kevät 2024 kaikki kurssit
+    cta_title: Osta kauden Syksy 2024 kaikki kurssit
     description: Koko kauden täydeltä tanssia yhdellä maksulla. Laskutetaan kerran ja on voimassa kauden loppuun.
     perks:
       - Osallistu kaikille viikottaisille tunneille ja aktiviteeteille
       - Tanssi niin paljon kuin sielu sietää!
-      - LISÄKSI! Yksilövalmennuskerta kauden alussa
+      - LISÄKSI! Kuukausittaiset intensiivitreenit pienryhmässä
+      - LISÄKSI! 5x kortti BPS studiovarauksiin
   - title: Monthly
     subtitle: DANCE PASS
     price: 170€ / kk

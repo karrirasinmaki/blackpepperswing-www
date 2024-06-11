@@ -45,7 +45,7 @@ We simply love dancing and you probably too. Dance Pass allows us to offer you u
 
 This is simply the best package we offer! With single payment you get to take all our classes and literally live and breathe the dance.
 
-Also, the more you commit to dance, the more we want to commit to you. How does one-to-one coaching in the beginning of each season sounds like?
+Also, the more you commit to dance, the more we want to commit to you. How does complimentary monthly intensive trainings sound like?
 
 If you want to do more than one course/class per week, then we absolutely recommend the Dance Pass!
 
@@ -59,17 +59,23 @@ If you want to do more than one course/class per week, then we absolutely recomm
 </section>
 
 <section class="text-center">
-  <p>With any of the dance passes you get included:</p>
+  <p>With any of the dance passes you get:</p>
   <ul class="list-checkmarks list-center list-fit-content">
     <li>All the weekly classes and activities</li>
-    <li>All the weekly social practices</li>
-    <li>All the weekly guided practices</li>
+    <li>Priority registration in the beginning of the season</li>
+    <li>Flexibly book full courses and/or visit single classes</li>
+  </ul>
+  <br />
+  <p>All this plus with the season plan:</p>
+  <ul class="list-checkmarks list-center list-fit-content">
+    <li>Monthly intensive trainings (small group private classes)</li>
+    <li>Total of 5x studio bookings for practicing (1.5h each)</li>
+    <li>Lots of dancing with a strong progress</li>
   </ul>
   <br />
   <p>All this plus with the year-around plan:</p>
   <ul class="list-checkmarks list-center list-fit-content">
-    <li>Total of 3x coaching sessions, one per season</li>
-    <li>10x bookings to one of our studio rooms</li>
+    <li>Total of 10x studio bookings for practicing (1.5h each)</li>
     <li>BPS t-shirt with the latest new design</li>
     <li>Christmas gift at the end of the year</li>
   </ul>
@@ -83,25 +89,25 @@ If you want to do more than one course/class per week, then we absolutely recomm
 1. **Buy a Dance Pass**  
   [Buy your Dance Pass here][1]  
   If you choose year-around or monthly pass you can start dancing right away! The pass is valid right after the purchase.  
-  With season pass, pass is only valid for the season you bought it for.
+  With the season pass, pass is only valid for the season you bought it for.
 
 2. **Secure your place in the course**  
   We recommend you register for the courses you intend to take regularly. Priority is given for all the Dance Pass holders during first 2 weeks of the registration.  
-  Of course you can also just drop-in to any of the class.  
+  Of course you can also just drop-in to any of the classes.  
   Note: If you attend a partnered dance class without a partner, you must book a place in advance! That is unless you can do both roles. This is so that we can maintain the role balance.
 
-3. **Arrive to class and show your pass to the teacher**  
+3. **Arrive to the class and show your pass to the teacher**  
   Please show your pass to teacher of the class upon arrival.  
-  (We'll create the digital passes by the next season. Before that, please show your purchase receipt.)
+  (We intend to create digital passes in the future. But for now, our teachers will know you.)
 
-**BONUS:** If your purchase included complimentary coaching session(s), book those for each season separately by sending us an email at {{ site.email }}.
+**BONUS:** Complimentary intensive trainings will take place during the active season once per month. Dates will be published later.
 
 
 ### Questions
 
 * **What’s included?**  
   All the weekly classes and activities. All of them!  
-  Plus extra perks (like complimentary 1-on-1 coaching sessions) for full season or annual subscription.
+  Plus extra perks for full season or annual subscription.
 
 * **What subscription plans are available?**  
   You can subscribe to / buy BPS Dance pass by monthly, per season, or yearly plan.  
@@ -122,8 +128,8 @@ If you want to do more than one course/class per week, then we absolutely recomm
   For solo classes, no prior registration is needed neither.  
   _Dance Pass holders have priority for all courses during first 2 weeks of registration._  
   If you plan to take a certain course regurlarly, we recommend course registration so we can better plan the course. Unlimited registrations are included in the Dance pass.  
-  On top of your regular classes, you can drop-in to any class you wish.  
-  [Check out class schedule for 2023 here...](/courses)
+  On top of your regular classes, you can drop-in to any of our weekly classes you wish.  
+  [Check out class schedule here...](/courses)
 
 * **I’m not sure if I’ll buy a Dance pass, should I register already?**  
   Yes, please register for all classes you plan to take as soon as possible!  

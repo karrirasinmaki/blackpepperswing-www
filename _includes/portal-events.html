@@ -44,60 +44,60 @@
   </div>
 </div>
 
-  <script>
-    (function() {
-      function renderPortalEvents() {
-        var template = $('#template-portal-event-snippet');
-        var eventsWrapper = $('#portal-events');
-        /* Load events */
-        $.getJSON('https://us-central1-custportal-3000.cloudfunctions.net/api/data/events', function(events) {
-          eventsWrapper.html('');
-          /* sorting */
-          var sortbit = BPS_COURSES_SORT_ORDER === 'desc' ? 1 : -1;
-          events = events.sort(function(a,b) {return a.start_date < b.start_date && sortbit || -sortbit});
-          /* filtering */
-          if (!!BPS_COURSES_FILTER_GROUP) {
-            events = events.filter(function(event) {
-              if ( (""+event.meta.group).toLowerCase().indexOf((BPS_COURSES_FILTER_GROUP||"").toLowerCase()) !== -1) {
-                return true;
-              }
-              if ( (""+event.meta.categories).toLowerCase().indexOf((BPS_COURSES_FILTER_GROUP||"").toLowerCase()) !== -1) {
-                return true;
-              }
-              else {
-                return false;
-              }
-            });
-          }
-          if (events.length === 0) {
-            eventsWrapper.append($('#template-portal-no-events').html()).append(BPS_COURSES_FILTER_GROUP);
-            return;
-          }
-          if ({{include.randomize | default:false}}) {
-            events.sort(function(a,b) {return Math.random() > 0.5 && 1 || -1});
-          }
-          /* Loop thru single events and render row item */
-          for (var i = 0, l = events.length; i<Math.min(l, {{include.limit}}); ++i) {
-            var event = events[i];
-            var el = template.html()
-              .replace(/--URL--/g, 'https://portal.blackpepperswing.com/courses/' + event.id)
-              .replace(/--IMG--/g, event.meta.image_src)
-              .replace(/--SUBHEADER--/g, new Date(event.start_date).toLocaleDateString('FI') + ' - ' + new Date(event.last_date).toLocaleDateString('FI') + ', ' + event.meta.duration)
-              .replace(/--HEADER--/g, event.name)
-              .replace(/--EXCERPT--/g, event.meta.description);
-            eventsWrapper.append(el);
-          }
-        });
-      }
-      /* Wait for jQuery to load */
-      var at = 100;
-      var a = setInterval( function() {
-        if ( typeof window.jQuery === 'undefined' ) {
-          at = Math.min(1000, at*2);
+<script>
+  (function() {
+    function renderPortalEvents() {
+      var template = $('#template-portal-event-snippet');
+      var eventsWrapper = $('#portal-events');
+      /* Load events */
+      $.getJSON('https://us-central1-custportal-3000.cloudfunctions.net/api/data/events', function(events) {
+        eventsWrapper.html('');
+        /* sorting */
+        var sortbit = BPS_COURSES_SORT_ORDER === 'desc' ? 1 : -1;
+        events = events.sort(function(a,b) {return a.start_date < b.start_date && sortbit || -sortbit});
+        /* filtering */
+        if (!!BPS_COURSES_FILTER_GROUP) {
+          events = events.filter(function(event) {
+            if ( (""+event.meta.group).toLowerCase().indexOf((BPS_COURSES_FILTER_GROUP||"").toLowerCase()) !== -1) {
+              return true;
+            }
+            if ( (""+event.meta.categories).toLowerCase().indexOf((BPS_COURSES_FILTER_GROUP||"").toLowerCase()) !== -1) {
+              return true;
+            }
+            else {
+              return false;
+            }
+          });
+        }
+        if (events.length === 0) {
+          eventsWrapper.append($('#template-portal-no-events').html()).append(BPS_COURSES_FILTER_GROUP);
           return;
         }
-        clearInterval( a );
-        renderPortalEvents();
-      }, at );
-    })();
-  </script>
+        if ({{include.randomize | default:false}}) {
+          events.sort(function(a,b) {return Math.random() > 0.5 && 1 || -1});
+        }
+        /* Loop thru single events and render row item */
+        for (var i = 0, l = events.length; i<Math.min(l, {{include.limit}}); ++i) {
+          var event = events[i];
+          var el = template.html()
+            .replace(/--URL--/g, 'https://portal.blackpepperswing.com/courses/' + event.id)
+            .replace(/--IMG--/g, event.meta.image_src)
+            .replace(/--SUBHEADER--/g, new Date(event.start_date).toLocaleDateString('FI') + ' - ' + new Date(event.last_date).toLocaleDateString('FI') + ', ' + event.meta.duration)
+            .replace(/--HEADER--/g, event.name)
+            .replace(/--EXCERPT--/g, event.meta.description);
+          eventsWrapper.append(el);
+        }
+      });
+    }
+    /* Wait for jQuery to load */
+    var at = 100;
+    var a = setInterval( function() {
+      if ( typeof window.jQuery === 'undefined' ) {
+        at = Math.min(1000, at*2);
+        return;
+      }
+      clearInterval( a );
+      renderPortalEvents();
+    }, at );
+  })();
+</script>

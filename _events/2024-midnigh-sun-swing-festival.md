@@ -15,7 +15,7 @@ header:
 links:
   facebook: https://www.facebook.com/events/1744524866061870/
 image:
-  src: events/MSSF-Event-Facebook Banner.png
+  src: "events/MSSF-Event-Facebook Banner.png"
 
 redirect_to: https://www.midnightsunswing.fi/
 ---

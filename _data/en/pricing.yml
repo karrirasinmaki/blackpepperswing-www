@@ -6,7 +6,7 @@ products:
   dance_pass:
     monthly: 170
     season_month: 150
-    season: 600
+    season: 640
     yearly_month: 110
     yearly: 1320
   course:
@@ -61,7 +61,7 @@ featured_options:
     ribbon: ""
     perks:
       - All our weekly classes, dance as much as you like
-      - 1:1 coaching sessions with our teachers (season and yearly passes)
+      - Intensive training sessions with our teachers (season and yearly passes)
       - If you want to dance a lot and are eager to grow, this is for you
   - title: Single courses
     subtitle: COURSE REGISTRATION
@@ -94,15 +94,14 @@ featured_options:
 dance_passes:
   - title: Year-around
     subtitle: DANCE PASS
-    price: 110€ / month
+    price: 1 320.00€ / year
     cta: https://buy.stripe.com/14k8ymdWX9Eo9Ne9AA
     cta_title: Buy one full year with perks
     description: Dance the whole year with one single payment. Comes with benefits. Billed annually.
-    ribbon: We recommend
     perks:
       - "Attend all our weekly classes and activities"
       - "Dance as much as you like"
-      - "PLUS: Complimentary coaching session at the beginning of each season (3x per year)"
+      - "PLUS: Complementary monthly intensive trainings (during autumn and spring seasons)"
       - "PLUS: Free 10x card for BPS studio bookings"
       - "PLUS: Free BPS t-shirt"
     perks_values:
@@ -113,14 +112,15 @@ dance_passes:
       - "Normal price is 25-35€"
   - title: Season
     subtitle: DANCE PASS
-    price: 150€ / month
+    price: 640.00€ / season
     cta: https://buy.stripe.com/14k7ui1abdUE3oQ5kp
-    cta_title: Buy season Winter-Spring 2024
+    cta_title: Buy season Autumn 2024
     description: The whole season full of dancing with one single payment. Billed once and valid until the end of the season.
+    ribbon: Most popular
     perks:
       - "Attend all our weekly classes and activities"
       - "Dance as much as you like"
-      - "PLUS: Complimentary coaching session at the beginning of the season"
+      - "PLUS: Complementary monthly intensive trainings"
       - "PLUS: Free 5x card for BPS studio bookings"
   - title: Monthly
     subtitle: DANCE PASS

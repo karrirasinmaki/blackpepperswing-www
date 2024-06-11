@@ -66,10 +66,10 @@ featured_ctas:
   img: helswingi-2018-andzej-essi.jpg
 - title: Kurssit ja ilmoittautuminen
   url: /courses
-  img: https://firebasestorage.googleapis.com/v0/b/custportal-3000.appspot.com/o/media%2Fbps-autumn-2022.jpg?alt=media&token=19fae595-876a-41d2-8386-8ce1fc1752b7
+  img: autumn-2024-schedule.jpg
 - title: Tapahtumat ja workshopit
   url: /events
-  img: helswingi-cover-2022-web.jpg
+  img: "events/MSSF-Event-Facebook Banner.png"
 ---
 
 {% capture intro %}
