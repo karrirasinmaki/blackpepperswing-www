@@ -19,45 +19,6 @@ permalink: "/rekry/operatiivinen-vastaava/"
 
 {% unless include %}
 
-<style>
-  .protect-overlay {
-    position:fixed;
-    top:0;
-    right:0;
-    bottom:0;
-    left:0;
-    z-index:9999;
-    background-color:black;
-    color:white;
-    padding:10% 0;
-    text-align:center;
-  }
-</style>
-
-<div id="protect-overlay" class="protect-overlay">
-  <div class="width-medium align-center">
-    <h3 class="color-contrast">Password protected page</h3>
-    <form action="#">
-      <input name="answer" type="password" placeholder="Password..."/>
-      <button type="submit">Open</button>
-    </form>
-  </div>
-</div>
-    
-<script>
-(function() {
-  var o = document.getElementById('protect-overlay');
-  o.getElementsByTagName('form')[0].onsubmit = function() {
-    if (this.answer.value === atob('QlBTOTg2Njc=')) {
-      o.style.display = "none";
-    } else {
-      alert('Wrong password');
-    }
-    return false;
-  };
-})();
-</script>
-
 [Home](/) > [Rekry](/rekry) > **Operatiivinen vastaava tanssikoululle**
 
 {% endunless %}

@@ -29,6 +29,8 @@ Check out the open positions and details below.
 
 ## Open positions
 
+1. [**Operatiivinen vastaava**](/rekry/operatiivinen-vastaava) \
+Experienced operative person to work alongside the CEO and teachers.
 1. [**Dance teacher**](#teacher) \
 Skilled, experienced, and passionate dance teacher.
 
