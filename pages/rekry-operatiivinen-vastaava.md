@@ -1,6 +1,7 @@
 ---
 title: "Rekry: Operatiivinen vastaava tanssikoululle"
 subheadline: Haemme kokenutta operatiivista vastuuhenkilöä toimitusjohtajan rinnalle.
+description: Haemme kokenutta operatiivista vastuuhenkilöä toimitusjohtajan rinnalle. Työsi tuottaa asiakkaillemme ja koko yhteisölle vertaansa vailla olevia kokemuksia.
 
 image:
   src: helswingi-2018-karri-applause.jpg
@@ -23,7 +24,7 @@ permalink: "/rekry/operatiivinen-vastaava/"
 
 {% endunless %}
 
-Updated: 04 June 2024
+Updated: 14 June 2024
 
 ## Operatiivinen vastaava tanssikoululle
 

@@ -33,7 +33,7 @@
 	<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{% unless site.active_lang == site.default_lang %}/{{ site.active_lang }}{% endunless %}{{ page.url }}" />
 	{% if site.title %}<meta property="og:site_name" content="{{ site.title }}" />{% endif %}
 	{% if page.image.thumb %}<meta property="og:image" content="{{ site.urlimg }}{{ page.image.thumb }}" />
-	{% elsif page.image.src %}<meta property="og:image" content="{{ site.urlimg }}thumb/{{ page.image.src }}" />{% endif %}
+	{% elsif page.image.src %}<meta property="og:image" content="{{ site.urlimg }}large/{{ page.image.src }}" />{% endif %}
 
 	<!-- Search Engine Optimization -->
 	{% if page.noindex == true %}<meta name="robots" content="noindex" />{% endif %}
