@@ -1,7 +1,7 @@
 ---
 layout: redirect
 
-archived: false
+archived: true
 repeats: false
 
 title: Midnight Sun Swing Festival 2024
