@@ -16,7 +16,7 @@ links:
 image:
   src: "events/season-kick-off-tea-dance-08-2024.jpg"
 
-redirect_to: https://www.midnightsunswing.fi/
+redirect_to: https://www.facebook.com/events/838451078384241/
 ---
 
 Read more:  
