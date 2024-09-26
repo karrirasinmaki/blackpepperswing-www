@@ -13,9 +13,9 @@
 
 ## **Syksy** 2024
 
-Syksyn kurssit käynnistyy viikolla 33 (12.8.).
+Syksyn kurssit käynnistyi viikolla 33 (12.8.).
 
-Ilmoittautuminen aukeaa keskiviikkona 12.6. klo 16:00.
+Kursseille pääsee hyvin mukaan myös kesken kauden! Hinnaksi jää jäljellä olevien kertojen määrä.
 
 [Katso kurssisivut ja ilmoittaudu täältä ➥](/courses)
 

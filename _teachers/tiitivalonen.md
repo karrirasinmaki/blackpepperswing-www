@@ -1,6 +1,6 @@
 ---
 name: "Tiiti Valonen"
-dances: Lindy Hop
+dances: Lindy Hop, Solo Jazz & Charleston
 bio: ""
 
 image:

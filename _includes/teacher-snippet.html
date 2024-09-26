@@ -5,11 +5,11 @@
 </a>
 {% endcomment %}
 
-<h3>{{ entry.name }}</h3>
+<h3>{{ entry.name }}{{ include.show_image }}</h3>
 
-{% if entry.image.url %}
+{% if entry.image.url and show_image != false %}
 <figure class="frame ultrawide cover align-center">
-	<img style="object-position: {{ entry.image.align | default: 'center center' }};" src="{{ site.urlimg }}thumb/{{ entry.image.url }}">
+	<img onerror="this.src='{{ site.urlimg }}black-32x32.png'" style="object-position: {{ entry.image.align | default: 'center center' }};" src="{{ site.urlimg }}thumb/{{ entry.image.url }}">
 </figure>
 {% endif %}
 

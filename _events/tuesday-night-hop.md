@@ -9,13 +9,14 @@ teaser: Weekly swing social dance in Helsinki. Every Tuesday, 19.00 - 22.00.
 date_start: 2022-02-22
 day: Tuesdays
 time: 19:00 - 22:00
-price: Free entrance
-address: On the Rocks, Mikonkatu 15, 00100 Helsinki
-alternative_address: Groovy Käpylä, Mäkelänkatu 87, 00610 Helsinki
+price: Free entrance / 12-25€ during live nights
+address: Satama Bar & Bistro Kalasatama, Työpajankatu 13 A, 00580 Helsinki
+alternative_address: On the Rocks, Mikonkatu 15, 00100 Helsinki
 header:
   hide_text: true
 links:
   facebook: https://www.facebook.com/tuesdaynighthop/
+  instagram: https://www.instagram.com/tuesdaynighthop/
 image:
   src: tuesday-night-hop-shimsham-2.jpg
   caption: Photo by Alireza Ranjbar
@@ -65,6 +66,9 @@ Read more about Lindy hop: [{{ site.url }}/lindyhop/]({{ site.url }}/lindyhop/)
 
 
 ### Event dates
-  
+
+<figure class="article-media">
+<img src="{{ 'events/tnh-autumn-2024.jpg' | imgurl,size:'large' }}" />
+</figure>
 
 <div class="fb-page" data-href="https://www.facebook.com/tuesdaynighthop/" data-tabs="events" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/tuesdaynighthop/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/tuesdaynighthop/">Tuesday Night Hop</a></blockquote></div>

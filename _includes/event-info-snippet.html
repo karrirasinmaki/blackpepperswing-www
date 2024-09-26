@@ -29,6 +29,9 @@
   {% if entry.links.facebook %}
     <b>{{ site.data.language.facebook }}: </b><a href="{{ entry.links.facebook }}" target="_blank">{{ entry.links.facebook }}</a><br>
   {% endif %}
+  {% if entry.links.instagram %}
+    <b>{{ site.data.language.instagram }}: </b><a href="{{ entry.links.instagram }}" target="_blank">{{ entry.links.instagram }}</a><br>
+  {% endif %}
 </p>
 
 {% assign entry = old_entry %}

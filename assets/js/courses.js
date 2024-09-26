@@ -29,7 +29,7 @@
         /* Loop thru single events and render row item */
         for (var i = 0, l = events.length; i<l; ++i) {
           var event = events[i];
-          if ((''+event.meta.day).toLowerCase() === day) {
+          if ((''+event.meta.day).toLowerCase().indexOf(day) !== -1) {
             eventsWrapper.append(renderEvent(event, template));
             hasEvents = true;
           }

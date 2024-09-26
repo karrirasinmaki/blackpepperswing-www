@@ -44,11 +44,7 @@ subnav:
 
 ❦ Autumn 2024 at Black Pepper Swing ❦
 
-Registration opens this Wednesday at 16:00 (12th of June)
-
-Summer is still ahead... It's time to take a little rest, dance outside, and enjoy the Finnish summer with its rains and sunshines. The classes continue in full swing in August! 
-
-But before you go into full-on vacation mode, plan your autumn dance calendar and be ready to register on Wednesday, June 12, at 16:00.
+Join our courses mid-season? Yes you can! Our courses are generally set of workshop-style classes. So it's easy to jump in the middle of the season as well!
 
 Autumn season highlights:
 

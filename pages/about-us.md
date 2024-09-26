@@ -1,8 +1,8 @@
 ---
 title: About Us
 subheadline: The story of Black Pepper Swing
-description: In 2022 we will celebrate our 5 year anniversary. So what is Black Pepper Swing all about?
-teaser: In 2022 we will celebrate our 5 year anniversary. So what is BPS all about?
+description: In 2024 we will celebrate our 7 year anniversary. So what is Black Pepper Swing all about?
+teaser: In 2024 we will celebrate our 7 year anniversary. So what is BPS all about?
 
 image:
   src: group-over-a-drink.jpg
@@ -22,11 +22,11 @@ Tanja & Karri, the founders, stumbled over each other on the dance floor in 2017
 
 **Why did we start BPS?**
 
-We founded BPS out of the deep desire to build a diverse, open-minded community of people. We want our students to get infected with the passion for Swing dancing and Jazz culture and make sure our they hit the dance floor right after their first couple of classes. We value technique, but we insist on freedom of style. From the beginning it has been important to us to break down gender roles and teach both partners in a couple to influence the dance equally. We also use all our resources for the further development of Lindy hop culture in Helsinki.
+We founded BPS out of the deep desire to build a diverse, open-minded community of people. We want our students to get infected with the passion for Swing dancing and Jazz culture and make sure our they hit the dance floor right after their first couple of classes. We value technique, but we insist on freedom of style. From the beginning it has been important to us to break down gender roles and teach both partners in a couple to influence the dance equally. We also use all our resources for the further development of Lindy Hop culture in Helsinki.
 
 **What do we teach?**
 
-Currently we are 10 wonderful teachers, who actively teach classes of Lindy hop, Solo Jazz, Tap dancing, and Boogie Woogie. The taught material is a solid mixture of historical Lindy Hop and swing dancing, popular modern interpretations and our own concepts and movements. To make sure students can cope well at international workshops, we orient our curriculum and levels according to renowned international schools.
+Currently we are over 10 wonderful teachers, who actively teach classes of Lindy Hop, Solo Jazz, Tap dancing, and other swing/jazz dance styles. The taught material is a solid mixture of historical Lindy Hop and swing dancing, popular modern interpretations and our own concepts and movements. To make sure students can cope well at international workshops, we orient our curriculum and levels according to renowned international schools.
 
 After teaching many hundreds of classes we have learnt to develop level-appropriate material, break down movements and concepts understandably and help with individual problems. 
 

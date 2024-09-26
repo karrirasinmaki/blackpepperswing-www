@@ -20,8 +20,8 @@ permalink: /teachers/
 
 </div></div>
 
-{% assign teachersByName = site.teachers | sort: "name"" %}
-{% assign teachersByName = site.teachers | sort: "order"" %}
+{% assign teachersByName = site.teachers | sort: "name" %}
+{% assign teachersByName = site.teachers | sort: "order" %}
 {% assign current_teachers = teachersByName | where_exp:"item","item.dances > ''" %}
 {% assign past_teachers = teachersByName | where_exp:"item","item.dances == Nil" %}
 
@@ -39,7 +39,8 @@ permalink: /teachers/
     <div id="rest-of-the-teachers" class="content">
       You may have seen these amazing teachers as well! They, however, do not currently have any weekly classes rolling.
 
-{% include grid.html cols=3 collection=past_teachers template='teacher-snippet.html' %}
+{% assign show_image = false %}
+{% include grid.html cols=3 collection=past_teachers show_image=false template='teacher-snippet.html' %}
     </div>
   </div>
 </section>

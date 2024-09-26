@@ -13,9 +13,9 @@
 
 ## **Autumn** 2024
 
-Autumn season starts 12th of August.
+Autumn season started 12th of August.
 
-Registration opens 12th of June at 16:00!
+You can join our courses mid-season as well! You'll pay only for the remaining of the classes.
 
 [Check out the courses and register here ➥](/courses)
 
