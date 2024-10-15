@@ -4,7 +4,7 @@ layout: redirect
 archived: false
 repeats: false
 
-title: BPS Weeke
+title: Freaky Friday / Halloween Swing Dance Party
 subtitle: Helsinki | Nov 1
 teaser: At Black Pepper Swing, we've set secret dark rituals for this Halloween... We call all the restless souls to our presence. Do you hear the call?
 date_start: 2024-11-01
