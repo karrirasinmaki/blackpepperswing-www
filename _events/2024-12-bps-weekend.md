@@ -17,7 +17,7 @@ links:
 image:
   src: "events/bps-weekend-2024.jpg"
 
-redirect_to: https://www.facebook.com/events/350540968139510/
+redirect_to: https://portal.blackpepperswing.com/courses/3irp9hhkeqqcs8dsej9vffhvcq/bps-weekend
 ---
 
 Read more:  
