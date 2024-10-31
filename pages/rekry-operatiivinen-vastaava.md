@@ -24,7 +24,9 @@ permalink: "/rekry/operatiivinen-vastaava/"
 
 {% endunless %}
 
-Updated: 14 June 2024
+Updated: 31 October 2024
+
+In English down below.
 
 ## Operatiivinen vastaava tanssikoululle
 
@@ -50,6 +52,8 @@ Työsi tuottaa asiakkaillemme ja koko yhteisölle vertaansa vailla olevia kokemu
 
 Tarjoamme kilpailukykyisen palkan ja edut. Kyseessä on tulosvastuullinen asema ja täysiaikainen työ.
 
+**Hae paikkaa**
+
 Jos uskot olevasi etsimämme henkilö, lähetä minulle videokirje sähköpostilla tai WhatsAppilla. Täytämme paikan heti sopivan henkilön löydyttyä.
 
 Kysyttävää? Saat minuun parhaiten yhteyden puhelimitse aamupäivisin maanantaista torstaihin.
@@ -68,3 +72,51 @@ Meistä sanottua:
 
 Tutustu meihin tarkemmin osoitteessa [www.blackpepperswing.com](https://blackpepperswing.com), sekä somessa [@blackpepperswing](https://blackpepperswing.com/links/).
 
+---
+
+
+In English
+
+## Operative manager for the dance school
+
+We are hiring an operative manager to team up with our CEO at Black Pepper Swing.
+
+Hello! I’m Karri Rasinmäki, CEO and co-founder of Black Pepper Swing. BPS is an inspiring swing dance school in Helsinki, fueled with passion and dedication towards swing dancing. Our vision is to be a soul fulfilling dance school that builds community and has a significant impact on lives.
+
+We are now rolling smoothly after covid and the scene is buzzing with enthusiasm. We are looking for a strong and skilled colleague to help continue the growth and make the vision come true.
+
+Your responsibility is to make sure our day-to-day operations are taken care of. Your job focuses on successful and motivated dance teachers, popular dance classes and events, as well as high-quality facilities and services.
+
+Your main responsibilities include:
+- Close cooperation with our dance teachers to understand their needs and offer them the support they deserve
+- Planning and production of dance courses, events and other activities with the whole team
+- Upkeeping our facilities, machines, and technologies
+
+We hope from our teamworks:
+- Productivity in terms of 1+1 = 3
+- Interest in the world of swing dance (dance skills are not criteria, but we require pure enthusiasm)
+- Fluent Finnish and English (other languages are a plus)
+
+Your work provides our customers and the whole scene extraordinary experiences.
+
+We offer competitive salary and work benefits. This is a P&L responsible and full-time role.
+
+**Apply for the job**
+
+If you believe you are the person we are looking for, send me a video letter via email or WhatsApp. We hire as soon as we find the right person for the job.
+
+Questions? You can reach me best via cell phone Mon-Thurs before 2pm.
+
+Karri Rasinmäki  
+karri@blackpepperswing.com  
+044 2644 912
+
+
+Black Pepper Swing is a swing dance school founded in 2017.
+
+Testimonials:
+- “High quality and versatility of teaching, as well as a good and welcoming community spirit!”
+- “Loistavat opettajat, hyvä henki sekä mukava ja monipuolinen tanssijaporukka.”
+- “Amazing teachers, great community and good atmosphere!”
+
+Get to know us at [www.blackpepperswing.com](https://blackpepperswing.com), and via social media [@blackpepperswing](https://blackpepperswing.com/links/).

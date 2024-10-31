@@ -77,6 +77,8 @@ featured_ctas:
 
 Olemme inspiroiva ja intohimoinen swing-tanssikoulu Helsingissä. Löydät meiltä [viikkokurssit](/courses), [workshopit](/events), ja erinäiset svengaavat [tapahtumat](/events). Voit myös [vuokrata tanssisalin](/studio-rental) käyttöösi, tai kenties ottaa muutaman [yksityistunnin](/services/#private-classes) kanssamme.
 
+Meillä on muuten myös [rekry päällä](/rekry)!
+
 Nähdään tanssilattialla!
 {% endcapture %}
 

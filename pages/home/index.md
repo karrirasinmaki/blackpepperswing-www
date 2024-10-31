@@ -70,6 +70,8 @@ featured_ctas:
 **Hello there!**
 
 We are a swing dance school in Helsinki. We have [weekly classes](/courses), [workshops](/events), and [events](/events). You can also [rent our dance studios](/studio-rental) for your own practice or [have a private class](/services/#private-classes) with us.
+
+By the way, [we are hiring](/rekry)!
 {% endcapture %}
 
 {% capture intro_after %}
