@@ -102,6 +102,7 @@ dance_passes:
       - "Attend all our weekly classes and activities"
       - "Dance as much as you like"
       - "PLUS: Complementary monthly intensive trainings (during autumn and spring seasons)"
+      - "PLUS: Free studio access during open studio hours"
       - "PLUS: Free 10x card for BPS studio bookings"
       - "PLUS: Free BPS t-shirt"
     perks_values:
@@ -121,6 +122,7 @@ dance_passes:
       - "Attend all our weekly classes and activities"
       - "Dance as much as you like"
       - "PLUS: Complementary monthly intensive trainings"
+      - "PLUS: Free studio access during open studio hours"
       - "PLUS: Free 5x card for BPS studio bookings"
   - title: Monthly
     subtitle: DANCE PASS
@@ -132,4 +134,5 @@ dance_passes:
       - "Attend all our weekly classes and activities"
       - "Dance as much as you like"
       - "Flexible option if you are visiting the town etc."
+      - "PLUS: Free studio access during open studio hours"
 
