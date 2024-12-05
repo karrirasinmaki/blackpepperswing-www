@@ -18,8 +18,12 @@
 #   url: "/jyvaskyla/"
 #   side: right
 
-- title: "Lindy Hop?"
-  url: "/lindyhop/"
+## - title: "Lindy Hop?"
+##   url: "/lindyhop/"
+##   side: right
+
+- title: "Joulukalenteri"
+  url: "/joulukalenteri/"
   side: right
 
 - title: "Vuokraa tanssisali"
