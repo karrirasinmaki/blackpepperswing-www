@@ -1,21 +1,21 @@
 <section class="row align-items-end">
   <div class="large-6 medium-10 medium-centered columns aside pr20">
     <div class="shadow-pop frame square align-center">
-      <a href="/courses"><img src="{{ site.urlimg }}/medium/2025-ws-img.jpg" /></a>
+      <a href="/courses"><img src="{{ site.urlimg }}/medium/autumn-2024-schedule.jpg" /></a>
     </div>
     <div class="button-group t30">
       <a href="/courses" class="button expand">Register here</a>
     </div>
   </div>
 
-<div class="large-6 medium-8 medium-centered columns center">
+<div class="large-6 medium-8 medium-centered columns end">
 <article markdown="1">
 
-## **Winter-Spring** 2025
+## **Autumn** 2024
 
-Season starts 13th of January.
+Autumn season started 12th of August.
 
-Registration is now open!
+You can join our courses mid-season as well! You'll pay only for the remaining of the classes.
 
 [Check out the courses and register here ➥](/courses)
 
@@ -83,6 +83,9 @@ If you are just visiting the city, or want to try out our classes, you can also 
 
 ### Good to know
 General info for the season
+
+Registration for the Autumn courses opens Wed 12th of June at 16:00.  
+Classes start on week 33 (12th of August, 2024).
 
 Most of the courses contains 18 weeks of classes plus possible break weeks. Starting right from the beginning of the season is recommended, but it's also possible to join any of the groups during the season.
 

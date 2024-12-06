@@ -1,7 +1,7 @@
 <section class="row align-items-end">
   <div class="large-6 medium-10 medium-centered columns aside pr20">
     <div class="shadow-pop frame square align-center">
-      <a href="/courses"><img src="{{ site.urlimg }}/medium/2025-ws-img.jpg" /></a>
+      <a href="/courses"><img src="{{ site.urlimg }}/medium/autumn-2024-schedule.jpg" /></a>
     </div>
     <div class="button-group t30">
       <a href="/courses" class="button expand">Ilmoittautumaan</a>
@@ -11,11 +11,11 @@
 <div class="large-6 medium-8 medium-centered columns end">
 <article markdown="1">
 
-## **Talvi-Kevät** 2025
+## **Syksy** 2024
 
-Kausi pyörähtää käyntiin 13. tammikuuta.
+Syksyn kurssit käynnistyi viikolla 33 (12.8.).
 
-Ilmoittautuminen on nyt avattu!
+Kursseille pääsee hyvin mukaan myös kesken kauden! Hinnaksi jää jäljellä olevien kertojen määrä.
 
 [Katso kurssisivut ja ilmoittaudu täältä ➥](/courses)
 
@@ -82,6 +82,9 @@ Jos olet esim. käymässä Helsingissä, tai haluat kokeilla tuntejamme, onnistu
 ### Hyvä tietää
 
 Yleistä infoa kaudesta
+
+Ilmoittautuminen tulevalle kaudelle aukeaa 12.6. klo 16:00.
+Tunnit pyörähtävät käyntiin viikolla 33 (12.8.2024).
 
 Suurin osa kursseista on 18 viikon kursseja, sisältäen 18 opetuskertaa ja mahdolliset taukoviikot. Suosittelemme käymään kursseilla koko kauden, mutta myös kesken kauden voi liittyä mukaan, tai ilmoittautua lyhyemmälle pätkälle.
 

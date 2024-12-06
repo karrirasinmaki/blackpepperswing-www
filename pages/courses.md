@@ -34,23 +34,25 @@ subnav:
   <div class="large-5 medium-10 medium-centered columns aside pr20 t50">
   <div class="article-media">
     <div class="shadow-pop frame square cover align-center">
-      <a href="/courses/portal"><img src="{{ site.urlimg }}/medium/autumn-2024-schedule.jpg" /></a>
+      <a href="/courses/portal"><img src="{{ site.urlimg }}/medium/2025-ws-img.jpg" /></a>
     </div>
     </div>
   </div>
 <section class="large-7 medium-8 medium-centered columns end" markdown="1">
 
-### Courses / Season Autumn 2024
+### Courses / Season Winter-Spring 2025
 
-❦ Autumn 2024 at Black Pepper Swing ❦
+❦  Winter-Spring 2025 at Black Pepper Swing ❦
 
-Join our courses mid-season? Yes you can! Our courses are generally set of workshop-style classes. So it's easy to jump in the middle of the season as well!
+We'll be dancing through kaamos and winter all the way to the spring and light. The upcoming season starts January 13th and we'll have 18 weeks of classes + possible break weeks.
+
+Registration is now open!
 
 Autumn season highlights:
 
-❧ Golden trio of swing dances: Lindy Hop, Solo Jazz, and Tap  
-❧ 15 dedicated dancers/teachers sharing their passion with you  
 ❧ Possibility to dance 3+ days per week regardless of your level  
+❧ Your regular Lindy Hop, Solo Jazz, and Tap classes + specials  
+❧ Open studio hours when the studio is open for practice  
 
 [Read more about the upcoming dance season...](/#season-info)
 </section>
@@ -90,6 +92,6 @@ Autumn season highlights:
 {% endfor %}
 
 <script>
-var BPS_COURSES_FILTER_GROUP = "2024-autumn";
+var BPS_COURSES_FILTER_GROUP = "2025-winter-spring";
 </script>
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/courses.js"></script>
