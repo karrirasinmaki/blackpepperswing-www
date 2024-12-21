@@ -58,10 +58,10 @@
         /* filtering */
         if (!!BPS_COURSES_FILTER_GROUP) {
           events = events.filter(function(event) {
-            if ( (""+event.meta.group).toLowerCase().indexOf((BPS_COURSES_FILTER_GROUP||"").toLowerCase()) !== -1) {
+            if ( event.meta && (""+event.meta.group).toLowerCase().indexOf((BPS_COURSES_FILTER_GROUP||"").toLowerCase()) !== -1) {
               return true;
             }
-            if ( (""+event.meta.categories).toLowerCase().indexOf((BPS_COURSES_FILTER_GROUP||"").toLowerCase()) !== -1) {
+            if ( event.meta && (""+event.meta.categories).toLowerCase().indexOf((BPS_COURSES_FILTER_GROUP||"").toLowerCase()) !== -1) {
               return true;
             }
             else {

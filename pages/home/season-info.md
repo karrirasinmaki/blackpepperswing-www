@@ -102,9 +102,9 @@ All our classes are in English unless otherwise mentioned.
 
 <section class="row">
   <div class="medium-12 columns">
-    <h2 class="text-center">Autumn courses</h2>
+    <h2 class="text-center">Winter-Spring courses</h2>
     <div class="fade-bottom" style="max-height: 380px; overflow: hidden;">
-      {% include portal-events.html limit=2 category="season-2024-autumn" randomize=false sort_order="asc" %}
+      {% include portal-events.html limit=2 category="season-2025-winter-spring" randomize=false sort_order="asc" %}
     </div>
     <p style="z-index:10; padding: 10px;" class="show-more text-center">
       <a href="/courses">Show more...</a>

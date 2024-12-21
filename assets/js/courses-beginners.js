@@ -27,7 +27,7 @@
       /* Loop thru single events and render row item */
       for (var i = 0, l = events.length; i<l; ++i) {
         var event = events[i];
-        if ((''+event.meta.categories).toLowerCase().indexOf('beginner') !== -1) {
+        if (event.meta && (''+event.meta.categories).toLowerCase().indexOf('beginner') !== -1) {
           eventsWrapper.append(renderEvent(event, template));
           hasEvents = true;
         }
