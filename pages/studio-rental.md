@@ -104,18 +104,20 @@ Table of contents:
 
 ### Pricing
 
+{% assign products = site.data.pricing.products %}
+
 #### Students of Black Pepper Swing
 
-**1-3 people**  
-10€ per session (up to 1.5 hours)  
-\+ 5€ for every extra 30 min  
+**1-4 people**  
+{{ products.studio_rental.bps_students_personal | plus: 5 }}€ per session (up to 1.5 hours)  
+{{ products.studio_rental.bps_students_personal | times: 10 }}€ for 10x sessions pre-paid
 
-**4-10 people**  
-20€ per session (up to 1.5 hours)  
-\+ 10€ for every extra 30 min  
+**5-10 people**  
+{{ products.studio_rental.bps_students_shared | plus: 5 }}€ per session (up to 1.5 hours)  
+{{ products.studio_rental.bps_students_shared | times: 10 }}€ for 10x sessions pre-paid
 
 **More than 10 people**  
-25€ per hour  
+{{ products.studio_rental.non_commercial }}€ per hour  
 
 *Prices are for one studio room and include value added taxes.*
 
@@ -124,7 +126,7 @@ Table of contents:
 
 #### Single, non-commercial reservations
 
-One studio room, 25€ per hour
+One studio room, {{ products.studio_rental.non_commercial }}€ per hour
 
 *Prices include value added taxes and are for non-commercial use only. If you want an invoice for organisation, look out the commercial pricing below.*
 
@@ -137,12 +139,22 @@ Throwing a party? You can rent the whole space just for you and your friends!
 <br/>
 
 
-#### Looking for a place to run classes, workshops, video/photo shootings, etc.?
+#### Commercial reservations pricing
 
-**Pricing for any commercial use:**  
-One studio room, 35€ per hour + VAT 24%
+Looking for a place to run classes, workshops, video/photo shootings, etc.?
 
-Recurrent or full weekend reservations? Do you want to rent the whole space just for you?  
+**Daytime** Mon-Fri 06:00 - 15:00  
+One studio room, {{ products.studio_rental.commercial_daytime }}€ per hour + VAT 25.5%
+
+**Weekends and evenings**  
+One studio room, {{ products.studio_rental.commercial_evening }}€ per hour + VAT 25.5%
+
+**Organisations and recurring reservations**  
+One studio room, {{ products.studio_rental.organisations }}€ per hour + VAT 25.5%
+
+Please note the studio is reserved for our own classes most evenings Mon-Thurs.
+
+Recurring or full weekend reservations? Do you want to rent the whole space just for you?  
 *Contact us for individual offers.*
 
 {{ site.email }}  
@@ -185,15 +197,18 @@ We'll give you the access details to the studio upon booking.
 ## Equipment
 
 **Front room**  
-- Dance parquet, a brand new wooden sprung dance floor (unfortunately no tap shoes here)
-- PA system with mixer and active speakers
+- Dance parquet, wooden sprung dance floor (unfortunately no tap shoes here)
+- PA system with mixer and 2 x active main speakers + 4 x passive speakers
+- Mirror wall (added after the photos on this page)
 - Sofa group
 - Fans
 
 **Back room**  
 - Dance floor, wooden sprung floor (even tap shoes are ok!)
-- PA system with mixer and passive speakers
+- PA system with mixer and 2 x passive speakers
+- Black Molton acoustic curtains
 - Mirror wall
+- Chairs
 - Fans
 
 **Kitchen**
@@ -204,15 +219,17 @@ We'll give you the access details to the studio upon booking.
 - Knifes and cutting board
 - Utensils
 - Glasses and mugs
-- A few plates
+- A few plates and bowls
 
 **Common equipment available on request**  
 - Bluetooth speaker (JBL Extreme)
 - Video projector
 - Upright piano
 - Acoustic guitar
+- Drum set
 - Microphone
 - Seminar chairs (x14)
+- Fold tables (x5)
 
 ## General info
 

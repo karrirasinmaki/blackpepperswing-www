@@ -4,42 +4,47 @@ options:
 
 products:
   dance_pass:
-    monthly: 170
+    monthly: 177
     season_month: 150
-    season: 640
-    yearly_month: 110
-    yearly: 1320
+    season: 664
+    yearly_month: 115
+    yearly: 1380
   course:
-    price_per_class: 18.235
-    length_weeks: 17
+    price_per_class: 18.944
+    length_weeks: 18
   drop_in: 22
   10_class_card:
-    regular: 200
+    regular: 218
   studio_rental:
     bps_students: 10
-    non_commercial: 25
+    bps_students_personal: 10
+    bps_students_shared: 20
+    non_commercial: 30
     commercial: 35
+    commercial_daytime: 35
+    commercial_evening: 55
+    organisations: 70
 
 ###
 # PRICING
 #
 pricing:
   - title: Dance pass
-    price: 110-170€ / month
+    price: 115-180€ / month
     read_more: /dance-passes
     description: All the classes with one pass, single payment.
   - title: Course registration
-    price: 110-310€
+    price: 175-341€
     description: Secure your spot on the course and commit to steady, progressive learning. Registration options usually very between 8 and 18 weeks of classes. Additional courses come with a -25% discount. Students and unemployed -20%.
   - title: 10-class punch card
-    price: 152-200€
+    price: 158-218€
     read_more: /punch-cards
     description: 10x access to all our regular classes. Can be shared with multiple people.
   - title: Try-out / drop-in class
     price: 22€
     description: Single classes are good if you are just visiting the city or want to try out certain courses before registration.
   - title: Coaching & private classes
-    price: 65-75€
+    price: 80-95€
     description: 'One-to-one practice sessions with your teacher. Think this as a "Dance Personal Trainer".'
     read_more: "https://holvi.com/shop/blackpepperswing/section/private-classes/"
   - title: Studio rental

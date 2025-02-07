@@ -7,21 +7,21 @@ options:
 #
 pricing:
   - title: Tanssipassi (dance pass)
-    price: 110-170€ / kk
+    price: 115-180€ / kk
     read_more: /dance-passes
     description: Kaikki tunnit yhdellä passilla ja selkeällä könttämaksulla.
   - title: Kurssi-ilmoittautuminen
-    price: 110-310€
+    price: 175-341€
     description: Varaa paikka kurssille, säännölliset tunnit tuo vakautta ja tasaisen kehityksen. Voit usein valita jakson pituuden 8 ja 18 viikon väliltä. Lisäkurssit -25%, opiskelijat ja työttömät -20%.
   - title: 10-kortti
-    price: 148-188€
+    price: 158-218€
     read_more: /punch-cards
     description: 10 kertakäyntiä millä tahansa tunneilla. Kortin voi myös jakaa useamman henkilön kesken.
   - title: Yksittäis- ja kokeilutunnit
     price: 22€
     description: Kertakäynnillä pääset mukaan kokeilemaan tuntejamme ilman sitoutumista.
   - title: Valmennus ja yksityistunnit
-    price: 65-75€
+    price: 80-95€
     description: 'Kahdenkeskinen valmennus opettajan kanssa. Vertaa kuntosalin personal trainer, mutta tanssille.'
     read_more: "https://holvi.com/shop/blackpepperswing/section/private-classes/"
 

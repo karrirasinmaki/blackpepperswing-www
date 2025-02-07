@@ -119,7 +119,7 @@ Workshop prices and discounts are defined per workshop.
 
 ---
 
-*Prices include 10% VAT.*
+*Prices include 14% VAT.*
 
 We accept payments with card, MobilePay, cash or employee benefit vouchers. [Read more about payments here](https://blackpepperswing.freshdesk.com/en/support/solutions/articles/42000068393-what-payment-methods-are-accepted-).
 
@@ -148,8 +148,8 @@ At festivals or workshop weekends the price includes a social dance demonstratio
 
 A fun and engaging Lindy Hop or authentic swing dance experience. Dancing is one of the best ways to really get to know people - including your colleagues and team mates.
 
-**Teaching session** with two teachers  
-Starting at 240€ + travel expenses + VAT
+**Teaching session** with one/two teachers  
+Starting at 240€/420€ + travel expenses + VAT
 
 *Ask for more!* {{ site.email }}
 
@@ -161,6 +161,7 @@ Prices start from:
 {{ products.studio_rental.bps_students }}€/h for students of BPS   
 {{ products.studio_rental.non_commercial }}€/h for non-commercial use   
 {{ products.studio_rental.commercial }}€/h for commercial use   
+{{ products.studio_rental.commercial }}€/h for organisations and classes   
 
 [See detailed pricing and more info about studio rental here...](/studio-rental)
 
