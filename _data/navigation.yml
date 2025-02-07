@@ -18,16 +18,8 @@
 #   url: "/jyvaskyla/"
 #   side: right
 
-## - title: "Why Lindy Hop?"
-##   url: "/lindyhop/"
-##   side: right
-
-- title: "Joulukalenteri"
-  url: "/joulukalenteri/"
-  side: right
-
-- title: "Studio Rental"
-  url: "/studio-rental/"
+- title: "Why Lindy Hop?"
+  url: "/lindyhop/"
   side: right
 
 - title: "Register"

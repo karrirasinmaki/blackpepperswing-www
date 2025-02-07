@@ -8,6 +8,8 @@ image:
   src: parties.jpg
   caption: Ahola Harri | Helsinkikuvia.fi
   caption_url: https://www.helsinkikuvia.fi/
+
+permalink: "/events/all/"
 ---
 
 ## All events - upcoming and past
