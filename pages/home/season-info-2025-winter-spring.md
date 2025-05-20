@@ -1,7 +1,7 @@
 <section class="row align-items-end">
   <div class="large-6 medium-10 medium-centered columns aside pr20">
     <div class="shadow-pop frame square align-center">
-      <a href="/courses"><img src="{{ site.urlimg }}/medium/schedule-2025-autumn-img.jpg" /></a>
+      <a href="/courses"><img src="{{ site.urlimg }}/medium/2025-ws-img.jpg" /></a>
     </div>
     <div class="button-group t30">
       <a href="/courses" class="button expand">Register here</a>
@@ -11,13 +11,11 @@
 <div class="large-6 medium-8 medium-centered columns center">
 <article markdown="1">
 
-## **Autumn** 2025
+## **Winter-Spring** 2025
 
-Season starts 11th of August.
+Season starts 13th of January.
 
 Registration is now open!
-
-Before your summer travels, secure your spots on autumn courses.
 
 [Check out the courses and register here ➥](/courses)
 
@@ -104,7 +102,7 @@ All our classes are in English unless otherwise mentioned.
 
 <section class="row">
   <div class="medium-12 columns">
-    <h2 class="text-center">Autumn courses</h2>
+    <h2 class="text-center">Winter-Spring courses</h2>
     <div class="fade-bottom" style="max-height: 380px; overflow: hidden;">
       {% include portal-events.html limit=2 category="season-2025-winter-spring" randomize=false sort_order="asc" %}
     </div>

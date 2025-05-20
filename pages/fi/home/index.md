@@ -66,18 +66,16 @@ featured_ctas:
   img: helswingi-2018-andzej-essi.jpg
 - title: Kurssit ja ilmoittautuminen
   url: /courses
-  img: 2025-ws-img.jpg
+  img: schedule-2025-autumn-img.jpg
 - title: Tapahtumat ja workshopit
   url: /events
-  img: "events/MSSF-Event-Facebook Banner.png"
+  img: "events/mssf-2025-cover-fb.jpg"
 ---
 
 {% capture intro %}
 **Hei vaan!**
 
 Olemme inspiroiva ja intohimoinen swing-tanssikoulu Helsingissä. Löydät meiltä [viikkokurssit](/courses), [workshopit](/events), ja erinäiset svengaavat [tapahtumat](/events). Voit myös [vuokrata tanssisalin](/studio-rental) käyttöösi, tai kenties ottaa muutaman [yksityistunnin](/services/#private-classes) kanssamme.
-
-Meillä on muuten myös [rekry päällä](/rekry)!
 
 Nähdään tanssilattialla!
 {% endcapture %}

@@ -60,18 +60,16 @@ featured_ctas:
   img: helswingi-2018-andzej-essi.jpg
 - title: Courses & Registration
   url: /courses
-  img: 2025-ws-img.jpg
+  img: schedule-2025-autumn-img.jpg
 - title: Events & Workshops
   url: /events
-  img: "events/MSSF-Event-Facebook Banner.png"
+  img: "events/mssf-2025-cover-fb.jpg"
 ---
 
 {% capture intro %}
 **Hello there!**
 
 We are a swing dance school in Helsinki. We have [weekly classes](/courses), [workshops](/events), and [events](/events). You can also [rent our dance studios](/studio-rental) for your own practice or [have a private class](/services/#private-classes) with us.
-
-By the way, [we are hiring](/rekry)!
 {% endcapture %}
 
 {% capture intro_after %}

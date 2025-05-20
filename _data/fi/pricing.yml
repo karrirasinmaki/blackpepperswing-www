@@ -11,14 +11,14 @@ pricing:
     read_more: /dance-passes
     description: Kaikki tunnit yhdellä passilla ja selkeällä könttämaksulla.
   - title: Kurssi-ilmoittautuminen
-    price: 175-341€
+    price: 269-359€
     description: Varaa paikka kurssille, säännölliset tunnit tuo vakautta ja tasaisen kehityksen. Voit usein valita jakson pituuden 8 ja 18 viikon väliltä. Lisäkurssit -25%, opiskelijat ja työttömät -20%.
   - title: 10-kortti
-    price: 158-218€
+    price: 165-220€
     read_more: /punch-cards
     description: 10 kertakäyntiä millä tahansa tunneilla. Kortin voi myös jakaa useamman henkilön kesken.
   - title: Yksittäis- ja kokeilutunnit
-    price: 22€
+    price: 23€
     description: Kertakäynnillä pääset mukaan kokeilemaan tuntejamme ilman sitoutumista.
   - title: Valmennus ja yksityistunnit
     price: 80-95€
@@ -32,7 +32,7 @@ pricing:
 featured_options:
   - title: Kaikki tunnit kk-maksulla
     subtitle: TANSSIPASSI
-    price: 110-170€ / kk
+    price: 115-180€ / kk
     cta: /dance-passes
     cta_title: Osta tanssipassi
     description: Tanssi niin paljon kuin sielu sietää! Kaikki tunnit yhdellä maksulla.
@@ -43,7 +43,7 @@ featured_options:
       - Mikäli tanssit paljon ja olet kasvunälkäinen, tämä on kuin tehty sinulle
   - title: Yksittäiset kurssit
     subtitle: KURSSI-ILMO
-    price: 55-73€ / kk
+    price: 59-79€ / kk
     cta: /register
     cta_title: Ilmoittaudu nyt
     description: Ota yksi tai kaksi kurssia valintasi mukaan. Suosituin vaihtoehto.
@@ -73,39 +73,39 @@ featured_options:
 dance_passes:
   - title: Year-around
     subtitle: DANCE PASS
-    price: 1 320.00€ / vuosi
+    price: 1 380.00€ / vuosi
     cta: https://buy.stripe.com/14k8ymdWX9Eo9Ne9AA
     cta_title: Osta koko vuoden paketti kaupanpäällisineen
     description: Tanssi koko vuosi yhdellä maksulla. Sisältää kaupanpäällisiä. Laskutetaan vuosittain.
     ribbon: Suosittelemme!
     perks:
-      - Osallistu kaikille viikottaisille tunneille ja aktiviteeteille
       - Tanssi niin paljon kuin sielu sietää!
+      - Osallistu kaikille viikottaisille tunneille ja aktiviteeteille
       - LISÄKSI! Kuukausittaiset intensiivitreenit pienryhmässä (syksyn ja kevään kausien aikana)
         LISÄKSI! Vapaa pääsy studiolle avoimien treenituntien puitteissa
       - LISÄKSI! 10x kortti BPS studiovarauksiin
       - LISÄKSI! BPS t-paita kaupanpäälliseksi
   - title: Season
     subtitle: DANCE PASS
-    price: 150€ / kk
+    price: 700€ / kausi
     cta: https://buy.stripe.com/14k7ui1abdUE3oQ5kp
     cta_title: Osta kauden Kevät-Talvi 2025 kaikki kurssit
     description: Koko kauden täydeltä tanssia yhdellä maksulla. Laskutetaan kerran ja on voimassa kauden loppuun.
     perks:
-      - Osallistu kaikille viikottaisille tunneille ja aktiviteeteille
       - Tanssi niin paljon kuin sielu sietää!
+      - Osallistu kaikille viikottaisille tunneille ja aktiviteeteille
       - LISÄKSI! Kuukausittaiset intensiivitreenit pienryhmässä
         LISÄKSI! Vapaa pääsy studiolle avoimien treenituntien puitteissa
       - LISÄKSI! 5x kortti BPS studiovarauksiin
   - title: Monthly
     subtitle: DANCE PASS
-    price: 170€ / kk
+    price: 180€ / kk
     cta: https://buy.stripe.com/bIY01Q06717SbVmeUV
     cta_title: Tilaa kuukausipassi
     description: Rajaton määrä tanssia yhdellä kuukausimaksulla. Laskutetaan kuukausittain, tilauksen voi perua milloin vain.
     perks:
-      - Osallistu kaikille viikottaisille tunneille ja aktiviteeteille
       - Tanssi niin paljon kuin sielu sietää!
+      - Osallistu kaikille viikottaisille tunneille ja aktiviteeteille
       - Hyvä valinta esim. kaupungissa vieraileville
       - LISÄKSI! Vapaa pääsy studiolle avoimien treenituntien puitteissa
 

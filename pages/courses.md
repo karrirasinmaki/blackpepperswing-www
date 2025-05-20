@@ -1,7 +1,7 @@
 ---
 layout: page-fullwidth
 
-meta_description: Authentic swing dance courses in Helsinki. New courses starting thruought the year!
+meta_description: Inspiring swing dance courses in Helsinki. New season starts August 11th.
 
 title: Courses
 
@@ -12,7 +12,7 @@ sitemap:
 permalink: "/courses/"
 
 subnav:
-- title: Season Autumn 2024
+- title: Season Autumn 2025
   url: /courses
 - title: For Beginners
   url: /courses-for-beginners
@@ -34,17 +34,17 @@ subnav:
   <div class="large-5 medium-10 medium-centered columns aside pr20 t50">
   <div class="article-media">
     <div class="shadow-pop frame square cover align-center">
-      <a href="/courses/portal"><img src="{{ site.urlimg }}/medium/2025-ws-img.jpg" /></a>
+      <a href="/courses/portal"><img src="{{ site.urlimg }}/medium/schedule-2025-autumn-img.jpg" /></a>
     </div>
     </div>
   </div>
 <section class="large-7 medium-8 medium-centered columns end" markdown="1">
 
-### Courses / Season Winter-Spring 2025
+### Courses / Autumn 2025
 
-❦  Winter-Spring 2025 at Black Pepper Swing ❦
+❦  Autumn 2025 at Black Pepper Swing ❦
 
-We'll be dancing through kaamos and winter all the way to the spring and light. The upcoming season starts January 13th and we'll have 18 weeks of classes + possible break weeks.
+From late summer days to winter nights. The new dance season starts August 11th and we'll have 18 weeks of classes + possible break weeks.
 
 Registration is now open!
 
@@ -52,7 +52,7 @@ Autumn season highlights:
 
 ❧ Possibility to dance 3+ days per week regardless of your level  
 ❧ Your regular Lindy Hop, Solo Jazz, and Tap classes + specials  
-❧ Open studio hours when the studio is open for practice  
+❧ Weekly practice sessions and socials  
 
 [Read more about the upcoming dance season...](/#season-info)
 </section>
@@ -92,6 +92,6 @@ Autumn season highlights:
 {% endfor %}
 
 <script>
-var BPS_COURSES_FILTER_GROUP = "2025-winter-spring";
+var BPS_COURSES_FILTER_GROUP = "2025-autumn";
 </script>
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/courses.js"></script>

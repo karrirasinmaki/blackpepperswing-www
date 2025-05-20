@@ -4,17 +4,17 @@ options:
 
 products:
   dance_pass:
-    monthly: 177
-    season_month: 150
-    season: 664
+    monthly: 180
+    season_month: 155
+    season: 700
     yearly_month: 115
     yearly: 1380
   course:
-    price_per_class: 18.944
+    price_per_class: 19.944
     length_weeks: 18
-  drop_in: 22
+  drop_in: 23
   10_class_card:
-    regular: 218
+    regular: 220
   studio_rental:
     bps_students: 10
     bps_students_personal: 10
@@ -34,14 +34,14 @@ pricing:
     read_more: /dance-passes
     description: All the classes with one pass, single payment.
   - title: Course registration
-    price: 175-341€
+    price: 269-359€
     description: Secure your spot on the course and commit to steady, progressive learning. Registration options usually very between 8 and 18 weeks of classes. Additional courses come with a -25% discount. Students and unemployed -20%.
   - title: 10-class punch card
-    price: 158-218€
+    price: 165-220€
     read_more: /punch-cards
     description: 10x access to all our regular classes. Can be shared with multiple people.
   - title: Try-out / drop-in class
-    price: 22€
+    price: 23€
     description: Single classes are good if you are just visiting the city or want to try out certain courses before registration.
   - title: Coaching & private classes
     price: 80-95€
@@ -59,7 +59,7 @@ pricing:
 featured_options:
   - title: All the classes
     subtitle: DANCE PASS
-    price: 110-170€ / month
+    price: 115-180€ / month
     cta: /dance-passes
     cta_title: Buy a dance pass
     description: Dance as much as you like. All the classes with one single payment.
@@ -70,7 +70,7 @@ featured_options:
       - If you want to dance a lot and are eager to grow, this is for you
   - title: Single courses
     subtitle: COURSE REGISTRATION
-    price: 55-73€ / month
+    price: 59-79€ / month
     cta: /register
     cta_title: Register now
     description: Commit to single course or two. This is the most popular option.
@@ -99,45 +99,45 @@ featured_options:
 dance_passes:
   - title: Year-around
     subtitle: DANCE PASS
-    price: 1 320.00€ / year
+    price: 1 380.00€ / year
     cta: https://buy.stripe.com/14k8ymdWX9Eo9Ne9AA
     cta_title: Buy one full year with perks
     description: Dance the whole year with one single payment. Comes with benefits. Billed annually.
     perks:
-      - "Attend all our weekly classes and activities"
       - "Dance as much as you like"
+      - "Attend all our weekly classes and activities incl. socials"
       - "PLUS: Complementary monthly intensive trainings (during autumn and spring seasons)"
       - "PLUS: Free studio access during open studio hours"
       - "PLUS: Free 10x card for BPS studio bookings"
       - "PLUS: Free BPS t-shirt"
     perks_values:
-      - "Normal price is 288€/course"
+      - "Normal price is 359€/course"
       - "Unlimited course registrations or just drop-in"
       - "3x 30-60 min sessions with over 200€ total value"
       - "Normal price is 10x10€ = 100€"
       - "Normal price is 25-35€"
   - title: Season
     subtitle: DANCE PASS
-    price: 640.00€ / season
+    price: 700.00€ / season
     cta: https://buy.stripe.com/14k7ui1abdUE3oQ5kp
-    cta_title: Buy season Winter-Spring 2025
+    cta_title: Buy season Autumn 2025
     description: The whole season full of dancing with one single payment. Billed once and valid until the end of the season.
     ribbon: Most popular
     perks:
-      - "Attend all our weekly classes and activities"
       - "Dance as much as you like"
+      - "Attend all our weekly classes and activities incl. socials"
       - "PLUS: Complementary monthly intensive trainings"
       - "PLUS: Free studio access during open studio hours"
       - "PLUS: Free 5x card for BPS studio bookings"
   - title: Monthly
     subtitle: DANCE PASS
-    price: 170€ / month
+    price: 180€ / month
     cta: https://buy.stripe.com/bIY01Q06717SbVmeUV
     cta_title: Subsribe to monthly pass
     description: Unlimited dancing with monthly subscription, cancel anytime. Billed monthly.
     perks:
-      - "Attend all our weekly classes and activities"
       - "Dance as much as you like"
+      - "Attend all our weekly classes and activities"
       - "Flexible option if you are visiting the town etc."
       - "PLUS: Free studio access during open studio hours"
 

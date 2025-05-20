@@ -1,7 +1,7 @@
 <section class="row align-items-end">
   <div class="large-6 medium-10 medium-centered columns aside pr20">
     <div class="shadow-pop frame square align-center">
-      <a href="/courses"><img src="{{ site.urlimg }}/medium/schedule-2025-autumn-img.jpg" /></a>
+      <a href="/courses"><img src="{{ site.urlimg }}/medium/2025-ws-img.jpg" /></a>
     </div>
     <div class="button-group t30">
       <a href="/courses" class="button expand">Ilmoittautumaan</a>
@@ -11,13 +11,11 @@
 <div class="large-6 medium-8 medium-centered columns end">
 <article markdown="1">
 
-## **Syksy** 2025
+## **Talvi-Kevät** 2025
 
-Kausi pyörähtää käyntiin 11. elokuuta.
+Kausi pyörähtää käyntiin 13. tammikuuta.
 
-Ilmoittautuminen on nyt auki!
-
-Ennen kuin siirryt kesälaitumille, varaa syksyn kurssit valmiiksi.
+Ilmoittautuminen on nyt avattu!
 
 [Katso kurssisivut ja ilmoittaudu täältä ➥](/courses)
 
@@ -100,7 +98,7 @@ Tunnit ovat lähtökohtaisesti englanniksi, ellei kaikki osallistujat (ja opetta
 
 <section class="row">
   <div class="medium-12 columns">
-    <h2 class="text-center">Syksyn kurssit</h2>
+    <h2 class="text-center">Talven ja kevään kurssit</h2>
     <div class="fade-bottom" style="max-height: 380px; overflow: hidden;">
       {% include portal-events.html limit=2 category="season-2025-winter-spring" randomize=false sort_order="asc" %}
     </div>
