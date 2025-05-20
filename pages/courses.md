@@ -94,4 +94,4 @@ Autumn season highlights:
 <script>
 var BPS_COURSES_FILTER_GROUP = "2025-autumn";
 </script>
-<script src="{{ site.url }}{{ site.baseurl }}/assets/js/courses.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/assets/js/courses.js?v=20250520-001"></script>
