@@ -102,7 +102,7 @@ Tunnit ovat lähtökohtaisesti englanniksi, ellei kaikki osallistujat (ja opetta
   <div class="medium-12 columns">
     <h2 class="text-center">Syksyn kurssit</h2>
     <div class="fade-bottom" style="max-height: 380px; overflow: hidden;">
-      {% include portal-events.html limit=2 category="season-2025-winter-spring" randomize=false sort_order="asc" %}
+      {% include portal-events.html limit=2 category="season-2025-autumn" randomize=true %}
     </div>
     <p style="z-index:10; padding: 10px;" class="show-more text-center">
       <a href="/courses">Näytä lisää...</a>

@@ -20,7 +20,7 @@ permalink: /news/
 
 {% for tag in site.tags %}
 {% if tag[0] == "featured" %}
-  {% for entry in site.posts %}
+  {% for entry in tag[1]  %}
   {% include post-snippet.html %}
   {% endfor %}
 {% endif %}

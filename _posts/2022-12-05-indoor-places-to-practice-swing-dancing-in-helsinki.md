@@ -6,6 +6,7 @@ teaser: 'List of Indoor Places to Practice Swing Dancing in Helsinki: Tested by 
 categories:
 - articles
 tags:
+- featured
 - tips
 - practice
 header:

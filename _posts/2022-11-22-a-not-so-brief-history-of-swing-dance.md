@@ -6,6 +6,7 @@ teaser: Let's take a look on history of swing dancing! Starting from the birth, 
 categories:
 - articles
 tags:
+- featured
 - history
 header:
   short: true

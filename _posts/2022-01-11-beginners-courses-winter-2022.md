@@ -1,7 +1,7 @@
 ---
 layout: post
 
-tags: featured
+tags: archived
 
 title: Start swing dancing with these courses!
 subtitle: New to (swing) dancing?

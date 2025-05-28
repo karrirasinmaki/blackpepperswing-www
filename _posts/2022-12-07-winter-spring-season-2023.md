@@ -1,7 +1,7 @@
 ---
 layout: post
 
-tags: featured
+tags: archived
 
 title: New season starts Jan 16th!
 subtitle: Have you registered yet?

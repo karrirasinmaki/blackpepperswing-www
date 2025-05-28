@@ -8,6 +8,7 @@ teaser: Everything you need to know when choosing shoes for swing dancing. Will 
 categories:
 - articles
 tags:
+- featured
 - tips
 - shoes
 header:

@@ -1,6 +1,6 @@
 {
   "name": "blackpepperswing",
-  "version": "0.10.1",
+  "version": "0.10.2",
   "description": "Black Pepper Swing website",
   "main": "index.js",
   "scripts": {
