@@ -5,7 +5,7 @@ repeats: weekly
 
 meta_title: Tuesday Night Hop
 subtitle: Helsinki
-teaser: Weekly swing social dance in Helsinki. Every Tuesday, 19.00 - 22.00.
+teaser: Weekly swing social dance in Helsinki. Every Tuesday, 19.00 - 22.00. Now on a summer break.
 date_start: 2022-02-22
 day: Tuesdays
 time: 19:00 - 22:00

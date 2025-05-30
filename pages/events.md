@@ -56,7 +56,10 @@ permalink: "/events/"
 
 <div class="t60 b60">&nbsp;</div>
 
-## Events on Facebook
-<br>
+## Events in Helsinki
 
-<div class="fb-page" data-href="https://www.facebook.com/blackpepperswing/" data-tabs="events" data-width="320" data-height="480" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/blackpepperswing/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/blackpepperswing/">Black Pepper Swing Events on Facebook</a></blockquote></div>
+<p>All swing and blues dance events in Helsinki.</p>
+<p>A public calendar shared with dance schools and event organisers.</p>
+<p><a href="/swinginhelsinki">www.swinginhelsinki.fi</a></p>
+
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Europe%2FHelsinki&mode=AGENDA&src=bDliYTdnYjVsZDA5cDJybG4zNWh0MzM5aGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%237986cb" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>

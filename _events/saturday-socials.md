@@ -5,7 +5,7 @@ repeats: weekly
 
 meta_title: Saturday Socials
 subtitle: Helsinki
-teaser: Saturday social swing dance party in Helsinki. Saturdays 19.00 - 23.00.
+teaser: Saturday social swing dance party in Helsinki. Saturdays 19.00 - 23.00. Now on a summer break.
 date_start: 2025-01-24
 day: Saturdays
 time: 19:00 - 23:00
