@@ -24,7 +24,14 @@ permalink: "/rekry/operatiivinen-vastaava/"
 
 {% endunless %}
 
-Updated: 31 October 2024
+Updated: 07 July 2025
+
+Haku on päättynyt.
+
+The application has been closed.
+
+---
+
 
 In English down below.
 

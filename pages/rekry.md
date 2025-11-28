@@ -18,7 +18,7 @@ sitemap:
 permalink: "/rekry/"
 ---
 
-Updated: 04 June 2024
+Updated: 08 July 2025
 
 Black Pepper Swing was founded in 2017 and the very first courses started during that autumn simultaneously in Helsinki, Tampere, and Jyväskylä. It was a wild start for a new dance school founded by two very young but passionate swing dancers. Since then we have focused more on our current hometown (Helsinki), the scene here has grown bigger, and we have gained thousands of kilometers worth of experience. ([Read our full story here...](/about-us))
 
@@ -29,8 +29,6 @@ Check out the open positions and details below.
 
 ## Open positions
 
-1. [**Operatiivinen vastaava**](/rekry/operatiivinen-vastaava) \
-Experienced operative person to work alongside the CEO and teachers.
 1. [**Dance teacher**](#teacher) \
 Skilled, experienced, and passionate dance teacher.
 
