@@ -32,8 +32,8 @@ pricing:
 featured_options:
   - title: Kaikki tunnit kk-maksulla
     subtitle: TANSSIPASSI
-    price: 115-180€ / kk
-    cta: /dance-passes
+    price: 150€ / kk
+    cta: /register
     cta_title: Osta tanssipassi
     description: Tanssi niin paljon kuin sielu sietää! Kaikki tunnit yhdellä maksulla.
     ribbon: ""
@@ -43,7 +43,7 @@ featured_options:
       - Mikäli tanssit paljon ja olet kasvunälkäinen, tämä on kuin tehty sinulle
   - title: Yksittäiset kurssit
     subtitle: KURSSI-ILMO
-    price: 59-79€ / kk
+    price: 79€ / kk
     cta: /register
     cta_title: Ilmoittaudu nyt
     description: Ota yksi tai kaksi kurssia valintasi mukaan. Suosituin vaihtoehto.

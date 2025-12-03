@@ -60,7 +60,7 @@ featured_ctas:
   img: helswingi-2018-andzej-essi.jpg
 - title: Courses & Registration
   url: /courses
-  img: schedule-2025-autumn-img.jpg
+  img: season-info/schedule-2026-ws.png
 - title: Events & Workshops
   url: /events
   img: "events/mssf-2025-cover-fb.jpg"

@@ -1,7 +1,7 @@
 <section class="row align-items-end">
   <div class="large-6 medium-10 medium-centered columns aside pr20">
     <div class="shadow-pop frame square align-center">
-      <a href="/courses"><img src="{{ site.urlimg }}/medium/season-info/schedule-2026-ws.png" /></a>
+      <a href="/courses"><img src="{{ site.urlimg }}/medium/schedule-2025-autumn-img.jpg" /></a>
     </div>
     <div class="button-group t30">
       <a href="/courses" class="button expand">Register here</a>
@@ -11,21 +11,23 @@
 <div class="large-6 medium-8 medium-centered columns center">
 <article markdown="1">
 
-## **Winter-Spring** 2026
+## **Autumn** 2025
 
-Season starts 12th of January.
+Season starts 11th of August.
 
 Registration is now open!
 
+Before your summer travels, secure your spots on autumn courses.
+
 [Check out the courses and register here ➥](/courses)
 
-**Beginners and newcomers**  
-We have multiple courses for beginners. No previous experience needed, no partner required. Pick the one(s) that suit you and [fill out the registration form](/courses). Welcome!
+
+**Start dancing with these courses**  
+No previous experience whatsoever needed.  
+[Check out all our beginners' courses here](/courses-for-beginners/)
 
 **Already dancing?**  
 <a href="{{ site.baseurl }}/courses" class="">Check out the course schedule</a> and declutter your calendar accordingly. If you are unsure what levels/courses to pick, check out <a href="https://blackpepperswing.freshdesk.com/en/support/solutions/articles/42000082224-which-courses-should-i-pick-" target="_blank">this article here</a>.
-
-"I love how friendly and social it is. The teachers are knowledgeable and kind. They always try to answer any questions and solve any individual problems people might have with a move." -Rebecca
 
 </article>
 </div>

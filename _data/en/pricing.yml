@@ -59,9 +59,9 @@ pricing:
 featured_options:
   - title: All the classes
     subtitle: DANCE PASS
-    price: 115-180€ / month
-    cta: /dance-passes
-    cta_title: Buy a dance pass
+    price: 150€ / month
+    cta: /register
+    cta_title: Get the dance pass
     description: Dance as much as you like. All the classes with one single payment.
     ribbon: ""
     perks:
@@ -70,7 +70,7 @@ featured_options:
       - If you want to dance a lot and are eager to grow, this is for you
   - title: Single courses
     subtitle: COURSE REGISTRATION
-    price: 59-79€ / month
+    price: 79€ / month
     cta: /register
     cta_title: Register now
     description: Commit to single course or two. This is the most popular option.

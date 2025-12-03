@@ -1,7 +1,7 @@
 <section class="row align-items-end">
   <div class="large-6 medium-10 medium-centered columns aside pr20">
     <div class="shadow-pop frame square align-center">
-      <a href="/courses"><img src="{{ site.urlimg }}/medium/season-info/schedule-2026-ws.png" /></a>
+      <a href="/courses"><img src="{{ site.urlimg }}/medium/schedule-2025-autumn-img.jpg" /></a>
     </div>
     <div class="button-group t30">
       <a href="/courses" class="button expand">Ilmoittautumaan</a>
@@ -11,21 +11,22 @@
 <div class="large-6 medium-8 medium-centered columns end">
 <article markdown="1">
 
-## **Talvi-Kevät** 2026
+## **Syksy** 2025
 
-Kausi käynnistyy 12. tammikuuta.
+Kausi pyörähtää käyntiin 11. elokuuta.
 
 Ilmoittautuminen on nyt auki!
 
+Ennen kuin siirryt kesälaitumille, varaa syksyn kurssit valmiiksi.
+
 [Katso kurssisivut ja ilmoittaudu täältä ➥](/courses)
 
-**Aloittelijat ja uudet tanssijat**  
-Lukkaristamme löytyy useita alkeiskursseja sinulle. Aiempaa tanssikokemusta ei vaadita, ja ilman paria voi ilmoittautua mukaan. Valitse sinulle sopivat kurssit, [täytä ilmoittautumislomake](/courses), ja hyppää mukaan. Tervetuloa!
+**Jos olet vasta aloittamassa tanssimaan...**  
+Alkeiskursseilla lähdetään ns. nollasta. Mitään aiempaa kokemusta ei tarvita!
+[Katso kaikki alkeiskurssit täältä](/courses-for-beginners/)
 
 **Jos olet jo tanssinut aiemmin...**  
-<a href="{{ site.baseurl }}/courses" class="">Tsekkaa läpi kurssiaikataulu</a> ja suunnittele oma ohjelmasi. Jos et ole varma tasostasi tai kaipaat apua kurssien valintaan, niin kurkkaa <a href="https://blackpepperswing.freshdesk.com/en/support/solutions/articles/42000082224-which-courses-should-i-pick-" target="_blank">tämä artikkeli</a> (englanniksi).
-
-"Pepperillä on aina mukavaa, iloista ja siellä rakkaus tanssiin huokuu ja pursuaa ovista ja ikkunoista! Olen iloinen, että tanssimassa on myös joukko erilaisia ihmisiä, mutta meille kaikille yhteistä on halu tanssia! Kaikki tyylit ja taidot tervetulleita." -Hanna
+<a href="{{ site.baseurl }}/courses" class="">Tsekkaa läpi kurssiaikataulu</a> ja suunnittele tanssisyksysi. Jos et ole varma tasostasi tai kaipaat apua kurssien valintaan, niin kurkkaa <a href="https://blackpepperswing.freshdesk.com/en/support/solutions/articles/42000082224-which-courses-should-i-pick-" target="_blank">tämä artikkeli</a> (englanniksi).
 
 </article>
 </div>
