@@ -30,12 +30,15 @@ author: blackpepperswing
 # Contact info
 name: "Black Pepper Swing"
 email: info@blackpepperswing.com
-tel: "+358 84 154 1724"
+tel: "+358 45 4900 888"
 address: "c/o Black Pepper Swing, Karjalankatu 2 (4th floor), 00520 Helsinki, Finland"
 door_code: "1991#"
 vat_number: FI28578381
 legal_name: Osuuskunta Swing Kollektiivi / Coop Swing Collective
 invoice_address: info@blackpepperswing.com
+
+link_www: 'https://www.blackpepperswing.com'
+link_ig: 'https://www.instagram.com/blackpepperswing'
 
 # When serving on a local machine, the default time zone is set by your operating system. But when served on a remote host/server, the default time zone depends on the server's setting or location.
 timezone: Finland/Helsinki

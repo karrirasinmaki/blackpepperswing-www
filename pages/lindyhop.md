@@ -104,7 +104,9 @@ Pick any course that speaks to you, and we see you at the studio!
 
 No partner nor previous dance experience required.
 
-You can read more information from course pages below. Everything will become clear latest during the first class. If you [need help choosing](/start-dancing), we are happy to!
+Check out the courses and register at [{{site.url}}/courses](/courses)
+
+Everything will become clear latest during the first class. If you [need help choosing](/start-dancing), we are happy to!
 
 {{ site.email }}  
 {{ site.tel }}  
@@ -120,7 +122,7 @@ You can read more information from course pages below. Everything will become cl
 <template id="template-portal-no-events" style="display:none;">
   <div>
     <p>
-      No partner or previous dance experience required. Starting is easy, everything comes clear on your first class. <a href="{{ site.url }}/courses-for-beginners">Check out all our beginners' courses</a> and register at the course pages.
+      No partner or previous dance experience required. Starting is easy, everything comes clear on your first class.
     </p>
     <a class="button" href="{{ site.url }}/courses">Courses & Registration</a>
   </div>

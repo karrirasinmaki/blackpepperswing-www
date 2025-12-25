@@ -72,19 +72,53 @@ Read the description of each track and levels down below.
 
 ### Tracks
 
+We currenlty have 4 main dance styles, tracks, to choose from. Each complimenting and enriching each other. Start with any of these and expand to master 2-3 while you progress. Level descriptions are listed after these tracks.
+
+<div class="article-media small-left">
+  <h4></h4>
+	<a href="https://youtu.be/vViI2Io_TeM" target="_blank">
+		<video playsinline autoplay muted loop>
+			<source alt="{{ site.title }}" src="{{ site.urlvid }}tanja-karri-lammassaari-2020-gif.mp4" type="video/webm" />
+		</video>
+	</a>
+</div>
+<div style="display:table;" markdown="1">
 #### Lindy Hop
 
 Lindy hop is an energetic and rhythmical dance that emerged in the African-American communities in Harlem, New York, during the late 1920’s. It became a dance craze with the popularisation of jazz music by artists like Duke Ellington, Count Basie, Benny Goodman and countless others.
 
 In Lindy Hop both partners are invited to improvise within the flow of the dance and to have an equal voice. Lindy Hop is now growing faster than ever all over the planet with dance communities and festival almost in every major city.
+</div>
 
+<div class="clearfix"></div>
 
+<div class="article-media small-left">
+  <h4></h4>
+	<a href="https://youtu.be/1DAQ05PnEVI" target="_blank">
+		<video playsinline autoplay muted loop>
+			<source alt="{{ site.title }}" src="{{ site.urlvid }}minna-teemu-lumby-tl-gif.mp4" type="video/webm" />
+		</video>
+	</a>
+</div>
+<div style="display:table;" markdown="1">
 #### Balboa
 
 Balboa was born in California in the second half of the 1920's. The music of choice is uptempo swingmusic. Balboa gives the dancers challenging footwork and a sweet connection, rewarded with a floating feeling.
 
 Balboa was danced in crowded ballrooms, which led to most of the dance to happen in closed position focusing on sophisticated partner connection and fancy footwork. This is nowadays called Pure Bal. With time, dancers started opening the tight closed position and integrating flashier moves, know as Bal Swing.
+</div>
 
+<div class="clearfix"></div>
+
+<div class="article-media small-left">
+  <h4></h4>
+	<a href="https://youtu.be/nMDhTlI5pWk" target="_blank">
+		<video playsinline autoplay muted loop>
+			<source alt="{{ site.title }}" src="{{ site.urlvid }}helswingi-2019-big-apple-gif.mp4" type="video/webm" />
+		</video>
+	</a>
+</div>
+<div style="display:table;" markdown="1">
 #### Solo Jazz & Charleston
 
 Solo Jazz & Charleston has its roots in authentic swing and jazz dance styles dating back to the 1920s to 1940s. The dance gets its inspiration from African-American roots and various styles of jazz music - big band swing, rhythm ‘n’ blues, and be-bop, to name a few.
@@ -92,7 +126,19 @@ Solo Jazz & Charleston has its roots in authentic swing and jazz dance styles da
 In Solo Jazz & Charleston we jam together, discover old-school jazz steps, learn short choreographies, and find ways to self-expression.
 
 The swing dance community is now growing faster than ever all over the planet. If you feel the calling, hop in!
+</div>
 
+<div class="clearfix"></div>
+
+<div class="article-media small-left">
+  <h4></h4>
+	<a href="https://youtu.be/NrZq47AoyNk" target="_blank">
+		<video playsinline autoplay muted loop>
+			<source alt="{{ site.title }}" src="{{ site.urlvid }}bps-tappers-tnh-2019-gif.mp4" type="video/webm" />
+		</video>
+	</a>
+</div>
+<div style="display:table;" markdown="1">
 #### Tap
 
 Tap dancing is a highly rhythmical and percussive dance style. You've probably seen it in movies like Happy Feet, La La Land, and Singin' in the Rain.
@@ -100,7 +146,7 @@ Tap dancing is a highly rhythmical and percussive dance style. You've probably s
 Some famous dancers to know are The Copasetics, Bill ”Bojangles” Robinson, Jeni LeGon, Nicholas Brothers, Jimmy Slyde, Eleanor Powell, Fred Astaire, Gene Kelly, Gregory Hines, and Savion Glover.
 
 At BPS we mostly do the tap to swing/jazz music. So if you're into that, our course would suit you better than well!
-
+</div>
 
 
 ### Levels
