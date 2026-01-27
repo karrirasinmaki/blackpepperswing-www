@@ -69,10 +69,40 @@ We offer classes in 4 tracks: Lindy Hop, Balboa, Solo Jazz & Charleston, and Tap
 
 Read the description of each track and levels down below.
 
+**Join during the season?**
+
+Yes, that's possible. You only pay for the remaining of the classes.
+
+Just register online, or contact us with any questions.
+
+**Prices**
+
+Full 18-week course - 359€  
+Sparced 10-class package - 220€  
+Try out 4 weeks - 88€  
+Single class - 23€
+
+-15% discount for unemployed, students, and low-income-households  
+-25% for the second course at the same time  
+
+**Missed classes and free re-take policy**
+
+Miissed a class? You can make it up by visiting any other group suitable for you freely. Just tell the teachers which group you are coming from. Prepare to lead/follow as needed, in case of many visitor. To stick to your preferred role, agree on the visit beforehand.
+
+Re-take beginners' class free of charge as many times as you want. We guarantee everyone learns to dance with, and our free re-take -policy backs it up. Free re-take -policy is applied to all weekly courses.
+
+
+
+Dance Pass 720€ for the season  
+Includes all the classes + extra benefits
+
 
 ### Tracks
 
 We currenlty have 4 main dance styles, tracks, to choose from. Each complimenting and enriching each other. Start with any of these and expand to master 2-3 while you progress. Level descriptions are listed after these tracks.
+
+Courses start January 12th.  
+Exception Balboa courses which start February 5th.
 
 <div class="article-media small-left">
   <h4></h4>

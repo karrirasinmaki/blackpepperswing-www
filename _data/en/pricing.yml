@@ -118,9 +118,9 @@ dance_passes:
       - "Normal price is 25-35€"
   - title: Season
     subtitle: DANCE PASS
-    price: 700.00€ / season
-    cta: https://buy.stripe.com/14k7ui1abdUE3oQ5kp
-    cta_title: Buy season Autumn 2025
+    price: 720.00€ / season
+    cta: https://blackpepperswing.com/register
+    cta_title: Buy season Winter-Spring 2026
     description: The whole season full of dancing with one single payment. Billed once and valid until the end of the season.
     ribbon: Most popular
     perks:

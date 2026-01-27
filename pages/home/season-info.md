@@ -102,12 +102,10 @@ All our classes are in English unless otherwise mentioned.
 
 <section class="row">
   <div class="medium-12 columns">
-    <h2 class="text-center">Autumn courses</h2>
-    <div class="fade-bottom" style="max-height: 380px; overflow: hidden;">
-      {% include portal-events.html limit=2 category="season-2025-autumn" randomize=true %}
-    </div>
-    <p style="z-index:10; padding: 10px;" class="show-more text-center">
-      <a href="/courses">Show more...</a>
-    </p>
+    <h2 class="text-center">Winter-Spring courses</h2>
+    <p>Season started Jan 12th.</p>
+    <p>You can join ongoing season at any point. Pay only for the remaining of the classes.</p>
+    <p>Register online, or contact us directly to get your spot.</p>
+    <p><a href="/courses">Register for courses here...</a></p>
   </div>
 </section>
