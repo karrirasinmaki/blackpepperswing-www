@@ -4,6 +4,7 @@ _site/
 node_modules/
 images/
 vendor/
+wp-static/
 .bundle/
 Gemfile.lock
 *.gem
