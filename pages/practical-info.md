@@ -34,7 +34,11 @@ For the clothing, any clothes are ok, as long as you are comfortable and they al
 
 Footwear for most people are indoor shoes (sneakers etc.), but also socks or barefoot is ok. Your teachers will happily give more recommendations about the footwear.
 
+Clothing and footwear has a big effect on your dance. Our tip is to wear something that makes you feel good and confident.
+
 You can be mentally prepared to sweat, so bringing a water bottle and a spare shirt may be a good idea.
+
+As we often dance close to each other, pro tip is to freshen up before a class or a dance night, especially if you had a long day.
 
 (For tap dancers, we have a few random pairs of shoes to borrow, and you can even start with any hard-soled shoes. At some point, however, you’ll want to invest in a pair of tap shoes of your own.)
 
@@ -66,7 +70,7 @@ Toilets and showers are located in the corridor of the 4th and 3rd floors, and w
 
 We also have a kitchen where you can hang out before, after, and in between classes. If you store something in the fridge, please mark your foods. There’s also a minibar and snack station in the kitchen where you can find beverages and snacks available.
 
-Changing rooms can be found next to the kitchen, in between the two dance room.
+Changing rooms can be found next to the kitchen, in between the two dance rooms.
 
 You can also <a href="https://blackpepperswing.com/studio-rental/" target="_blank">rent the studio</a> for your own practice sessions.
 

@@ -11,7 +11,13 @@ sitemap:
 permalink: "/contact/"
 ---
 
-Do you have ideas for courses? Feedback? Or you look for a performance at your event? We invite you to join our school and dance scene.
+Drop us a message or ring us up!
+
+We'd love to hear what's on your mind.
+
+You can also always come chat with us at the studio.
+
+### Our contact info
 
 {{ site.title }}  
 {{ site.email }}  
@@ -25,3 +31,8 @@ Address: {{ site.address }}
 <div class="t15">
   {% include some-row.html %}
 </div>
+
+
+### Contact form
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfRvlcayQrjsS6HvsLusn9hThQjV0SfzI78TZzBhyZztGzCRw/viewform?embedded=true" width="640" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
