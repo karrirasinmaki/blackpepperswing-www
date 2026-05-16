@@ -15,74 +15,37 @@ permalink: "/events/"
 
 ## Special events, workshops and festivals
 
-{% comment %}
+**May**
+
+**Sun May 31st** / End of season party  
+Shows and summer celebration  
+16:00 - 22:30
+
+
+**June**
+
+**Sun June 7th** / Fast Swing Out Workshop  
+Learn fast swing outs with Iines & Teemu  
+[Sign up here ->](https://holvi.com/shop/blackpepperswing/product/5501af548db6297594ba7441dc0e1998/)
+
+More summer workshops published soon...
+
+
+**July**
+
+**July 3-5** / Midnight Sun Swing Festival 2026  
+A summer swing dance festival in Helsinki  
+
+
+---
+
+
 {% assign events = site.events | where_exp: 'item', 'item.archived != true' | where: 'repeats', 'monthly' | sort: 'title' | sort: 'date' | sort: 'date_start' %}
 {% include grid.html cols=1 collection=events template='post-snippet.html' %}
 
 {% assign events = site.events | where_exp: 'item', 'item.archived != true' | where: 'repeats', 'false' | sort: 'title' | sort: 'date' | sort: 'date_start' %}
 {% include grid.html cols=1 collection=events template='post-snippet.html' %}
-{% endcomment %}
 
-**January**
-
-**Sat Jan 10th** / Open Day and try out classes  
-Bring your friends and try out new dance styles  
-16:00 - 19:00
-
-**Sat Jan 10th** / Welcome back party  
-Let's start the season with a party!  
-19:00 - 23:00
-
-**February**
-
-**Sun Feb 1st** / Jazz & tea  
-Culture and music talks + social dance  
-16:00 - 20:00
-
-**Sat Feb 7th** / Lindy Hop Beginners' Weekend  
-Learn to dance in a weekend
-
-**Sat Feb 7th** / Saturday party  
-Taster class & DJ music  
-19:00 - 23:30
-
-**Sat Feb 21st** / Saturday party  
-Taster class & DJ music  
-19:00 - 23:30
-
-**March**
-
-**Sat Mar 3rd** / Saturday party  
-Taster class & DJ music  
-19:00 - 23:30
-
-**Sat Mar 28th** / Saturday party  
-Taster class & DJ music  
-19:00 - 23:30
-
-**April**
-
-**Sat April 11th** / Saturday party  
-Taster class & DJ music  
-19:00 - 23:30
-
-**Sun April 19th** / Jazz & tea  
-Culture and music talks + social dance  
-16:00 - 20:00
-
-**May**
-
-**Sat May 2nd** / Saturday party  
-Taster class & DJ music  
-19:00 - 23:30
-
-**Sat May 16th** / Saturday party  
-Taster class & DJ music  
-19:00 - 23:30
-
-**Sun May 31st** / End of season party  
-Shows and summer celebration  
-16:00 - 22:30
 
 ### Upcoming and ongoing courses
 
