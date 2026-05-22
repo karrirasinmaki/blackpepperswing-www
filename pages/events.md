@@ -24,11 +24,8 @@ Shows and summer celebration
 
 **June**
 
-**Sun June 7th** / Fast Swing Out Workshop  
-Learn fast swing outs with Iines & Teemu  
-[Sign up here ->](https://holvi.com/shop/blackpepperswing/product/5501af548db6297594ba7441dc0e1998/)
-
-More summer workshops published soon...
+**June 2-12** / Summer workshops and masterclasses  
+[Check out the full list here...](/events/2026-summer-workshops)
 
 
 **July**
