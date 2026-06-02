@@ -6,7 +6,7 @@ products:
   dance_pass:
     monthly: 180
     season_month: 155
-    season: 700
+    season: 720
     yearly_month: 115
     yearly: 1380
   course:
@@ -107,7 +107,7 @@ dance_passes:
       - "Dance as much as you like"
       - "Attend all our weekly classes and activities incl. socials"
       - "PLUS: Complementary monthly intensive trainings (during autumn and spring seasons)"
-      - "PLUS: Free studio access during open studio hours"
+      - "PLUS: Free studio access during open practice hours"
       - "PLUS: Free 10x card for BPS studio bookings"
       - "PLUS: Free BPS t-shirt"
     perks_values:
@@ -119,15 +119,15 @@ dance_passes:
   - title: Season
     subtitle: DANCE PASS
     price: 720.00€ / season
-    cta: https://blackpepperswing.com/register
-    cta_title: Buy season Winter-Spring 2026
+    cta: https://buy.stripe.com/14k7ui1abdUE3oQ5kp
+    cta_title: Buy season Autumn 2026
     description: The whole season full of dancing with one single payment. Billed once and valid until the end of the season.
     ribbon: Most popular
     perks:
       - "Dance as much as you like"
       - "Attend all our weekly classes and activities incl. socials"
       - "PLUS: Complementary monthly intensive trainings"
-      - "PLUS: Free studio access during open studio hours"
+      - "PLUS: Free studio access during open practice hours"
       - "PLUS: Free 5x card for BPS studio bookings"
   - title: Monthly
     subtitle: DANCE PASS
@@ -139,5 +139,5 @@ dance_passes:
       - "Dance as much as you like"
       - "Attend all our weekly classes and activities"
       - "Flexible option if you are visiting the town etc."
-      - "PLUS: Free studio access during open studio hours"
+      - "PLUS: Free studio access during open practice hours"
 

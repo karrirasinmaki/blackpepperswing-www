@@ -68,7 +68,7 @@ If you want to do more than one course/class per week, then we absolutely recomm
   <br />
   <p>All this plus with the season plan:</p>
   <ul class="list-checkmarks list-center list-fit-content">
-    <li>Monthly intensive trainings (small group private classes)</li>
+    <li>Monthly intensive trainings (special classes)</li>
     <li>Total of 5x studio bookings for practicing (1.5h each)</li>
     <li>Lots of dancing with a strong progress</li>
   </ul>

@@ -88,8 +88,8 @@ dance_passes:
   - title: Season
     subtitle: DANCE PASS
     price: 720€ / kausi
-    cta: https://blackpepperswing.com/register
-    cta_title: Osta kauden Kevät-Talvi 2026 kaikki kurssit
+    cta: https://buy.stripe.com/14k7ui1abdUE3oQ5kp
+    cta_title: Osta kauden Syksy 2026 kaikki kurssit
     description: Koko kauden täydeltä tanssia yhdellä maksulla. Laskutetaan kerran ja on voimassa kauden loppuun.
     perks:
       - Tanssi niin paljon kuin sielu sietää!
