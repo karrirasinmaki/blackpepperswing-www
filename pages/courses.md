@@ -1,5 +1,7 @@
 ---
-layout: page-fullwidth
+aalayout: page-fullwidth
+layout: redirect
+
 
 meta_description: Inspiring swing dance courses in Helsinki. New season starts August 11th.
 
@@ -16,6 +18,8 @@ subnav:
   url: /courses
 - title: Season Autumn 2025
   url: /courses/portal
+
+redirect_to: "https://portal.blackpepperswing.com/courses"
 ---
 
 <section class="width-reader align-center text-center">

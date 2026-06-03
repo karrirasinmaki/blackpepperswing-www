@@ -16,6 +16,15 @@ And what license is *Feeling Responsive* released under? [This one][2].
 
 - Foundation (probably v5)
 
+## Build
+
+We are migrating away from Jekyll to WordPress.
+
+During the migration, our site runs partly with new WordPress, and partly with old Jekyll.
+
+Post-build hook will copy /wp-static to built site. Copy latest WP static build here before deploy.
+
+Check out how to create wp-static export from the WP project.
 
 
  [1]: http://phlow.github.io/feeling-responsive/documentation/
