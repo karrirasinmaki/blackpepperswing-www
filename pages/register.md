@@ -1,11 +1,15 @@
 ---
-layout: default
+aalayout: default
+layout: redirect
+
 hide_footer: true
 sitemap: false
 
 title: Course registration
 
 permalink: /register/
+
+redirect_to: "https://portal.blackpepperswing.com/courses"
 ---
 
 <style>
