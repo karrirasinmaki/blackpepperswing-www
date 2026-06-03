@@ -1,5 +1,6 @@
 ---
-layout: page-wide
+aalayout: page-wide
+layout: redirect
 
 meta_title: Teachers
 meta_description: Skilled. Precise. Engaging. And a bit special.
@@ -14,7 +15,12 @@ image:
 sitemap:
   priority: 0.97
 permalink: /teachers/
+redirect_to: /team/
 ---
+
+{% comment %}
+Archiving old teachers' page...
+New one comes from WordPress.
 
 <div class="row"><div class="medium-8 columns medium-offset-2">
 
@@ -44,3 +50,5 @@ permalink: /teachers/
     </div>
   </div>
 </section>
+
+{% endcomment %}
