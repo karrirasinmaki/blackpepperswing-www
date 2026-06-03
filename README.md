@@ -18,6 +18,15 @@ And what license is *Feeling Responsive* released under? [This one][2].
 
 ## Build
 
+This project uses Docker as a dev environment.
+
+Launch into docker container:
+```
+./run.sh sh
+```
+
+### WP Migration phase
+
 We are migrating away from Jekyll to WordPress.
 
 During the migration, our site runs partly with new WordPress, and partly with old Jekyll.

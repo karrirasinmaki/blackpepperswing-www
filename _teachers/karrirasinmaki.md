@@ -23,15 +23,25 @@ gallery:
     Adrian Ehrlich (adrianehrlich.com).
 
 ---
-Karri is a locally grown swing dancer from Helsinki, Finland. He entered into the world of dance through Boogie Woogie. Shortly after, other swing dances came along from which Lindy Hop and Blues / Slow Swing made the biggest impact so far. The passion for swing dancing and teaching has led Karri to became a founding member of dance school Black Pepper Swing with Tanja Wingerter.
+Karri is a locally grown swing dancer and organizer from Helsinki, Finland. He's been passionate about swing dancing for over a decade now. That passion has led Karri to became a founding member of dance school Black Pepper Swing.
 
 [Read the story of Black Pepper Swing here.]({{ site.url }}/about-us)
 
-Currently, Karri is passionate about exploring one’s natural movement and adapting it to dance and partnership. He has told the dance has given him the ability to explore an abstract world and connect with the people in a unique way. Sometimes you may see him deeply fallen in a dance, fully immersed in the present moment with his partner.
+**A song in repetition:** “Deed I Do” by Nat King Cole
 
-Still, after all the years, Rhythm and Blues music makes him go the wildest and spend hours straight on a dance floor. You may see him teaching especially Lindy Hop and Slow Swing, as well as private classes of all sorts. On a social floor, he likes to mix in all swing dances.
+**I draw inspiration from:** In the past, from lots of modern masters. Nowadays straight up from the social floor and all different movement and art forms.
 
-His classes are engaging and inspiring, with a focus on maximum dance and practise time. Karri sure can challenge technically as well as give freedom for individual expression.
+**Dance style in words:** Smooth, dynamic and powerful. I love creative footwork and slides. Musicality, rhythms, and partner connection is important for me.
+
+**Teaching style:** Empowering and trusting. Lots of dance and practice time with music. Emphasis on style and smooth connection.
+
+Karri has been dancing basically his whole adult life and turned his passion into profession. He is the founder of Black Pepper Swing and has been teaching hundreds if not thousands of people to dance over the past decade.
+
+His signature, highly dynamic yet smooth dance style combined with wild footwork is inspired and combined with elements of Lindy Hop, Boogie Woogie, Balboa, Solo Jazz and Tap.
+
+In his classes, he focuses on high energy, engaging, and supportive atmosphere where people are free to try and explore the dance.
+
+He won’t hold back any secrets of the dance.
 
 ### Social media
 
