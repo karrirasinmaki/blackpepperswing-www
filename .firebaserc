@@ -10,8 +10,13 @@
         ],
         "staging": [
           "blackpepperswing-dev"
+        ],
+        "swinginhelsinki": [
+          "swinginhelsinki"
         ]
       }
     }
-  }
+  },
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }

@@ -5,6 +5,10 @@
       "public": "_site"
     },
     {
+      "target": "swinginhelsinki",
+      "public": "swinginhelsinki"
+    },
+    {
       "target": "production",
       "public": "_site",
       "headers": [
