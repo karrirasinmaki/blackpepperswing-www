@@ -53,12 +53,11 @@ Virike- ja etuseteleillä, tai BPS Crediteillä maksaessasi [ota yhteyttä meihi
 
 2. **Varmista paikkasi tunnille**  
   Varmista paikkasi etukäteen. Näet kurssisivuilta vapaiden paikkojen määrän. Voit myös vain saapua paikalle, mutta varaudu siihen että ryhmä saattaa olla täynnä.
-  Huom: Paritanssitunneille ilman paria tultaessa täytyy varmistaa paikka etukäteen! 
+  Huom: Paritanssitunneille ilman paria tultaessa täytyy varmistaa paikka etukäteen, tai olla valmis tanssimaan kummassa roolissa tahansa.
 
 
 3. **Saavu tunnille ja näytä kortti opettajalle**  
-  Muista ottaa korttisi mukaan tunnille! Opettaja rei’ittää kortin.  
-  Saat myös noudettua tilaamasi kortin ensimmäisen tunnin yhteydessä.
+  Muista ottaa korttisi mukaan tunnille! Näytä se opettajalle joka rei’ittää kortin.  
 
 
 ### Kysymyksiä
@@ -76,7 +75,7 @@ Virike- ja etuseteleillä, tai BPS Crediteillä maksaessasi [ota yhteyttä meihi
   Huom: etu- ja virikeseteleillä, sekä BPS Crediteillä ostetut kortit ovat henkilökohtaisia näihin liittyvien säännösten takia.
 
 * **En pysty/ehdi käyttää korttia ennen syksyä, voiko kortin palauttaa?**  
-  Emme lähtökohtaisesti myönnä palautuksia 10-korteille, kuten emme myöskään kurssimaksuille. Ainoastaan pitkäaikaisen sairastumisen johdosta (lääkärintodistuksella) voimme myöntää palautuksen käyttämättä jääneistä kerroista. Jokainen tapaus tarkastellaan kuitenkin tapauskohtaisesti, eli ole yhteydessä meihin.
+  Emme lähtökohtaisesti myönnä palautuksia 10-korteille, kuten emme myöskään kurssimaksuille. Voit kuitenkin antaa kortin eteenpäin jollekin toiselle tai pidentää sen voimassaoloaikaa.
 
 
 ### Saatavilla nyt

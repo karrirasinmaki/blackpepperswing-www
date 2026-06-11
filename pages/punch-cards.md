@@ -53,13 +53,14 @@ If you want to pay for the card with vouchers, or BPS Credit, please [contact us
 
 
 2. **Secure your place in the class**  
-  Book your spot beforehand. You can see the number of available places on the course page. You can also just turn up, but in case of doubt, priority is given to those who secured theirs place beforehand.  
-  Note: If you attend a partnered dance class without a partner, you must book a place in advance!
+  If you want to make sure you fit in the class in a role you want, book your spot beforehand.  
+  You can see the number of available places on the course page.  
+  You can also just turn up and try your luck.  
+  Note: If you attend a partnered dance class without a partner, you must book a place in advance unless you can do both roles as needed.
 
 
 3. **Arrive to class and show your card to the teacher**  
-  Remember to bring your card to class! The teacher will punch your card.  
-  You can also pick up the card you ordered at the first lesson.
+  Remember to bring your card to class! Show it to your teacher who will punch your card.
 
 
 ### Questions
@@ -78,7 +79,7 @@ If you want to pay for the card with vouchers, or BPS Credit, please [contact us
   **Exception:** cards purchased with vouchers, as well as BPS Credits, are personal cards due to the regulations related to these.
 
 * **I can’t use my card before the summer, can I return it?**  
-  As a general rule, we do not issue refunds for 10 cards, nor do we issue refunds for course fees. Only in the case of long-term illness (with a doctor's certificate) can we issue a refund for unused times. However, each case will be examined on a case-by-case basis, so please contact us.
+  As a general rule, we do not issue refunds for 10 cards, nor do we issue refunds for course fees. However, you can give your card to someone else or extends its the validity.
 
 
 ### Available now
