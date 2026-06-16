@@ -18,17 +18,12 @@ sitemap:
   priority: 0.8
 permalink: /practice/
 
-sks: "https://holvi.com/shop/blackpepperswing/product/75fe039a5a55a273bbcdb8a045425c34/"
-skrs: "https://holvi.com/shop/blackpepperswing/product/85130ca0fedceb1bc302b6bb701774b3/"
-skrm: "https://holvi.com/shop/blackpepperswing/product/29a6afa61b1183fe2895c78cb601a1d9/"
+link_shop: "https://holvi.com/shop/blackpepperswing/product/7b4029b5a03472f9fc16819268764255/"
 ---
-
-[1]: #studio-key
-[2]: #schedule-for-open-studio-hours
 
 <section class="medium-12 medium-centered columns width-reader" markdown="1">
 
-## Open studio hours
+## Studio access
 
 
 <figure class="article-media small-right">
@@ -37,126 +32,61 @@ skrm: "https://holvi.com/shop/blackpepperswing/product/29a6afa61b1183fe2895c78cb
 </div>
 </figure>
 
-**Regular practice hours at BPS**
+**Practice at the studio on your own time**
 
-In January 2025 we are launching open studio hours - regular practice hours at the studio.
+We offer PIN codes to the studio that allows you to practice any time there is free.
 
-During these hours, the studio is open for all swing dance practicers with the [Studio Key][1]. So, get the Studio Key and come to practice!
+Get your studio access and lock in.
 
-### Studio key
+### Current offer
 
-Studio Key gives you access to all our regular practice hours - open studio hours as we call them.
+**Summer studio access**  
+Unlimited studio reservations 50€  
+Valid from June 1st to Aug 14th
 
-Studio Key is your private digital key to the studio. You can access the studio freely during [open studio hours][2].
-
-Feel free to come and practice on your own, bring a few friends along, or meet someone there. Anything goes. On your own or together. As long as everyone who's coming also has their own Studio Key.
-
-Studio Keys starting at 30€ per season.
-
-Studio Key is included in the [Dance Pass](/dance-passes).
-
-</section>
-
-<section class="medium-8 medium-centered columns width-reader"></section>
-
-<section id="pricing" class="medium-12 medium-centered columns">
-  <br />
-  <section class="text-center">
-  – If you're taking courses –
-  </section>
-  <br />
-  <ul class="small-block-grid-2">
-    <li class="text-right">Studio Key<br/>30€ / season</li>
-    <li><a href="{{ page.sks }}" class="button">Get your Studio Key here</a></li>
-  </ul>
-
-  <br />
-  <section class="text-center">
-  – Otherwise, without a course –
-  </section>
-  <br />
-  <ul class="small-block-grid-4">
-    <li class="text-right">Studio Key<br/>30€ / month</li>
-    <li><a href="{{ page.skrm }}" class="button small">Get yours</a></li>
-    <li class="text-right">Studio Key<br/>100€ / season</li>
-    <li><a href="{{ page.skrs }}" class="button small">Get yours</a></li>
-  </ul>
-</section>
-
-<section class="text-center">
-  <p>The Studio Key gives you access to open studio hours:</p>
-  <ul class="list-checkmarks list-center list-fit-content">
-    <li>Practice at BPS</li>
-    <li>Free coffee and tea</li>
-    <li>A place made for Lindy Hop and Swing Dance</li>
-  </ul>
-  <br />
-</section>
-
-<section class="medium-12 medium-centered columns width-reader" markdown="1">
+[Read more about summer studio access and get yours here...]({{ page.link_shop }})
 
 
-### Schedule for Open studio hours
+### How does it work?
 
-Confirmed practice hours, starting on January 10th.
+1. **Buy studio access**  
+  [Buy your studio access here]({{ page.link_shop }})  
+  You'll receive your PIN code and booking link on confirmation email.
 
-Season Winter-Spring is Jan-May.
+2. **Make a reservation, or join shared practice session**  
+  Via the booking link, make your own reservation, or join any shared practice sessions.
 
-<pre>
-Mon - Thu    16:00 - 17:00
-      Fri    16:00 - 19:00
-Sat - Sun    10:00 - 14:00
-</pre>
-
-Please note, we will adjust these hours based on usage and feedback over time.
-
-Looking forward to see the studio buzzing with great jazz and practice vibes!
-
-
-### How does the studio key and open studio hours work?
-
-1. **Buy a Studio Key**  
-  [Buy your Studio Key here][1]  
-  You'll receive your digital key as we've processed your order. If you want to join your first practice within a few days already, please give us a call.  
-  Open studio hours starts in January.
-
-2. **Check out the open studio hours schedule**  
-  Check out the schedule for open studio hours. It's visible and updated on this website. You're welcome to come and practice anytime within those hours.
-
-3. **Come to the studio and open the door with your personal studio key**  
-  Feel free to play music (coordinate with other practicers), make coffee/tea, take breaks, etc. The front room and kitchen area is open for practice. (Back room is reserved for possible private reservations.)
+3. **Come to the studio and open the door with your PIN code**  
+  Hook your music device to the PA-system, make coffee/tea, and nail your practice. Be considerate. Leave your reservation on time, and tidy the place as it was for the next one.
 
 
 
 ### Questions
 
 * **What’s included?**  
-  Free access to the studio within the open studio hours. Plus coffee/tea while you are there :)
+  You can a) make private reservations, b) make shared reservations, and c) join shared reservations. Plus coffee/tea while you are there :)
 
 * **How does the music work?**  
   You can play your own music via headphones or studio speakers. If you use the studio speakers, please coodrinate the music with other practicers.  
   There's a quick-start guide how to use the speakers at the studio.
 
 * **Who can I bring with me?**  
-  You can bring anyone you like - as long as they have their own Studio Key as well. So, in other words, no plus ones unfortunately.
+  You can bring +1 avec with you. Anyone else should have their own studio access. Breaking rules results fines.
 
-* **Can I share my key with someone?**  
-  This is a hard no. Everyone who joins the open studio hours has to have their own Studio Key. Don't share your key with anyone, not even people who has a key of their own.
+* **Can I share my PIN code with someone?**  
+  Do not share your studio PIN code with anyone else, not even with your avec.
 
 * **What's the capacity of the studio?**  
-  The studio can fit around 20-30 practicers comfortably at the same time on the floor. Kitchen and other areas have plenty of extra space for hanging out. We'll monitor the usage and limit the amount of Studio Keys sold.
+  Each dance room can fit around 20-30 people. On the calendar, we have plenty of free space Mon-Fri during the daytime. Weekends tend to be busy.
 
 * **Other questions?**  
-  Let us know! We are piloting this system first time in 2025 and happy to see the studio filling up with dancing and jazz even more.
+  Please check further terms and rules on [the purchase page here.]({{ page.link_shop }})
 
 
 ### Available now
 
-Studio Keys to access open studio hours are now available!
+Studio access available now!
 
-[Buy your Studio Key here][1]{:class="button"}
-
-Please read our terms and conditions before the purchase:  
-[https://portal.blackpepperswing.com/help/terms](https://portal.blackpepperswing.com/help/terms){:target="_blank"}
+[Buy your studio access here]({{ page.link_shop }}){:class="button"}
 
 </section>
