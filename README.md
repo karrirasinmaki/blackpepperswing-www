@@ -35,6 +35,11 @@ Post-build hook will copy /wp-static to built site. Copy latest WP static build 
 
 Check out how to create wp-static export from the WP project.
 
+Deploy with WP content:  
+1. Generate wp-static export from WP  
+2. Copy wp-static from WP to here (`cp -R ../blackpepperswing/bpswp/wp-content/wp-static ./`)  
+3. Deploy with `npm run deploy`  
+
 
  [1]: http://phlow.github.io/feeling-responsive/documentation/
  [2]: https://github.com/Phlow/feeling-responsive/blob/gh-pages/LICENSE
