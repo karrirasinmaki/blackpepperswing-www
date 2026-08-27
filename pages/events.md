@@ -15,24 +15,13 @@ permalink: "/events/"
 
 ## Special events, workshops and festivals
 
-**May**
+**Autumn season starts August 17th**
 
-**Sun May 31st** / End of season party  
-Shows and summer celebration  
-16:00 - 22:30
+Remember to register for courses ([here](/schedule)).
 
+Try-out week takes place Aug 17-21. Check it out!
 
-**June**
-
-**June 2-12** / Summer workshops and masterclasses  
-[Check out the full list here...](/events/2026-summer-workshops)
-
-
-**July**
-
-**July 3-5** / Midnight Sun Swing Festival 2026  
-A summer swing dance festival in Helsinki  
-
+Other events of the season will be published soon.
 
 ---
 

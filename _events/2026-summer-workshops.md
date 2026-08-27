@@ -1,7 +1,7 @@
 ---
 layout: page
 
-archived: false
+archived: true
 repeats: false
 
 title: BPS Summer Workshops 2026

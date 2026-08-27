@@ -1,6 +1,6 @@
 # specify the node base image with your desired version node:<version>
 
-FROM timbru31/ruby-node:2.7-alpine
+FROM timbru31/ruby-node:3.2-alpine
 
 RUN mkdir /tmp/docker
 COPY docker /tmp/docker

@@ -1,7 +1,7 @@
 ---
 layout: redirect
 
-archived: false
+archived: true
 repeats: false
 
 title: "VKTY Authentic Jazz PRO Class by Karri"
